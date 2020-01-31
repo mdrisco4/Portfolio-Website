@@ -12,7 +12,43 @@ const IndexPage = () => (
     <p>Welcome to my portfolio</p>
     <p>Manufacturing innovative solutions in a fast paced industry</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '280px 280px 280px',
+        gridTemplateRows: '280px 280px',
+      }}>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `10px solid red`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `10px solid red`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 260,
+        height: 260,
+      }}></img>
+      </div>
+      {/* <Image /> */}
     </div>
     <Link to="/page-2/">Go to page 2</Link><br></br>
     <Link to="/page-3/">Go to page 3</Link>
