@@ -37,28 +37,20 @@ const Header = ({ siteTitle }) => (
         >
           Contact
         </Link>
-        <Link
-          to="/"
+        <a href="https://github.com/mdrisco4"
           style={{
             marginLeft: '30px',
             color: `white`,
             textDecoration: `none`,
             fontSize: '25px',
-          }}
-        >
-          GitHub
-        </Link>
-        <Link
-          to="/"
+          }}>GitHub</a>
+          <a href="https://www.linkedin.com/in/michael-n-driscoll/"
           style={{
             marginLeft: '30px',
             color: `white`,
             textDecoration: `none`,
             fontSize: '25px',
-          }}
-        >
-          LinkedIn
-        </Link>
+          }}>LinkedIn</a>
       </h1>
     </div>
   </header>
