@@ -10,77 +10,75 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className='me-container' style={{
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
     }}>
       <img src='../../photo/photo.jpg' style={{
         height: '250px',
         width: '250px',
       }}></img>
-      <div className='personal-intro-container'>
+      <div className='personal-intro-container' style={{
+        marginLeft: '50px',
+      }}>
         <h1>Intro thing</h1>
         <p>Welcome to my portfolio</p>
         <p style={{
-          width: '250px'
+          // width: '250px'
         }}>Engineering innovative solutions in a fast paced industry</p>
       </div>
     </div>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '280px 280px',
-        gridTemplateRows: '280px 280px 280px',
-        marginLeft: '320px'
-      }}>
+    <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: '70%',
+        height: 260,
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }}></img>
+      <p style={{
+        textAlign: 'center'
+      }}>description 1</p>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
-        width: 260,
+        width: '70%',
         height: 260,
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
       }}></img>
+      <p style={{
+        textAlign: 'center'
+      }}>description 1</p>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
-        width: 260,
+        width: '70%',
         height: 260,
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
       }}></img>
-      <img src='' className='project-link' style={{
-        border: `10px solid red`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `10px solid red`,
-        width: 260,
-        height: 260,
-      }}></img>
+      <p style={{
+        textAlign: 'center'
+      }}>description 1</p>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
-        width: 260,
+        width: '70%',
         height: 260,
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
       }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      {/* <img src='' className='project-link' style={{
-        border: `10px solid red`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img> */}
-      </div>
-      {/* <Image /> */}
+      <p style={{
+        textAlign: 'center'
+      }}>description 1</p>
+    <div className='footer-links' style={{
+      display: 'block',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    }}>
+    <Link to="/page-2/">Email</Link><br></br>
+    <Link to="/page-3/">LinkedIn</Link><br></br>
+    <Link to="/page-3/">Github</Link><br></br>
     </div>
-    <Link to="/page-2/">Go to page 2</Link><br></br>
-    <Link to="/page-3/">Go to page 3</Link>
   </Layout>
 )
 
