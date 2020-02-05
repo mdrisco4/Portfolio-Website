@@ -8,8 +8,8 @@ const ThirdPage = () => (
     <Layout>
     <div style={{
         display: 'grid',
-        gridTemplateColumns: '280px 280px 280px',
-        gridTemplateRows: '280px 280px',
+        gridTemplateColumns: '450px',
+        gridTemplateRows: '280px 280px 280px 280px',
         marginLeft: '320px',
         width: '600px',
         float: 'left',
@@ -19,35 +19,35 @@ const ThirdPage = () => (
         justifyContent: 'center',
       }}>
       <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 450,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 450,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 450,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 450,
+        height: 260,
+      }}></img>
+      {/* <img src='' className='project-link' style={{
+        border: `1px solid black`,
+        width: 260,
+        height: 260,
+      }}></img>
+      <img src='' className='project-link' style={{
         border: `10px solid red`,
         width: 260,
         height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `10px solid red`,
-        width: 260,
-        height: 260,
-      }}></img>
+      }}></img> */}
       </div>
       </Layout>
 )

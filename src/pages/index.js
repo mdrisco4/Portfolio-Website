@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 // import Photo from "../../photo"
 import SEO from "../components/seo"
+// import photo from "../../photo"
 
 const IndexPage = () => (
   <Layout>
@@ -49,6 +50,8 @@ const IndexPage = () => (
       className="project-1-title"
       style={{
         textAlign: "center",
+        fontWeight: 'bold',
+        fontSize: '32px',
       }}
     >
       Modern Troussaeu
@@ -100,11 +103,42 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
+        fontWeight: 'bold',
+        fontSize: '32px',
       }}
     >
-      description 1
+      National Parks Website
     </p>
-    <p></p>
+    <p
+    className="project-1-description"
+    style={{
+      // textAlign: 'center',
+      width: "70%",
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
+    }}>This is an interactive site that I built with API fetches that provides users 
+      links to pages with detailed descriptions of dozens of National Parks around the country
+    </p>
+    <a
+      href="/portfolio/"
+      style={{
+        marginLeft: "30px",
+        color: `black`,
+        textDecoration: `none`,
+        fontSize: "25px",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        textAlign: "center",
+        marginBottom: "40px",
+        width: "20%",
+        height: "40px",
+        border: "2px solid black",
+      }}
+    >
+      Learn More
+    </a>
     <img
       src=""
       className="project-link"
@@ -120,11 +154,41 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
+        fontWeight: 'bold',
+        fontSize: '32px',
       }}
     >
-      description 1
+      MERN Full Stack App
     </p>
-    <p></p>
+    <p className="project-1-description"
+      style={{
+        // textAlign: 'center',
+        width: "70%",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}>This is a full stack application that I built with an API I deployed and a 
+      React frontend
+      </p>
+    <a
+      href="/portfolio/"
+      style={{
+        marginLeft: "30px",
+        color: `black`,
+        textDecoration: `none`,
+        fontSize: "25px",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        textAlign: "center",
+        marginBottom: "40px",
+        width: "20%",
+        height: "40px",
+        border: "2px solid black",
+      }}
+    >
+      Learn More
+    </a>
     <img
       src=""
       className="project-link"
@@ -140,11 +204,41 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
+        fontWeight: 'bold',
+        fontSize: '32px',
       }}
     >
-      description 1
+      Trivia Game
     </p>
-    <p></p>
+    <p className="project-1-description"
+      style={{
+        // textAlign: 'center',
+        width: "70%",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}>This is an interactive game that I built using basic HTML, CSS and Javascript
+      that allows the users to enjoy a fun trivia game with a variety of topics
+        </p>
+    <a
+      href="/portfolio/"
+      style={{
+        marginLeft: "30px",
+        color: `black`,
+        textDecoration: `none`,
+        fontSize: "25px",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        textAlign: "center",
+        marginBottom: "40px",
+        width: "20%",
+        height: "40px",
+        border: "2px solid black",
+      }}
+    >
+      Learn More
+    </a>
     <div
       className="footer-links"
       style={{
@@ -153,11 +247,25 @@ const IndexPage = () => (
         marginRight: "auto",
       }}
     >
-      <Link to="/page-2/">Email</Link>
+      <Link to="/page-2/">Add link to email</Link>
       <br></br>
-      <Link to="/page-3/">LinkedIn</Link>
+      <a href="https://www.linkedin.com/in/michael-n-driscoll/"
+          style={{
+            marginLeft: '30px',
+            color: `black`,
+            textDecoration: `none`,
+            fontSize: '25px',
+            border: '1px solid black',
+          }}>LinkedIn</a>
       <br></br>
-      <Link to="/page-3/">Github</Link>
+      <a href="https://github.com/mdrisco4"
+          style={{
+            marginLeft: '30px',
+            color: `black`,
+            textDecoration: `none`,
+            fontSize: '25px',
+            border: '1px solid black',
+          }}>GitHub</a>
       <br></br>
     </div>
   </Layout>
