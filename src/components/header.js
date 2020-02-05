@@ -24,9 +24,9 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Michael Driscoll
+          Home Icon
         </Link>
-        <a href="/page-3/"
+        <a href="/portfolio/"
           style={{
             marginLeft: '30px',
             color: `white`,
