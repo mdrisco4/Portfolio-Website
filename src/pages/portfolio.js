@@ -7,32 +7,42 @@ import SEO from "../components/seo"
 const ThirdPage = () => (
     <Layout>
     <div style={{
-        display: 'grid',
-        gridTemplateColumns: '450px',
-        gridTemplateRows: '280px 280px 280px 280px',
-        marginLeft: '320px',
-        width: '600px',
-        float: 'left',
-        margin: '100px 0 100px 0',
-        marginLeft: '20%',
+        display: 'flex',
+        flexDirection: 'column',
+        width: '450px',
+        marginLeft: 'auto',
         marginRight: 'auto',
         justifyContent: 'center',
+        alignContent: 'center'
       }}>
+      <h3 style={{
+        textAlign: 'center'
+      }}>project-1</h3>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
         width: 450,
         height: 260,
       }}></img>
+      <h3 style={{
+        textAlign: 'center'
+      }}
+        >project-2</h3>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
         width: 450,
         height: 260,
       }}></img>
+      <h3 style={{
+        textAlign: 'center'
+      }}>project-3</h3>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
         width: 450,
         height: 260,
       }}></img>
+      <h3 style={{
+        textAlign: 'center'
+      }}>project-4</h3>
       <img src='' className='project-link' style={{
         border: `1px solid black`,
         width: 450,
