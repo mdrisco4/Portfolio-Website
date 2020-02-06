@@ -48,16 +48,6 @@ const ThirdPage = () => (
         width: 450,
         height: 260,
       }}></img>
-      {/* <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 260,
-        height: 260,
-      }}></img>
-      <img src='' className='project-link' style={{
-        border: `10px solid red`,
-        width: 260,
-        height: 260,
-      }}></img> */}
       </div>
       </Layout>
 )

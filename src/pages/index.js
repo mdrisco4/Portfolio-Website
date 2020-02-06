@@ -59,7 +59,7 @@ const IndexPage = () => (
     <p
       className="project-1-description"
       style={{
-        // textAlign: 'center',
+        textAlign: 'center',
         width: "70%",
         display: "block",
         marginLeft: "auto",
@@ -112,7 +112,7 @@ const IndexPage = () => (
     <p
     className="project-1-description"
     style={{
-      // textAlign: 'center',
+      textAlign: 'center',
       width: "70%",
       display: "block",
       marginLeft: "auto",
@@ -162,7 +162,7 @@ const IndexPage = () => (
     </p>
     <p className="project-1-description"
       style={{
-        // textAlign: 'center',
+        textAlign: 'center',
         width: "70%",
         display: "block",
         marginLeft: "auto",
@@ -212,7 +212,7 @@ const IndexPage = () => (
     </p>
     <p className="project-1-description"
       style={{
-        // textAlign: 'center',
+        textAlign: 'center',
         width: "70%",
         display: "block",
         marginLeft: "auto",
