@@ -33,7 +33,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             fontSize: '25px',
           }}>Portfolio</a>
-        <a href="https://github.com/mdrisco4"
+          <a href=''
+        // <a href="https://github.com/mdrisco4"
           target="_blank"
           style={{
             marginLeft: '30px',
@@ -41,7 +42,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             fontSize: '25px',
           }}>GitHub</a>
-        <a href="https://www.linkedin.com/in/michael-n-driscoll/"
+          <a href=''
+        // <a href="https://www.linkedin.com/in/michael-n-driscoll/"
           target="_blank"
           style={{
             marginLeft: '30px',
@@ -60,7 +62,8 @@ const Header = ({ siteTitle }) => (
           >
           Contact
         </Link>
-        <a href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
+        <a href=''
+        // <a href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
           target="_blank"
           style={{
             marginLeft: '30px',
