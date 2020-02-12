@@ -4,6 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -92,7 +99,7 @@ const IndexPage = () => (
         borderRadius: "15px"
       }}
     >
-      Learn More
+      <Link to="/modern-trousseau">Learn More</Link>
     </a>
     <img
       src=""
@@ -148,7 +155,7 @@ const IndexPage = () => (
         borderRadius: "15px"
       }}
     >
-      Learn More
+      <Link to="/national-parks">Learn More</Link>
     </a>
     <img
       src=""
@@ -204,7 +211,7 @@ const IndexPage = () => (
         
       }}
     >
-      Learn More
+      <Link to="/mern-full-stack">Learn More</Link>
     </a>
     <img
       src=""
@@ -260,7 +267,7 @@ const IndexPage = () => (
         borderRadius: "15px"
       }}
     >
-      Learn More
+      <Link to="/trivia-game">Learn More</Link>
     </a>
     <div
       className="footer-links"

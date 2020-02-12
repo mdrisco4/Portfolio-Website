@@ -2,6 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -24,7 +30,7 @@ const Header = ({ siteTitle }) => (
             // display: 'flex'
           }}
         >
-          Home Icon
+          {/* <i class="fas fa-home"></i> */}
         </Link>
         <a href="/portfolio/"
           style={{
