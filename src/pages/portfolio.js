@@ -9,7 +9,7 @@ const ThirdPage = () => (
     <div style={{
         display: 'flex',
         flexDirection: 'column',
-        width: '450px',
+        width: '50%',
         marginLeft: 'auto',
         marginRight: 'auto',
         justifyContent: 'center',
@@ -17,38 +17,98 @@ const ThirdPage = () => (
       }}>
       <h3 style={{
         textAlign: 'center'
-      }}>project-1</h3>
+      }}>project-1 - Links to separate project pages on text and image</h3>
       <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 450,
+        border: `8px solid black`,
+        borderRadius: '50px',
+        width: '100%',
         height: 260,
       }}></img>
       <h3 style={{
         textAlign: 'center'
       }}
-        >project-2</h3>
+        >project-2 - Links to separate project pages on text and image</h3>
       <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 450,
+        border: `8px solid black`,
+        borderRadius: '50px',
+        width: '100%',
         height: 260,
       }}></img>
       <h3 style={{
         textAlign: 'center'
-      }}>project-3</h3>
+      }}>project-3 - Links to separate project pages on text and image</h3>
       <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 450,
+        border: `8px solid black`,
+        borderRadius: '50px',
+        width: '100%',
         height: 260,
       }}></img>
       <h3 style={{
         textAlign: 'center'
-      }}>project-4</h3>
+      }}>project-4 - Links to separate project pages on text and image</h3>
       <img src='' className='project-link' style={{
-        border: `1px solid black`,
-        width: 450,
+        border: `8px solid black`,
+        borderRadius: '50px',
+        width: '100%',
         height: 260,
       }}></img>
       </div>
+      <div
+      className="footer-links"
+      style={{
+        display: "flex",
+        justifyContent: 'center',
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+    >
+      <a
+        href="https://github.com/mdrisco4"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        Email
+      </a>
+      {/* <br></br> */}
+      <a
+        href="https://www.linkedin.com/in/michael-n-driscoll/"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        LinkedIn
+      </a>
+      {/* <br></br> */}
+      <a
+        href="https://github.com/mdrisco4"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        GitHub
+      </a>
+      {/* <br></br> */}
+    </div>
+      <Link to="/">Go back to the homepage  KEEP OR DROP??</Link>
       </Layout>
 )
 

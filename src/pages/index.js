@@ -2,9 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Photo from "../../photo"
 import SEO from "../components/seo"
-// import photo from "../../photo"
 
 const IndexPage = () => (
   <Layout>
@@ -14,19 +12,25 @@ const IndexPage = () => (
       style={{
         display: "flex",
         flexDirection: "row",
+        justifyContent: "space-between"
       }}
     >
       <img
-        src="../../photo/photo.jpg"
+        src=''
         style={{
           height: "250px",
-          width: "250px",
+          width: "45%",
+          border: "1px solid red",
         }}
       ></img>
       <div
         className="personal-intro-container"
         style={{
-          marginLeft: "50px",
+          border: "1px solid blue",
+          height: "250px",
+          width: "45%",
+          marginLeft: "5%",
+          padding: "5px"
         }}
       >
         <h1>Michael Driscoll</h1>
@@ -38,7 +42,8 @@ const IndexPage = () => (
       src=""
       className="project-link"
       style={{
-        border: `1px solid black`,
+        border: `10px solid black`,
+        borderRadius: '50px',
         width: "70%",
         height: 260,
         display: "block",
@@ -50,8 +55,8 @@ const IndexPage = () => (
       className="project-1-title"
       style={{
         textAlign: "center",
-        fontWeight: 'bold',
-        fontSize: '32px',
+        fontWeight: "bold",
+        fontSize: "32px",
       }}
     >
       Modern Troussaeu
@@ -59,7 +64,7 @@ const IndexPage = () => (
     <p
       className="project-1-description"
       style={{
-        textAlign: 'center',
+        textAlign: "center",
         width: "70%",
         display: "block",
         marginLeft: "auto",
@@ -82,8 +87,9 @@ const IndexPage = () => (
         textAlign: "center",
         marginBottom: "40px",
         width: "20%",
-        height: "40px",
-        border: "2px solid black",
+        height: "60px",
+        border: "4px solid black",
+        borderRadius: "15px"
       }}
     >
       Learn More
@@ -92,7 +98,8 @@ const IndexPage = () => (
       src=""
       className="project-link"
       style={{
-        border: `1px solid black`,
+        border: `10px solid black`,
+        borderRadius: '50px',
         width: "70%",
         height: 260,
         display: "block",
@@ -103,22 +110,25 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
-        fontWeight: 'bold',
-        fontSize: '32px',
+        fontWeight: "bold",
+        fontSize: "32px",
       }}
     >
       National Parks Website
     </p>
     <p
-    className="project-1-description"
-    style={{
-      textAlign: 'center',
-      width: "70%",
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
-    }}>This is an interactive site that I built with API fetches that provides users 
-      links to pages with detailed descriptions of dozens of National Parks around the country
+      className="project-1-description"
+      style={{
+        textAlign: "center",
+        width: "70%",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+    >
+      This is an interactive site that I built with API fetches that provides
+      users links to pages with detailed descriptions of dozens of National
+      Parks around the country
     </p>
     <a
       href="/portfolio/"
@@ -133,8 +143,9 @@ const IndexPage = () => (
         textAlign: "center",
         marginBottom: "40px",
         width: "20%",
-        height: "40px",
-        border: "2px solid black",
+        height: "60px",
+        border: "4px solid black",
+        borderRadius: "15px"
       }}
     >
       Learn More
@@ -143,7 +154,8 @@ const IndexPage = () => (
       src=""
       className="project-link"
       style={{
-        border: `1px solid black`,
+        border: `10px solid black`,
+        borderRadius: '50px',
         width: "70%",
         height: 260,
         display: "block",
@@ -154,22 +166,25 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
-        fontWeight: 'bold',
-        fontSize: '32px',
+        fontWeight: "bold",
+        fontSize: "32px",
       }}
     >
       MERN Full Stack App
     </p>
-    <p className="project-1-description"
+    <p
+      className="project-1-description"
       style={{
-        textAlign: 'center',
+        textAlign: "center",
         width: "70%",
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
-      }}>This is a full stack application that I built with an API I deployed and a 
+      }}
+    >
+      This is a full stack application that I built with an API I deployed and a
       React frontend
-      </p>
+    </p>
     <a
       href="/portfolio/"
       style={{
@@ -183,8 +198,10 @@ const IndexPage = () => (
         textAlign: "center",
         marginBottom: "40px",
         width: "20%",
-        height: "40px",
-        border: "2px solid black",
+        height: "60px",
+        border: "4px solid black",
+        borderRadius: "15px"
+        
       }}
     >
       Learn More
@@ -193,7 +210,8 @@ const IndexPage = () => (
       src=""
       className="project-link"
       style={{
-        border: `1px solid black`,
+        border: `10px solid black`,
+        borderRadius: '50px',
         width: "70%",
         height: 260,
         display: "block",
@@ -204,22 +222,26 @@ const IndexPage = () => (
     <p
       style={{
         textAlign: "center",
-        fontWeight: 'bold',
-        fontSize: '32px',
+        fontWeight: "bold",
+        fontSize: "32px",
       }}
     >
       Trivia Game
     </p>
-    <p className="project-1-description"
+    <p
+      className="project-1-description"
       style={{
-        textAlign: 'center',
+        textAlign: "center",
         width: "70%",
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
-      }}>This is an interactive game that I built using basic HTML, CSS and Javascript
-      that allows the users to enjoy a fun trivia game with a variety of topics
-        </p>
+      }}
+    >
+      This is an interactive game that I built using basic HTML, CSS and
+      Javascript that allows the users to enjoy a fun trivia game with a variety
+      of topics
+    </p>
     <a
       href="/portfolio/"
       style={{
@@ -233,8 +255,9 @@ const IndexPage = () => (
         textAlign: "center",
         marginBottom: "40px",
         width: "20%",
-        height: "40px",
-        border: "2px solid black",
+        height: "60px",
+        border: "4px solid black",
+        borderRadius: "15px"
       }}
     >
       Learn More
@@ -242,31 +265,57 @@ const IndexPage = () => (
     <div
       className="footer-links"
       style={{
-        display: "block",
+        display: "flex",
+        justifyContent: 'center',
         marginLeft: "auto",
         marginRight: "auto",
       }}
     >
-      <Link to="/page-2/">Add link to email</Link>
-      <br></br>
-      <a href="https://www.linkedin.com/in/michael-n-driscoll/"
-          style={{
-            marginLeft: '30px',
-            color: `black`,
-            textDecoration: `none`,
-            fontSize: '25px',
-            border: '1px solid black',
-          }}>LinkedIn</a>
-      <br></br>
-      <a href="https://github.com/mdrisco4"
-          style={{
-            marginLeft: '30px',
-            color: `black`,
-            textDecoration: `none`,
-            fontSize: '25px',
-            border: '1px solid black',
-          }}>GitHub</a>
-      <br></br>
+      <a
+        href="https://github.com/mdrisco4"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        Email
+      </a>
+      {/* <br></br> */}
+      <a
+        href="https://www.linkedin.com/in/michael-n-driscoll/"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        LinkedIn
+      </a>
+      {/* <br></br> */}
+      <a
+        href="https://github.com/mdrisco4"
+        target="_blank"
+        style={{
+          marginLeft: "30px",
+          color: `yellow`,
+          backgroundColor: 'blue',
+          textDecoration: `none`,
+          fontSize: "25px",
+          border: "1px solid black",
+        }}
+      >
+        GitHub
+      </a>
+      {/* <br></br> */}
     </div>
   </Layout>
 )

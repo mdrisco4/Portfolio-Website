@@ -5,15 +5,14 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `black`,
+      background: `blue`,
       marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        // display: 'flex'
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -22,6 +21,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            // display: 'flex'
           }}
         >
           Home Icon
