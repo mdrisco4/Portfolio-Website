@@ -8,6 +8,8 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+library.add(fab, fas, far)
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -30,7 +32,7 @@ const Header = ({ siteTitle }) => (
             // display: 'flex'
           }}
         >
-          {/* <i class="fas fa-home"></i> */}
+          <FontAwesomeIcon icon="fas fa-home" size = '2x'/>
         </Link>
         <a href="/portfolio/"
           style={{
