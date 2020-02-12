@@ -32,8 +32,9 @@ const Header = ({ siteTitle }) => (
             // display: 'flex'
           }}
         >
-          <FontAwesomeIcon icon="fas fa-home" size = '2x'/>
+          Icon
         </Link>
+          <FontAwesomeIcon icon="fas fa-home" size = '2x'/>
         <a href="/portfolio/"
           style={{
             marginLeft: '30px',
