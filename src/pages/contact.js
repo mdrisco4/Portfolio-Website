@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout>
     <SEO title="Page two" />
-    <div className="comtainer"
+    <div className="container"
     style={{
         display: 'flex',
         justifyContent: 'space-between',
@@ -52,7 +52,7 @@ const Contact = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         Email
@@ -67,7 +67,7 @@ const Contact = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         LinkedIn
@@ -82,7 +82,7 @@ const Contact = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         GitHub

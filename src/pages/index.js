@@ -280,7 +280,7 @@ const IndexPage = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         Email
@@ -295,7 +295,7 @@ const IndexPage = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         LinkedIn
@@ -310,7 +310,7 @@ const IndexPage = () => (
           backgroundColor: 'blue',
           textDecoration: `none`,
           fontSize: "25px",
-          border: "1px solid black",
+          border: "4px solid red",
         }}
       >
         GitHub
