@@ -2,11 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Page two" />
     <div className="container"
     style={{
         display: 'flex',
@@ -15,7 +13,7 @@ const Contact = () => (
         marginRight: '5%',
         width: '100%'
     }}>
-    <img src="" style={{
+    <img src="../" alt='the' style={{
         height: '250px',
         width: '50%',
         marginRight: '8%',

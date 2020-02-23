@@ -1,29 +1,31 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fas } from '@fortawesome/free-solid-svg-icons'
+// import { far } from '@fortawesome/free-regular-svg-icons'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
     <div
       className="me-container"
       style={{
+        marginTop: "40px",
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between"
       }}
     >
       <img
-        src=''
+        src='../images.gatsby-icon.png'
         style={{
           height: "250px",
           width: "45%",
@@ -47,6 +49,7 @@ const IndexPage = () => (
     </div>
     <img
       src=""
+      alt='ther'
       className="project-link"
       style={{
         border: `10px solid black`,
@@ -54,6 +57,7 @@ const IndexPage = () => (
         width: "70%",
         height: 260,
         display: "block",
+        marginTop: "40px",
         marginLeft: "auto",
         marginRight: "auto",
       }}
@@ -322,7 +326,6 @@ const IndexPage = () => (
       >
         GitHub
       </a>
-      {/* <br></br> */}
     </div>
   </Layout>
 )

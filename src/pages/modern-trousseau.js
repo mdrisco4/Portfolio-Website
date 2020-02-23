@@ -2,11 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const ModernTrousseau = () => (
   <Layout>
-    <SEO title="Page two" />
     <div className="container"
     style={{
         display: 'flex',
