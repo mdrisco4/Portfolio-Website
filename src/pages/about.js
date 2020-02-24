@@ -18,8 +18,8 @@ const Container = styled.div`
 
 const Headshot = styled.img`
   border: 1px solid red;
-  height: 40%;
-  /* width: 80%; */
+  border-radius: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 800px) {
@@ -36,43 +36,34 @@ const ContactInfo = styled.div`
   text-align: center;
   @media (min-width: 800px) {
     height: 100%;
-    width: 50%;
+    width: 40%;
     border: 1px solid blue;
     margin: auto;
     flex-direction: row;
   }
 `
 
-const Name = styled.h1`
+const Title = styled.h1`
   margin: 0 0 8px 0;
-  font-size: 50px;
+  font-size: 30px;
 `
 
-const ContactDetails = styled.h3`
+const AboutDetails = styled.h3`
   margin: 4px 0;
-  font-size: 35px;
+  font-size: 16px;
 `
 
 const Contact = () => (
   <Layout>
-    <h1
-    style={{
-      textAlign: 'center',
-    }}>Contact Info</h1>    
-    <h3 style={{
-      width: '60%',
-      textAlign: 'center',
-      margin: 'auto',
-    }}>If you have any questions about my projects or want to know more please reach out by phone or email!</h3>
     <Container>
-      <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot>
       <ContactInfo>
-        <Name>Michael Driscoll</Name>
+        <Title>My Background</Title>
         {/* <ContactDetails>Logan Circle</ContactDetails> */}
-        <ContactDetails>Washington, DC 20005</ContactDetails>
-        <ContactDetails>michaelndriscoll81@gmail.com</ContactDetails>
-        <ContactDetails>585-719-7720</ContactDetails>
+        <AboutDetails>I have always been interested in all things science and technology and after diving into the world of craft beer after college always wanted to circle back around to that eventually.  My background in math molded me to be a very analytical thinker and problem solver and development is the perfect crossroad to utilize thise skills with a creative outlet.</AboutDetails>
+        <Title>Interests and Hobbies</Title>
+        <AboutDetails>Besides always striving to learn about new technologies I am a huge movie buff and enjoy sports and poker.</AboutDetails>
       </ContactInfo>
+      <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
     </Container>
   </Layout>
 )

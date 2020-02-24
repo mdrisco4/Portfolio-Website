@@ -23,6 +23,17 @@ background-color: yellowgreen;
   padding: 4px 0;
 `
 
+const GitHubLink = styled.a`
+background-color: yellowgreen;
+  border: 4px solid rgb(99, 95, 85);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+  padding: 4px 0;
+`
+
 const Title = styled.h1`
   border: 2px solid red;
   width: 80%;
@@ -48,6 +59,12 @@ const TriviaGame = () => (
       >
         TRIVIA
       </DeployedLink>
+      <GitHubLink
+      href="https://github.com/mdrisco4/Unit-Project-1"
+      target="_blank"
+    >
+        GITHUB REPO
+      </GitHubLink>
       <h3>Description</h3>
       <ProjectDescription>
         I wrote this game using HTML, CSS and Vanilla JS. Rather than baing

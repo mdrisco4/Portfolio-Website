@@ -103,6 +103,21 @@ const ResumeLink = styled.a`
   }
 `
 
+const AboutLink = styled.a`
+  color: rgb(51, 61, 74);
+  text-shadow: 4px 2px orange;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto; 
+  @media (min-width: 700px) {
+    margin: none;
+  }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
+  }
+`
+
 const Header = () => (
   <Nav>
     <LinkContainer>
@@ -133,6 +148,7 @@ const Header = () => (
         Resume
       </ResumeLink>
       <ContactLink href="/contact/">Contact</ContactLink>
+      <AboutLink href="/about/">About</AboutLink>
     </LinkContainer>
   </Nav>
 )

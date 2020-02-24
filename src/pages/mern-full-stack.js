@@ -23,6 +23,17 @@ const DeployedLink = styled.a`
   padding: 4px 0;
 `
 
+const GitHubLink = styled.a`
+background-color: yellowgreen;
+  border: 4px solid rgb(99, 95, 85);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+  padding: 4px 0;
+`
+
 const Title = styled.h1`
   border: 2px solid red;
   width: 80%;
@@ -38,7 +49,7 @@ const ProjectDescription = styled.p`
   border: 1px solid black;
 `
 
-const TriviaGame = () => (
+const RocBreweries = () => (
   <Layout>
     <Container>
       <Title>Rochester Craft Beer Community</Title>
@@ -48,6 +59,12 @@ const TriviaGame = () => (
       >
         ROC BREWERIES
       </DeployedLink>
+      <GitHubLink
+      href="https://github.com/mdrisco4/breweries_django_be"
+      target="_blank"
+    >
+        GITHUB REPO
+      </GitHubLink>
       <h3>Description</h3>
       <ProjectDescription>
         The idea behind this project was to develop a full stack application
@@ -65,4 +82,4 @@ const TriviaGame = () => (
   </Layout>
 )
 
-export default TriviaGame
+export default RocBreweries
