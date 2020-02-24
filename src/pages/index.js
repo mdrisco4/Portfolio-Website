@@ -134,7 +134,7 @@ const IndexPage = () => (
     </IntroContainer>
     <ImageLink href="/modern-trousseau">
     <ProjectStill
-      src="https://i.imgur.com/wEPvcXY.png"
+      src="https://i.imgur.com/DOJXKHR.png"
       className="project-link"
       ></ProjectStill>
       </ImageLink>
@@ -152,7 +152,7 @@ const IndexPage = () => (
     </LearnMore>
     <ImageLink href="/national-parks">
     <ProjectStill
-      src="https://i.imgur.com/wEPvcXY.png"
+      src="https://i.imgur.com/NjtX1by.png"
       className="project-link"
       ></ProjectStill>
       </ImageLink>
@@ -171,7 +171,7 @@ const IndexPage = () => (
     </LearnMore>
     <ImageLink href="/mern-full-stack">
     <ProjectStill
-      src="https://i.imgur.com/wEPvcXY.png"
+      src="https://i.imgur.com/nKATmCL.png"
       className="project-link"
       ></ProjectStill>
       </ImageLink>
