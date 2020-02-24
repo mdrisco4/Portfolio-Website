@@ -12,7 +12,16 @@ const Container = styled.div`
   text-align: center;
 `
 
-const DeployedLink = styled.a``
+const DeployedLink = styled.a`
+background-color: yellowgreen;
+  border: 4px solid rgb(99, 95, 85);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+  padding: 4px 0;
+`
 
 const Title = styled.h1`
   border: 2px solid red;
@@ -39,6 +48,7 @@ const TriviaGame = () => (
       >
         TRIVIA
       </DeployedLink>
+      <h3>Description</h3>
       <ProjectDescription>
         I wrote this game using HTML, CSS and Vanilla JS. Rather than baing
         populated with data fetched from a trivia API I opted to write the
@@ -46,6 +56,9 @@ const TriviaGame = () => (
         questions across different categories to be seeded into a database for
         users to choose.
       </ProjectDescription>
+      <h3>Approach</h3>
+      <h3>Problems</h3>
+      <h3>Solutions</h3>
     </Container>
   </Layout>
 )

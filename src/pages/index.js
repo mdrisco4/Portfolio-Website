@@ -44,7 +44,9 @@ const PersonalInfoContainer = styled.div`
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   @media (min-width: 800px) {
+    text-align: left;
     height: 100%;
     width: 45%;
     margin: auto;
@@ -92,7 +94,6 @@ const ImageLink = styled.a`
 `
 
 const LearnMore = styled.a`
-  color: yellow;
   font-size: 25px;
   display: block;
   margin-left: auto;
@@ -100,10 +101,12 @@ const LearnMore = styled.a`
   text-align: center;
   margin-bottom: 40px;
   width: 20%;
-  height: 60px;
+  height: auto;
+  padding: 6px;
   border: 4px solid rgb(99, 95, 85);
   background-color: rgb(99, 95, 85);
   border-radius: 15px;
+  color: red;
   cursor: pointer;
   @media (min-width: 620px) {
     /* text-shadow: 4px 2px orange, */
@@ -141,7 +144,11 @@ const IndexPage = () => (
       development team
     </ProjectDescription>
     <LearnMore href="/portfolio/">
-      <Link to="/modern-trousseau">Learn More</Link>
+      <Link to="/modern-trousseau"
+      style={{
+        color: 'black',
+        textShadow: '2px 2px 5px red'
+      }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/national-parks">
     <ProjectStill
@@ -156,7 +163,11 @@ const IndexPage = () => (
       Parks around the country
     </ProjectDescription>
     <LearnMore href="/portfolio/">
-      <Link to="/national-parks">Learn More</Link>
+      <Link to="/national-parks"
+      style={{
+        color: 'black',
+        textShadow: '2px 2px 5px red'
+      }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/mern-full-stack">
     <ProjectStill
@@ -170,7 +181,11 @@ const IndexPage = () => (
       React frontend
     </ProjectDescription>
     <LearnMore href="/trivia-game/">
-      <Link to="/mern-full-stack">Learn More</Link>
+      <Link to="/mern-full-stack"
+      style={{
+        color: 'black',
+        textShadow: '2px 2px 5px red'
+      }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/trivia-game">
     <ProjectStill
@@ -186,7 +201,11 @@ const IndexPage = () => (
       of topics
     </ProjectDescription>
     <LearnMore href="/trivia-game">
-      <Link to="/trivia-game">Learn More</Link>
+      <Link to="/trivia-game"
+      style={{
+        color: 'black',
+        textShadow: '2px 2px 5px red'
+      }}>Learn More</Link>
     </LearnMore>
   </Layout>
 )

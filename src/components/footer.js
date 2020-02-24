@@ -31,6 +31,8 @@ const Footer = () => (
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
+          borderRadius: "8px",
+          padding: "4px"
         }}
       >
         Email
@@ -45,6 +47,8 @@ const Footer = () => (
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
+          borderRadius: "8px",
+          padding: "4px"
         }}
       >
         LinkedIn
@@ -59,6 +63,8 @@ const Footer = () => (
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
+          borderRadius: "8px",
+          padding: "4px"
         }}
       >
         GitHub
