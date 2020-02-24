@@ -143,7 +143,7 @@ text-decoration: none;
 const IndexPage = () => (
   <Layout>
     <IntroContainer>
-      <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
+      {/* <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto> */}
       <PersonalInfoContainer>
         <Name>Michael Driscoll</Name>
         <MissionStatement>Engineering innovative solutions in a fast paced industry</MissionStatement>
