@@ -17,14 +17,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 1200,
+          margin: `0`,
           backgroundColor: 'rgb(90, 176, 255)',
-          // margin: 'none',
-          // padding: `0 1.0875rem 1.45rem`,
+          border: '5px solid rgb(90, 176, 255)'
         }}
       >
         <main>{children}</main>

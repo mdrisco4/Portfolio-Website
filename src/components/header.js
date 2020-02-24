@@ -13,13 +13,18 @@ library.add(fab, fas, far)
 
 const Nav = styled.div`
   background: rgb(99, 95, 85);
+  border-top: 12px solid rgb(99, 95, 85);
+  border-bottom: 12px solid rgb(99, 95, 85);
   margin: 0;
-  /* margin-bottom: 1.45rem; */
 `
 
 const LinkContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
+display: flex;
+flex-direction:column;
+  @media (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `
 
 // const HomeLink = styled.Link`
@@ -29,7 +34,6 @@ const LinkContainer = styled.div`
 // `
 
 const GiutHubLink = styled.a`
-  /* margin-left: 30px; */
   color: white;
   font-size: 45px;
 `
@@ -41,13 +45,11 @@ const GiutHubLink = styled.a`
 // `
 
 const LinkedInLink = styled.a`
-  /* margin-left: 30px; */
   color: white;
   font-size: 45px;
 `
 
 const ResumeLink = styled.a`
-  /* margin-left: 30px; */
   color: white;
   font-size: 45px;
 `
@@ -59,6 +61,8 @@ const Header = () => (
       style={{
         color: 'white',
         fontSize: '45px',
+        // marginLeft: 'auto',
+        // marginRight: 'auto',
       }}>Icon</Link>
       {/* <i class="fas fa-home"
       style={{

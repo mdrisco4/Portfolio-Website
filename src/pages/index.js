@@ -20,27 +20,59 @@ const IntroContainer = styled.div`
   }
 `
 
+const PersonalPhoto = styled.img`
+    width: 70%;
+    height: auto;
+    border: 5px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+      @media (min-width: 600px) {
+    height: 250px;
+    width: 45%;
+  }
+`
+
+const PersonalInfoContainer = styled.div`
+    width: 70%;
+    height: auto;
+    border: 5px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+      @media (min-width: 600px) {
+    height: 240px;
+    width: 45%;
+    margin-left: 5%;
+    padding: 5px;
+  }
+`
+
+const LearnMore = styled.a`
+  margin-left: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 20%;
+  height: 60px;
+  border: 4px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+`
+
+
+
 const IndexPage = () => (
   <Layout>
     <IntroContainer>
-      <img
-        src="../images.gatsby-icon.png"
-        style={{
-          height: "250px",
-          width: "45%",
-          border: "5px solid red",
-        }}
-      ></img>
-      <div
-        className="personal-intro-container"
-        style={{
-          border: "5px solid yellow",
-          height: "240px",
-          width: "45%",
-          marginLeft: "5%",
-          padding: "5px",
-        }}
-      >
+      <PersonalPhoto
+        src="../images.photo.png"
+      ></PersonalPhoto>
+      <PersonalInfoContainer>
         <h1>Michael Driscoll</h1>
         <p>Engineering innovative solutions in a fast paced industry</p>
         <p>
@@ -51,7 +83,7 @@ const IndexPage = () => (
           engineering while continually seeking to keep up with the latest in
           cutting edge technology.
         </p>
-      </div>
+      </PersonalInfoContainer>
     </IntroContainer>
     <img
       src=""
@@ -91,26 +123,10 @@ const IndexPage = () => (
       This is a client project in which I was a member of the front end
       development team
     </p>
-    <a
-      href="/portfolio/"
-      style={{
-        marginLeft: "30px",
-        color: `black`,
-        textDecoration: `none`,
-        fontSize: "25px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        textAlign: "center",
-        marginBottom: "40px",
-        width: "20%",
-        height: "60px",
-        border: "4px solid black",
-        borderRadius: "15px",
-      }}
-    >
+    <LearnMore
+      href="/portfolio/">
       <Link to="/modern-trousseau">Learn More</Link>
-    </a>
+    </LearnMore>
     <img
       src=""
       className="project-link"
@@ -147,26 +163,10 @@ const IndexPage = () => (
       users links to pages with detailed descriptions of dozens of National
       Parks around the country
     </p>
-    <a
-      href="/portfolio/"
-      style={{
-        marginLeft: "30px",
-        color: `black`,
-        textDecoration: `none`,
-        fontSize: "25px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        textAlign: "center",
-        marginBottom: "40px",
-        width: "20%",
-        height: "60px",
-        border: "4px solid black",
-        borderRadius: "15px",
-      }}
-    >
+    <LearnMore
+      href="/portfolio/">
       <Link to="/national-parks">Learn More</Link>
-    </a>
+    </LearnMore>
     <img
       src=""
       className="project-link"
@@ -202,26 +202,10 @@ const IndexPage = () => (
       This is a full stack application that I built with an API I deployed and a
       React frontend
     </p>
-    <a
-      href="/portfolio/"
-      style={{
-        marginLeft: "30px",
-        color: `black`,
-        textDecoration: `none`,
-        fontSize: "25px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        textAlign: "center",
-        marginBottom: "40px",
-        width: "20%",
-        height: "60px",
-        border: "4px solid black",
-        borderRadius: "15px",
-      }}
-    >
+    <LearnMore
+      href="/trivia-game/">
       <Link to="/mern-full-stack">Learn More</Link>
-    </a>
+    </LearnMore>
     <img
       src="../images/triviaStill.png"
       className="project-link"
@@ -258,26 +242,10 @@ const IndexPage = () => (
       Javascript that allows the users to enjoy a fun trivia game with a variety
       of topics
     </p>
-    <a
-      href="/portfolio/"
-      style={{
-        marginLeft: "30px",
-        color: `black`,
-        textDecoration: `none`,
-        fontSize: "25px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        textAlign: "center",
-        marginBottom: "40px",
-        width: "20%",
-        height: "60px",
-        border: "4px solid black",
-        borderRadius: "15px",
-      }}
-    >
+    <LearnMore
+      href="/portfolio/">
       <Link to="/trivia-game">Learn More</Link>
-    </a>
+    </LearnMore>
     <div
       className="footer-links"
       style={{
