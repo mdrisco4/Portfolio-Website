@@ -10,50 +10,56 @@ import Layout from "../components/layout"
 // import { fab } from '@fortawesome/free-brands-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
+const IntroContainer = styled.div`
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+`
 
 const IndexPage = () => (
   <Layout>
-    <div
-      className="me-container"
-      style={{
-        marginTop: "40px",
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-between"
-      }}
-    >
+    <IntroContainer>
       <img
-        src='../images.gatsby-icon.png'
+        src="../images.gatsby-icon.png"
         style={{
           height: "250px",
           width: "45%",
-          border: "1px solid red",
+          border: "5px solid red",
         }}
       ></img>
       <div
         className="personal-intro-container"
         style={{
-          border: "1px solid blue",
-          height: "250px",
+          border: "5px solid yellow",
+          height: "240px",
           width: "45%",
           marginLeft: "5%",
-          padding: "5px"
+          padding: "5px",
         }}
       >
         <h1>Michael Driscoll</h1>
         <p>Engineering innovative solutions in a fast paced industry</p>
-        <p>I am a software engineer...</p>
+        <p>
+          As a growing software engineer with client experience and proficiency
+          in web design, coding and full stack development, I bring to the table
+          a variety of skills paramount to success in the workplace. I am
+          excited to grow in the tech industry using my talents in software
+          engineering while continually seeking to keep up with the latest in
+          cutting edge technology.
+        </p>
       </div>
-    </div>
+    </IntroContainer>
     <img
       src=""
-      alt='ther'
+      alt="ther"
       className="project-link"
       style={{
         border: `10px solid black`,
-        borderRadius: '50px',
+        borderRadius: "50px",
         width: "70%",
         height: 260,
         display: "block",
@@ -100,7 +106,7 @@ const IndexPage = () => (
         width: "20%",
         height: "60px",
         border: "4px solid black",
-        borderRadius: "15px"
+        borderRadius: "15px",
       }}
     >
       <Link to="/modern-trousseau">Learn More</Link>
@@ -110,7 +116,7 @@ const IndexPage = () => (
       className="project-link"
       style={{
         border: `10px solid black`,
-        borderRadius: '50px',
+        borderRadius: "50px",
         width: "70%",
         height: 260,
         display: "block",
@@ -156,7 +162,7 @@ const IndexPage = () => (
         width: "20%",
         height: "60px",
         border: "4px solid black",
-        borderRadius: "15px"
+        borderRadius: "15px",
       }}
     >
       <Link to="/national-parks">Learn More</Link>
@@ -166,7 +172,7 @@ const IndexPage = () => (
       className="project-link"
       style={{
         border: `10px solid black`,
-        borderRadius: '50px',
+        borderRadius: "50px",
         width: "70%",
         height: 260,
         display: "block",
@@ -211,18 +217,17 @@ const IndexPage = () => (
         width: "20%",
         height: "60px",
         border: "4px solid black",
-        borderRadius: "15px"
-        
+        borderRadius: "15px",
       }}
     >
       <Link to="/mern-full-stack">Learn More</Link>
     </a>
     <img
-      src=""
+      src="../images/triviaStill.png"
       className="project-link"
       style={{
         border: `10px solid black`,
-        borderRadius: '50px',
+        borderRadius: "50px",
         width: "70%",
         height: 260,
         display: "block",
@@ -268,7 +273,7 @@ const IndexPage = () => (
         width: "20%",
         height: "60px",
         border: "4px solid black",
-        borderRadius: "15px"
+        borderRadius: "15px",
       }}
     >
       <Link to="/trivia-game">Learn More</Link>
@@ -277,7 +282,7 @@ const IndexPage = () => (
       className="footer-links"
       style={{
         display: "flex",
-        justifyContent: 'center',
+        justifyContent: "center",
         marginLeft: "auto",
         marginRight: "auto",
       }}
@@ -288,7 +293,7 @@ const IndexPage = () => (
         style={{
           marginLeft: "30px",
           color: `yellow`,
-          backgroundColor: 'blue',
+          backgroundColor: "blue",
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
@@ -303,7 +308,7 @@ const IndexPage = () => (
         style={{
           marginLeft: "30px",
           color: `yellow`,
-          backgroundColor: 'blue',
+          backgroundColor: "blue",
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
@@ -318,7 +323,7 @@ const IndexPage = () => (
         style={{
           marginLeft: "30px",
           color: `yellow`,
-          backgroundColor: 'blue',
+          backgroundColor: "blue",
           textDecoration: `none`,
           fontSize: "25px",
           border: "4px solid red",
