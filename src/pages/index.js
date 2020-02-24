@@ -88,8 +88,8 @@ const AboutLink = styled.a`
   margin-right: auto;
   text-decoration: none;
   &:hover {
-    border: 2px solid yellow;
-    background-color: lightcyan;
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
   }
 `
 
@@ -168,6 +168,28 @@ const LearnMore = styled.a`
     background-color: lightcyan;
   }
 `
+
+// const GetInTouch = styled.a`
+//   font-size: 40px;
+//   color: black;
+//   text-shadow: 2px 2px 5px red;
+//   background-color: rgb(99, 95, 85);
+//   display: flex;
+//   width: 320px;
+//   height: auto;
+//   padding: 3px;
+//   margin-top: 20px;
+//   justify-content: center;
+//   border: 2px solid black;
+//   border-radius: 6px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   text-decoration: none;
+//   &:hover {
+//     color: rgb(110, 176, 249);
+//     background-color: darkblue;
+//   }
+// `
 
 const IndexPage = () => (
   <Layout>
@@ -284,6 +306,8 @@ const IndexPage = () => (
         Learn More
       </Link>
     </LearnMore>
+    {/* <GetInTouch
+    href='/contact'>Contact Me</GetInTouch> */}
   </Layout>
 )
 

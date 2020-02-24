@@ -29,19 +29,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <Footer />
-        {/* <footer
-        style={{
-          textAlign: 'center',
-        }}>
-          MAYBE PUT COMETHING HERE
-        </footer> */}
       </div>
     </>
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+// Layout.propTypes = {
+//   children: PropTypes.node.isRequired,
+// }
 
 export default Layout

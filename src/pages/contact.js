@@ -54,6 +54,28 @@ const ContactDetails = styled.h3`
   font-size: 30px;
 `
 
+const EmailLink = styled.a`
+  color: black;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 30px;
+  font-weight: bold;
+  &:hover {
+    color: yellow;
+  }
+`
+
+const LinkedInLink = styled.a`
+color: black;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 30px;
+  font-weight: bold;
+  &:hover {
+    color: yellow;
+  }
+  `
+
 const Contact = () => (
   <Layout>
     <h1
@@ -73,7 +95,7 @@ const Contact = () => (
       }}
     >
       If you have any questions about my projects or want to know more please
-      reach out by phone or email!
+      reach out by email, LinkedIn or phone!
     </h3>
     <Container>
       <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot>
@@ -83,8 +105,15 @@ const Contact = () => (
         <ContactDetails>Logan Circle</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <ContactDetails>585-719-7720</ContactDetails>
-        <ContactDetails>michaelndriscoll81@gmail.com</ContactDetails>
-        <ContactDetails>linkedin.com/in/michael-n-driscoll/</ContactDetails>
+        <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
+          michaelndriscoll81@gmail.com
+        </EmailLink><br />
+        <LinkedInLink
+          href="https://www.linkedin.com/in/michael-n-driscoll/"
+          target="_blank"
+        >
+          linkedin.com/in/michael-n-driscoll/
+        </LinkedInLink>
         {/* <ContactDetails>585-719-7720</ContactDetails> */}
       </ContactInfo>
     </Container>
