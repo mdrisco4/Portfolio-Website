@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-around;
   width: 100%;
   border: 2px solid yellow;

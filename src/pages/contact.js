@@ -58,11 +58,13 @@ const Contact = () => (
     <h1
     style={{
       textAlign: 'center',
+      fontSize: '45px',
     }}>Contact Info</h1>    
     <h3 style={{
       width: '60%',
       textAlign: 'center',
       margin: 'auto',
+      fontSize: '28px',
     }}>If you have any questions about my projects or want to know more please reach out by phone or email!</h3>
     <Container>
       <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot>
