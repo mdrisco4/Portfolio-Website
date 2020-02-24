@@ -31,7 +31,7 @@ const PersonalPhoto = styled.img`
   margin-right: auto;
   margin-bottom: 24px;
   @media (min-width: 600px) {
-    height: 250px;
+    height: auto;
     width: 45%;
   }
 `
@@ -44,10 +44,10 @@ const PersonalInfoContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 600px) {
-    height: 240px;
+    height: 100%;
     width: 45%;
-    margin-left: 5%;
-    padding: 5px;
+    margin: auto;
+    padding: 1%;
   }
 `
 
@@ -55,7 +55,7 @@ const ProjectStill = styled.img`
   border: 10px solid black;
   border-radius: 50px;
   width: 70%;
-  height: 260px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -116,7 +116,7 @@ const IndexPage = () => (
         </p>
       </PersonalInfoContainer>
     </IntroContainer>
-    <ProjectStill src="" alt="ther" className="project-link"></ProjectStill>
+    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ProjectDescription>
       This is a client project in which I was a member of the front end
@@ -125,7 +125,7 @@ const IndexPage = () => (
     <LearnMore href="/portfolio/">
       <Link to="/modern-trousseau">Learn More</Link>
     </LearnMore>
-    <ProjectStill src="" className="project-link"></ProjectStill>
+    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ProjectDescription>
       This is an interactive site that I built with API fetches that provides
@@ -135,7 +135,7 @@ const IndexPage = () => (
     <LearnMore href="/portfolio/">
       <Link to="/national-parks">Learn More</Link>
     </LearnMore>
-    <ProjectStill src="" className="project-link"></ProjectStill>
+    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
     <ProjectTitle>MERN Full Stack App</ProjectTitle>
     <ProjectDescription>
       This is a full stack application that I built with an API I deployed and a
@@ -145,7 +145,7 @@ const IndexPage = () => (
       <Link to="/mern-full-stack">Learn More</Link>
     </LearnMore>
     <ProjectStill
-      src="../images/triviaStill.png"
+      src="https://i.imgur.com/wEPvcXY.png"
       className="project-link"
     ></ProjectStill>
     <ProjectTitle>Trivia Game</ProjectTitle>
