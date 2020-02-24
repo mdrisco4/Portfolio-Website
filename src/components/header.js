@@ -19,8 +19,8 @@ const Nav = styled.div`
 `
 
 const LinkContainer = styled.div`
-display: flex;
-flex-direction:column;
+  display: flex;
+  flex-direction: column;
   @media (min-width: 700px) {
     flex-direction: row;
     justify-content: space-around;
@@ -57,24 +57,26 @@ const ResumeLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      <Link to="/"
-      style={{
-        color: 'white',
-        fontSize: '45px',
-        // marginLeft: 'auto',
-        // marginRight: 'auto',
-      }}>Icon</Link>
+      <Link
+        to="/"
+        style={{
+          color: "white",
+          fontSize: "45px",
+          // marginLeft: 'auto',
+          // marginRight: 'auto',
+        }}
+      >
+        Home
+      </Link>
       {/* <i class="fas fa-home"
       style={{
         color: 'black',
       }}></i> */}
 
-
       {/* <FontAwesomeIcon icon="fas fa-home" size="2x" 
         style={{
           color: 'black',
         }}/> */}
-
 
       <GiutHubLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
@@ -85,11 +87,15 @@ const Header = () => (
       >
         LinkedIn
       </LinkedInLink>
-      <Link to="/contact/"
-      style={{
-        color: 'white',
-        fontSize: '45px',
-      }}>Contact</Link>
+      <Link
+        to="/contact/"
+        style={{
+          color: "white",
+          fontSize: "45px",
+        }}
+      >
+        Contact
+      </Link>
       <ResumeLink
         href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
         target="_blank"
