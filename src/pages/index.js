@@ -53,7 +53,7 @@ const PersonalInfoContainer = styled.div`
 `
 
 const ProjectStill = styled.img`
-  border: 10px solid black;
+  border: 10px solid rgb(99, 95, 85);
   border-radius: 50px;
   width: 70%;
   height: auto;
@@ -92,9 +92,7 @@ const ImageLink = styled.a`
 `
 
 const LearnMore = styled.a`
-  margin-left: 30px;
-  color: black;
-  text-decoration: none;
+  color: yellow;
   font-size: 25px;
   display: block;
   margin-left: auto;
@@ -103,10 +101,12 @@ const LearnMore = styled.a`
   margin-bottom: 40px;
   width: 20%;
   height: 60px;
-  border: 4px solid black;
+  border: 4px solid rgb(99, 95, 85);
+  background-color: rgb(99, 95, 85);
   border-radius: 15px;
   cursor: pointer;
   @media (min-width: 620px) {
+    /* text-shadow: 4px 2px orange, */
     /* padding-top: auto;
     padding-bottom: auto; */
   }
