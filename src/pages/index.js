@@ -114,6 +114,7 @@ const ImageLink = styled.a`
 `
 
 const LearnMore = styled.a`
+text-decoration: none;
   font-size: 25px;
   display: block;
   margin-left: auto;
@@ -171,7 +172,8 @@ const IndexPage = () => (
       <Link to="/modern-trousseau"
       style={{
         color: 'black',
-        textShadow: '2px 2px 5px red'
+        textShadow: '2px 2px 5px red',
+        textDecoration: 'none',
       }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/national-parks">
@@ -190,7 +192,8 @@ const IndexPage = () => (
       <Link to="/national-parks"
       style={{
         color: 'black',
-        textShadow: '2px 2px 5px red'
+        textShadow: '2px 2px 5px red',
+        textDecoration: 'none',
       }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/mern-full-stack">
@@ -208,7 +211,8 @@ const IndexPage = () => (
       <Link to="/mern-full-stack"
       style={{
         color: 'black',
-        textShadow: '2px 2px 5px red'
+        textShadow: '2px 2px 5px red',
+        textDecoration: 'none',
       }}>Learn More</Link>
     </LearnMore>
     <ImageLink href="/trivia-game">
@@ -228,7 +232,8 @@ const IndexPage = () => (
       <Link to="/trivia-game"
       style={{
         color: 'black',
-        textShadow: '2px 2px 5px red'
+        textShadow: '2px 2px 5px red',
+        textDecoration: 'none',
       }}>Learn More</Link>
     </LearnMore>
   </Layout>

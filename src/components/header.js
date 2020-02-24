@@ -34,6 +34,7 @@ const HomeLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -49,6 +50,7 @@ const GiutHubLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -64,6 +66,7 @@ const ContactLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -79,6 +82,7 @@ const LinkedInLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -94,6 +98,7 @@ const ResumeLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -109,6 +114,7 @@ const AboutLink = styled.a`
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
