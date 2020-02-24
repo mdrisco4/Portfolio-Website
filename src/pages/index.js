@@ -16,7 +16,7 @@ const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   @media (min-width: 800px) {
     flex-direction: row;
   }
@@ -25,7 +25,7 @@ const IntroContainer = styled.div`
 const PersonalPhoto = styled.img`
   width: 70%;
   height: auto;
-  border: 5px solid red;
+  border: 1px solid black;
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +40,7 @@ const PersonalPhoto = styled.img`
 const PersonalInfoContainer = styled.div`
   width: 70%;
   height: auto;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -52,6 +52,22 @@ const PersonalInfoContainer = styled.div`
     margin: auto;
     padding: 1%;
   }
+`
+
+const Name = styled.h1`
+  font-size: 36px;
+  margin-bottom: 12px;
+  text-align: center;
+`
+
+const MissionStatement = styled.div`
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 4px;
+`
+
+const BrandStatement = styled.div`
+  font-size: 15px;
 `
 
 const ProjectStill = styled.img`
@@ -117,7 +133,7 @@ const LearnMore = styled.a`
     padding-bottom: auto; */
   }
   &:hover {
-    border: 8px solid yellow;
+    border: 4px solid yellow;
     background-color: lightcyan;
   }
 `
@@ -127,16 +143,16 @@ const IndexPage = () => (
     <IntroContainer>
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
-        <h1>Michael Driscoll</h1>
-        <p>Engineering innovative solutions in a fast paced industry</p>
-        <p>
+        <Name>Michael Driscoll</Name>
+        <MissionStatement>Engineering innovative solutions in a fast paced industry</MissionStatement>
+        <BrandStatement>
           As a growing software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
           a variety of skills paramount to success in the workplace. I am
           excited to grow in the tech industry using my talents in software
           engineering while continually seeking to keep up with the latest in
           cutting edge technology.
-        </p>
+        </BrandStatement>
       </PersonalInfoContainer>
     </IntroContainer>
     <ImageLink href="/modern-trousseau">

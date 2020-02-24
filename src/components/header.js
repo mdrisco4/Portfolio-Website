@@ -13,8 +13,9 @@ library.add(fab, fas, far)
 
 const Nav = styled.div`
   background: rgb(99, 95, 85);
-  border-top: 12px solid rgb(99, 95, 85);
-  border-bottom: 12px solid rgb(99, 95, 85);
+  border-top: 24px solid rgb(99, 95, 85);
+  border-bottom: 24px solid rgb(99, 95, 85);
+  /* border-bottom: 30px linear-gradient(to bottom rgb(99, 95, 85)); */
   margin: 0;
 `
 

@@ -11,6 +11,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 library.add(fab, fas, far)
 
+
+const FooterLink = styled.a`
+    color: black;
+    text-shadow: 2px 2px 5px red;
+    background-color: rgb(99, 95, 85);
+    text-decoration: none;
+    font-size: 25px;
+    border: 4px solid darkblue;
+    border-radius: 8px;
+    padding: 4px;
+    &:hover {
+    /* border: 4px solid yellow; */
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+  }
+`
+
 const Footer = () => (
     <>
 <div
@@ -22,56 +39,26 @@ const Footer = () => (
         marginRight: "auto",
       }}
     >
-      <a
+      <FooterLink
         href="https://github.com/mdrisco4"
         target="_blank"
-        style={{
-        color: "black",
-        textShadow: "2px 2px 5px red",
-        backgroundColor: "rgb(99, 95, 85)",
-          textDecoration: `none`,
-          fontSize: "25px",
-          border: "4px solid darkblue",
-          borderRadius: "8px",
-          padding: "4px"
-        }}
       >
         Email
-      </a>
+      </FooterLink>
       {/* <br></br> */}
-      <a
+      <FooterLink
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
-        style={{
-            color: "black",
-            textShadow: "2px 2px 5px red",
-            backgroundColor: "rgb(99, 95, 85)",
-          textDecoration: `none`,
-          fontSize: "25px",
-          border: "4px solid darkblue",
-          borderRadius: "8px",
-          padding: "4px"
-        }}
       >
         LinkedIn
-      </a>
+      </FooterLink>
       {/* <br></br> */}
-      <a
+      <FooterLink
         href="https://github.com/mdrisco4"
         target="_blank"
-        style={{
-            color: "black",
-            textShadow: "2px 2px 5px red",
-            backgroundColor: "rgb(99, 95, 85)",
-          textDecoration: `none`,
-          fontSize: "25px",
-          border: "4px solid darkblue",
-          borderRadius: "8px",
-          padding: "4px"
-        }}
       >
         GitHub
-      </a>
+      </FooterLink>
       </div>
     </>
   )
