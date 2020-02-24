@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
@@ -17,7 +17,8 @@ const Container = styled.div`
 `
 
 const Headshot = styled.img`
-  border: 1px solid red;
+  border: 1px solid black;
+  border-radius: 18px;
   height: 40%;
   /* width: 80%; */
   margin-left: auto;
@@ -37,7 +38,7 @@ const ContactInfo = styled.div`
   @media (min-width: 800px) {
     height: 100%;
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     flex-direction: row;
   }
@@ -50,30 +51,41 @@ const Name = styled.h1`
 
 const ContactDetails = styled.h3`
   margin: 4px 0;
-  font-size: 35px;
+  font-size: 30px;
 `
 
 const Contact = () => (
   <Layout>
     <h1
-    style={{
-      textAlign: 'center',
-      fontSize: '45px',
-    }}>Contact Info</h1>    
-    <h3 style={{
-      width: '60%',
-      textAlign: 'center',
-      margin: 'auto',
-      fontSize: '28px',
-    }}>If you have any questions about my projects or want to know more please reach out by phone or email!</h3>
+      style={{
+        textAlign: "center",
+        fontSize: "45px",
+      }}
+    >
+      Contact Info
+    </h1>
+    <h3
+      style={{
+        width: "70%",
+        textAlign: "center",
+        margin: "auto",
+        fontSize: "28px",
+      }}
+    >
+      If you have any questions about my projects or want to know more please
+      reach out by phone or email!
+    </h3>
     <Container>
       <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot>
       <ContactInfo>
         <Name>Michael Driscoll</Name>
         {/* <ContactDetails>Logan Circle</ContactDetails> */}
+        <ContactDetails>Logan Circle</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
-        <ContactDetails>michaelndriscoll81@gmail.com</ContactDetails>
         <ContactDetails>585-719-7720</ContactDetails>
+        <ContactDetails>michaelndriscoll81@gmail.com</ContactDetails>
+        <ContactDetails>linkedin.com/in/michael-n-driscoll/</ContactDetails>
+        {/* <ContactDetails>585-719-7720</ContactDetails> */}
       </ContactInfo>
     </Container>
   </Layout>

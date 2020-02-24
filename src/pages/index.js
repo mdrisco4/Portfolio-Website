@@ -63,11 +63,12 @@ const Name = styled.h1`
 const MissionStatement = styled.div`
   font-size: 20px;
   text-align: center;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 `
 
 const BrandStatement = styled.div`
   font-size: 15px;
+  text-align: center;
 `
 
 const ProjectStill = styled.img`
