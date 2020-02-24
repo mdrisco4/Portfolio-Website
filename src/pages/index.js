@@ -71,6 +71,35 @@ const BrandStatement = styled.div`
   text-align: center;
 `
 
+const AboutLink = styled.a`
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  background-color: rgb(99, 95, 85);
+  display: flex;
+  width: 140px;
+  height: auto;
+  padding: 3px;
+  margin-top: 20px;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  &:hover {
+    border: 2px solid yellow;
+    background-color: lightcyan;
+  }
+`
+
+const ProjectSectionTitle = styled.div`
+  border: 1px solid yellow;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 36px;
+`
+
 const ProjectStill = styled.img`
   border: 10px solid rgb(99, 95, 85);
   border-radius: 50px;
@@ -114,7 +143,7 @@ const ImageLink = styled.a`
 `
 
 const LearnMore = styled.a`
-text-decoration: none;
+  text-decoration: none;
   font-size: 25px;
   display: block;
   margin-left: auto;
@@ -146,7 +175,9 @@ const IndexPage = () => (
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
         <Name>Michael Driscoll</Name>
-        <MissionStatement>Engineering innovative solutions in a fast paced industry</MissionStatement>
+        <MissionStatement>
+          Engineering innovative solutions in a fast paced industry
+        </MissionStatement>
         <BrandStatement>
           As a growing software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
@@ -155,33 +186,39 @@ const IndexPage = () => (
           engineering while continually seeking to keep up with the latest in
           cutting edge technology.
         </BrandStatement>
+        <AboutLink href="/about">More About Me</AboutLink>
       </PersonalInfoContainer>
     </IntroContainer>
+      <ProjectSectionTitle>Projects</ProjectSectionTitle>
     <ImageLink href="/modern-trousseau">
-    <ProjectStill
-      src="https://i.imgur.com/DOJXKHR.png"
-      className="project-link"
+      <ProjectStill
+        src="https://i.imgur.com/DOJXKHR.png"
+        className="project-link"
       ></ProjectStill>
-      </ImageLink>
+    </ImageLink>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ProjectDescription>
       This is a client project in which I was a member of the front end
       development team
     </ProjectDescription>
     <LearnMore href="/portfolio/">
-      <Link to="/modern-trousseau"
-      style={{
-        color: 'black',
-        textShadow: '2px 2px 5px red',
-        textDecoration: 'none',
-      }}>Learn More</Link>
+      <Link
+        to="/modern-trousseau"
+        style={{
+          color: "black",
+          textShadow: "2px 2px 5px red",
+          textDecoration: "none",
+        }}
+      >
+        Learn More
+      </Link>
     </LearnMore>
     <ImageLink href="/national-parks">
-    <ProjectStill
-      src="https://i.imgur.com/NjtX1by.png"
-      className="project-link"
+      <ProjectStill
+        src="https://i.imgur.com/NjtX1by.png"
+        className="project-link"
       ></ProjectStill>
-      </ImageLink>
+    </ImageLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ProjectDescription>
       This is an interactive site that I built with API fetches that provides
@@ -189,39 +226,46 @@ const IndexPage = () => (
       Parks around the country
     </ProjectDescription>
     <LearnMore href="/portfolio/">
-      <Link to="/national-parks"
-      style={{
-        color: 'black',
-        textShadow: '2px 2px 5px red',
-        textDecoration: 'none',
-      }}>Learn More</Link>
+      <Link
+        to="/national-parks"
+        style={{
+          color: "black",
+          textShadow: "2px 2px 5px red",
+          textDecoration: "none",
+        }}
+      >
+        Learn More
+      </Link>
     </LearnMore>
     <ImageLink href="/mern-full-stack">
-    <ProjectStill
-      src="https://i.imgur.com/nKATmCL.png"
-      className="project-link"
+      <ProjectStill
+        src="https://i.imgur.com/nKATmCL.png"
+        className="project-link"
       ></ProjectStill>
-      </ImageLink>
+    </ImageLink>
     <ProjectTitle>MERN Full Stack App</ProjectTitle>
     <ProjectDescription>
       This is a full stack application that I built with an API I deployed and a
       React frontend
     </ProjectDescription>
     <LearnMore href="/trivia-game/">
-      <Link to="/mern-full-stack"
-      style={{
-        color: 'black',
-        textShadow: '2px 2px 5px red',
-        textDecoration: 'none',
-      }}>Learn More</Link>
+      <Link
+        to="/mern-full-stack"
+        style={{
+          color: "black",
+          textShadow: "2px 2px 5px red",
+          textDecoration: "none",
+        }}
+      >
+        Learn More
+      </Link>
     </LearnMore>
     <ImageLink href="/trivia-game">
-    <ProjectStill
-      src="https://i.imgur.com/wEPvcXY.png"
-      className="project-link"
-      >
-    </ProjectStill>
-      </ImageLink>
+      <ProjectStill
+        src="https://i.imgur.com/wEPvcXY.png"
+        className="project-link"
+      ></ProjectStill>
+    </ImageLink>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ProjectDescription>
       This is an interactive game that I built using basic HTML, CSS and
@@ -229,12 +273,16 @@ const IndexPage = () => (
       of topics
     </ProjectDescription>
     <LearnMore href="/trivia-game">
-      <Link to="/trivia-game"
-      style={{
-        color: 'black',
-        textShadow: '2px 2px 5px red',
-        textDecoration: 'none',
-      }}>Learn More</Link>
+      <Link
+        to="/trivia-game"
+        style={{
+          color: "black",
+          textShadow: "2px 2px 5px red",
+          textDecoration: "none",
+        }}
+      >
+        Learn More
+      </Link>
     </LearnMore>
   </Layout>
 )

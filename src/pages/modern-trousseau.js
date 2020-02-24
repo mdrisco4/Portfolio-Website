@@ -18,7 +18,7 @@ const DeployedLink = styled.a`
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 20%;
   height: auto;
   padding: 4px 0;
 `
