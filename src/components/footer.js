@@ -40,7 +40,7 @@ const Footer = () => (
       }}
     >
       <FooterLink
-        href="https://github.com/mdrisco4"
+        href="mailto:michaelndriscoll81@gmail.com"
         target="_blank"
       >
         Email

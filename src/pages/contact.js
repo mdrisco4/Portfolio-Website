@@ -9,6 +9,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   border: 2px solid yellow;
+  padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
     flex-direction: row;
@@ -41,16 +42,26 @@ const ContactInfo = styled.div`
   }
 `
 
+const Name = styled.h1`
+  margin: 0 0 8px 0;
+  font-size: 30px;
+`
+
+const ContactDetails = styled.h3`
+  margin: 4px 0;
+  font-size: 20px;
+`
+
 const Contact = () => (
   <Layout>
     <Container>
       <Headshot src="https://i.imgur.com/dOmiyM6.jpg" alt="the"></Headshot>
       <ContactInfo>
-        <h1>Michael Driscoll</h1>
-        <h3>Logan Circle</h3>
-        <h3>Washington, DC 20005</h3>
-        <h3>michaelndriscoll81@gmail.com</h3>
-        <h3>585-719-7720</h3>
+        <Name>Michael Driscoll</Name>
+        {/* <ContactDetails>Logan Circle</ContactDetails> */}
+        <ContactDetails>Washington, DC 20005</ContactDetails>
+        <ContactDetails>michaelndriscoll81@gmail.com</ContactDetails>
+        <ContactDetails>585-719-7720</ContactDetails>
       </ContactInfo>
     </Container>
   </Layout>
