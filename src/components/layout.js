@@ -29,7 +29,10 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <Footer />
-        <footer>
+        <footer
+        style={{
+          textAlign: 'center',
+        }}>
           MAYBE PUT COMETHING HERE
         </footer>
       </div>

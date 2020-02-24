@@ -17,7 +17,7 @@ const IntroContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   border: 3px solid green;
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     flex-direction: row;
   }
 `
@@ -30,9 +30,10 @@ const PersonalPhoto = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     height: auto;
     width: 45%;
+    /* margin: auto; */
   }
 `
 
@@ -43,7 +44,7 @@ const PersonalInfoContainer = styled.div`
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     height: 100%;
     width: 45%;
     margin: auto;
@@ -76,6 +77,18 @@ const ProjectDescription = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+`
+
+const ImageLink = styled.a`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  cursor: pointer;
+  @media (min-width: 620px) {
+    /* padding-top: auto;
+    padding-bottom: auto; */
+  }
 `
 
 const LearnMore = styled.a`
@@ -116,7 +129,12 @@ const IndexPage = () => (
         </p>
       </PersonalInfoContainer>
     </IntroContainer>
-    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
+    <ImageLink href="/modern-trousseau">
+    <ProjectStill
+      src="https://i.imgur.com/wEPvcXY.png"
+      className="project-link"
+      ></ProjectStill>
+      </ImageLink>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ProjectDescription>
       This is a client project in which I was a member of the front end
@@ -125,7 +143,12 @@ const IndexPage = () => (
     <LearnMore href="/portfolio/">
       <Link to="/modern-trousseau">Learn More</Link>
     </LearnMore>
-    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
+    <ImageLink href="/national-parks">
+    <ProjectStill
+      src="https://i.imgur.com/wEPvcXY.png"
+      className="project-link"
+      ></ProjectStill>
+      </ImageLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ProjectDescription>
       This is an interactive site that I built with API fetches that provides
@@ -135,7 +158,12 @@ const IndexPage = () => (
     <LearnMore href="/portfolio/">
       <Link to="/national-parks">Learn More</Link>
     </LearnMore>
-    <ProjectStill src="https://i.imgur.com/wEPvcXY.png" className="project-link"></ProjectStill>
+    <ImageLink href="/mern-full-stack">
+    <ProjectStill
+      src="https://i.imgur.com/wEPvcXY.png"
+      className="project-link"
+      ></ProjectStill>
+      </ImageLink>
     <ProjectTitle>MERN Full Stack App</ProjectTitle>
     <ProjectDescription>
       This is a full stack application that I built with an API I deployed and a
@@ -144,17 +172,20 @@ const IndexPage = () => (
     <LearnMore href="/trivia-game/">
       <Link to="/mern-full-stack">Learn More</Link>
     </LearnMore>
+    <ImageLink href="/trivia-game">
     <ProjectStill
       src="https://i.imgur.com/wEPvcXY.png"
       className="project-link"
-    ></ProjectStill>
+      >
+    </ProjectStill>
+      </ImageLink>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ProjectDescription>
       This is an interactive game that I built using basic HTML, CSS and
       Javascript that allows the users to enjoy a fun trivia game with a variety
       of topics
     </ProjectDescription>
-    <LearnMore href="/portfolio/">
+    <LearnMore href="/trivia-game">
       <Link to="/trivia-game">Learn More</Link>
     </LearnMore>
   </Layout>

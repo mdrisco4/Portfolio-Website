@@ -9,7 +9,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   border: 2px solid yellow;
-  @media (min-width: 620px) {
+  @media (min-width: 800px) {
     height: auto;
     flex-direction: row;
   }
@@ -20,34 +20,31 @@ const Headshot = styled.img`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  @media (min-width: 620px) {
+  @media (min-width: 800px) {
     height: auto;
     width: 40%;
-    /* flex-direction: row; */
+    flex-direction: row;
   }
 `
 
 const ContactInfo = styled.div`
-width: 80%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  @media (min-width: 620px) {
+  @media (min-width: 800px) {
     height: 100%;
     width: 40%;
     border: 1px solid blue;
     margin: auto;
-    /* flex-direction: row; */
+    flex-direction: row;
   }
 `
 
 const Contact = () => (
   <Layout>
     <Container>
-      <Headshot
-        src="https://i.imgur.com/dOmiyM6.jpg"
-        alt="the"
-      />
+      <Headshot src="https://i.imgur.com/dOmiyM6.jpg" alt="the"></Headshot>
       <ContactInfo>
         <h1>Michael Driscoll</h1>
         <h3>Logan Circle</h3>
