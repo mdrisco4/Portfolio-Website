@@ -26,11 +26,12 @@ const Footer = () => (
         href="https://github.com/mdrisco4"
         target="_blank"
         style={{
-          color: `yellow`,
-          backgroundColor: "blue",
+        color: "black",
+        textShadow: "2px 2px 5px red",
+        backgroundColor: "rgb(99, 95, 85)",
           textDecoration: `none`,
           fontSize: "25px",
-          border: "4px solid red",
+          border: "4px solid darkblue",
           borderRadius: "8px",
           padding: "4px"
         }}
@@ -42,11 +43,12 @@ const Footer = () => (
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
         style={{
-          color: `yellow`,
-          backgroundColor: "blue",
+            color: "black",
+            textShadow: "2px 2px 5px red",
+            backgroundColor: "rgb(99, 95, 85)",
           textDecoration: `none`,
           fontSize: "25px",
-          border: "4px solid red",
+          border: "4px solid darkblue",
           borderRadius: "8px",
           padding: "4px"
         }}
@@ -58,11 +60,12 @@ const Footer = () => (
         href="https://github.com/mdrisco4"
         target="_blank"
         style={{
-          color: `yellow`,
-          backgroundColor: "blue",
+            color: "black",
+            textShadow: "2px 2px 5px red",
+            backgroundColor: "rgb(99, 95, 85)",
           textDecoration: `none`,
           fontSize: "25px",
-          border: "4px solid red",
+          border: "4px solid darkblue",
           borderRadius: "8px",
           padding: "4px"
         }}

@@ -63,6 +63,9 @@ const ProjectStill = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  &:hover {
+    border: 10px solid yellow;
+  }
 `
 
 const ProjectTitle = styled.div`
@@ -103,7 +106,7 @@ const LearnMore = styled.a`
   width: 20%;
   height: auto;
   padding: 6px;
-  border: 4px solid rgb(99, 95, 85);
+  border: 4px solid darkblue;
   background-color: rgb(99, 95, 85);
   border-radius: 15px;
   color: red;
@@ -112,6 +115,10 @@ const LearnMore = styled.a`
     /* text-shadow: 4px 2px orange, */
     /* padding-top: auto;
     padding-bottom: auto; */
+  }
+  &:hover {
+    border: 8px solid yellow;
+    background-color: lightcyan;
   }
 `
 

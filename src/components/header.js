@@ -36,6 +36,10 @@ const HomeLink = styled.a`
   @media (min-width: 700px) {
     margin: none;
   }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
+  }
 `
 
 const GiutHubLink = styled.a`
@@ -46,6 +50,10 @@ const GiutHubLink = styled.a`
   margin-right: auto; 
   @media (min-width: 700px) {
     margin: none;
+  }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
   }
 `
 
@@ -58,6 +66,10 @@ const ContactLink = styled.a`
   @media (min-width: 700px) {
     margin: none;
   }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
+  }
 `
 
 const LinkedInLink = styled.a`
@@ -69,6 +81,10 @@ const LinkedInLink = styled.a`
   @media (min-width: 700px) {
     margin: none;
   }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
+  }
 `
 
 const ResumeLink = styled.a`
@@ -79,6 +95,10 @@ const ResumeLink = styled.a`
   margin-right: auto; 
   @media (min-width: 700px) {
     margin: none;
+  }
+  &:hover {
+    color: yellowgreen;
+    text-shadow: 4px 2px red;
   }
 `
 
@@ -105,13 +125,13 @@ const Header = () => (
       >
         LinkedIn
       </LinkedInLink>
-      <ContactLink href="/contact/">Contact</ContactLink>
       <ResumeLink
         href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
         target="_blank"
       >
         Resume
       </ResumeLink>
+      <ContactLink href="/contact/">Contact</ContactLink>
     </LinkContainer>
   </Nav>
 )
