@@ -12,20 +12,41 @@ const Container = styled.div`
   text-align: center;
 `
 
+const ProjectLinkContainer = styled.div`
+width: 50%;
+border: 1px solid yellow;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 20px;
+margin-left: auto;
+    margin-right: auto;
+  @media (min-width: 1000px) {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+`
+
 const DeployedLink = styled.a`
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
-  width: 15%;
   height: auto;
   padding: 4px 0;
   color: "black";
   text-shadow: 2px 2px 5px red;
   text-decoration: none;
+  margin-bottom: 24px;
+@media (min-width: 1000px) {
+  width: 35%;
+}
   &:hover {
     border: 4px solid black;
     background-color: rgb(90, 176, 255);
@@ -33,19 +54,22 @@ const DeployedLink = styled.a`
 `
 
 const GitHubLink = styled.a`
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
-  width: 15%;
   height: auto;
   padding: 4px 0;
   color: "black";
   text-shadow: 2px 2px 5px red;
   text-decoration: none;
+  margin-bottom: 24px;
+@media (min-width: 1000px) {
+  width: 35%;
+}
   &:hover {
     border: 4px solid black;
     background-color: rgb(90, 176, 255);
@@ -73,9 +97,9 @@ const ProjectDescription = styled.p`
 `
 
 const AccompanyingImage = styled.img`
-width: 55%;
-border: 3px solid darkblue;
-margin-left: auto;
+  width: 55%;
+  border: 3px solid darkblue;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
 `
@@ -84,18 +108,20 @@ const TriviaGame = () => (
   <Layout>
     <Container>
       <Title>Trivia Game</Title>
-      <DeployedLink
-        href="https://mdrisco4.github.io/Unit-Project-1/"
-        target="_blank"
-      >
-        TRIVIA APP
-      </DeployedLink>
-      <GitHubLink
-        href="https://github.com/mdrisco4/Unit-Project-1"
-        target="_blank"
-      >
-        GITHUB REPO
-      </GitHubLink>
+      <ProjectLinkContainer>
+        <DeployedLink
+          href="https://mdrisco4.github.io/Unit-Project-1/"
+          target="_blank"
+        >
+          TRIVIA APP
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/Unit-Project-1"
+          target="_blank"
+        >
+          GITHUB REPO
+        </GitHubLink>
+      </ProjectLinkContainer>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
         I wrote this game using HTML, CSS and Vanilla JS. Rather than being
@@ -104,7 +130,7 @@ const TriviaGame = () => (
         questions across different categories to be seeded into a database for
         users to choose.
       </ProjectDescription>
-      <AccompanyingImage src='https://i.imgur.com/6DMtsb0.png' />
+      <AccompanyingImage src="https://i.imgur.com/6DMtsb0.png" />
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
         The first thing I needed to figure when beginning this project was what
@@ -112,7 +138,7 @@ const TriviaGame = () => (
         interactive. I opted to write a few short sets of questions for each one
         of three separate topics that the user could choose from.
       </ProjectDescription>
-      <AccompanyingImage src='https://i.imgur.com/xguDr3e.png' />
+      <AccompanyingImage src="https://i.imgur.com/xguDr3e.png" />
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
         The biggest issue I ran into was in making scoring consistent which
@@ -122,7 +148,7 @@ const TriviaGame = () => (
         order to build a larger app with more versatility fetching data from an
         API would save a lot of hours of coding.
       </ProjectDescription>
-      <AccompanyingImage src='https://i.imgur.com/QYGeEWL.png' />
+      <AccompanyingImage src="https://i.imgur.com/QYGeEWL.png" />
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
         I was ultimately able to find some creative solutions to solve the
