@@ -83,6 +83,19 @@ text-shadow: 1px 1px 3px white;
   }
   `
 
+const GitHubLink = styled.a`
+color: black;
+text-shadow: 1px 1px 3px white;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 30px;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    text-shadow: 1px 1px 3px darkblue;
+  }
+  `
+
 const Contact = () => (
   <Layout>
     <h1
@@ -115,10 +128,7 @@ const Contact = () => (
       {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <ContactInfo>
         <Name>Michael Driscoll</Name>
-        {/* <ContactDetails>Logan Circle</ContactDetails> */}
-        <ContactDetails>No address, neighborhood...or nothing?</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
-        <ContactDetails>Phone??</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
           michaelndriscoll81@gmail.com
         </EmailLink><br />
@@ -127,8 +137,10 @@ const Contact = () => (
           target="_blank"
         >
           linkedin.com/in/michael-n-driscoll/
-        </LinkedInLink>
-        {/* <ContactDetails>585-719-7720</ContactDetails> */}
+        </LinkedInLink><br />
+        <GitHubLink href="https://github.com/mdrisco4" target="_blank">
+        github.com/mdrisco4
+      </GitHubLink>
       </ContactInfo>
     </Container>
       <hr
