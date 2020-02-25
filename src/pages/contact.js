@@ -59,6 +59,7 @@ const ContactDetails = styled.h3`
 
 const EmailLink = styled.a`
   color: black;
+  text-shadow: 2px 2px 5px red;
   text-decoration: none;
   margin: 4px 0;
   font-size: 30px;
@@ -70,6 +71,7 @@ const EmailLink = styled.a`
 
 const LinkedInLink = styled.a`
 color: black;
+text-shadow: 2px 2px 5px red;
   text-decoration: none;
   margin: 4px 0;
   font-size: 30px;
