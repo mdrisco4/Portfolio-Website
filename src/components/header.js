@@ -32,6 +32,7 @@ const HomeLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
@@ -48,6 +49,7 @@ const GiutHubLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
@@ -64,6 +66,7 @@ const ContactLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
@@ -80,6 +83,7 @@ const LinkedInLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
@@ -96,6 +100,7 @@ const ResumeLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
@@ -112,6 +117,7 @@ const AboutLink = styled.a`
   color: white;
   text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto; 
   text-decoration: none;
