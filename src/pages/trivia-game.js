@@ -102,6 +102,7 @@ const AccompanyingImage = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
+  margin-bottom: 20px;
 `
 
 const TriviaGame = () => (
