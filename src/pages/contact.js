@@ -1,5 +1,6 @@
 import React from "react"
 
+// import fonts from "../styles.fonts"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
@@ -47,6 +48,8 @@ const ContactInfo = styled.div`
 const Name = styled.h1`
   margin: 0 0 8px 0;
   font-size: 50px;
+  font-family: 'Krona One', ;
+
 `
 
 const ContactDetails = styled.h3`

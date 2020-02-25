@@ -26,7 +26,7 @@ const PersonalPhoto = styled.img`
   width: 70%;
   height: auto;
   border: 1px solid black;
-  border-radius: 16px;
+  border-radius: 6px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
@@ -102,7 +102,7 @@ const ProjectSectionTitle = styled.div`
 
 const ProjectStill = styled.img`
   border: 10px solid rgb(99, 95, 85);
-  border-radius: 50px;
+  border-radius: 25px;
   width: 70%;
   height: auto;
   display: block;
