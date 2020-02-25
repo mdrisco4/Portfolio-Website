@@ -39,7 +39,7 @@ const GetInTouch = styled.a`
   padding: 3px;
   margin-top: 20px;
   justify-content: center;
-  border: 2px solid black;
+  border: 2px solid darkblue;
   /* border-radius: 6px; */
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +48,7 @@ const GetInTouch = styled.a`
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
+    border: 2px solid black;
   }
   `
 

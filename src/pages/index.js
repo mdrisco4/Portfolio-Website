@@ -95,10 +95,11 @@ const AboutLink = styled.a`
   margin-right: auto;
   text-decoration: none;
   background-color: rgb(99, 95, 85);
-  border: 2px solid black;
+  border: 2px solid darkblue;
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
+    border: 2px solid black;
   }
 `
 
@@ -113,14 +114,14 @@ const ProjectSectionTitle = styled.div`
 const ProjectStill = styled.img`
   border: 4px solid rgb(99, 95, 85);
   /* border-radius: 25px; */
-  width: 55%;
   height: auto;
   display: block;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   &:hover {
-    border: 6px solid black;
+    border: 4px solid black;
   }
 `
 
@@ -143,9 +144,12 @@ const ProjectDescription = styled.div`
 
 const ImageLink = styled.a`
   display: block;
+  text-align: center;
+  /* border: 1px solid yellow; */
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  margin-bottom: 30px;
   cursor: pointer;
   @media (min-width: 620px) {
     /* padding-top: auto;
@@ -261,11 +265,7 @@ const IndexPage = () => (
       development team
     </ProjectDescription>
     {/* <LearnMore href="/portfolio/"> */}
-      <ProjectLink
-        href="/modern-trousseau"
-      >
-        Learn More
-      </ProjectLink>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     {/* </LearnMore> */}
     <ImageLink href="/national-parks">
       <ProjectStill
@@ -280,11 +280,7 @@ const IndexPage = () => (
       Parks around the country
     </ProjectDescription>
     {/* <LearnMore href="/portfolio/"> */}
-      <ProjectLink
-        href="/national-parks"
-      >
-        Learn More
-      </ProjectLink>
+    <ProjectLink href="/national-parks">Learn More</ProjectLink>
     {/* </LearnMore> */}
     <ImageLink href="/mern-full-stack">
       <ProjectStill
@@ -298,11 +294,7 @@ const IndexPage = () => (
       React frontend
     </ProjectDescription>
     {/* <LearnMore href="/trivia-game/"> */}
-      <ProjectLink
-        href="/mern-full-stack"
-      >
-        Learn More
-      </ProjectLink>
+    <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
     {/* </LearnMore> */}
     <ImageLink href="/trivia-game">
       <ProjectStill
@@ -317,11 +309,7 @@ const IndexPage = () => (
       of topics
     </ProjectDescription>
     {/* <LearnMore href="/trivia-game"> */}
-      <ProjectLink
-        href="/trivia-game"
-      >
-        Learn More
-      </ProjectLink>
+    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     {/* </LearnMore> */}
     <hr
       style={{
