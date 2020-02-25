@@ -30,7 +30,7 @@ const LinkContainer = styled.div`
 
 const HomeLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -41,13 +41,13 @@ const HomeLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 
 const GiutHubLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -58,13 +58,13 @@ const GiutHubLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 
 const ContactLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -75,13 +75,13 @@ const ContactLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 
 const LinkedInLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -92,13 +92,13 @@ const LinkedInLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 
 const ResumeLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -109,13 +109,13 @@ const ResumeLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 
 const AboutLink = styled.a`
   color: white;
-  text-shadow: 3px 2px rgb(110, 176, 249);
+  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
@@ -126,7 +126,7 @@ const AboutLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 3px 2px white;
+    text-shadow: 1px 1px white;
   }
 `
 

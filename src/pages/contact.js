@@ -59,27 +59,27 @@ const ContactDetails = styled.h3`
 
 const EmailLink = styled.a`
   color: black;
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 1px 1px 3px white;
   text-decoration: none;
   margin: 4px 0;
   font-size: 30px;
   font-weight: bold;
   &:hover {
     color: white;
-    text-shadow: 2px 2px 5px darkblue;
+    text-shadow: 1px 1px 3px darkblue;
   }
 `
 
 const LinkedInLink = styled.a`
 color: black;
-text-shadow: 2px 2px 5px white;
+text-shadow: 1px 1px 3px white;
   text-decoration: none;
   margin: 4px 0;
   font-size: 30px;
   font-weight: bold;
   &:hover {
     color: white;
-    text-shadow: 2px 2px 5px darkblue;
+    text-shadow: 1px 1px 3px darkblue;
   }
   `
 
