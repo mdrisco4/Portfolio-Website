@@ -1,24 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
 
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { fas } from "@fortawesome/free-solid-svg-icons"
-import { far } from "@fortawesome/free-regular-svg-icons"
-import { fab } from "@fortawesome/free-brands-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { library } from "@fortawesome/fontawesome-svg-core"
+// import { fas } from "@fortawesome/free-solid-svg-icons"
+// import { far } from "@fortawesome/free-regular-svg-icons"
+// import { fab } from "@fortawesome/free-brands-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const IntroContainer = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   /* border: 3px solid green; */
-  @media (min-width: 800px) {
+  @media (min-width: 1000px) {
     flex-direction: row;
+    height: 400px;
+    margin-bottom: 180px;
   }
 `
 
@@ -26,13 +29,13 @@ const PersonalPhoto = styled.img`
   width: 70%;
   height: auto;
   border: 1px solid black;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
-  @media (min-width: 800px) {
-    height: auto;
-    width: 45%;
+  @media (min-width: 1000px) {
+    width: auto;
+    height: 100%;
     /* margin: auto; */
   }
 `
@@ -41,14 +44,17 @@ const PersonalInfoContainer = styled.div`
   width: 70%;
   height: auto;
   /* border: 5px solid yellow; */
-  border-radius: 16px;
+  /* border-radius: 16px; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  @media (min-width: 800px) {
+  /* @media (min-width: 1300px) {
+    width: 40%;
+  } */
+  @media (min-width: 1000px) {
     text-align: left;
     height: 100%;
-    width: 45%;
+    width: 36%;
     margin: auto;
     padding: 1%;
   }
@@ -62,34 +68,34 @@ const Name = styled.h1`
 `
 
 const MissionStatement = styled.div`
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
   margin-bottom: 8px;
   /* border: 5px solid yellow; */
 `
 
 const BrandStatement = styled.div`
-  font-size: 16px;
+  font-size: 24px;
   text-align: center;
   /* border: 5px solid yellow; */
 `
 
 const AboutLink = styled.a`
-  font-size: 20px;
+  font-size: 25px;
   color: black;
-  text-shadow: 2px 2px 5px red;
-  background-color: rgb(99, 95, 85);
+  /* text-shadow: 2px 2px 5px red; */
   display: flex;
-  width: 140px;
+  width: 180px;
   height: auto;
   padding: 3px;
   margin-top: 20px;
   justify-content: center;
-  border: 2px solid black;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
+  background-color: rgb(99, 95, 85);
+  border: 2px solid black;
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -105,28 +111,29 @@ const ProjectSectionTitle = styled.div`
 `
 
 const ProjectStill = styled.img`
-  border: 10px solid rgb(99, 95, 85);
-  border-radius: 25px;
-  width: 70%;
+  border: 4px solid rgb(99, 95, 85);
+  /* border-radius: 25px; */
+  width: 55%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   &:hover {
-    border: 10px solid black;
+    border: 6px solid black;
   }
 `
 
 const ProjectTitle = styled.div`
   text-align: center;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 42px;
   margin-bottom: 20px;
 `
 
 const ProjectDescription = styled.div`
   text-align: center;
+  font-size: 20px;
   width: 70%;
   display: block;
   margin-left: auto;
@@ -146,7 +153,7 @@ const ImageLink = styled.a`
   }
 `
 
-const LearnMore = styled.a`
+const ProjectLink = styled.a`
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -159,8 +166,8 @@ const LearnMore = styled.a`
   padding: 6px;
   border: 4px solid darkblue;
   background-color: rgb(99, 95, 85);
-  border-radius: 15px;
-  color: red;
+  /* border-radius: 15px; */
+  color: black;
   cursor: pointer;
   @media (min-width: 620px) {
     /* text-shadow: 4px 2px orange, */
@@ -169,9 +176,22 @@ const LearnMore = styled.a`
   }
   &:hover {
     border: 4px solid black;
-    background-color: rgb(90, 176, 255);
+    background-color: darkblue;
+    color: rgb(110, 176, 249);
   }
 `
+
+// const ProjectLink = styled.a`
+//     color: black;
+//     text-decoration: none;
+//     background-color: rgb(99, 95, 85);
+//   height: 100%;
+//   width: 20%;
+//   &:hover {
+//     color: rgb(110, 176, 249);
+//     background-color: darkblue;
+//   }
+// `
 
 const ContactPrompt = styled.div`
   width: 55%;
@@ -240,18 +260,13 @@ const IndexPage = () => (
       This is a client project in which I was a member of the front end
       development team
     </ProjectDescription>
-    <LearnMore href="/portfolio/">
-      <Link
-        to="/modern-trousseau"
-        style={{
-          color: "black",
-          textShadow: "2px 2px 5px red",
-          textDecoration: "none",
-        }}
+    {/* <LearnMore href="/portfolio/"> */}
+      <ProjectLink
+        href="/modern-trousseau"
       >
         Learn More
-      </Link>
-    </LearnMore>
+      </ProjectLink>
+    {/* </LearnMore> */}
     <ImageLink href="/national-parks">
       <ProjectStill
         src="https://i.imgur.com/NjtX1by.png"
@@ -264,18 +279,13 @@ const IndexPage = () => (
       users links to pages with detailed descriptions of dozens of National
       Parks around the country
     </ProjectDescription>
-    <LearnMore href="/portfolio/">
-      <Link
-        to="/national-parks"
-        style={{
-          color: "black",
-          textShadow: "2px 2px 5px red",
-          textDecoration: "none",
-        }}
+    {/* <LearnMore href="/portfolio/"> */}
+      <ProjectLink
+        href="/national-parks"
       >
         Learn More
-      </Link>
-    </LearnMore>
+      </ProjectLink>
+    {/* </LearnMore> */}
     <ImageLink href="/mern-full-stack">
       <ProjectStill
         src="https://i.imgur.com/nKATmCL.png"
@@ -287,18 +297,13 @@ const IndexPage = () => (
       This is a full stack application that I built with an API I deployed and a
       React frontend
     </ProjectDescription>
-    <LearnMore href="/trivia-game/">
-      <Link
-        to="/mern-full-stack"
-        style={{
-          color: "black",
-          textShadow: "2px 2px 5px red",
-          textDecoration: "none",
-        }}
+    {/* <LearnMore href="/trivia-game/"> */}
+      <ProjectLink
+        href="/mern-full-stack"
       >
         Learn More
-      </Link>
-    </LearnMore>
+      </ProjectLink>
+    {/* </LearnMore> */}
     <ImageLink href="/trivia-game">
       <ProjectStill
         src="https://i.imgur.com/wEPvcXY.png"
@@ -311,18 +316,13 @@ const IndexPage = () => (
       Javascript that allows the users to enjoy a fun trivia game with a variety
       of topics
     </ProjectDescription>
-    <LearnMore href="/trivia-game">
-      <Link
-        to="/trivia-game"
-        style={{
-          color: "black",
-          textShadow: "2px 2px 5px red",
-          textDecoration: "none",
-        }}
+    {/* <LearnMore href="/trivia-game"> */}
+      <ProjectLink
+        href="/trivia-game"
       >
         Learn More
-      </Link>
-    </LearnMore>
+      </ProjectLink>
+    {/* </LearnMore> */}
     <hr
       style={{
         border: "1px solid black",

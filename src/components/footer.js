@@ -31,7 +31,7 @@ library.add(fab, fas, far)
 const GetInTouch = styled.a`
   font-size: 40px;
   color: black;
-  text-shadow: 2px 2px 5px red;
+  /* text-shadow: 2px 2px 5px red; */
   background-color: rgb(99, 95, 85);
   display: flex;
   width: 320px;
@@ -40,7 +40,7 @@ const GetInTouch = styled.a`
   margin-top: 20px;
   justify-content: center;
   border: 2px solid black;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;

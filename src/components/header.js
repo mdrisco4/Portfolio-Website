@@ -40,8 +40,8 @@ const HomeLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
@@ -57,8 +57,8 @@ const GiutHubLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
@@ -74,8 +74,8 @@ const ContactLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
@@ -91,8 +91,8 @@ const LinkedInLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
@@ -108,8 +108,8 @@ const ResumeLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
@@ -125,8 +125,8 @@ const AboutLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: yellowgreen;
-    text-shadow: 4px 2px red;
+    color: rgb(110, 176, 249);
+    text-shadow: 3px 2px white;
   }
 `
 
