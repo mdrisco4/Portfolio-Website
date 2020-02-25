@@ -32,7 +32,8 @@ const PersonalPhoto = styled.img`
   /* border-radius: 6px; */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
+  margin-top: 24px;
+  /* padding-left: 15%; */
   @media (min-width: 1000px) {
     width: auto;
     height: 100%;
@@ -125,23 +126,23 @@ const ProjectSectionTitle = styled.div`
 //   }
 // `
 
-const ProjectWrapper = styled.div`
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  border: 1px solid red;
-`
+// const ProjectWrapper = styled.div`
+//   width: 100%;
+//   height: auto;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: 40px;
+//   border: 1px solid red;
+// `
 const ImageWrapper = styled.div`
   position: relative;
   width: 55%;
   height: auto;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   &:hover {
     cursor: pointer;
   }
@@ -158,13 +159,13 @@ const ProjectStill = styled.img`
 const ProjectDescription = styled.div`
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: 2px;
   right: 0;
   background: black;
   color: white;
   opacity: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   z-index: 1;
   -webkit-transition: visibility 0s, opacity 0.5s linear;
   transition: visibility 0s, opacity 0.5s linear;
@@ -182,21 +183,6 @@ const ProjectTitle = styled.div`
   margin-bottom: 20px;
 `
 
-const ImageLink = styled.a`
-  display: block;
-  text-align: center;
-  /* border: 1px solid yellow; */
-  width: 55%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  cursor: pointer;
-  @media (min-width: 620px) {
-    /* padding-top: auto;
-    padding-bottom: auto; */
-  }
-`
-
 const ProjectLink = styled.a`
   text-decoration: none;
   font-size: 25px;
@@ -210,7 +196,6 @@ const ProjectLink = styled.a`
   padding: 6px;
   border: 4px solid darkblue;
   background-color: rgb(99, 95, 85);
-  /* border-radius: 15px; */
   color: white;
   cursor: pointer;
   @media (min-width: 620px) {
