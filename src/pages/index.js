@@ -111,44 +111,43 @@ const ProjectSectionTitle = styled.div`
   margin-bottom: 36px;
 `
 
-const ProjectStill = styled.img`
-  border: 4px solid rgb(99, 95, 85);
-  /* border-radius: 25px; */
-  height: auto;
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin-bottom: 20px; */
-  &:hover {
-    border: 4px solid black;
-  }
-`
-
-
+// const ProjectStill = styled.img`
+//   border: 4px solid rgb(99, 95, 85);
+//   /* border-radius: 25px; */
+//   height: auto;
+//   display: block;
+//   width: 100%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   /* margin-bottom: 20px; */
+//   &:hover {
+//     border: 4px solid black;
+//   }
+// `
 
 const ProjectWrapper = styled.div`
-width: 100%;
-height: auto;
-margin-left: auto;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
   border: 1px solid red;
 `
 const ImageWrapper = styled.div`
-position: relative;
- width: 55%;
- height: auto;
- border: 1px solid green;
- margin-left: auto;
+  position: relative;
+  width: 55%;
+  height: auto;
+  border: 1px solid green;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-&:hover{
-  cursor: pointer;
-}
+  border: 1px solid red;
+  &:hover {
+    cursor: pointer;
+  }
 `
-const ProjectStill1 = styled.img`
-  border: 4px solid rgb(99, 95, 85);
+const ProjectStill = styled.img`
+  /* border: 4px solid rgb(99, 95, 85); */
   width: 100%;
   height: auto;
   display: inline-block;
@@ -157,29 +156,24 @@ const ProjectStill1 = styled.img`
   margin-right: auto;
 `
 const ProjectDescription = styled.div`
-text-align: center;
-position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- opacity: 0;
- height: 100%;
- width: 100%;
- z-index: 1;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
- &:hover{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  opacity: 0;
+  height: 100%;
   width: 100%;
- visibility: visible;
- opacity: 0.7;
- }
+  z-index: 1;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  &:hover {
+    width: 100%;
+    visibility: visible;
+    opacity: 0.7;
+  }
 `
-
-
-
-
-
 
 const ProjectTitle = styled.div`
   text-align: center;
@@ -262,61 +256,54 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-      <ProjectTitle>Modern Troussaeu</ProjectTitle>
-    
+    <ProjectTitle>Modern Troussaeu</ProjectTitle>
 
-    {/* <ImageLink1 href="/modern-trousseau"> */}
-    {/* </ImageLink1> */}
-{/* <ProjectWrapper> */}
     <ImageWrapper>
-        <ProjectStill1
-        src="https://i.imgur.com/DOJXKHR.png"
-        // src="https://i.imgur.com/NjtX1by.png"
-        ></ProjectStill1>
-        <ProjectDescription>
-          This is a client project in which I was a member of the front end
-          development team
-        </ProjectDescription>
+      <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
+      <ProjectDescription>
+        This is a client project in which I was a member of the front end
+        development team
+      </ProjectDescription>
     </ImageWrapper>
-  {/* </ProjectWrapper> */}
-
 
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
-      
-      <ProjectTitle>National Parks Website</ProjectTitle>
-    <ImageLink href="/national-parks">
-      <ProjectStill
-        src="https://i.imgur.com/NjtX1by.png"
-      ></ProjectStill>
-    </ImageLink>
-    {/* <ProjectDescription>
-      This is an interactive site that I built with API fetches that provides
-      users links to pages with detailed descriptions of dozens of National
-      Parks around the country
-    </ProjectDescription> */}
+
+    <ProjectTitle>National Parks Website</ProjectTitle>
+
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
+      <ProjectDescription>
+        This is an interactive site that I built with API fetches that provides
+        users links to pages with detailed descriptions of dozens of National
+        Parks around the country
+      </ProjectDescription>
+    </ImageWrapper>
+
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
-      <ProjectTitle>MERN Full Stack App</ProjectTitle>
-    <ImageLink href="/mern-full-stack">
-      <ProjectStill
-        src="https://i.imgur.com/nKATmCL.png"
-      ></ProjectStill>
-    </ImageLink>
-    {/* <ProjectDescription>
-      This is a full stack application that I built with an API I deployed and a
-      React frontend
-    </ProjectDescription> */}
+    <ProjectTitle>MERN Full Stack App</ProjectTitle>
+
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/nKATmCL.png"></ProjectStill>
+
+      <ProjectDescription>
+        This is a full stack application that I built with an API I deployed and
+        a React frontend
+      </ProjectDescription>
+    </ImageWrapper>
+
     <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
-      <ProjectTitle>Trivia Game</ProjectTitle>
-    <ImageLink href="/trivia-game">
-      <ProjectStill
-        src="https://i.imgur.com/wEPvcXY.png"
-      ></ProjectStill>
-    </ImageLink>
-    {/* <ProjectDescription>
-      This is an interactive game that I built using basic HTML, CSS and
-      Javascript that allows the users to enjoy a fun trivia game with a variety
-      of topics
-    </ProjectDescription> */}
+    <ProjectTitle>Trivia Game</ProjectTitle>
+
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/wEPvcXY.png"></ProjectStill>
+
+      <ProjectDescription>
+        This is an interactive game that I built using basic HTML, CSS and
+        Javascript that allows the users to enjoy a fun trivia game with a
+        variety of topics
+      </ProjectDescription>
+    </ImageWrapper>
+
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
       style={{
