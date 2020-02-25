@@ -4,11 +4,11 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fas } from "@fortawesome/free-solid-svg-icons"
+import { far } from "@fortawesome/free-regular-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const IntroContainer = styled.div`
   margin-top: 40px;
@@ -55,20 +55,23 @@ const PersonalInfoContainer = styled.div`
 `
 
 const Name = styled.h1`
-  font-size: 36px;
-  margin-bottom: 12px;
+  font-size: 42px;
+  margin-bottom: 24px;
   text-align: center;
+  /* border: 5px solid yellow; */
 `
 
 const MissionStatement = styled.div`
   font-size: 20px;
   text-align: center;
   margin-bottom: 8px;
+  /* border: 5px solid yellow; */
 `
 
 const BrandStatement = styled.div`
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
+  /* border: 5px solid yellow; */
 `
 
 const AboutLink = styled.a`
@@ -96,7 +99,7 @@ const AboutLink = styled.a`
 const ProjectSectionTitle = styled.div`
   /* border: 1px solid yellow; */
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 36px;
 `
@@ -171,13 +174,13 @@ const LearnMore = styled.a`
 `
 
 const ContactPrompt = styled.div`
-width: 55%;
-font-size: 18px;
-font-weight: 800;
-text-align: center;
-margin-top: 60px;
-margin-left: auto;
-margin-right: auto;
+  width: 55%;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 // const GetInTouch = styled.a`
@@ -217,15 +220,15 @@ const IndexPage = () => (
         <BrandStatement>
           As a growing software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
-          a skillset crucial for finding success in the workplace. I am
-          excited to grow in the tech industry using my talents in software
-          engineering while continually seeking to keep up with the latest in
-          cutting edge technology.
+          a skillset crucial for finding success in the workplace. I am excited
+          to grow in the tech industry using my talents in software engineering
+          while continually seeking to keep up with the latest in cutting edge
+          technology.
         </BrandStatement>
         <AboutLink href="/about">More About Me</AboutLink>
       </PersonalInfoContainer>
     </IntroContainer>
-      <ProjectSectionTitle>Projects</ProjectSectionTitle>
+    <ProjectSectionTitle>Projects</ProjectSectionTitle>
     <ImageLink href="/modern-trousseau">
       <ProjectStill
         src="https://i.imgur.com/DOJXKHR.png"
@@ -322,9 +325,14 @@ const IndexPage = () => (
     </LearnMore>
     <hr
       style={{
-        border: "1px solid black"
-      }}></hr>
-      <ContactPrompt>If you would like to work with me or to learn more about these, or any other projects I am working on please feel free to contact me via email or LinkedIn</ContactPrompt>
+        border: "1px solid black",
+      }}
+    ></hr>
+    <ContactPrompt>
+      If you would like to work with me or to learn more about these or any
+      other projects I am working on please feel free to contact me via email or
+      LinkedIn
+    </ContactPrompt>
   </Layout>
 )
 

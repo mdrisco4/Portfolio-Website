@@ -86,7 +86,7 @@ const Contact = () => (
     <h1
       style={{
         textAlign: "center",
-        fontSize: "45px",
+        fontSize: "50px",
         // color: "rgb(99, 95, 85)",
       }}
     >
