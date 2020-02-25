@@ -98,16 +98,16 @@ const Contact = () => (
       }}
     >
       If you have any questions about my projects or want to know more please
-      reach out by email, LinkedIn or phone!
+      reach out by email or LinkedIn!
     </h3>
     <Container>
       {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <ContactInfo>
         <Name>Michael Driscoll</Name>
         {/* <ContactDetails>Logan Circle</ContactDetails> */}
-        <ContactDetails>Logan Circle</ContactDetails>
+        <ContactDetails>No address, neighborhood...or nothing?</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
-        <ContactDetails>585-719-7720</ContactDetails>
+        <ContactDetails>Phone??</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
           michaelndriscoll81@gmail.com
         </EmailLink><br />

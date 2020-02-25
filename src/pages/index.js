@@ -110,7 +110,7 @@ const ProjectStill = styled.img`
   margin-right: auto;
   margin-bottom: 20px;
   &:hover {
-    border: 10px solid yellow;
+    border: 10px solid black;
   }
 `
 
@@ -164,9 +164,19 @@ const LearnMore = styled.a`
     padding-bottom: auto; */
   }
   &:hover {
-    border: 4px solid yellow;
-    background-color: lightcyan;
+    border: 4px solid black;
+    background-color: rgb(90, 176, 255);
   }
+`
+
+const ContactPrompt = styled.div`
+width: 55%;
+font-size: 18px;
+font-weight: 800;
+text-align: center;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
 `
 
 // const GetInTouch = styled.a`
@@ -306,8 +316,7 @@ const IndexPage = () => (
         Learn More
       </Link>
     </LearnMore>
-    {/* <GetInTouch
-    href='/contact'>Contact Me</GetInTouch> */}
+    <ContactPrompt>If you would like to work with me or to learn more about these, or any other projects I am working on please feel free to contact me via email or LinkedIn</ContactPrompt>
   </Layout>
 )
 

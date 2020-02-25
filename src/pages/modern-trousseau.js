@@ -13,25 +13,40 @@ const Container = styled.div`
 `
 
 const DeployedLink = styled.a`
-  background-color: yellowgreen;
-  border: 4px solid rgb(99, 95, 85);
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 24px;
   width: 20%;
   height: auto;
   padding: 4px 0;
+  color: "black";
+  text-shadow: 2px 2px 5px red;
+  text-decoration: none;
+  &:hover {
+    border: 4px solid black;
+    background-color: rgb(90, 176, 255);
+  }
 `
 
 const GitHubLink = styled.a`
-  background-color: yellowgreen;
-  border: 4px solid rgb(99, 95, 85);
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
   width: 15%;
   height: auto;
   padding: 4px 0;
+  color: "black";
+  text-shadow: 2px 2px 5px red;
+  text-decoration: none;
+  &:hover {
+    border: 4px solid black;
+    background-color: rgb(90, 176, 255);
+  }
 `
 
 const Title = styled.h1`
