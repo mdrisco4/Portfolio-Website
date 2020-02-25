@@ -12,9 +12,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 library.add(fab, fas, far)
 
 const Nav = styled.div`
-  background: rgb(99, 95, 85);
-  border-top: 24px solid rgb(99, 95, 85);
-  border-bottom: 24px solid rgb(99, 95, 85);
+  background: black;
+  border-top: 24px solid black;
+  border-bottom: 24px solid black;
   /* border-bottom: 30px linear-gradient(to bottom rgb(99, 95, 85)); */
   margin: 0;
 `
@@ -29,8 +29,8 @@ const LinkContainer = styled.div`
 `
 
 const HomeLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -39,14 +39,14 @@ const HomeLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `
 
 const GiutHubLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -55,14 +55,14 @@ const GiutHubLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `
 
 const ContactLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -71,14 +71,14 @@ const ContactLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `
 
 const LinkedInLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -87,14 +87,14 @@ const LinkedInLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `
 
 const ResumeLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -103,14 +103,14 @@ const ResumeLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `
 
 const AboutLink = styled.a`
-  color: rgb(51, 61, 74);
-  text-shadow: 4px 2px orange;
+  color: white;
+  text-shadow: 3px 2px rgb(110, 176, 249);
   font-size: 35px;
   margin-left: auto;
   margin-right: auto; 
@@ -119,7 +119,7 @@ const AboutLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: darkblue;
+    color: yellowgreen;
     text-shadow: 4px 2px red;
   }
 `

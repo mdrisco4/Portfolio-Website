@@ -98,7 +98,7 @@ const Contact = () => (
       reach out by email, LinkedIn or phone!
     </h3>
     <Container>
-      <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot>
+      {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <ContactInfo>
         <Name>Michael Driscoll</Name>
         {/* <ContactDetails>Logan Circle</ContactDetails> */}

@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+// import styles from '.layout.css'
 import Header from "./header"
 import Footer from "./footer"
 
@@ -19,6 +20,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      <body 
+      style={{
+        margin: '0',
+      }}>
       <div
         style={{
           margin: `0`,
@@ -26,10 +31,11 @@ const Layout = ({ children }) => {
           border: '5px solid rgb(90, 176, 255)',
           minHeight: '1200px',
         }}
-      >
+        >
         <main>{children}</main>
         <Footer />
       </div>
+        </body>
     </>
   )
 }

@@ -43,6 +43,7 @@ const GetInTouch = styled.a`
   border-radius: 6px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   text-decoration: none;
   &:hover {
     color: rgb(110, 176, 249);
