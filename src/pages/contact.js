@@ -85,6 +85,7 @@ const Contact = () => (
       style={{
         textAlign: "center",
         fontSize: "45px",
+        // color: "rgb(99, 95, 85)",
       }}
     >
       Contact Info
@@ -95,11 +96,17 @@ const Contact = () => (
         textAlign: "center",
         margin: "auto",
         fontSize: "28px",
+        marginBottom: "30px",
+        // color: "rgb(99, 95, 85)",
       }}
     >
       If you have any questions about my projects or want to know more please
       reach out by email or LinkedIn!
     </h3>
+    <hr
+    style={{
+      border: "1px solid black"
+    }}></hr>
     <Container>
       {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <ContactInfo>
@@ -120,6 +127,10 @@ const Contact = () => (
         {/* <ContactDetails>585-719-7720</ContactDetails> */}
       </ContactInfo>
     </Container>
+      <hr
+      style={{
+        border: "1px solid black"
+      }}></hr>
   </Layout>
 )
 

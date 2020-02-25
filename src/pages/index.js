@@ -4,11 +4,11 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { far } from '@fortawesome/free-regular-svg-icons'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const IntroContainer = styled.div`
   margin-top: 40px;
@@ -94,9 +94,10 @@ const AboutLink = styled.a`
 `
 
 const ProjectSectionTitle = styled.div`
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   text-align: center;
   font-size: 40px;
+  font-weight: 700;
   margin-bottom: 36px;
 `
 
@@ -203,6 +204,9 @@ margin-right: auto;
 
 const IndexPage = () => (
   <Layout>
+    {/* <h1>fa fa-home</h1>
+    <i class="fa fa-home" style="font-size:24px"></i>
+    <i class="fa fa-home"></i> */}
     <IntroContainer>
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
@@ -316,7 +320,11 @@ const IndexPage = () => (
         Learn More
       </Link>
     </LearnMore>
-    <ContactPrompt>If you would like to work with me or to learn more about these, or any other projects I am working on please feel free to contact me via email or LinkedIn</ContactPrompt>
+    <hr
+      style={{
+        border: "1px solid black"
+      }}></hr>
+      <ContactPrompt>If you would like to work with me or to learn more about these, or any other projects I am working on please feel free to contact me via email or LinkedIn</ContactPrompt>
   </Layout>
 )
 
