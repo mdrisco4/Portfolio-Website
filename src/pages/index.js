@@ -298,25 +298,27 @@ const IndexPage = () => (
       </ProjectDescription>
     </ImageWrapper>
     <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
-      <MobileProjectDescription>
+    <MobileProjectDescription>
       A full stack site built with Django that provides menus, draft lists and
-        brewery information for users. This site also allows for brewery owners
-        and managers to access full CRUD capabilties to make alterations to
-        their menus and brewery information in real time.
-      </MobileProjectDescription>
+      brewery information for users. This site also allows for brewery owners
+      and managers to access full CRUD capabilties to make alterations to their
+      menus and brewery information in real time.
+    </MobileProjectDescription>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
-        This is an interactive game that I built using basic HTML, CSS and
-        Javascript that allows the users to enjoy a fun trivia game with a
-        variety of topics
+        One of my first projects: a fun trivia game with 3 selectable categories
+        related to media. Written with HTML, CSS and Vanilla Javascript.
+        Somewhat limited by the fact that I wrote the questions myself instead
+        of fetching from an API, but pretty fun. Give it a try!  Link on project page.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      This is an interactive game that I built using basic HTML, CSS and
-      Javascript that allows the users to enjoy a fun trivia game with a variety
-      of topics
+      One of my first projects: a fun trivia game with 3 selectable categories
+      related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
+      limited by the fact that I wrote the questions myself instead of fetching
+      from an API, but pretty fun. Give it a try!  Link on project page.
     </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
