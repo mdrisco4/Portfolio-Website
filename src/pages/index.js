@@ -193,6 +193,8 @@ const MobileProjectDescription = styled.div`
 `
 
 const ProjectTitle = styled.div`
+  padding-left: 7.5%;
+  padding-right: 7.5%;
   text-align: center;
   font-weight: bold;
   font-size: 42px;
