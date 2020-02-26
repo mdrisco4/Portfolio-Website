@@ -38,7 +38,7 @@ const ContactInfo = styled.div`
   text-align: center;
   @media (min-width: 800px) {
     height: 100%;
-    width: 50%;
+    width: 70%;
     /* border: 1px solid blue; */
     margin: auto;
     flex-direction: row;
