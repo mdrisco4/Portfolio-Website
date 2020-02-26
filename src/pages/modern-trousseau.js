@@ -12,19 +12,41 @@ const Container = styled.div`
   text-align: center;
 `
 
+const ProjectLinkContainer = styled.div`
+width: 50%;
+border: 1px solid yellow;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 20px;
+margin-left: auto;
+    margin-right: auto;
+  @media (min-width: 1000px) {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+`
+
 const DeployedLink = styled.a`
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
-  width: 20%;
   height: auto;
   padding: 4px 0;
   color: "black";
   text-shadow: 2px 2px 5px red;
   text-decoration: none;
+  margin-bottom: 24px;
+@media (min-width: 1000px) {
+  width: 42%;
+}
   &:hover {
     border: 4px solid black;
     background-color: rgb(90, 176, 255);
@@ -32,17 +54,22 @@ const DeployedLink = styled.a`
 `
 
 const GitHubLink = styled.a`
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
   height: auto;
   padding: 4px 0;
   color: "black";
   text-shadow: 2px 2px 5px red;
   text-decoration: none;
+  margin-bottom: 24px;
+@media (min-width: 1000px) {
+  width: 42%;
+}
   &:hover {
     border: 4px solid black;
     background-color: rgb(90, 176, 255);
@@ -68,15 +95,17 @@ const ModernTrousseau = () => (
   <Layout>
     <Container>
       <Title>Modern Trousseau</Title>
+      <ProjectLinkContainer>
       <DeployedLink href="" target="_blank">
         MODERN TROUSSEAU
       </DeployedLink>
       <GitHubLink
         href="https://github.com/jserrao/modern-trousseau-gatsby"
         target="_blank"
-      >
+        >
         GITHUB REPO
       </GitHubLink>
+        </ProjectLinkContainer>
       <h3>Description</h3>
       <ProjectDescription>
         Modern Trousseau is a client project that I worked on with a team of

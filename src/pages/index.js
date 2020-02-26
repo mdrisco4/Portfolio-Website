@@ -36,7 +36,7 @@ const PersonalPhoto = styled.img`
   border: 1px solid red;
   @media (min-width: 900px) {
     margin-left: 10%;
-    margin-right:2.5%;
+    margin-right: 2.5%;
     margin-top: 2.5%;
     width: auto;
     height: 85%;
@@ -61,7 +61,7 @@ const PersonalInfoContainer = styled.div`
 `
 
 const Name = styled.h1`
-font-size: 28px;
+  font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
   @media (min-width: 900px) {
@@ -71,7 +71,7 @@ font-size: 28px;
 `
 
 const MissionStatement = styled.div`
-font-size: 20px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 8px;
   @media (min-width: 900px) {
@@ -80,7 +80,7 @@ font-size: 20px;
 `
 
 const BrandStatement = styled.div`
-font-size: 16px;
+  font-size: 16px;
   text-align: center;
   @media (min-width: 900px) {
     font-size: 20px;
@@ -117,7 +117,7 @@ const ProjectSectionTitle = styled.div`
 `
 
 const DesktopDescriptionPrompt = styled.div`
-display: none;
+  display: none;
   @media (min-width: 750px) {
     border: 1px solid brown;
     display: flex;
@@ -152,46 +152,45 @@ const ProjectStill = styled.img`
 `
 
 const ProjectDescription = styled.div`
-    display: none;
-@media (min-width: 750px) {
-  display: block;
-  text-align: center;
-  font-size: 24px;
-  /* vertical-align: center; */
-  position: absolute;
-  bottom: 2px;
-  right: 0;
-  background: black;
-  color: white;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
-  &:hover {
+  display: none;
+  @media (min-width: 750px) {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    background: black;
+    color: white;
+    opacity: 0;
     width: 100%;
-    visibility: visible;
-    opacity: 0.7;
+    height: 100%;
+    /* margin: auto; */
+    /* z-index: 1; */
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+    &:hover {
+      width: 100%;
+      visibility: visible;
+      opacity: 0.7;
+    }
   }
-}
 `
 
 const MobileProjectDescription = styled.div`
-display: flex;
-width: 55%;
-font-size: 24px;
-text-align: center;
-margin-left: auto;
+  display: flex;
+  width: 75%;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-border: 1px solid red;
-justify-content: center;
-@media (min-width: 750px) {
-  display: none;
-}
+  border: 1px solid red;
+  justify-content: center;
+  @media (min-width: 750px) {
+    display: none;
+  }
 `
-
 
 const ProjectTitle = styled.div`
   text-align: center;
@@ -255,17 +254,23 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-    <DesktopDescriptionPrompt>Hover over the image for project description</DesktopDescriptionPrompt>
+    <DesktopDescriptionPrompt>
+      Hover over the image for project description
+    </DesktopDescriptionPrompt>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        This is a client project in which I was a member of the front end
-        development team
+        A client project currently still in development. Built using React,
+        Contentful and GraphQL. I am assigned to the front end on a 15 person
+        team utilizing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
-    <MobileProjectDescription>This is a client project in which I was a member of the front end
-        development team</MobileProjectDescription>
+    <MobileProjectDescription>
+      A client project currently still in development. Built using React,
+      Contentful and GraphQL. I am assigned to the front end on a 15 person team
+      utilizing Storybook for branch management.
+    </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
@@ -276,23 +281,31 @@ const IndexPage = () => (
         Parks around the country
       </ProjectDescription>
     </ImageWrapper>
-    <MobileProjectDescription> This is an interactive site that I built with API fetches that provides
-        users links to pages with detailed descriptions of dozens of National
-        Parks around the country</MobileProjectDescription>
+    <MobileProjectDescription>
+      This is an interactive site that I built with API fetches that provides
+      users links to pages with detailed descriptions of dozens of National
+      Parks around the country
+    </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
-    <ProjectTitle>MERN Full Stack App</ProjectTitle>
+    <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/nKATmCL.png"></ProjectStill>
       <ProjectDescription>
-        This is a full stack application that I built with an API I deployed and
-        a React frontend
+        A full stack site built with Django that provides menus, draft lists and
+        brewery information for users. This site also allows for brewery owners
+        and managers to access full CRUD capabilties to make alterations to
+        their menus and brewery information in real time.
       </ProjectDescription>
     </ImageWrapper>
     <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
+      <MobileProjectDescription>
+      A full stack site built with Django that provides menus, draft lists and
+        brewery information for users. This site also allows for brewery owners
+        and managers to access full CRUD capabilties to make alterations to
+        their menus and brewery information in real time.
+      </MobileProjectDescription>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
-      <MobileProjectDescription>This is a full stack application that I built with an API I deployed and
-        a React frontend</MobileProjectDescription>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive game that I built using basic HTML, CSS and
@@ -300,9 +313,11 @@ const IndexPage = () => (
         variety of topics
       </ProjectDescription>
     </ImageWrapper>
-    <MobileProjectDescription>This is an interactive game that I built using basic HTML, CSS and
-        Javascript that allows the users to enjoy a fun trivia game with a
-        variety of topics</MobileProjectDescription>
+    <MobileProjectDescription>
+      This is an interactive game that I built using basic HTML, CSS and
+      Javascript that allows the users to enjoy a fun trivia game with a variety
+      of topics
+    </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
       style={{

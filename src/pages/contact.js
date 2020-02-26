@@ -4,6 +4,26 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
+const ContactInfo = styled.div`
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  @media (min-width: 600px) {
+    font-size: 50px;
+  }
+`
+
+const Questions = styled.div`
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 28px;
+  }
+`
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -29,7 +49,7 @@ const Headshot = styled.img`
   }
 `
 
-const ContactInfo = styled.div`
+const MyInfo = styled.div`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -44,23 +64,31 @@ const ContactInfo = styled.div`
 
 const Name = styled.h1`
   margin: 0 0 8px 0;
-  font-size: 50px;
-  font-family: 'Krona One', ;
-
+  font-family: "Krona One";
+  font-size: 35px;
+  @media (min-width: 800px) {
+    font-size: 50px;
+  }
 `
 
 const ContactDetails = styled.h3`
   margin: 4px 0;
-  font-size: 30px;
+  font-size: 24px;
+  @media (min-width: 800px) {
+    font-size: 30px;
+  }
 `
 
 const EmailLink = styled.a`
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
-  margin: 4px 0;
-  font-size: 30px;
   font-weight: bold;
+  margin: 4px 0;
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 30px;
+  }
   &:hover {
     color: white;
     text-shadow: 1px 1px 3px darkblue;
@@ -68,82 +96,75 @@ const EmailLink = styled.a`
 `
 
 const LinkedInLink = styled.a`
-color: black;
-text-shadow: 1px 1px 3px white;
+  color: black;
+  text-shadow: 1px 1px 3px white;
   text-decoration: none;
-  margin: 4px 0;
-  font-size: 30px;
   font-weight: bold;
+  margin: 4px 0;
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 30px;
+  }
   &:hover {
     color: white;
     text-shadow: 1px 1px 3px darkblue;
   }
-  `
+`
 
 const GitHubLink = styled.a`
-color: black;
-text-shadow: 1px 1px 3px white;
+  color: black;
+  text-shadow: 1px 1px 3px white;
   text-decoration: none;
-  margin: 4px 0;
-  font-size: 30px;
   font-weight: bold;
+  margin: 4px 0;
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 30px;
+  }
   &:hover {
     color: white;
     text-shadow: 1px 1px 3px darkblue;
   }
-  `
+`
 
 const Contact = () => (
   <Layout>
-    <h1
-      style={{
-        textAlign: "center",
-        fontSize: "50px",
-        // color: "rgb(99, 95, 85)",
-      }}
-    >
-      Contact Info
-    </h1>
-    <h3
-      style={{
-        width: "70%",
-        textAlign: "center",
-        margin: "auto",
-        fontSize: "28px",
-        marginBottom: "30px",
-        // color: "rgb(99, 95, 85)",
-      }}
-    >
+    <ContactInfo>Contact Info</ContactInfo>
+    <Questions>
       If you have any questions about my projects or want to know more please
       reach out by email or LinkedIn!
-    </h3>
+    </Questions>
     <hr
-    style={{
-      border: "1px solid black"
-    }}></hr>
+      style={{
+        border: "1px solid black",
+      }}
+    ></hr>
     <Container>
       {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
-      <ContactInfo>
+      <MyInfo>
         <Name>Michael Driscoll</Name>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
           michaelndriscoll81@gmail.com
-        </EmailLink><br />
+        </EmailLink>
+        <br />
         <LinkedInLink
           href="https://www.linkedin.com/in/michael-n-driscoll/"
           target="_blank"
         >
           linkedin.com/in/michael-n-driscoll/
-        </LinkedInLink><br />
+        </LinkedInLink>
+        <br />
         <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-        github.com/mdrisco4
-      </GitHubLink>
-      </ContactInfo>
+          github.com/mdrisco4
+        </GitHubLink>
+      </MyInfo>
     </Container>
-      <hr
+    <hr
       style={{
-        border: "1px solid black"
-      }}></hr>
+        border: "1px solid black",
+      }}
+    ></hr>
   </Layout>
 )
 

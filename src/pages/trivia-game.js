@@ -37,19 +37,18 @@ const DeployedLink = styled.a`
   font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
-  border-radius: 8px;
   height: auto;
   padding: 4px 0;
-  color: "black";
-  text-shadow: 2px 2px 5px red;
+  color: white;
   text-decoration: none;
   margin-bottom: 24px;
 @media (min-width: 1000px) {
-  width: 35%;
+  width: 42%;
 }
   &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
     border: 4px solid black;
-    background-color: rgb(90, 176, 255);
   }
 `
 
@@ -60,19 +59,18 @@ const GitHubLink = styled.a`
   font-size: 20px;
   background-color: rgb(99, 95, 85);
   border: 4px solid darkblue;
-  border-radius: 8px;
   height: auto;
   padding: 4px 0;
-  color: "black";
-  text-shadow: 2px 2px 5px red;
+  color: white;
   text-decoration: none;
   margin-bottom: 24px;
 @media (min-width: 1000px) {
-  width: 35%;
+  width: 42%;
 }
   &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
     border: 4px solid black;
-    background-color: rgb(90, 176, 255);
   }
 `
 
