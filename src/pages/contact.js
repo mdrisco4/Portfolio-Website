@@ -9,7 +9,6 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  /* border: 2px solid yellow; */
   padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
@@ -21,7 +20,6 @@ const Headshot = styled.img`
   border: 1px solid black;
   border-radius: 18px;
   height: 40%;
-  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 800px) {
@@ -39,7 +37,6 @@ const ContactInfo = styled.div`
   @media (min-width: 800px) {
     height: 100%;
     width: 70%;
-    /* border: 1px solid blue; */
     margin: auto;
     flex-direction: row;
   }

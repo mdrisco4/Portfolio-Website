@@ -15,7 +15,6 @@ const Nav = styled.div`
   background: black;
   border-top: 24px solid black;
   border-bottom: 24px solid black;
-  /* border-bottom: 30px linear-gradient(to bottom rgb(99, 95, 85)); */
   margin: 0;
 `
 
@@ -28,98 +27,12 @@ const LinkContainer = styled.div`
   }
 `
 
-const HomeLink = styled.a`
+const HeaderLink = styled.a`
   color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
   font-size: 35px;
   font-weight: 700;
   margin-left: auto;
-  margin-right: auto; 
-  text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
-  }
-`
-
-const GiutHubLink = styled.a`
-  color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
-  font-size: 35px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto; 
-  text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
-  }
-`
-
-const ContactLink = styled.a`
-  color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
-  font-size: 35px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto; 
-  text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
-  }
-`
-
-const LinkedInLink = styled.a`
-  color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
-  font-size: 35px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto; 
-  text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
-  }
-`
-
-const ResumeLink = styled.a`
-  color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
-  font-size: 35px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto; 
-  text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
-  }
-`
-
-const AboutLink = styled.a`
-  color: white;
-  /* text-shadow: 3px 2px rgb(110, 176, 249); */
-  font-size: 35px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
@@ -133,7 +46,6 @@ const AboutLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      <HomeLink href="/">Home</HomeLink>
       {/* <i class="fas fa-home"
       style={{
         color: 'black',
@@ -144,23 +56,24 @@ const Header = () => (
           color: 'black',
         }}/> */}
 
-      <GiutHubLink href="https://github.com/mdrisco4" target="_blank">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
-      </GiutHubLink>
-      <LinkedInLink
+      </HeaderLink>
+      <HeaderLink
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
       >
         LinkedIn
-      </LinkedInLink>
-      <ResumeLink
+      </HeaderLink>
+      <HeaderLink
         href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
         target="_blank"
       >
         Resume
-      </ResumeLink>
-      <ContactLink href="/contact/">Contact</ContactLink>
-      <AboutLink href="/about/">About</AboutLink>
+      </HeaderLink>
+      <HeaderLink href="/contact/">Contact</HeaderLink>
+      <HeaderLink href="/about/">About</HeaderLink>
     </LinkContainer>
   </Nav>
 )
