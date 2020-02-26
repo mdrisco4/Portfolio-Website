@@ -17,8 +17,10 @@ const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 1px solid yellow;
   @media (min-width: 1000px) {
     flex-direction: row;
+    /* justify-content: space-around; */
     height: 400px;
     margin-bottom: 180px;
   }
@@ -43,6 +45,7 @@ const PersonalInfoContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: 1px solid green;
   @media (min-width: 1000px) {
     text-align: left;
     height: 100%;
@@ -97,6 +100,18 @@ const ProjectSectionTitle = styled.div`
   margin-bottom: 36px;
 `
 
+const MobileDescriptionPrompt = styled.div`
+  width: 60%;
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  @media (min-width: 750px) {
+    display: none;
+  }
+`
+
 const ImageWrapper = styled.div`
   position: relative;
   width: 55%;
@@ -119,7 +134,8 @@ const ProjectStill = styled.img`
 
 const ProjectDescription = styled.div`
   text-align: center;
-  vertical-align: center;
+  font-size: 24px;
+  /* vertical-align: center; */
   position: absolute;
   bottom: 2px;
   right: 0;
@@ -137,6 +153,21 @@ const ProjectDescription = styled.div`
     opacity: 0.7;
   }
 `
+
+// const MobileProjectDescription = styled.div`
+// display: flex;
+// width: 55%;
+// font-size: 24px;
+// margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: 30px;
+// border: 1px solid red;
+// justify-content: center;
+// @media (min-width: 1000px) {
+//   display: none;
+// }
+// `
+
 
 const ProjectTitle = styled.div`
   text-align: center;
@@ -200,6 +231,7 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
+    <MobileDescriptionPrompt>Touch the image for project description</MobileDescriptionPrompt>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -208,6 +240,8 @@ const IndexPage = () => (
         development team
       </ProjectDescription>
     </ImageWrapper>
+    {/* <MobileProjectDescription>This is a client project in which I was a member of the front end
+        development team</MobileProjectDescription> */}
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
@@ -218,6 +252,9 @@ const IndexPage = () => (
         Parks around the country
       </ProjectDescription>
     </ImageWrapper>
+    {/* <MobileProjectDescription> This is an interactive site that I built with API fetches that provides
+        users links to pages with detailed descriptions of dozens of National
+        Parks around the country</MobileProjectDescription> */}
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>MERN Full Stack App</ProjectTitle>
     <ImageWrapper>
@@ -230,6 +267,8 @@ const IndexPage = () => (
     <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
+      {/* <MobileProjectDescription>This is a full stack application that I built with an API I deployed and
+        a React frontend</MobileProjectDescription> */}
       <ProjectStill src="https://i.imgur.com/wEPvcXY.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive game that I built using basic HTML, CSS and
@@ -237,6 +276,9 @@ const IndexPage = () => (
         variety of topics
       </ProjectDescription>
     </ImageWrapper>
+    {/* <MobileProjectDescription>This is an interactive game that I built using basic HTML, CSS and
+        Javascript that allows the users to enjoy a fun trivia game with a
+        variety of topics</MobileProjectDescription> */}
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
       style={{
