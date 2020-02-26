@@ -282,7 +282,7 @@ const IndexPage = () => (
     <ImageWrapper>
       {/* <MobileProjectDescription>This is a full stack application that I built with an API I deployed and
         a React frontend</MobileProjectDescription> */}
-      <ProjectStill src="https://i.imgur.com/wEPvcXY.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive game that I built using basic HTML, CSS and
         Javascript that allows the users to enjoy a fun trivia game with a
