@@ -20,7 +20,7 @@ const IntroContainer = styled.div`
   border: 1px solid yellow;
   @media (min-width: 1000px) {
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: center;
     height: 400px;
     margin-bottom: 180px;
   }
@@ -33,9 +33,11 @@ const PersonalPhoto = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
+  border: 1px solid red;
   @media (min-width: 1000px) {
     width: auto;
-    height: 100%;
+    height: 80%;
+    margin-top: 3%;
   }
 `
 
@@ -51,25 +53,34 @@ const PersonalInfoContainer = styled.div`
     height: 100%;
     width: 36%;
     margin: auto;
-    padding: 1%;
+    /* padding: 1%; */
   }
 `
 
 const Name = styled.h1`
-  font-size: 42px;
+font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
+  @media (min-width: 1000px) {
+    font-size: 42px;
+  }
 `
 
 const MissionStatement = styled.div`
-  font-size: 28px;
+font-size: 20px;
   text-align: center;
   margin-bottom: 8px;
+  @media (min-width: 1000px) {
+    font-size: 28px;
+  }
 `
 
 const BrandStatement = styled.div`
-  font-size: 24px;
+font-size: 16px;
   text-align: center;
+  @media (min-width: 1000px) {
+    font-size: 24px;
+  }
 `
 
 const AboutLink = styled.a`
