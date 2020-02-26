@@ -18,7 +18,7 @@ const IntroContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid yellow;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
     height: 400px;
@@ -34,10 +34,12 @@ const PersonalPhoto = styled.img`
   margin-right: auto;
   margin-top: 24px;
   border: 1px solid red;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     width: auto;
-    height: 80%;
-    margin-top: 3%;
+    height: 85%;
+    margin-left: 10%;
+    margin-right:0;
+    margin-top: 3.5%;
   }
 `
 
@@ -48,10 +50,10 @@ const PersonalInfoContainer = styled.div`
   margin-right: auto;
   text-align: center;
   border: 1px solid green;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     text-align: left;
     height: 100%;
-    width: 36%;
+    width: 40%;
     margin: auto;
     /* padding: 1%; */
   }
@@ -61,7 +63,7 @@ const Name = styled.h1`
 font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     font-size: 42px;
   }
 `
@@ -70,7 +72,7 @@ const MissionStatement = styled.div`
 font-size: 20px;
   text-align: center;
   margin-bottom: 8px;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     font-size: 28px;
   }
 `
@@ -78,7 +80,7 @@ font-size: 20px;
 const BrandStatement = styled.div`
 font-size: 16px;
   text-align: center;
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     font-size: 24px;
   }
 `
@@ -226,7 +228,7 @@ const IndexPage = () => (
     <IntroContainer>
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
-        <Name>Michael Driscoll</Name>
+        <Name>Hi, I'm Michael!</Name>
         <MissionStatement>
           Engineering innovative solutions in a fast paced industry
         </MissionStatement>
