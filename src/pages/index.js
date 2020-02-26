@@ -35,11 +35,11 @@ const PersonalPhoto = styled.img`
   margin-top: 24px;
   border: 1px solid red;
   @media (min-width: 900px) {
+    margin-left: 10%;
+    margin-right:2.5%;
+    margin-top: 2.5%;
     width: auto;
     height: 85%;
-    margin-left: 10%;
-    margin-right:0;
-    margin-top: 3.5%;
   }
 `
 
@@ -55,6 +55,7 @@ const PersonalInfoContainer = styled.div`
     height: 100%;
     width: 40%;
     margin: auto;
+    margin-right: 5%;
     /* padding: 1%; */
   }
 `
@@ -65,6 +66,7 @@ font-size: 28px;
   text-align: center;
   @media (min-width: 900px) {
     font-size: 42px;
+    margin-bottom: 8px;
   }
 `
 
@@ -73,7 +75,7 @@ font-size: 20px;
   text-align: center;
   margin-bottom: 8px;
   @media (min-width: 900px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `
 
@@ -81,7 +83,7 @@ const BrandStatement = styled.div`
 font-size: 16px;
   text-align: center;
   @media (min-width: 900px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 `
 
@@ -108,20 +110,24 @@ const AboutLink = styled.a`
 
 const ProjectSectionTitle = styled.div`
   text-align: center;
-  font-size: 45px;
+  font-size: 54px;
   font-weight: 700;
-  margin-bottom: 36px;
+  margin: 40px 0 36px 0;
+  border: 1px solid purple;
 `
 
-const MobileDescriptionPrompt = styled.div`
-  width: 60%;
-  font-size: 24px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 24px;
+const DesktopDescriptionPrompt = styled.div`
+display: none;
   @media (min-width: 750px) {
-    display: none;
+    border: 1px solid brown;
+    display: flex;
+    width: 60%;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
   }
 `
 
@@ -146,6 +152,9 @@ const ProjectStill = styled.img`
 `
 
 const ProjectDescription = styled.div`
+    display: none;
+@media (min-width: 750px) {
+  display: block;
   text-align: center;
   font-size: 24px;
   /* vertical-align: center; */
@@ -165,21 +174,23 @@ const ProjectDescription = styled.div`
     visibility: visible;
     opacity: 0.7;
   }
+}
 `
 
-// const MobileProjectDescription = styled.div`
-// display: flex;
-// width: 55%;
-// font-size: 24px;
-// margin-left: auto;
-//   margin-right: auto;
-//   margin-bottom: 30px;
-// border: 1px solid red;
-// justify-content: center;
-// @media (min-width: 1000px) {
-//   display: none;
-// }
-// `
+const MobileProjectDescription = styled.div`
+display: flex;
+width: 55%;
+font-size: 24px;
+text-align: center;
+margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+border: 1px solid red;
+justify-content: center;
+@media (min-width: 750px) {
+  display: none;
+}
+`
 
 
 const ProjectTitle = styled.div`
@@ -229,9 +240,9 @@ const IndexPage = () => (
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
-        <MissionStatement>
+        {/* <MissionStatement>
           Engineering innovative solutions in a fast paced industry
-        </MissionStatement>
+        </MissionStatement> */}
         <BrandStatement>
           As a growing software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
@@ -244,7 +255,7 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-    <MobileDescriptionPrompt>Touch the image for project description</MobileDescriptionPrompt>
+    <DesktopDescriptionPrompt>Hover over the image for project description</DesktopDescriptionPrompt>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -253,8 +264,8 @@ const IndexPage = () => (
         development team
       </ProjectDescription>
     </ImageWrapper>
-    {/* <MobileProjectDescription>This is a client project in which I was a member of the front end
-        development team</MobileProjectDescription> */}
+    <MobileProjectDescription>This is a client project in which I was a member of the front end
+        development team</MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
@@ -265,9 +276,9 @@ const IndexPage = () => (
         Parks around the country
       </ProjectDescription>
     </ImageWrapper>
-    {/* <MobileProjectDescription> This is an interactive site that I built with API fetches that provides
+    <MobileProjectDescription> This is an interactive site that I built with API fetches that provides
         users links to pages with detailed descriptions of dozens of National
-        Parks around the country</MobileProjectDescription> */}
+        Parks around the country</MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>MERN Full Stack App</ProjectTitle>
     <ImageWrapper>
@@ -280,8 +291,8 @@ const IndexPage = () => (
     <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
-      {/* <MobileProjectDescription>This is a full stack application that I built with an API I deployed and
-        a React frontend</MobileProjectDescription> */}
+      <MobileProjectDescription>This is a full stack application that I built with an API I deployed and
+        a React frontend</MobileProjectDescription>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive game that I built using basic HTML, CSS and
@@ -289,9 +300,9 @@ const IndexPage = () => (
         variety of topics
       </ProjectDescription>
     </ImageWrapper>
-    {/* <MobileProjectDescription>This is an interactive game that I built using basic HTML, CSS and
+    <MobileProjectDescription>This is an interactive game that I built using basic HTML, CSS and
         Javascript that allows the users to enjoy a fun trivia game with a
-        variety of topics</MobileProjectDescription> */}
+        variety of topics</MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
       style={{
