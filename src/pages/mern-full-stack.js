@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const ProjectLinkContainer = styled.div`
 width: 50%;
-border: 1px solid yellow;
+/* border: 1px solid yellow; */
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -75,7 +75,7 @@ const GitHubLink = styled.a`
 `
 
 const Title = styled.h1`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -90,7 +90,7 @@ const ProjectDescription = styled.p`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 20px;
 `
 

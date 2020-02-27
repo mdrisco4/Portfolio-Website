@@ -17,7 +17,7 @@ const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
@@ -33,7 +33,7 @@ const PersonalPhoto = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   @media (min-width: 900px) {
     margin-left: 10%;
     margin-right: 2.5%;
@@ -49,7 +49,7 @@ const PersonalInfoContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   @media (min-width: 900px) {
     text-align: left;
     height: 100%;
@@ -104,7 +104,7 @@ const AboutLink = styled.a`
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 `
 
@@ -113,13 +113,13 @@ const ProjectSectionTitle = styled.div`
   font-size: 54px;
   font-weight: 700;
   margin: 40px 0 36px 0;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 `
 
 const DesktopDescriptionPrompt = styled.div`
   display: none;
   @media (min-width: 750px) {
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     display: flex;
     width: 60%;
     font-size: 25px;
