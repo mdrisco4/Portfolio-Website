@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
+import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
 
 const Container = styled.div`
   display: flex;
@@ -94,8 +95,22 @@ const ProjectDescription = styled.p`
   font-size: 20px;
 `
 
+const AccompanyingImage = styled.img`
+  width: 55%;
+  /* border: 3px solid darkblue; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+`
+
 const ModernTrousseau = () => (
   <Layout>
+    {/* <AccompanyingImage src="https://i.imgur.com/MO8RrlX.png"></AccompanyingImage>
+    <AccompanyingImage src="https://i.imgur.com/mjPtfKk.png"></AccompanyingImage> */}
+    <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage>
+    {/* <AccompanyingImage src="https://i.imgur.com/H42DEcf.png"></AccompanyingImage> */}
+    {/* <AccompanyingImage src="https://i.imgur.com/74ZTUoz.png"></AccompanyingImage> */}
     <Container>
       <Title>Modern Trousseau</Title>
       <ProjectLinkContainer>
@@ -121,6 +136,24 @@ const ModernTrousseau = () => (
         involved connecting the pages to each other and populating the site with
         data from the database deployed by the backend team.
       </ProjectDescription>
+      <div style={{
+        display: 'flex',
+      }}>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/MO8RrlX.png"></AccompanyingImage>
+    <AccompanyingImage src="https://i.imgur.com/mjPtfKk.png"></AccompanyingImage>
+      </div>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/H42DEcf.png"></AccompanyingImage>
+    <AccompanyingImage src="https://i.imgur.com/74ZTUoz.png"></AccompanyingImage>
+      </div>
+      </div>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
         Modern Trousseau is c client project in which our team built employing

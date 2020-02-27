@@ -96,7 +96,7 @@ const ProjectDescription = styled.p`
 
 const AccompanyingImage = styled.img`
   width: 55%;
-  border: 3px solid darkblue;
+  /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
