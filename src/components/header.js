@@ -66,12 +66,7 @@ const Header = () => (
       >
         LinkedIn
       </HeaderLink>
-      <HeaderLink
-        href="https://docs.google.com/document/d/15n_m-9ER3o23y1RhjFuyHTowF-MjG-ltaSybQ8QR_Ak/edit"
-        target="_blank"
-      >
-        Resume
-      </HeaderLink>
+      <HeaderLink href="/resume/">Resume</HeaderLink>
       <HeaderLink href="/contact/">Contact</HeaderLink>
       <HeaderLink href="/about/">About</HeaderLink>
     </LinkContainer>

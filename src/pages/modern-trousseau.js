@@ -1,10 +1,7 @@
 import React from "react"
-// import { Link } from "gatsby"
-
 import CollectionList from "../components/MoTroEdit"
 import Layout from "../components/layout"
 import styled from "styled-components"
-// import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
 
 const Container = styled.div`
   display: flex;
@@ -16,7 +13,6 @@ const Container = styled.div`
 
 const ProjectLinkContainer = styled.div`
   width: 50%;
-  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -77,7 +73,6 @@ const GitHubLink = styled.a`
 `
 
 const Title = styled.h1`
-  /* border: 2px solid red; */
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -88,11 +83,9 @@ const SectionTitle = styled.div`
 `
 
 const ProjectDescription = styled.p`
-  /* text-align: center; */
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid black;s */
   font-size: 20px;
 `
 
@@ -105,7 +98,6 @@ const SprintTitle = styled.div`
 const SprintOneImages = styled.div`
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
   @media (min-width: 600px) {
     flex-direction: row;
   }
@@ -114,7 +106,6 @@ const SprintOneImages = styled.div`
 const SprintTwoImages = styled.div`
   display: flex;
   flex-direction: column;
-  /* border: 2px solid black; */
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -148,16 +139,12 @@ font-weight: bold;
 
 const ComponentImage = styled.img`
   width: 70%;
-  /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 25px; */
-  /* margin-bottom: 20px; */
 `
 
 const PageLabelContainer = styled.div`
   display: flex;
-  /* border: 1px solid black; */
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -176,27 +163,19 @@ const PageImageContainer = styled.div`
 
 const PageImage = styled.img`
   width: 55%;
-  /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 25px;
-  margin-bottom: 20px; */
 `
 
 const ModernTrousseau = () => (
   <Layout>
     {/* <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage> */}
-
-    {/* <AccompanyingImage src="https://i.imgur.com/MO8RrlX.png"></AccompanyingImage>
-    <AccompanyingImage src="https://i.imgur.com/mjPtfKk.png"></AccompanyingImage> */}
-    {/* <AccompanyingImage src="https://i.imgur.com/H42DEcf.png"></AccompanyingImage> */}
-    {/* <AccompanyingImage src="https://i.imgur.com/74ZTUoz.png"></AccompanyingImage> */}
     <Container>
       <Title>Modern Trousseau</Title>
       <ProjectLinkContainer>
-        <DeployedLink href="" target="_blank">
+        {/* <DeployedLink href="" target="_blank">
           MODERN TROUSSEAU
-        </DeployedLink>
+        </DeployedLink> */}
         <GitHubLink
           href="https://github.com/jserrao/modern-trousseau-gatsby"
           target="_blank"
@@ -213,7 +192,7 @@ const ModernTrousseau = () => (
         database with Contentful and GraphQL. Once all components were complete
         the front end team moved forward with using the compnentes to build out
         full pages for our second sprint. The final stages of the project
-        involved connecting the pages to each other and populating the site with
+        involve connecting the pages to each other and populating the site with
         data from the database deployed by the backend team.
       </ProjectDescription>
       <SprintTitle>Sprint One</SprintTitle>
@@ -225,7 +204,7 @@ const ModernTrousseau = () => (
           <ComponentImage
             src="https://i.imgur.com/MO8RrlX.png"
             style={{
-              marginTop: "25px",
+              marginTop: "36px",
             }}
           ></ComponentImage>
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
@@ -278,7 +257,7 @@ const ModernTrousseau = () => (
             <PageImage
               src="https://i.imgur.com/d2TI62G.png"
               style={{
-                width: "91%",
+                width: "90%",
               }}
             ></PageImage>
             <MobileDesktopLabel>Desktop</MobileDesktopLabel>
@@ -289,7 +268,7 @@ const ModernTrousseau = () => (
             src="https://i.imgur.com/wwf5Asx.png"
             style={
               {
-                width: "66.5%",
+                width: "66.2%",
               }
             }
           ></PageImage>
@@ -299,7 +278,7 @@ const ModernTrousseau = () => (
           <PageImage
             src="https://i.imgur.com/f1JBD1U.png"
             style={{
-              width: "84%",
+              width: "83.1%",
             }}
           ></PageImage>
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
