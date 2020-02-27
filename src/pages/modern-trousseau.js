@@ -219,7 +219,7 @@ const ModernTrousseau = () => (
       <SprintTitle>Sprint One</SprintTitle>
       <SprintOneImages>
         <ComponentShotsContainer>
-          <ComponentLabel>Component One</ComponentLabel>
+          <ComponentLabel>Component<br />One</ComponentLabel>
           <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage
@@ -231,14 +231,14 @@ const ModernTrousseau = () => (
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </ComponentShotsContainer>
         <ComponentShotsContainer>
-          <ComponentLabel>Component Two</ComponentLabel>
+          <ComponentLabel>Component<br />Two</ComponentLabel>
           <ComponentImage src="https://i.imgur.com/74ZTUoz.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </ComponentShotsContainer>
         <ComponentShotsContainer>
-          <ComponentLabel>Component Three</ComponentLabel>
+          <ComponentLabel>Component<br />Three</ComponentLabel>
           <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage src="https://i.imgur.com/otTr8Uh.png"></ComponentImage>
