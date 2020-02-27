@@ -191,16 +191,28 @@ const ModernTrousseau = () => (
             border: "1px solid yellow",
           }}
         >
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Component One</p>
           <ComponentImage src="https://i.imgur.com/mjPtfKk.png"
           style={{
             border: '3px solid white',
             width: '80%',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Mobile</p>
           <ComponentImage src="https://i.imgur.com/MO8RrlX.png"
           style={{
             border: '3px solid gray',
             width: '80%',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Desktop</p>
         </div>
         <div
           style={{
@@ -209,14 +221,26 @@ const ModernTrousseau = () => (
             border: "1px solid green",
           }}
         >
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Component One</p>
           <ComponentImage src="https://i.imgur.com/74ZTUoz.png"
           style={{
             border: '3px solid black',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Mobile</p>
           <ComponentImage src="https://i.imgur.com/H42DEcf.png"
           style={{
             border: '3px solid brown',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Desktop</p>
         </div>
         <div
           style={{
@@ -225,14 +249,26 @@ const ModernTrousseau = () => (
             border: "1px solid green",
           }}
         >
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Component One</p>
           <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"
           style={{
             border: '3px solid magenta',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Mobile</p>
           <ComponentImage src="https://i.imgur.com/otTr8Uh.png"
           style={{
             border: '3px solid yellowgreen',
           }}></ComponentImage>
+          <p
+          style={{
+            border: '1px solid black',
+          }}>Desktop</p>
         </div>
       </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
