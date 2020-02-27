@@ -1,6 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 
+import CollectionList from "../components/MoTroEdit";
 import Layout from "../components/layout"
 import styled from "styled-components"
 // import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
@@ -396,6 +397,14 @@ const ModernTrousseau = () => (
       evident after the team was well into the project. One of these issues was
       the usability of the site when viewing it on mobile devices.
       </ProjectDescription>
+      <div
+      style={{
+        width: '80%',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      }}>
+      <CollectionList></CollectionList>
+      </div>
     </Container>
   </Layout>
 )
