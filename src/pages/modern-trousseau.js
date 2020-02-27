@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
+// import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
 
 const Container = styled.div`
   display: flex;
@@ -95,6 +95,11 @@ const ProjectDescription = styled.p`
   font-size: 20px;
 `
 
+const SprintTitle = styled.div`
+ font-size: 25px;
+ margin: 15px 0;
+`
+
 const ComponentImage = styled.img`
   width: 70%;
   /* border: 3px solid darkblue; */
@@ -104,7 +109,7 @@ const ComponentImage = styled.img`
   margin-bottom: 20px;
 `
 
-const AccompanyingImage = styled.img`
+const PageImage = styled.img`
   width: 55%;
   /* border: 3px solid darkblue; */
   margin-left: auto;
@@ -115,9 +120,12 @@ const AccompanyingImage = styled.img`
 
 const ModernTrousseau = () => (
   <Layout>
+    {/* <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage> */}
+
+
+
     {/* <AccompanyingImage src="https://i.imgur.com/MO8RrlX.png"></AccompanyingImage>
     <AccompanyingImage src="https://i.imgur.com/mjPtfKk.png"></AccompanyingImage> */}
-    <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage>
     {/* <AccompanyingImage src="https://i.imgur.com/H42DEcf.png"></AccompanyingImage> */}
     {/* <AccompanyingImage src="https://i.imgur.com/74ZTUoz.png"></AccompanyingImage> */}
     <Container>
@@ -145,89 +153,163 @@ const ModernTrousseau = () => (
         involved connecting the pages to each other and populating the site with
         data from the database deployed by the backend team.
       </ProjectDescription>
-      <div style={{
-        display: 'flex',
-        border: '1px solid red',
-      }}>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        border: '1px solid yellow',
-      }}>
-    <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
-      <ComponentImage src="https://i.imgur.com/MO8RrlX.png"></ComponentImage>
+      <SprintTitle>Sprint One</SprintTitle>
+      <div
+        style={{
+          display: "flex",
+          border: "1px solid red",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            border: "1px solid yellow",
+          }}
+        >
+          <ComponentImage src="https://i.imgur.com/mjPtfKk.png"
+          style={{
+            border: '3px solid white',
+            width: '80%',
+          }}></ComponentImage>
+          <ComponentImage src="https://i.imgur.com/MO8RrlX.png"
+          style={{
+            border: '3px solid gray',
+            width: '80%',
+          }}></ComponentImage>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            border: "1px solid green",
+          }}
+        >
+          <ComponentImage src="https://i.imgur.com/74ZTUoz.png"
+          style={{
+            border: '3px solid black',
+          }}></ComponentImage>
+          <ComponentImage src="https://i.imgur.com/H42DEcf.png"
+          style={{
+            border: '3px solid brown',
+          }}></ComponentImage>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            border: "1px solid green",
+          }}
+        >
+          <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"
+          style={{
+            border: '3px solid magenta',
+          }}></ComponentImage>
+          <ComponentImage src="https://i.imgur.com/otTr8Uh.png"
+          style={{
+            border: '3px solid yellowgreen',
+          }}></ComponentImage>
+        </div>
       </div>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        border: '1px solid green',
-      }}>
-    <ComponentImage src="https://i.imgur.com/74ZTUoz.png"></ComponentImage>
-      <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
-      </div>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        border: '1px solid green',
-      }}>
-      <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"></ComponentImage>
-    <ComponentImage src="https://i.imgur.com/otTr8Uh.png"></ComponentImage>
-      </div>
-      </div>
-
-
       <SectionTitle>Approach</SectionTitle>
+      <SprintTitle>Sprint Two</SprintTitle>
       <div style={{
-        border: '3px solid black',
         display: 'flex',
-        marginLeft: '5%',
-        marginRight: '5%',
+        border: '1px solid black',
+        width: '90%',
+        marginLeft: "5%",
+          marginRight: "5%",
       }}>
-
+        <p style={{
+          width: '50%',
+        }}>Gowns Page</p>
+        <p style={{
+          width: '50%',
+        }}>Gown Page</p>
+      </div>
       <div
-      style={{
-        border: '1px solid blue',
-        width: '33.3%',
-      }}>
-      <AccompanyingImage src="https://i.imgur.com/D0quP8r.png"
-      style={{
-        width: '63%',
-      }}></AccompanyingImage>
-      </div>
+        style={{
+          border: "3px solid black",
+          display: "flex",
+          marginLeft: "5%",
+          marginRight: "5%",
+        }}
+      >
+        <div
+          style={{
+            border: "3px solid blue",
+            width: "25%",
+          }}
+        >
+          <PageImage
+            src="https://i.imgur.com/D0quP8r.png"
+            style={{
+              width: "77%",
+            }}
+          ></PageImage>
+          <p>Mobile</p>
+        </div>
 
-      <div
-      style={{
-        border: '1px solid orange',
-        width: '33.3%',
-      }}>
-      <div style={{
-        margin: '0',
-      }}>
-      <AccompanyingImage src="https://i.imgur.com/tesizFY.png"
-      style={{
-        width: '60%',
-      }}></AccompanyingImage>
-      </div>
-      <div style={{
-        margin: '0',
-      }}>
-      <AccompanyingImage src="https://i.imgur.com/d2TI62G.png"
-      style={{
-        width: '60%',
-      }}></AccompanyingImage>
-      </div>
-      </div>
+        <div
+          style={{
+            border: "3px solid orange",
+            width: "25%",
+          }}
+        >
+          <div
+            style={{
+              margin: "0",
+            }}
+          >
+            <PageImage
+              src="https://i.imgur.com/tesizFY.png"
+              style={{
+                width: "75%",
+              }}
+            ></PageImage>
+          </div>
+          <div
+            style={{
+              margin: "0",
+            }}
+          >
+            <PageImage
+              src="https://i.imgur.com/d2TI62G.png"
+              style={{
+                width: "75%",
+              }}
+            ></PageImage>
+            <p>Desktop</p>
+          </div>
+        </div>
 
-      <div
-      style={{
-        border: '1px solid purple',
-        width: '33.3%',
-      }}>
-      <AccompanyingImage src="https://i.imgur.com/f1JBD1U.png"></AccompanyingImage>
-      </div>
+        <div
+          style={{
+            border: "3px solid purple",
+            width: "25%",
+          }}
+        >
+          <PageImage src="https://i.imgur.com/wwf5Asx.png"
+          style={{
+            // width: "60%",
+          }}></PageImage>
+          <p>Mobile</p>
+        </div>
 
+        <div
+          style={{
+            border: "3px solid green",
+            width: "25%",
+          }}
+        >
+          <PageImage src="https://i.imgur.com/f1JBD1U.png"
+          style={{
+            width: "70%",
+          }}></PageImage>
+          <p>Desktop</p>
+        </div>
       </div>
-
+      {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
       <ProjectDescription>
         Modern Trousseau is c client project in which our team built employing
         Storybook to track branches and parsed out GutHub issues for components
@@ -258,7 +340,10 @@ const ModernTrousseau = () => (
         success as well as using other team members as resources to toubleshoot
         any blockers that arose as we moved through our assignments.
       </ProjectDescription>
-      <SectionTitle>Solutions</SectionTitle>
+      <SectionTitle>Solutions</SectionTitle>I am currently in the process of
+      refactoring some of what I have built to resolve issues that became
+      evident after the team was well into the project. One of these issues was
+      the usability of the site when viewing it on mobile devices.
       <ProjectDescription></ProjectDescription>
     </Container>
   </Layout>
