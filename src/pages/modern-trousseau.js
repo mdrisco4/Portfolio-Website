@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import CollectionList from "../components/MoTroEdit";
+import CollectionList from "../components/MoTroEdit"
 import Layout from "../components/layout"
 import styled from "styled-components"
 // import { faFileExcel } from "@fortawesome/free-solid-svg-icons"
@@ -97,14 +97,15 @@ const ProjectDescription = styled.p`
 `
 
 const SprintTitle = styled.div`
- font-size: 25px;
- margin: 15px 0;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 15px 0;
 `
 
 const SprintOneImages = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   @media (min-width: 600px) {
     flex-direction: row;
   }
@@ -113,7 +114,7 @@ const SprintOneImages = styled.div`
 const SprintTwoImages = styled.div`
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -123,11 +124,26 @@ const SprintTwoImages = styled.div`
 `
 
 const SprintTwoExample = styled.div`
-width: 100%;
+  width: 100%;
   @media (min-width: 600px) {
     flex-direction: row;
     width: 25%;
   }
+`
+
+const ComponentShotsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+const ComponentLabel = styled.p`
+  font-weight: 900;
+  font-size: 30px;
+`
+
+const MobileDesktopLabel = styled.p`
+font-weight: bold;
+  font-size: 20px;
 `
 
 const ComponentImage = styled.img`
@@ -135,8 +151,27 @@ const ComponentImage = styled.img`
   /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  /* margin-top: 25px; */
+  /* margin-bottom: 20px; */
+`
+
+const PageLabelContainer = styled.div`
+  display: flex;
+  /* border: 1px solid black; */
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+`
+
+const PageLabel = styled.div`
+  padding: 5px;
+  width: 50%;
+  font-weight: 900;
+  font-size: 30px;
+`
+
+const PageImageContainer = styled.div`
+  margin: 0;
 `
 
 const PageImage = styled.img`
@@ -151,8 +186,6 @@ const PageImage = styled.img`
 const ModernTrousseau = () => (
   <Layout>
     {/* <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage> */}
-
-
 
     {/* <AccompanyingImage src="https://i.imgur.com/MO8RrlX.png"></AccompanyingImage>
     <AccompanyingImage src="https://i.imgur.com/mjPtfKk.png"></AccompanyingImage> */}
@@ -185,183 +218,96 @@ const ModernTrousseau = () => (
       </ProjectDescription>
       <SprintTitle>Sprint One</SprintTitle>
       <SprintOneImages>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            border: "1px solid yellow",
-          }}
-        >
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Component One</p>
-          <ComponentImage src="https://i.imgur.com/mjPtfKk.png"
-          style={{
-            border: '3px solid white',
-            width: '80%',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Mobile</p>
-          <ComponentImage src="https://i.imgur.com/MO8RrlX.png"
-          style={{
-            border: '3px solid gray',
-            width: '80%',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Desktop</p>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            border: "1px solid green",
-          }}
-        >
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Component One</p>
-          <ComponentImage src="https://i.imgur.com/74ZTUoz.png"
-          style={{
-            border: '3px solid black',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Mobile</p>
-          <ComponentImage src="https://i.imgur.com/H42DEcf.png"
-          style={{
-            border: '3px solid brown',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Desktop</p>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            border: "1px solid green",
-          }}
-        >
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Component One</p>
-          <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"
-          style={{
-            border: '3px solid magenta',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Mobile</p>
-          <ComponentImage src="https://i.imgur.com/otTr8Uh.png"
-          style={{
-            border: '3px solid yellowgreen',
-          }}></ComponentImage>
-          <p
-          style={{
-            border: '1px solid black',
-          }}>Desktop</p>
-        </div>
+        <ComponentShotsContainer>
+          <ComponentLabel>Component One</ComponentLabel>
+          <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
+          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
+          <ComponentImage
+            src="https://i.imgur.com/MO8RrlX.png"
+            style={{
+              marginTop: "25px",
+            }}
+          ></ComponentImage>
+          <MobileDesktopLabel>Desktop</MobileDesktopLabel>
+        </ComponentShotsContainer>
+        <ComponentShotsContainer>
+          <ComponentLabel>Component Two</ComponentLabel>
+          <ComponentImage src="https://i.imgur.com/74ZTUoz.png"></ComponentImage>
+          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
+          <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
+          <MobileDesktopLabel>Desktop</MobileDesktopLabel>
+        </ComponentShotsContainer>
+        <ComponentShotsContainer>
+          <ComponentLabel>Component Three</ComponentLabel>
+          <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"></ComponentImage>
+          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
+          <ComponentImage src="https://i.imgur.com/otTr8Uh.png"></ComponentImage>
+          <MobileDesktopLabel>Desktop</MobileDesktopLabel>
+        </ComponentShotsContainer>
       </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
       <SprintTitle>Sprint Two</SprintTitle>
-      <div style={{
-        display: 'flex',
-        border: '1px solid black',
-        width: '90%',
-        marginLeft: "5%",
-          marginRight: "5%",
-      }}>
-        <p style={{
-          width: '50%',
-        }}>Gowns Page</p>
-        <p style={{
-          width: '50%',
-        }}>Gown Page</p>
-      </div>
+      <PageLabelContainer>
+        <PageLabel>
+          Gowns Page
+        </PageLabel>
+        <PageLabel>
+          Gown Page
+        </PageLabel>
+      </PageLabelContainer>
       <SprintTwoImages>
-        <SprintTwoExample
-          style={{
-            border: "3px solid blue",
-          }}
-        >
+        <SprintTwoExample>
           <PageImage
             src="https://i.imgur.com/D0quP8r.png"
             style={{
-              width: "77%",
+              width: "93%",
             }}
           ></PageImage>
-          <p>Mobile</p>
+          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
         </SprintTwoExample>
-
-        <SprintTwoExample
-          style={{
-            border: "3px solid orange",
-          }}
-        >
-          <div
-            style={{
-              margin: "0",
-            }}
-          >
+        <SprintTwoExample>
+          <PageImageContainer>
             <PageImage
               src="https://i.imgur.com/tesizFY.png"
               style={{
-                width: "75%",
+                width: "91%",
               }}
             ></PageImage>
-          </div>
-          <div
-            style={{
-              margin: "0",
-            }}
-          >
+          </PageImageContainer>
+          <PageImageContainer>
             <PageImage
               src="https://i.imgur.com/d2TI62G.png"
               style={{
-                width: "75%",
+                width: "91%",
               }}
             ></PageImage>
-            <p>Desktop</p>
-          </div>
+            <MobileDesktopLabel>Desktop</MobileDesktopLabel>
+          </PageImageContainer>
         </SprintTwoExample>
-
-        <SprintTwoExample
-          style={{
-            border: "3px solid purple",
-          }}
-        >
-          <PageImage src="https://i.imgur.com/wwf5Asx.png"
-          style={{
-            // width: "60%",
-          }}></PageImage>
-          <p>Mobile</p>
+        <SprintTwoExample>
+          <PageImage
+            src="https://i.imgur.com/wwf5Asx.png"
+            style={
+              {
+                width: "66.5%",
+              }
+            }
+          ></PageImage>
+          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
         </SprintTwoExample>
-
-        <SprintTwoExample
-          style={{
-            border: "3px solid green",
-          }}
-        >
-          <PageImage src="https://i.imgur.com/f1JBD1U.png"
-          style={{
-            width: "70%",
-          }}></PageImage>
-          <p>Desktop</p>
+        <SprintTwoExample>
+          <PageImage
+            src="https://i.imgur.com/f1JBD1U.png"
+            style={{
+              width: "84%",
+            }}
+          ></PageImage>
+          <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </SprintTwoExample>
       </SprintTwoImages>
       {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
       <ProjectDescription>
-        Modern Trousseau is c client project in which our team built employing
+        Modern Trousseau is a client project in which our team built employing
         Storybook to track branches and parsed out GutHub issues for components
         as small as icons and forms all the way up to functional sliders,
         database populated sets of images and text and links to connect the page
@@ -392,18 +338,19 @@ const ModernTrousseau = () => (
       </ProjectDescription>
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
-      I am currently in the process of
-      refactoring some of what I have built to resolve issues that became
-      evident after the team was well into the project. One of these issues was
-      the usability of the site when viewing it on mobile devices.
+        I am currently in the process of refactoring some of what I have built
+        to resolve issues that became evident after the team was well into the
+        project. One of these issues was the usability of the site when viewing
+        it on mobile devices.
       </ProjectDescription>
       <div
-      style={{
-        width: '80%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }}>
-      <CollectionList></CollectionList>
+        style={{
+          width: "80%",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        <CollectionList></CollectionList>
       </div>
     </Container>
   </Layout>
