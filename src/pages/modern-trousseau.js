@@ -100,6 +100,35 @@ const SprintTitle = styled.div`
  margin: 15px 0;
 `
 
+const SprintOneImages = styled.div`
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+`
+
+const SprintTwoImages = styled.div`
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+`
+
+const SprintTwoExample = styled.div`
+width: 100%;
+  @media (min-width: 600px) {
+    flex-direction: row;
+    width: 25%;
+  }
+`
+
 const ComponentImage = styled.img`
   width: 70%;
   /* border: 3px solid darkblue; */
@@ -154,12 +183,7 @@ const ModernTrousseau = () => (
         data from the database deployed by the backend team.
       </ProjectDescription>
       <SprintTitle>Sprint One</SprintTitle>
-      <div
-        style={{
-          display: "flex",
-          border: "1px solid red",
-        }}
-      >
+      <SprintOneImages>
         <div
           style={{
             display: "flex",
@@ -210,7 +234,7 @@ const ModernTrousseau = () => (
             border: '3px solid yellowgreen',
           }}></ComponentImage>
         </div>
-      </div>
+      </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
       <SprintTitle>Sprint Two</SprintTitle>
       <div style={{
@@ -227,18 +251,10 @@ const ModernTrousseau = () => (
           width: '50%',
         }}>Gown Page</p>
       </div>
-      <div
-        style={{
-          border: "3px solid black",
-          display: "flex",
-          marginLeft: "5%",
-          marginRight: "5%",
-        }}
-      >
-        <div
+      <SprintTwoImages>
+        <SprintTwoExample
           style={{
             border: "3px solid blue",
-            width: "25%",
           }}
         >
           <PageImage
@@ -248,12 +264,11 @@ const ModernTrousseau = () => (
             }}
           ></PageImage>
           <p>Mobile</p>
-        </div>
+        </SprintTwoExample>
 
-        <div
+        <SprintTwoExample
           style={{
             border: "3px solid orange",
-            width: "25%",
           }}
         >
           <div
@@ -281,12 +296,11 @@ const ModernTrousseau = () => (
             ></PageImage>
             <p>Desktop</p>
           </div>
-        </div>
+        </SprintTwoExample>
 
-        <div
+        <SprintTwoExample
           style={{
             border: "3px solid purple",
-            width: "25%",
           }}
         >
           <PageImage src="https://i.imgur.com/wwf5Asx.png"
@@ -294,12 +308,11 @@ const ModernTrousseau = () => (
             // width: "60%",
           }}></PageImage>
           <p>Mobile</p>
-        </div>
+        </SprintTwoExample>
 
-        <div
+        <SprintTwoExample
           style={{
             border: "3px solid green",
-            width: "25%",
           }}
         >
           <PageImage src="https://i.imgur.com/f1JBD1U.png"
@@ -307,8 +320,8 @@ const ModernTrousseau = () => (
             width: "70%",
           }}></PageImage>
           <p>Desktop</p>
-        </div>
-      </div>
+        </SprintTwoExample>
+      </SprintTwoImages>
       {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
       <ProjectDescription>
         Modern Trousseau is c client project in which our team built employing
@@ -340,11 +353,13 @@ const ModernTrousseau = () => (
         success as well as using other team members as resources to toubleshoot
         any blockers that arose as we moved through our assignments.
       </ProjectDescription>
-      <SectionTitle>Solutions</SectionTitle>I am currently in the process of
+      <SectionTitle>Solutions</SectionTitle>
+      <ProjectDescription>
+      I am currently in the process of
       refactoring some of what I have built to resolve issues that became
       evident after the team was well into the project. One of these issues was
       the usability of the site when viewing it on mobile devices.
-      <ProjectDescription></ProjectDescription>
+      </ProjectDescription>
     </Container>
   </Layout>
 )
