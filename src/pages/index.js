@@ -265,7 +265,7 @@ const IndexPage = () => (
       <ProjectDescription>
         A client project currently still in development. Built using React,
         Contentful and GraphQL. I am assigned to the front end on a 15 person
-        team utilizing Storybook for branch management.
+        team employing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>

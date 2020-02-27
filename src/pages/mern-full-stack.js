@@ -91,6 +91,7 @@ const ProjectDescription = styled.p`
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
+  font-size: 20px;
 `
 
 const RocBreweries = () => (
