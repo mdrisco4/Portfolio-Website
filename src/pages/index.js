@@ -185,7 +185,7 @@ const MobileProjectDescription = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: center;
   @media (min-width: 750px) {
     display: none;
@@ -257,7 +257,7 @@ const IndexPage = () => (
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
     <DesktopDescriptionPrompt>
-      Hover over the image for project description
+      Project descriptions on click or cursor hover
     </DesktopDescriptionPrompt>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
