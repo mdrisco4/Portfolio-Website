@@ -96,7 +96,7 @@ const ProjectDescription = styled.p`
 `
 
 const ComponentImage = styled.img`
-  width: 55%;
+  width: 70%;
   /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
@@ -109,8 +109,8 @@ const AccompanyingImage = styled.img`
   /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  /* margin-top: 25px;
+  margin-bottom: 20px; */
 `
 
 const ModernTrousseau = () => (
@@ -154,25 +154,80 @@ const ModernTrousseau = () => (
         flexDirection: 'column',
         border: '1px solid yellow',
       }}>
-      <ComponentImage src="https://i.imgur.com/MO8RrlX.png"></ComponentImage>
     <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
+      <ComponentImage src="https://i.imgur.com/MO8RrlX.png"></ComponentImage>
       </div>
       <div style={{
         display: 'flex',
         flexDirection: 'column',
         border: '1px solid green',
       }}>
-      <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
     <ComponentImage src="https://i.imgur.com/74ZTUoz.png"></ComponentImage>
+      <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
+      </div>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        border: '1px solid green',
+      }}>
+      <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"></ComponentImage>
+    <ComponentImage src="https://i.imgur.com/otTr8Uh.png"></ComponentImage>
       </div>
       </div>
+
+
       <SectionTitle>Approach</SectionTitle>
-      <AccompanyingImage src="https://i.imgur.com/Z7FeBDk.png"></AccompanyingImage>
-      <AccompanyingImage src="https://i.imgur.com/D0quP8r.png"></AccompanyingImage>
-      <AccompanyingImage src="https://i.imgur.com/otTr8Uh.png"></AccompanyingImage>
-      <AccompanyingImage src="https://i.imgur.com/tesizFY.png"></AccompanyingImage>
-      <AccompanyingImage src="https://i.imgur.com/d2TI62G.png"></AccompanyingImage>
+      <div style={{
+        border: '3px solid black',
+        display: 'flex',
+        marginLeft: '5%',
+        marginRight: '5%',
+      }}>
+
+      <div
+      style={{
+        border: '1px solid blue',
+        width: '33.3%',
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/D0quP8r.png"
+      style={{
+        width: '63%',
+      }}></AccompanyingImage>
+      </div>
+
+      <div
+      style={{
+        border: '1px solid orange',
+        width: '33.3%',
+      }}>
+      <div style={{
+        margin: '0',
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/tesizFY.png"
+      style={{
+        width: '60%',
+      }}></AccompanyingImage>
+      </div>
+      <div style={{
+        margin: '0',
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/d2TI62G.png"
+      style={{
+        width: '60%',
+      }}></AccompanyingImage>
+      </div>
+      </div>
+
+      <div
+      style={{
+        border: '1px solid purple',
+        width: '33.3%',
+      }}>
       <AccompanyingImage src="https://i.imgur.com/f1JBD1U.png"></AccompanyingImage>
+      </div>
+
+      </div>
+
       <ProjectDescription>
         Modern Trousseau is c client project in which our team built employing
         Storybook to track branches and parsed out GutHub issues for components
