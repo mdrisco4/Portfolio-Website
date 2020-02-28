@@ -2,6 +2,7 @@ import React from "react"
 import CollectionList from "../components/MoTroEdit"
 import Layout from "../components/layout"
 import styled from "styled-components"
+import '../styles/fonts.css'
 
 const Container = styled.div`
   display: flex;

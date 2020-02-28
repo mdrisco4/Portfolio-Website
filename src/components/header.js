@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
+import '../styles/fonts.css'
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
