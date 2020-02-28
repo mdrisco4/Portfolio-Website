@@ -9,6 +9,7 @@ const Container = styled.div`
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
   }
 `
 const AboutContactContainer = styled.div`
@@ -71,7 +72,7 @@ const SoftwareDevloperLine = styled.div`
   margin-top: 12px;
   @media (min-width: 600px) {
     margin-top: 0;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
   }
 `
@@ -79,8 +80,8 @@ const SoftwareDevloperLine = styled.div`
 const SectionTitle = styled.div`
   font-size: 24px;
   font-weight: bold;
-  @media (min-width: 800px) {
-    font-size: 32px;
+  @media (min-width: 600px) {
+    font-size: 36px;
     font-weight: bold;
   }
 `
@@ -108,6 +109,15 @@ const SubSectionTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
   }
+`
+
+const Schooling = styled.div`
+  font-size: 22px;
+  font-weight: bold;
+  @media (min-width: 800px) {
+    font-size: 28px;
+    font-weight: bold;
+}
 `
 
 const City = styled.div`
@@ -397,14 +407,14 @@ const Resume = () => (
         </BulletPoints>
       </BulletPointWrap>
       <SectionTitle>Education</SectionTitle>
-      <SubSectionTitle>
+      <Schooling>
         Full Stack Web Development Certificate, General Assembly
-      </SubSectionTitle>
+      </Schooling>
       <City>Washington, D.C.</City>
       <Dates>11/2019-2/2020</Dates>
-      <SubSectionTitle>
+      <Schooling>
         Bachelor of Arts in Physics, University of Rochester
-      </SubSectionTitle>
+      </Schooling>
       <City>Rochester, NY</City>
       <Dates>1/2010-5/2013</Dates>
     </Container>

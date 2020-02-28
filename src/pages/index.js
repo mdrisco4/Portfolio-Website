@@ -235,6 +235,28 @@ const ContactPrompt = styled.div`
   margin-right: auto;
 `
 
+const GetInTouch = styled.a`
+  font-size: 40px;
+  color: white;
+  background-color: rgb(99, 95, 85);
+  display: flex;
+  width: 320px;
+  height: auto;
+  padding: 3px;
+  margin-top: 20px;
+  justify-content: center;
+  border: 4px solid darkblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-decoration: none;
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    border: 4px solid black;
+  }
+  `
+
 const IndexPage = () => (
   <Layout>
     <IntroContainer>
@@ -333,6 +355,8 @@ const IndexPage = () => (
       other projects I am working on please feel free to contact me via email or
       LinkedIn
     </ContactPrompt>
+    <GetInTouch
+    href='/contact'>Contact Me</GetInTouch>
   </Layout>
 )
 
