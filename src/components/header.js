@@ -28,10 +28,10 @@ const LinkContainer = styled.div`
 `
 
 const HeaderLink = styled.a`
-font-family: 'Montserrat Alternates';
+font-family: 'Monoton';
   color: white;
+  font-weight: 500;
   font-size: 35px;
-  font-weight: 700;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
@@ -56,6 +56,13 @@ const Header = () => (
         style={{
           color: 'black',
         }}/> */}
+
+<i class="fab fa-centos"></i>
+
+<FontAwesomeIcon icon="fab fa-centos" size="2x" 
+        style={{
+          color: 'white',
+        }}/>
 
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
