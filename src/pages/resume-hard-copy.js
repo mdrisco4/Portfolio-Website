@@ -67,7 +67,7 @@ const LinkedInLink = styled.a`
 const Contact = () => (
   <Layout>
     <Container>
-    <img src="https://i.imgur.com/LHnhYGI.png"
+    <img src="https://i.imgur.com/LFa5i1U.png"
     style={{
       width: '90%',
       marginLeft: '5%',

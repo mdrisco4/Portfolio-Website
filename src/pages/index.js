@@ -22,7 +22,7 @@ const IntroContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     height: 400px;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
   }
 `
 
@@ -112,7 +112,7 @@ const ProjectSectionTitle = styled.div`
   text-align: center;
   font-size: 54px;
   font-weight: 700;
-  margin: 40px 0 36px 0;
+  margin: 20px 0 36px 0;
   /* border: 1px solid purple; */
 `
 

@@ -143,6 +143,7 @@ const Contact = () => (
       {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <MyInfo>
         <Name>Michael Driscoll</Name>
+        <ContactDetails>585-719-7720</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
           michaelndriscoll81@gmail.com
