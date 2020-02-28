@@ -28,29 +28,30 @@ const ProjectLinkContainer = styled.div`
   }
 `
 
-const DeployedLink = styled.a`
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
-  height: auto;
-  padding: 4px 0;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 24px;
-  @media (min-width: 1000px) {
-    width: 42%;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
-  }
-`
+// const DeployedLink = styled.a`
+//   width: 50%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   font-size: 20px;
+//   background-color: rgb(99, 95, 85);
+//   border: 4px solid darkblue;
+//   height: auto;
+//   padding: 4px 0;
+//   color: white;
+//   text-decoration: none;
+//   margin-bottom: 24px;
+//   @media (min-width: 1000px) {
+//     width: 42%;
+//   }
+//   &:hover {
+//     color: rgb(110, 176, 249);
+//     background-color: darkblue;
+//     border: 4px solid black;
+//   }
+// `
 
 const GitHubLink = styled.a`
+font-family: 'Montserrat Alternates';
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -73,16 +74,19 @@ const GitHubLink = styled.a`
 `
 
 const Title = styled.h1`
+font-family: 'Montserrat Alternates';
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
 
 const SectionTitle = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 36px;
 `
 
 const ProjectDescription = styled.p`
+font-family: 'Montserrat Alternates';
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -90,6 +94,7 @@ const ProjectDescription = styled.p`
 `
 
 const SprintTitle = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 42px;
   font-weight: bold;
   margin: 15px 0;
@@ -128,11 +133,13 @@ const ComponentShotsContainer = styled.div`
 `
 
 const ComponentLabel = styled.p`
+font-family: 'Montserrat Alternates';
   font-weight: 900;
   font-size: 30px;
 `
 
 const MobileDesktopLabel = styled.p`
+font-family: 'Montserrat Alternates';
 font-weight: bold;
   font-size: 20px;
 `
@@ -150,11 +157,28 @@ const PageLabelContainer = styled.div`
   margin-right: 5%;
 `
 
+const MobilePageLabel = styled.div`
+display: inline-block;
+font-family: 'Montserrat Alternates';
+padding: 5px;
+width: 50%;
+font-weight: 900;
+font-size: 30px;
+@media (min-width: 600px) {   
+  display: none;
+}
+`
+
 const PageLabel = styled.div`
+display: none;
+@media (min-width: 600px) {   
+  display: inline-block;
+  font-family: 'Montserrat Alternates';
   padding: 5px;
   width: 50%;
   font-weight: 900;
   font-size: 30px;
+}
 `
 
 const PageImageContainer = styled.div`
@@ -252,6 +276,9 @@ const ModernTrousseau = () => (
         </PageLabel>
       </PageLabelContainer>
       <SprintTwoImages>
+      <MobilePageLabel>
+          Gowns Page
+        </MobilePageLabel>
         <SprintTwoExample>
           <PageImage
             src="https://i.imgur.com/D0quP8r.png"
@@ -276,11 +303,14 @@ const ModernTrousseau = () => (
               style={{
                 width: "90%",
               }}
-            ></PageImage>
+              ></PageImage>
             <MobileDesktopLabel>Desktop</MobileDesktopLabel>
           </PageImageContainer>
         </SprintTwoExample>
         <SprintTwoExample>
+              <MobilePageLabel>
+              Gown Page
+            </MobilePageLabel>
           <PageImage
             src="https://i.imgur.com/wwf5Asx.png"
             style={

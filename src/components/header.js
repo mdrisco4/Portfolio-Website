@@ -31,7 +31,7 @@ const HeaderLink = styled.a`
 font-family: 'Monoton';
   color: white;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 30px;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
@@ -52,10 +52,10 @@ const Header = () => (
         color: 'black',
       }}></i> */}
 
-      {/* <FontAwesomeIcon icon="fas fa-home" size="2x" 
+      <FontAwesomeIcon icon="fas fa-home" size="2x" 
         style={{
           color: 'black',
-        }}/> */}
+        }}/>
 
 <i class="fab fa-centos"></i>
 
