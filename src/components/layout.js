@@ -31,11 +31,11 @@ const Layout = ({ children }) => {
 
 
             <Header />
-            {/* <body
+            <body
               style={{
                 margin: "0",
               }}
-            > */}
+            >
               <div
                 style={{
                   margin: `0`,
@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
                 <main>{children}</main>
                 {/* <Footer /> */}
               </div>
-            {/* </body> */}
+            </body>
 
 
           {/* </Helmet>
