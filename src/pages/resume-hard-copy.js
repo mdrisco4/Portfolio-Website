@@ -2,14 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-// import Resume from "../images/images/Resume.pdf";
 
 const Container = styled.div`
-  /* display: flex; */
-  /* flex-direction: column; */
   justify-content: space-around;
   width: 100%;
-  /* border: 2px solid yellow; */
   padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
