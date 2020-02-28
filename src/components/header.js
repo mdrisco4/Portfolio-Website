@@ -22,7 +22,7 @@ const Nav = styled.div`
 const LinkContainer = styled.div`
   display: flex;
   flex-direction: column;
-  @media (min-width: 800px) {
+  @media (min-width: 840px) {
     flex-direction: row;
     justify-content: space-around;
   }
