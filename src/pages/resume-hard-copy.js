@@ -14,7 +14,7 @@ const Container = styled.div`
 `
 
 const ContactLinks = styled.div`
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
