@@ -6,14 +6,12 @@ import styled from "styled-components"
 
 const Container = styled.div`
   @media (min-width: 800px) {
-    border: 1px solid green;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 `
 const AboutContactContainer = styled.div`
-  border: 3px solid black;
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
@@ -23,17 +21,15 @@ const AboutContactContainer = styled.div`
 `
 
 const AboutMe = styled.div`
-  border: 1px solid yellow;
-  
   @media (min-width: 600px) {
     width: 40%;
   }
 `
 
 const ContactInfo = styled.div`
-  border: 1px solid blue;
   @media (min-width: 600px) {
     width: 30%;
+    padding-left: 10px;
   }
 `
 
@@ -50,12 +46,33 @@ const MyInfo = styled.div`
   }
 `
 
+const MobileName = styled.h1`
+  display: flex;
+  margin: 0 0 2px 0;
+  font-size: 36px;
+  @media (min-width: 600px) {
+    display: none;
+  }
+`
+
 const Name = styled.h1`
-  margin: 0 0 8px 0;
-  font-family: "Krona One";
-  font-size: 35px;
-  @media (min-width: 800px) {
+  display: none;
+  @media (min-width: 600px) {
+    display: flex;
+    margin: 0 0 8px 0;
+    font-size: 35px;
     font-size: 50px;
+  }
+`
+
+const SoftwareDevloperLine = styled.div`
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 12px;
+  @media (min-width: 600px) {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
   }
 `
 
@@ -69,19 +86,18 @@ const SectionTitle = styled.div`
 `
 
 const SkillsContainer = styled.div`
-  border: 1px solid red;
   display: flex;
-  /* flex-direction: column; */
-  @media (min-width: 800px) {
+  flex-direction: column;
+  @media (min-width: 520px) {
     flex-direction: row;
     width: 90%;
   }
 `
 
 const SkillsRowContainer = styled.div`
-  border: 1px solid red;
-  width: 33.3%;
-  @media (min-width: 800px) {
+  width: 100%;
+  @media (min-width: 520px) {
+    width: 33.3%;
   }
 `
 
@@ -138,7 +154,6 @@ const BulletPoints = styled.div`
 `
 
 const ButtonContainer = styled.div`
-  border: 1px solid green;
   width: 180px;
   margin-left: auto;
   margin-right: auto;
@@ -146,7 +161,6 @@ const ButtonContainer = styled.div`
     width: 30%;
   }
 `
-
 
 const PDFLink = styled.a`
   font-size: 20px;
@@ -163,10 +177,11 @@ const PDFLink = styled.a`
   border: 2px solid darkblue;
   @media (min-width: 800px) {
     margin-top: 24px;
-    font-size: 25px;
+    font-size: 32px;
     width: 180px;
     height: auto;
     margin-top: 40px;
+    padding: 10px;
   }
   &:hover {
     color: rgb(110, 176, 249);
@@ -182,13 +197,49 @@ const Phone = styled.div`
   }
 `
 
-const EmailLink = styled.a`
+const MobileLinkPlacer = styled.div`
+  margin: 10px 0;
+`
+
+const MobileEmailLink = styled.a`
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 28px;
-  @media (min-width: 800px) {
+  font-size: 25px;
+  @media (min-width: 600px) {
+    display: none;
+  }
+  &:hover {
+    color: white;
+    text-shadow: 1px 1px 3px darkblue;
+  }
+`
+
+const MobileLinkedInLink = styled.a`
+  color: black;
+  text-shadow: 1px 1px 3px white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  @media (min-width: 600px) {
+    display: none;
+  }
+  &:hover {
+    color: white;
+    text-shadow: 1px 1px 3px darkblue;
+  }
+`
+
+const EmailLink = styled.a`
+  display: none;
+  @media (min-width: 600px) {
+    display: flex;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
     font-size: 30px;
   }
   &:hover {
@@ -198,12 +249,14 @@ const EmailLink = styled.a`
 `
 
 const LinkedInLink = styled.a`
-  color: black;
-  text-shadow: 1px 1px 3px white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 28px;
-  @media (min-width: 800px) {
+  display: none;
+  @media (min-width: 600px) {
+    display: flex;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
     font-size: 30px;
   }
   &:hover {
@@ -218,23 +271,43 @@ const Resume = () => (
       <Name>Michael Driscoll</Name>
       <AboutContactContainer>
         <AboutMe>
-          <SectionTitle>Software Developer</SectionTitle>
+          <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
           <Details>
             As a growing software engineer with client experience and
             proficiency in web design, coding and full stack development, I
             bring to the table a variety of skills paramount to success in the
-            workplace.  I am excited to grow in the tech
-            industry using my talents in software engineering while continually
-            seeking to keep up with the latest in cutting edge technology.
+            workplace. I am excited to grow in the tech industry using my
+            talents in software engineering while continually seeking to keep up
+            with the latest in cutting edge technology.
           </Details>
         </AboutMe>
         <ContactInfo>
+          <MobileName>Michael Driscoll</MobileName>
           <SectionTitle>Contact Info</SectionTitle>
           <Phone>585-719-7720</Phone>
-          <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
-            Email
-          </EmailLink>
+          <MobileLinkPlacer>
+            <MobileEmailLink
+              href="mailto:michaelndriscoll81@gmail.com"
+              target="_blank"
+            >
+              michaelndriscoll81@gmail.com
+            </MobileEmailLink>
+          </MobileLinkPlacer>
+          <MobileLinkPlacer>
+            <EmailLink
+              href="mailto:michaelndriscoll81@gmail.com"
+              target="_blank"
+            >
+              Email
+            </EmailLink>
+          </MobileLinkPlacer>
           <br />
+          <MobileLinkedInLink
+            href="https://www.linkedin.com/in/michael-n-driscoll/"
+            target="_blank"
+          >
+            linkedin.com/in/michael-n-driscoll/
+          </MobileLinkedInLink>
           <LinkedInLink
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
@@ -327,13 +400,13 @@ const Resume = () => (
       <SubSectionTitle>
         Full Stack Web Development Certificate, General Assembly
       </SubSectionTitle>
-      <Details>Washington, D.C.</Details>
+      <City>Washington, D.C.</City>
       <Dates>11/2019-2/2020</Dates>
       <SubSectionTitle>
         Bachelor of Arts in Physics, University of Rochester
       </SubSectionTitle>
-      <Details>Rochester, NY</Details>
-      <Details>1/2010-5/2013</Details>
+      <City>Rochester, NY</City>
+      <Dates>1/2010-5/2013</Dates>
     </Container>
   </Layout>
 )
