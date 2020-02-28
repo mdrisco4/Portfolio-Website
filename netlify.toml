@@ -1,0 +1,6 @@
+# Production context: all deploys from the Production branch set in your site's 
+# deploy contexts will inherit these settings.
+[context.production]
+  publish = "public/"
+  command = "gatsby build"
+  environment = { NODE_VERSION = "12.14.1", YARN_VERSION = "1.19.1" }
