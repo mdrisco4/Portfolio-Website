@@ -251,6 +251,7 @@ const EmailLink = styled.a`
     font-weight: bold;
     font-size: 28px;
     font-size: 30px;
+    /* border: 1px solid red; */
   }
   &:hover {
     color: white;
@@ -268,6 +269,7 @@ const LinkedInLink = styled.a`
     font-weight: bold;
     font-size: 28px;
     font-size: 30px;
+    /* border: 1px solid red; */
   }
   &:hover {
     color: white;
@@ -308,7 +310,7 @@ const Resume = () => (
               href="mailto:michaelndriscoll81@gmail.com"
               target="_blank"
             >
-              Email
+              Email Link
             </EmailLink>
           </MobileLinkPlacer>
           <br />
@@ -322,7 +324,7 @@ const Resume = () => (
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
           >
-            LinkedIn
+            LinkedIn Link
           </LinkedInLink>
         </ContactInfo>
         <ButtonContainer>

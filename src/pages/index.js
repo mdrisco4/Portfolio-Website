@@ -3,6 +3,9 @@ import styled from "styled-components"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import '../styles/fonts.css'
+
+
 
 // import { library } from "@fortawesome/fontawesome-svg-core"
 // import { fas } from "@fortawesome/free-solid-svg-icons"
@@ -61,6 +64,7 @@ const PersonalInfoContainer = styled.div`
 `
 
 const Name = styled.h1`
+font-family: 'Odibee Sans';
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
@@ -70,14 +74,14 @@ const Name = styled.h1`
   }
 `
 
-const MissionStatement = styled.div`
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 8px;
-  @media (min-width: 900px) {
-    font-size: 24px;
-  }
-`
+// const MissionStatement = styled.div`
+//   font-size: 20px;
+//   text-align: center;
+//   margin-bottom: 8px;
+//   @media (min-width: 900px) {
+//     font-size: 24px;
+//   }
+// `
 
 const BrandStatement = styled.div`
   font-size: 16px;
