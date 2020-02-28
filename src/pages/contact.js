@@ -1,9 +1,17 @@
 import React from "react"
 import "../styles/fonts.css"
-
-// import fonts from "../styles.fonts"
 import Layout from "../components/layout"
 import styled from "styled-components"
+
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fas } from "@fortawesome/free-solid-svg-icons"
+import { far } from "@fortawesome/free-regular-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+library.add(fab, fas, far)
+
+// import fonts from "../styles.fonts"
 
 const ContactInfo = styled.div`
   font-family: "Montserrat Alternates";
@@ -76,14 +84,15 @@ const EmailLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 0;
+  margin: 4px 10px;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -93,14 +102,15 @@ const LinkedInLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 0;
+  margin: 4px 10px;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -110,14 +120,15 @@ const GitHubLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 0;
+  margin: 4px 10px;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -139,18 +150,16 @@ const Contact = () => (
         <ContactDetails>585-719-7720</ContactDetails>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
-          michaelndriscoll81@gmail.com
+        <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
         </EmailLink>
-        <br />
         <LinkedInLink
           href="https://www.linkedin.com/in/michael-n-driscoll/"
           target="_blank"
         >
-          linkedin.com/in/michael-n-driscoll/
+          <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
         </LinkedInLink>
-        <br />
         <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-          github.com/mdrisco4
+        <FontAwesomeIcon icon={["fab", "github-square"]} size="3x" />
         </GitHubLink>
       </MyInfo>
     </Container>

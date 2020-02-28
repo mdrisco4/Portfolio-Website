@@ -1,9 +1,16 @@
 import React from "react"
 import '../styles/fonts.css'
 
-// import fonts from "../styles.fonts"
 import Layout from "../components/layout"
 import styled from "styled-components"
+
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fas } from "@fortawesome/free-solid-svg-icons"
+import { far } from "@fortawesome/free-regular-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+library.add(fab, fas, far)
 
 const Container = styled.div`
   @media (min-width: 800px) {
@@ -221,7 +228,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const MobileLinkPlacer = styled.div`
-  margin: 10px 0;
+  margin: 10px 4px;
 `
 
 const MobileEmailLink = styled.a`
@@ -235,8 +242,9 @@ font-family: 'Montserrat Alternates';
     display: none;
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -247,12 +255,14 @@ font-family: 'Montserrat Alternates';
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
+  margin-left: 10%;
   @media (min-width: 600px) {
     display: none;
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -270,8 +280,9 @@ font-family: 'Montserrat Alternates';
     /* border: 1px solid red; */
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -289,8 +300,9 @@ font-family: 'Montserrat Alternates';
     /* border: 1px solid red; */
   }
   &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
   }
 `
 
@@ -319,29 +331,27 @@ const Resume = () => (
               href="mailto:michaelndriscoll81@gmail.com"
               target="_blank"
             >
-              michaelndriscoll81@gmail.com
+              <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
             </MobileEmailLink>
-          </MobileLinkPlacer>
-          <MobileLinkPlacer>
-            <EmailLink
-              href="mailto:michaelndriscoll81@gmail.com"
-              target="_blank"
-            >
-              Email Link
-            </EmailLink>
-          </MobileLinkPlacer>
-          <br />
           <MobileLinkedInLink
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
           >
-            linkedin.com/in/michael-n-driscoll/
+            <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
           </MobileLinkedInLink>
+          </MobileLinkPlacer>
+            <EmailLink
+              href="mailto:michaelndriscoll81@gmail.com"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
+            </EmailLink>
+          <br />
           <LinkedInLink
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
           >
-            LinkedIn Link
+            <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
           </LinkedInLink>
         </ContactInfo>
         <ButtonContainer>
