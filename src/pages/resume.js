@@ -79,6 +79,27 @@ const ContactDetails = styled.h3`
   }
 `
 
+const AboutLink = styled.a`
+  font-size: 25px;
+  color: white;
+  display: flex;
+  width: 180px;
+  height: auto;
+  padding: 3px;
+  margin-top: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  background-color: rgb(99, 95, 85);
+  border: 2px solid darkblue;
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    /* border: 2px solid black; */
+  }
+`
+
 const EmailLink = styled.a`
   color: black;
   text-shadow: 1px 1px 3px white;
@@ -111,61 +132,82 @@ const LinkedInLink = styled.a`
   }
 `
 
-const GitHubLink = styled.a`
-  color: black;
-  text-shadow: 1px 1px 3px white;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 4px 0;
-  font-size: 24px;
-  @media (min-width: 600px) {
-    font-size: 30px;
-  }
-  &:hover {
-    color: white;
-    text-shadow: 1px 1px 3px darkblue;
-  }
-`
-
 const Contact = () => (
   <Layout>
+    <h1>Michael Driscoll</h1>
+    <h3>Software Developer</h3>
+    <p>about me blurb</p>
+    <h3>Contact Info</h3>
+    <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
+      michaelndriscoll81@gmail.com
+      <p>Phone</p>
+    </EmailLink>
+    <LinkedInLink
+      href="https://www.linkedin.com/in/michael-n-driscoll/"
+      target="_blank"
+    >
+      linkedin.com/in/michael-n-driscoll/
+    </LinkedInLink>
+    <AboutLink href="/about">PDF Version</AboutLink>
+    <h3>Skills</h3>
+    <div
+      style={{
+        display: "flex",
+      }}
+    >
+      <div
+        style={{
+          marginRight: "40px",
+        }}
+      >
+        <p>HTML/CSS</p>
+        <p>Javascript</p>
+        <p>Node.js</p>
+      </div>
+      <div
+        style={{
+          marginRight: "40px",
+        }}
+      >
+        <p>Express</p>
+        <p>React</p>
+        <p>SQL</p>
+      </div>
+      <div
+        style={{
+          marginRight: "40px",
+        }}
+      >
+        <p>Adobe XD</p>
+        <p>Python/Django</p>
+        <p>MongoDB</p>
+      </div>
+    </div>
+    <h3>Experience</h3>
+    <p>Software Engineering Immersive, General Assembly</p>
+    <p>Washington, D.C.</p>
+    <p>11/2019-2/2020</p>
+    <p>
+      Completed a 500 hour full stack immersive program and designed projects
+      including:
+    </p>
+    <p>Front End Team Member, WhichCraft Brewing</p>
+    <p>Rochester, NY</p>
+    <p>3/2019-11/2019</p>
+    <p>Front End Team Member, The Beer Market</p>
+    <p>Rochester, NY</p>
+    <p>4/2015-11/2019</p>
+    <p>Image Science Department Intern, Exelis Geospatial Systems</p>
+    <p>Rochester, NY</p>
+    <p>6/2013-8/2013</p>
+    <h3>Education</h3>
+    <p>Full Stack Web Development Certificate, General Assembly</p>
+    <p>Washington, D.C.</p>
+    <p>11/2019-2/2020</p>
+    <h3>Bachelor of Arts in Physics, University of Rochester</h3>
+    <p>Rochester, NY</p>
+    <p>1/2010-5/2013</p>
     <img src="https://i.imgur.com/LHnhYGI.png"></img>
-    <ContactInfo>Contact Info</ContactInfo>
-    <Questions>
-      If you have any questions about my projects or want to know more please
-      reach out by email or LinkedIn!
-    </Questions>
-    <hr
-      style={{
-        border: "1px solid black",
-      }}
-    ></hr>
-    <Container>
-      {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
-      <MyInfo>
-        <Name>Michael Driscoll</Name>
-        <ContactDetails>Washington, DC 20005</ContactDetails>
-        <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
-          michaelndriscoll81@gmail.com
-        </EmailLink>
-        <br />
-        <LinkedInLink
-          href="https://www.linkedin.com/in/michael-n-driscoll/"
-          target="_blank"
-        >
-          linkedin.com/in/michael-n-driscoll/
-        </LinkedInLink>
-        <br />
-        <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-          github.com/mdrisco4
-        </GitHubLink>
-      </MyInfo>
-    </Container>
-    <hr
-      style={{
-        border: "1px solid black",
-      }}
-    ></hr>
   </Layout>
 )
 
