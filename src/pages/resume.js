@@ -103,14 +103,14 @@ const SkillsContainer = styled.div`
   flex-direction: column;
   @media (min-width: 520px) {
     flex-direction: row;
-    width: 90%;
+    width: 105%;
   }
 `
 
 const SkillsRowContainer = styled.div`
   width: 100%;
   @media (min-width: 520px) {
-    width: 33.3%;
+    width: 42%;
   }
 `
 
@@ -266,6 +266,24 @@ font-family: 'Montserrat Alternates';
   }
 `
 
+const MobileGitHubLink = styled.a`
+font-family: 'Montserrat Alternates';
+  color: black;
+  text-shadow: 1px 1px 3px white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10%;
+  @media (min-width: 600px) {
+    display: none;
+  }
+  &:hover {
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
+  }
+`
+
 const EmailLink = styled.a`
 font-family: 'Montserrat Alternates';
   display: none;
@@ -275,9 +293,8 @@ font-family: 'Montserrat Alternates';
     text-shadow: 1px 1px 3px white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 28px;
     font-size: 30px;
-    /* border: 1px solid red; */
+    padding-left: 5%;
   }
   &:hover {
     color: darkblue;
@@ -295,9 +312,8 @@ font-family: 'Montserrat Alternates';
     text-shadow: 1px 1px 3px white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 28px;
     font-size: 30px;
-    /* border: 1px solid red; */
+    padding-left: 7%;
   }
   &:hover {
     color: darkblue;
@@ -305,6 +321,27 @@ font-family: 'Montserrat Alternates';
     filter:drop-shadow(1px 1px white);
   }
 `
+
+const GitHubLink = styled.a`
+font-family: 'Montserrat Alternates';
+  display: none;
+  @media (min-width: 600px) {
+    display: flex;
+    color: black;
+    text-shadow: 1px 1px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: 6px;
+  }
+  &:hover {
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
+  }
+`
+
 
 const Resume = () => (
   <Layout>
@@ -339,6 +376,9 @@ const Resume = () => (
           >
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
           </MobileLinkedInLink>
+          <MobileGitHubLink href="https://github.com/mdrisco4" target="_blank">
+        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+        </MobileGitHubLink>
           </MobileLinkPlacer>
             <EmailLink
               href="mailto:michaelndriscoll81@gmail.com"
@@ -346,13 +386,15 @@ const Resume = () => (
             >
               <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
             </EmailLink>
-          <br />
           <LinkedInLink
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
           >
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
           </LinkedInLink>
+          <GitHubLink href="https://github.com/mdrisco4" target="_blank">
+        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+        </GitHubLink>
         </ContactInfo>
         <ButtonContainer>
           <PDFLink href="/resume-hard-copy">PDF Version</PDFLink>
@@ -370,7 +412,11 @@ const Resume = () => (
           <SubSectionTitle>∙ React</SubSectionTitle>
           <SubSectionTitle>∙ SQL</SubSectionTitle>
         </SkillsRowContainer>
-        <SkillsRowContainer>
+        <SkillsRowContainer
+        // style={{
+        //   width: '39%',
+        // }}
+        >
           <SubSectionTitle>∙ Adobe XD</SubSectionTitle>
           <SubSectionTitle>∙ Python/Django</SubSectionTitle>
           <SubSectionTitle>∙ MongoDB</SubSectionTitle>

@@ -84,7 +84,7 @@ const EmailLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 10px;
+  margin: 4px 5%;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
@@ -102,7 +102,7 @@ const LinkedInLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 10px;
+  margin: 4px 5%;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
@@ -120,7 +120,7 @@ const GitHubLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  margin: 4px 10px;
+  margin: 4px 5%;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
@@ -159,7 +159,7 @@ const Contact = () => (
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
         </LinkedInLink>
         <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github-square"]} size="3x" />
+        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
         </GitHubLink>
       </MyInfo>
     </Container>
