@@ -132,23 +132,23 @@ const LinkedInLink = styled.a`
   }
 `
 
-const Contact = () => (
+const Resume = () => (
   <Layout>
     <h1>Michael Driscoll</h1>
     <h3>Software Developer</h3>
     <p>about me blurb</p>
     <h3>Contact Info</h3>
+    <p>585-719-7720</p>
     <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
       michaelndriscoll81@gmail.com
-      <p>Phone</p>
-    </EmailLink>
+    </EmailLink><br />
     <LinkedInLink
       href="https://www.linkedin.com/in/michael-n-driscoll/"
       target="_blank"
     >
       linkedin.com/in/michael-n-driscoll/
     </LinkedInLink>
-    <AboutLink href="/about">PDF Version</AboutLink>
+    <AboutLink href="/resume-hard-copy">PDF Version</AboutLink>
     <h3>Skills</h3>
     <div
       style={{
@@ -207,8 +207,7 @@ const Contact = () => (
     <h3>Bachelor of Arts in Physics, University of Rochester</h3>
     <p>Rochester, NY</p>
     <p>1/2010-5/2013</p>
-    <img src="https://i.imgur.com/LHnhYGI.png"></img>
   </Layout>
 )
 
-export default Contact
+export default Resume
