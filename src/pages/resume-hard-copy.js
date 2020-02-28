@@ -17,7 +17,7 @@ const Container = styled.div`
   }
 `
 
-const MyInfo = styled.div`
+const ContactLinks = styled.div`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -67,14 +67,7 @@ const LinkedInLink = styled.a`
 const Contact = () => (
   <Layout>
     <Container>
-    <img src="https://i.imgur.com/LFa5i1U.png"
-    alt="resume"
-    style={{
-      width: '90%',
-      marginLeft: '5%',
-      marginRight: '5%',
-    }}></img><br />
-    <MyInfo>
+    <ContactLinks>
     <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
       michaelndriscoll81@gmail.com
     </EmailLink><br />
@@ -84,7 +77,14 @@ const Contact = () => (
       >
       linkedin.com/in/michael-n-driscoll/
     </LinkedInLink>
-      </MyInfo>
+      </ContactLinks>
+    <img src="https://i.imgur.com/LFa5i1U.png"
+    alt="resume"
+    style={{
+      width: '90%',
+      marginLeft: '5%',
+      marginRight: '5%',
+    }}></img><br />
     </Container>
   </Layout>
 )
