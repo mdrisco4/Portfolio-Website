@@ -30,7 +30,7 @@ const LinkContainer = styled.div`
   }
 `
 
-const HeaderLink = styled.a`
+const IconLink = styled.a`
   font-family: "Monoton";
   color: white;
   font-weight: 500;
@@ -43,31 +43,49 @@ const HeaderLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 1px 1px white;
+    /* text-shadow: 1px 1px white; */
+    filter:drop-shadow(1px 1px white);
+  }
+`
+
+const HeaderLink = styled.a`
+  font-family: "Monoton";
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  @media (min-width: 700px) {
+    margin: none;
+  }
+  &:hover {
+    color: rgb(110, 176, 249);
+    text-shadow: 1px 1px 3px white;
   }
 `
 
 const Header = () => (
   <Nav>
     <LinkContainer>
-
-        <FontAwesomeIcon
-          icon={["fas", "fa-home"]}
+      {/* <FontAwesomeIcon
+          icon={["fas", "home"]}
           size="2x"
-        />
+          color="red"
+        /> */}
 
-        <FontAwesomeIcon
-          icon={["fab", "fa-centos"]}
+      {/* <FontAwesomeIcon
+          icon={["fab", "centos"]}
           size="2x"
-        />
+          color="red"
+        /> */}
 
-        <FontAwesomeIcon
-          icon={["fas", "fa-atom"]}
-          size="2x"
-        />
+      <IconLink href="/">
+        <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
+      </IconLink>
 
-      <HeaderLink href="/">Home
-     </HeaderLink>
+      {/* <HeaderLink href="/">Home</HeaderLink> */}
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink>

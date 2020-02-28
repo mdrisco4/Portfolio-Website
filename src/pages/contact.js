@@ -1,12 +1,12 @@
 import React from "react"
-import '../styles/fonts.css'
+import "../styles/fonts.css"
 
 // import fonts from "../styles.fonts"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
 const ContactInfo = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   text-align: center;
   font-size: 35px;
   font-weight: bold;
@@ -16,7 +16,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const Questions = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   width: 70%;
   text-align: center;
   margin: auto;
@@ -39,19 +39,6 @@ const Container = styled.div`
   }
 `
 
-// const Headshot = styled.img`
-//   border: 1px solid black;
-//   border-radius: 18px;
-//   height: 40%;
-//   margin-left: auto;
-//   margin-right: auto;
-//   @media (min-width: 800px) {
-//     height: auto;
-//     width: 40%;
-//     flex-direction: row;
-//   }
-// `
-
 const MyInfo = styled.div`
   width: 100%;
   margin-left: auto;
@@ -66,9 +53,8 @@ const MyInfo = styled.div`
 `
 
 const Name = styled.h3`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   margin: 0 0 8px 0;
-  font-family: "Krona One";
   font-size: 35px;
   @media (min-width: 800px) {
     font-size: 50px;
@@ -76,7 +62,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const ContactDetails = styled.h3`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   margin: 4px 0;
   font-size: 24px;
   @media (min-width: 800px) {
@@ -85,7 +71,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const EmailLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -102,7 +88,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const LinkedInLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -119,7 +105,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const GitHubLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -148,7 +134,6 @@ const Contact = () => (
       }}
     ></hr>
     <Container>
-      {/* <Headshot src="https://i.imgur.com/7vKUNGr.jpg" alt="the"></Headshot> */}
       <MyInfo>
         <Name>Michael Driscoll</Name>
         <ContactDetails>585-719-7720</ContactDetails>
