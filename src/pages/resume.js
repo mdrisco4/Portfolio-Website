@@ -4,25 +4,38 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
-
 const Container = styled.div`
   @media (min-width: 800px) {
-      border: 1px solid green;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    `
+    border: 1px solid green;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+`
+const AboutContactContainer = styled.div`
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+`
 
-    const AboutMe = styled.div`
-      @media (min-width: 600px) {
-      }
-    `
-    
-    const ContactInfo = styled.div`
-      @media (min-width: 600px) {
-      }
-    `
+const AboutMe = styled.div`
+  border: 1px solid yellow;
+  
+  @media (min-width: 600px) {
+    width: 40%;
+  }
+`
+
+const ContactInfo = styled.div`
+  border: 1px solid blue;
+  @media (min-width: 600px) {
+    width: 30%;
+  }
+`
 
 const MyInfo = styled.div`
   width: 80%;
@@ -56,14 +69,19 @@ const SectionTitle = styled.div`
 `
 
 const SkillsContainer = styled.div`
+  border: 1px solid red;
+  display: flex;
+  /* flex-direction: column; */
   @media (min-width: 800px) {
-    display: flex;
+    flex-direction: row;
+    width: 90%;
   }
 `
 
 const SkillsRowContainer = styled.div`
+  border: 1px solid red;
+  width: 33.3%;
   @media (min-width: 800px) {
-    margin-right: 40px;
   }
 `
 
@@ -77,7 +95,7 @@ const SubSectionTitle = styled.div`
 `
 
 const City = styled.div`
-font-size: 18px;
+  font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -85,7 +103,7 @@ font-size: 18px;
 `
 
 const Dates = styled.div`
-font-size: 18px;
+  font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -100,7 +118,7 @@ const Details = styled.div`
 `
 
 const BulletPointWrap = styled.div`
-    display: flex;
+  display: flex;
 `
 
 const ContactDetails = styled.h3`
@@ -112,31 +130,55 @@ const ContactDetails = styled.h3`
 `
 
 const BulletPoints = styled.div`
-font-size: 18px;
+  font-size: 18px;
   @media (min-width: 800px) {
     font-size: 20px;
     margin-left: 12px;
-}`
+  }
+`
+
+const ButtonContainer = styled.div`
+  border: 1px solid green;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 800px) {
+    width: 30%;
+  }
+`
+
 
 const PDFLink = styled.a`
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: flex;
-  width: 180px;
-  height: auto;
-  padding: 3px;
-  /* float: right; */
-  margin-top: 20px;
+  width: auto;
+  height: 36px;
+  padding: 10px 3px 3px 3px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
   background-color: rgb(99, 95, 85);
   border: 2px solid darkblue;
+  @media (min-width: 800px) {
+    margin-top: 24px;
+    font-size: 25px;
+    width: 180px;
+    height: auto;
+    margin-top: 40px;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
     border: 2px solid black;
+  }
+`
+
+const Phone = styled.div`
+  font-size: 24px;
+  @media (min-width: 800px) {
+    font-size: 28px;
   }
 `
 
@@ -145,8 +187,7 @@ const EmailLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  /* margin: 4px 0; */
-  font-size: 20px;
+  font-size: 28px;
   @media (min-width: 800px) {
     font-size: 30px;
   }
@@ -161,8 +202,7 @@ const LinkedInLink = styled.a`
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
   font-weight: bold;
-  /* margin: 4px 0; */
-  font-size: 20px;
+  font-size: 28px;
   @media (min-width: 800px) {
     font-size: 30px;
   }
@@ -176,18 +216,21 @@ const Resume = () => (
   <Layout>
     <Container>
       <Name>Michael Driscoll</Name>
-      <div
-        style={{
-          display: "flex",
-        }}
-      >
+      <AboutContactContainer>
         <AboutMe>
           <SectionTitle>Software Developer</SectionTitle>
-          <Details>about me blurb</Details>
+          <Details>
+            As a growing software engineer with client experience and
+            proficiency in web design, coding and full stack development, I
+            bring to the table a variety of skills paramount to success in the
+            workplace.  I am excited to grow in the tech
+            industry using my talents in software engineering while continually
+            seeking to keep up with the latest in cutting edge technology.
+          </Details>
         </AboutMe>
         <ContactInfo>
           <SectionTitle>Contact Info</SectionTitle>
-          <Details>585-719-7720</Details>
+          <Phone>585-719-7720</Phone>
           <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
             Email
           </EmailLink>
@@ -199,8 +242,10 @@ const Resume = () => (
             LinkedIn
           </LinkedInLink>
         </ContactInfo>
-      </div>
-      <PDFLink href="/resume-hard-copy">PDF Version</PDFLink>
+        <ButtonContainer>
+          <PDFLink href="/resume-hard-copy">PDF Version</PDFLink>
+        </ButtonContainer>
+      </AboutContactContainer>
       <SectionTitle>Skills</SectionTitle>
       <SkillsContainer>
         <SkillsRowContainer>
@@ -235,48 +280,48 @@ const Resume = () => (
       <City>Rochester, NY</City>
       <Dates>3/2019-11/2019</Dates>
       <BulletPointWrap>
-      <Details>∙</Details>
-      <BulletPoints>
-        Provided experienced feedback and recommendations for weekly
-        introductions of new and unique products manufactured at our on site
-        production brewery helping to boost sales for inhouse products, got
-        positive feedback and provided an all around enjoyable experience
-      </BulletPoints>
+        <Details>∙</Details>
+        <BulletPoints>
+          Provided experienced feedback and recommendations for weekly
+          introductions of new and unique products manufactured at our on site
+          production brewery helping to boost sales for inhouse products, got
+          positive feedback and provided an all around enjoyable experience
+        </BulletPoints>
       </BulletPointWrap>
       <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
       <City>Rochester, NY</City>
       <Dates>4/2015-11/2019</Dates>
       <BulletPointWrap>
-      <Details>∙</Details>
-      <BulletPoints>
-        Developed relationships in the industry with brewery owners and
-        distribution representatives to promote 300+ products and host more than
-        100+ industry events with attendance ranging from dozens to hundreds of
-        customers and craft beer professionals
-      </BulletPoints>
-        </BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Developed relationships in the industry with brewery owners and
+          distribution representatives to promote 300+ products and host more
+          than 100+ industry events with attendance ranging from dozens to
+          hundreds of customers and craft beer professionals
+        </BulletPoints>
+      </BulletPointWrap>
       <SubSectionTitle>
         Image Science Department Intern, Exelis Geospatial Systems
       </SubSectionTitle>
       <City>Rochester, NY</City>
       <Dates>6/2013-8/2013</Dates>
       <BulletPointWrap>
-      <Details>∙</Details>
-      <BulletPoints>
-        Executed objectives for three contract assignments to build software
-        with Mathematica and Matlab that 1) modeled optical systems and 2)
-        updated GPS technology with adjustments for perpetual, small changes of
-        the Earth’s axial tilt
-      </BulletPoints>
+        <Details>∙</Details>
+        <BulletPoints>
+          Executed objectives for three contract assignments to build software
+          with Mathematica and Matlab that 1) modeled optical systems and 2)
+          updated GPS technology with adjustments for perpetual, small changes
+          of the Earth’s axial tilt
+        </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
-      <Details>∙</Details>
-      <BulletPoints>
-        Conducted extensive research on satellite optical systems and GPS
-        synchronization in the Image Science Department at Exelis, a leading
-        aerospace and defense contractor, to develop analytical software tools
-        for deployment in government programs
-      </BulletPoints>
+        <Details>∙</Details>
+        <BulletPoints>
+          Conducted extensive research on satellite optical systems and GPS
+          synchronization in the Image Science Department at Exelis, a leading
+          aerospace and defense contractor, to develop analytical software tools
+          for deployment in government programs
+        </BulletPoints>
       </BulletPointWrap>
       <SectionTitle>Education</SectionTitle>
       <SubSectionTitle>
