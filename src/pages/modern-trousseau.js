@@ -277,10 +277,10 @@ const ModernTrousseau = () => (
         </PageLabel>
       </PageLabelContainer>
       <SprintTwoImages>
+        <SprintTwoExample>
       <MobilePageLabel>
           Gowns Page
         </MobilePageLabel>
-        <SprintTwoExample>
           <PageImage
             src="https://i.imgur.com/D0quP8r.png"
             style={{
