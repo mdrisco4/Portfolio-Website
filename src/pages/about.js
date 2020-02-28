@@ -30,7 +30,7 @@ const Headshot = styled.img`
   }
 `
 
-const ContactInfo = styled.div`
+const PersonalInfo = styled.div`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -45,16 +45,19 @@ const ContactInfo = styled.div`
 `
 
 const Title = styled.h1`
+font-family: 'Montserrat Alternates';
   margin: 0 0 8px 0;
   font-size: 40px;
 `
 
 const AboutDetails = styled.h3`
+font-family: 'Montserrat Alternates';
   margin: 4px 0;
   font-size: 20px;
 `
 
 const GetInTouch = styled.a`
+font-family: 'Montserrat Alternates';
   font-size: 40px;
   color: white;
   background-color: rgb(99, 95, 85);
@@ -76,10 +79,10 @@ const GetInTouch = styled.a`
   }
   `
 
-const Contact = () => (
+const About = () => (
   <Layout>
     <Container>
-      <ContactInfo>
+      <PersonalInfo>
         <Title>My Background</Title>
         {/* <ContactDetails>Logan Circle</ContactDetails> */}
         <AboutDetails>
@@ -93,7 +96,7 @@ const Contact = () => (
           Besides always making an effort to learn about new technologies I am a
           huge movie buff and enjoy sports and poker.
         </AboutDetails>
-      </ContactInfo>
+      </PersonalInfo>
       <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
     </Container>
     <GetInTouch
@@ -101,4 +104,4 @@ const Contact = () => (
   </Layout>
 )
 
-export default Contact
+export default About

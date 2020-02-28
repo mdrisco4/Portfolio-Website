@@ -28,6 +28,7 @@ const LinkContainer = styled.div`
 `
 
 const HeaderLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: white;
   font-size: 35px;
   font-weight: 700;

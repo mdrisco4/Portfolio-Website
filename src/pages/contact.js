@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import styled from "styled-components"
 
 const ContactInfo = styled.div`
+font-family: 'Montserrat Alternates';
   text-align: center;
   font-size: 35px;
   font-weight: bold;
@@ -14,6 +15,7 @@ const ContactInfo = styled.div`
 `
 
 const Questions = styled.div`
+font-family: 'Montserrat Alternates';
   width: 70%;
   text-align: center;
   margin: auto;
@@ -63,6 +65,7 @@ const MyInfo = styled.div`
 `
 
 const Name = styled.h1`
+font-family: 'Montserrat Alternates';
   margin: 0 0 8px 0;
   font-family: "Krona One";
   font-size: 35px;
@@ -72,6 +75,7 @@ const Name = styled.h1`
 `
 
 const ContactDetails = styled.h3`
+font-family: 'Montserrat Alternates';
   margin: 4px 0;
   font-size: 24px;
   @media (min-width: 800px) {
@@ -80,6 +84,7 @@ const ContactDetails = styled.h3`
 `
 
 const EmailLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -96,6 +101,7 @@ const EmailLink = styled.a`
 `
 
 const LinkedInLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -112,6 +118,7 @@ const LinkedInLink = styled.a`
 `
 
 const GitHubLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;

@@ -64,7 +64,7 @@ const PersonalInfoContainer = styled.div`
 `
 
 const Name = styled.h1`
-font-family: 'Odibee Sans';
+font-family: 'Montserrat Alternates';
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
@@ -84,6 +84,7 @@ font-family: 'Odibee Sans';
 // `
 
 const BrandStatement = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 16px;
   text-align: center;
   @media (min-width: 900px) {
@@ -92,10 +93,11 @@ const BrandStatement = styled.div`
 `
 
 const AboutLink = styled.a`
+font-family: 'Montserrat Alternates';
   font-size: 25px;
   color: white;
   display: flex;
-  width: 180px;
+  width: 220px;
   height: auto;
   padding: 3px;
   margin-top: 20px;
@@ -113,6 +115,7 @@ const AboutLink = styled.a`
 `
 
 const ProjectSectionTitle = styled.div`
+font-family: 'Montserrat Alternates';
   text-align: center;
   font-size: 54px;
   font-weight: 700;
@@ -121,6 +124,7 @@ const ProjectSectionTitle = styled.div`
 `
 
 const DesktopDescriptionPrompt = styled.div`
+font-family: 'Montserrat Alternates';
   display: none;
   @media (min-width: 750px) {
     /* border: 1px solid brown; */
@@ -156,6 +160,7 @@ const ProjectStill = styled.img`
 `
 
 const ProjectDescription = styled.div`
+font-family: 'Montserrat Alternates';
   display: none;
   @media (min-width: 750px) {
     display: block;
@@ -182,6 +187,7 @@ const ProjectDescription = styled.div`
 `
 
 const MobileProjectDescription = styled.div`
+font-family: 'Montserrat Alternates';
   display: flex;
   width: 75%;
   font-size: 20px;
@@ -197,6 +203,7 @@ const MobileProjectDescription = styled.div`
 `
 
 const ProjectTitle = styled.div`
+font-family: 'Montserrat Alternates';
   padding-left: 7.5%;
   padding-right: 7.5%;
   text-align: center;
@@ -206,6 +213,7 @@ const ProjectTitle = styled.div`
 `
 
 const ProjectLink = styled.a`
+font-family: 'Montserrat Alternates';
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -230,6 +238,7 @@ const ProjectLink = styled.a`
 `
 
 const ContactPrompt = styled.div`
+font-family: 'Montserrat Alternates';
   width: 55%;
   font-size: 18px;
   font-weight: 800;
@@ -240,6 +249,7 @@ const ContactPrompt = styled.div`
 `
 
 const GetInTouch = styled.a`
+font-family: 'Montserrat Alternates';
   font-size: 40px;
   color: white;
   background-color: rgb(99, 95, 85);

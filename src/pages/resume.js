@@ -48,6 +48,7 @@ const MyInfo = styled.div`
 `
 
 const MobileName = styled.h1`
+font-family: 'Montserrat Alternates';
   display: flex;
   margin: 0 0 2px 0;
   font-size: 36px;
@@ -57,6 +58,7 @@ const MobileName = styled.h1`
 `
 
 const Name = styled.h1`
+font-family: 'Montserrat Alternates';
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -67,6 +69,7 @@ const Name = styled.h1`
 `
 
 const SoftwareDevloperLine = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 24px;
   font-weight: bold;
   margin-top: 12px;
@@ -78,6 +81,7 @@ const SoftwareDevloperLine = styled.div`
 `
 
 const SectionTitle = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 24px;
   font-weight: bold;
   @media (min-width: 600px) {
@@ -103,6 +107,7 @@ const SkillsRowContainer = styled.div`
 `
 
 const SubSectionTitle = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 20px;
   font-weight: bold;
   @media (min-width: 800px) {
@@ -112,6 +117,7 @@ const SubSectionTitle = styled.div`
 `
 
 const Schooling = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 22px;
   font-weight: bold;
   @media (min-width: 800px) {
@@ -121,6 +127,7 @@ const Schooling = styled.div`
 `
 
 const City = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
@@ -129,6 +136,7 @@ const City = styled.div`
 `
 
 const Dates = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
@@ -137,6 +145,7 @@ const Dates = styled.div`
 `
 
 const Details = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 18px;
   @media (min-width: 800px) {
     font-size: 20px;
@@ -156,6 +165,7 @@ const ContactDetails = styled.h3`
 `
 
 const BulletPoints = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 18px;
   @media (min-width: 800px) {
     font-size: 20px;
@@ -173,6 +183,7 @@ const ButtonContainer = styled.div`
 `
 
 const PDFLink = styled.a`
+font-family: 'Montserrat Alternates';
   font-size: 20px;
   color: white;
   display: flex;
@@ -188,7 +199,7 @@ const PDFLink = styled.a`
   @media (min-width: 800px) {
     margin-top: 24px;
     font-size: 32px;
-    width: 180px;
+    width: 200px;
     height: auto;
     margin-top: 40px;
     padding: 10px;
@@ -201,6 +212,7 @@ const PDFLink = styled.a`
 `
 
 const Phone = styled.div`
+font-family: 'Montserrat Alternates';
   font-size: 24px;
   @media (min-width: 800px) {
     font-size: 28px;
@@ -212,6 +224,7 @@ const MobileLinkPlacer = styled.div`
 `
 
 const MobileEmailLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -227,6 +240,7 @@ const MobileEmailLink = styled.a`
 `
 
 const MobileLinkedInLink = styled.a`
+font-family: 'Montserrat Alternates';
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -242,6 +256,7 @@ const MobileLinkedInLink = styled.a`
 `
 
 const EmailLink = styled.a`
+font-family: 'Montserrat Alternates';
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -260,6 +275,7 @@ const EmailLink = styled.a`
 `
 
 const LinkedInLink = styled.a`
+font-family: 'Montserrat Alternates';
   display: none;
   @media (min-width: 600px) {
     display: flex;
