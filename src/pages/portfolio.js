@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 const ThirdPage = () => (
     <Layout>
-    <div style={{
+    {/* <div style={{
         display: 'flex',
         flexDirection: 'column',
         width: '50%',
@@ -75,7 +75,7 @@ const ThirdPage = () => (
       >
         Email
       </a>
-      {/* <br></br> */}
+      <br></br>
       <a
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
@@ -90,7 +90,6 @@ const ThirdPage = () => (
       >
         LinkedIn
       </a>
-      {/* <br></br> */}
       <a
         href="https://github.com/mdrisco4"
         target="_blank"
@@ -105,8 +104,7 @@ const ThirdPage = () => (
       >
         GitHub
       </a>
-      {/* <br></br> */}
-    </div>
+    </div> */}
       <Link to="/">Go back to the homepage  KEEP OR DROP??</Link>
       </Layout>
 )

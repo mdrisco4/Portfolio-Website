@@ -39,18 +39,18 @@ const Container = styled.div`
   }
 `
 
-const Headshot = styled.img`
-  border: 1px solid black;
-  border-radius: 18px;
-  height: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  @media (min-width: 800px) {
-    height: auto;
-    width: 40%;
-    flex-direction: row;
-  }
-`
+// const Headshot = styled.img`
+//   border: 1px solid black;
+//   border-radius: 18px;
+//   height: 40%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   @media (min-width: 800px) {
+//     height: auto;
+//     width: 40%;
+//     flex-direction: row;
+//   }
+// `
 
 const MyInfo = styled.div`
   width: 100%;
@@ -65,7 +65,7 @@ const MyInfo = styled.div`
   }
 `
 
-const Name = styled.h1`
+const Name = styled.h3`
 font-family: 'Montserrat Alternates';
   margin: 0 0 8px 0;
   font-family: "Krona One";

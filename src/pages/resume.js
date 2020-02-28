@@ -35,18 +35,18 @@ const ContactInfo = styled.div`
   }
 `
 
-const MyInfo = styled.div`
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  @media (min-width: 800px) {
-    height: 100%;
-    width: 70%;
-    margin: auto;
-    flex-direction: row;
-  }
-`
+// const MyInfo = styled.div`
+//   width: 80%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   text-align: center;
+//   @media (min-width: 800px) {
+//     height: 100%;
+//     width: 70%;
+//     margin: auto;
+//     flex-direction: row;
+//   }
+// `
 
 const MobileName = styled.h1`
 font-family: 'Montserrat Alternates';
@@ -157,13 +157,13 @@ const BulletPointWrap = styled.div`
   display: flex;
 `
 
-const ContactDetails = styled.h3`
-  margin: 4px 0;
-  font-size: 24px;
-  @media (min-width: 800px) {
-    font-size: 30px;
-  }
-`
+// const ContactDetails = styled.h3`
+//   margin: 4px 0;
+//   font-size: 24px;
+//   @media (min-width: 800px) {
+//     font-size: 30px;
+//   }
+// `
 
 const BulletPoints = styled.div`
 font-family: 'Montserrat Alternates';

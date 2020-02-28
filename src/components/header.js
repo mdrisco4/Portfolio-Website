@@ -1,8 +1,10 @@
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react"
+// import FontAwesomeIcon from "@fortawesome/react-fontawesome"
+// import * as Icons from "@fortawesome/fontawesome-free-solid"
 import styled from "styled-components"
-import '../styles/fonts.css'
+import "../styles/fonts.css"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
@@ -29,7 +31,7 @@ const LinkContainer = styled.div`
 `
 
 const HeaderLink = styled.a`
-font-family: 'Monoton';
+  font-family: "Monoton";
   color: white;
   font-weight: 500;
   font-size: 30px;
@@ -48,26 +50,24 @@ font-family: 'Monoton';
 const Header = () => (
   <Nav>
     <LinkContainer>
-      {/* <i class="fas fa-home"
-      style={{
-        color: 'black',
-      }}></i> */}
 
-      <FontAwesomeIcon icon="fas fa-home" size="2x" 
-        style={{
-          color: 'black',
-        }}/>
-
-<i class="fab fa-centos" size="2x"></i>
-
-<FontAwesomeIcon icon="fab fa-centos" 
-      // size="2x" 
-      //   style={{
-      //     color: 'white',
-      //   }}
+        <FontAwesomeIcon
+          icon={["fas", "fa-home"]}
+          size="2x"
         />
 
-      <HeaderLink href="/">Home</HeaderLink>
+        <FontAwesomeIcon
+          icon={["fab", "fa-centos"]}
+          size="2x"
+        />
+
+        <FontAwesomeIcon
+          icon={["fas", "fa-atom"]}
+          size="2x"
+        />
+
+      <HeaderLink href="/">Home
+     </HeaderLink>
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink>
@@ -83,13 +83,5 @@ const Header = () => (
     </LinkContainer>
   </Nav>
 )
-
-// Header.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-
-// Header.defaultProps = {
-//   siteTitle: ``,
-// }
 
 export default Header

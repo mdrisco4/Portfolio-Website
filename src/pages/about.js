@@ -3,7 +3,7 @@ import '../styles/fonts.css'
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import Resume from "../images/images/Resume.pdf";
+// import Resume from "../images/images/Resume.pdf";
 
 const Container = styled.div`
   display: flex;

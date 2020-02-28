@@ -13,7 +13,6 @@
 
 
 import React from "react";
-import ReactDOM from "react-dom";
 import styled from "styled-components";
 
 import imageFile1 from "../images/images/Fall-2020-1.png";
@@ -96,9 +95,9 @@ const MobileCard = styled.div`
   }
 `;
 
-const SliderAPlacer = styled.div`
-  padding-left: 3.5%;
-`;
+// const SliderAPlacer = styled.div`
+//   padding-left: 3.5%;
+// `;
 
 const Slide = styled.div`
     width: 100%;
@@ -241,9 +240,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index == 0 &&
-      this.state.propertyB.index != 0 &&
-      this.state.propertyC.index != 0
+      this.state.propertyA.index === 0 &&
+      this.state.propertyB.index !== 0 &&
+      this.state.propertyC.index !== 0
     ) {
       const newIndexA = slideData.length - 1;
       const newIndexB = this.state.propertyB.index - 1;
@@ -255,9 +254,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index != 0 &&
-      this.state.propertyB.index == 0 &&
-      this.state.propertyC.index != 0
+      this.state.propertyA.index !== 0 &&
+      this.state.propertyB.index === 0 &&
+      this.state.propertyC.index !== 0
     ) {
       const newIndexA = this.state.propertyA.index - 1;
       const newIndexB = slideData.length - 1;
@@ -269,9 +268,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index != 0 &&
-      this.state.propertyB.index != 0 &&
-      this.state.propertyC.index == 0
+      this.state.propertyA.index !== 0 &&
+      this.state.propertyB.index !== 0 &&
+      this.state.propertyC.index === 0
     ) {
       const newIndexA = this.state.propertyA.index - 1;
       const newIndexB = this.state.propertyB.index - 1;
@@ -286,9 +285,9 @@ class CollectionList extends React.Component {
 
   nextProperty = () => {
     if (
-      this.state.propertyA.index != slideData.length &&
-      this.state.propertyB.index != slideData.length &&
-      this.state.propertyC.index != slideData.length
+      this.state.propertyA.index !== slideData.length &&
+      this.state.propertyB.index !== slideData.length &&
+      this.state.propertyC.index !== slideData.length
     ) {
       const newIndexA = this.state.propertyA.index + 1;
       const newIndexB = this.state.propertyB.index + 1;
@@ -300,9 +299,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index != slideData.length - 1 &&
-      this.state.propertyB.index != slideData.length - 1 &&
-      this.state.propertyC.index == slideData.length - 1
+      this.state.propertyA.index !== slideData.length - 1 &&
+      this.state.propertyB.index !== slideData.length - 1 &&
+      this.state.propertyC.index === slideData.length - 1
     ) {
       const newIndexA = this.state.propertyA.index + 1;
       const newIndexB = this.state.propertyB.index + 1;
@@ -314,9 +313,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index != slideData.length - 1 &&
-      this.state.propertyB.index == slideData.length - 1 &&
-      this.state.propertyC.index != slideData.length - 1
+      this.state.propertyA.index !== slideData.length - 1 &&
+      this.state.propertyB.index === slideData.length - 1 &&
+      this.state.propertyC.index !== slideData.length - 1
     ) {
       const newIndexA = this.state.propertyA.index + 1;
       const newIndexB = 0;
@@ -328,9 +327,9 @@ class CollectionList extends React.Component {
       });
     }
     if (
-      this.state.propertyA.index == slideData.length - 1 &&
-      this.state.propertyB.index != slideData.length - 1 &&
-      this.state.propertyC.index != slideData.length - 1
+      this.state.propertyA.index === slideData.length - 1 &&
+      this.state.propertyB.index !== slideData.length - 1 &&
+      this.state.propertyC.index !== slideData.length - 1
     ) {
       const newIndexA = 0;
       const newIndexB = this.state.propertyB.index + 1;

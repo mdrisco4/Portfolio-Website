@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import Resume from "../images/images/Resume.pdf";
+// import Resume from "../images/images/Resume.pdf";
 
 const Container = styled.div`
   /* display: flex; */
@@ -68,6 +68,7 @@ const Contact = () => (
   <Layout>
     <Container>
     <img src="https://i.imgur.com/LFa5i1U.png"
+    alt="resume"
     style={{
       width: '90%',
       marginLeft: '5%',
