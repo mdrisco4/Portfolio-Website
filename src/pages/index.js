@@ -104,7 +104,7 @@ const AboutLink = styled.a`
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
-    /* border: 2px solid black; */
+    border: 2px solid black;
   }
 `
 
