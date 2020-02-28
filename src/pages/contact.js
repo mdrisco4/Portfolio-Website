@@ -53,7 +53,7 @@ const Headshot = styled.img`
 `
 
 const MyInfo = styled.div`
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;

@@ -58,12 +58,14 @@ const Header = () => (
           color: 'black',
         }}/>
 
-<i class="fab fa-centos"></i>
+<i class="fab fa-centos" size="2x"></i>
 
-<FontAwesomeIcon icon="fab fa-centos" size="2x" 
-        style={{
-          color: 'white',
-        }}/>
+<FontAwesomeIcon icon="fab fa-centos" 
+      // size="2x" 
+      //   style={{
+      //     color: 'white',
+      //   }}
+        />
 
       <HeaderLink href="/">Home</HeaderLink>
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
