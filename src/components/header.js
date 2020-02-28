@@ -43,7 +43,6 @@ const IconLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    /* text-shadow: 1px 1px white; */
     filter:drop-shadow(1px 1px white);
   }
 `
