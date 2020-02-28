@@ -225,6 +225,23 @@ const ModernTrousseau = () => (
         </ComponentShotsContainer>
       </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
+      {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
+      <ProjectDescription>
+        Modern Trousseau is a client project in which our team built employing
+        Storybook to track branches and parsed out GutHub issues for components
+        as small as icons and forms all the way up to functional sliders,
+        database populated sets of images and text and links to connect the page
+        together. I was assigned to the front end and was able to build out (x,
+        y, and z components) and eventually put together pages of the site per
+        Figma design specifications put together by a UX design team that was
+        previously constructed. The project was broken down into a series of
+        'sprints' that had production goals in mind. the first sprint consisted
+        of building all of the individual components that would be needed to
+        construct the pages of the app, the second was page building and adding
+        some functionality as far as links and responsiveness. The third, which
+        is currently underway is to connect to the database deployed by the back
+        end team and populate the page with data by way of GraphQL queries.
+      </ProjectDescription>
       <SprintTitle>Sprint Two</SprintTitle>
       <PageLabelContainer>
         <PageLabel>
@@ -284,23 +301,6 @@ const ModernTrousseau = () => (
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </SprintTwoExample>
       </SprintTwoImages>
-      {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
-      <ProjectDescription>
-        Modern Trousseau is a client project in which our team built employing
-        Storybook to track branches and parsed out GutHub issues for components
-        as small as icons and forms all the way up to functional sliders,
-        database populated sets of images and text and links to connect the page
-        together. I was assigned to the front end and was able to build out (x,
-        y, and z components) and eventually put together pages of the site per
-        Figma design specifications put together by a UX design team that was
-        previously constructed. The project was broken down into a series of
-        'sprints' that had production goals in mind. the first sprint consisted
-        of building all of the individual components that would be needed to
-        construct the pages of the app, the second was page building and adding
-        some functionality as far as links and responsiveness. The third, which
-        is currently underway is to connect to the database deployed by the back
-        end team and populate the page with data by way of GraphQL queries.
-      </ProjectDescription>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
         One of the biggest challenges in getting this project underway was
@@ -329,6 +329,7 @@ const ModernTrousseau = () => (
           marginRight: "auto",
         }}
       >
+        <ComponentLabel>Refactored Slider Component</ComponentLabel>
         <CollectionList></CollectionList>
       </div>
     </Container>
