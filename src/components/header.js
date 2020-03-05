@@ -51,7 +51,7 @@ const HeaderLink = styled.a`
   font-family: "Monoton";
   color: white;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 28px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -61,7 +61,7 @@ const HeaderLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    text-shadow: 1px 1px 3px white;
+    text-shadow: 1px 1px white;
   }
 `
 
