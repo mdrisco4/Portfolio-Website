@@ -134,7 +134,7 @@ const SlideImage = styled.img`
     display: none;
   @media (min-width: 768px) {
     display: flex;
-    height: auto;
+    height: 400px;
     width: 100%;
     margin-bottom: 0;
   }

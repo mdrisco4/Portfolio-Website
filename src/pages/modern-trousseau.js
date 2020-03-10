@@ -2,7 +2,7 @@ import React from "react"
 import CollectionList from "../components/MoTroEdit"
 import Layout from "../components/layout"
 import styled from "styled-components"
-import '../styles/fonts.css'
+import "../styles/fonts.css"
 
 const Container = styled.div`
   display: flex;
@@ -52,7 +52,7 @@ const ProjectLinkContainer = styled.div`
 // `
 
 const GitHubLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -75,19 +75,19 @@ font-family: 'Montserrat Alternates';
 `
 
 const Title = styled.h1`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
 
 const SectionTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 36px;
 `
 
 const ProjectDescription = styled.p`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -95,7 +95,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const SprintTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 42px;
   font-weight: bold;
   margin: 15px 0;
@@ -134,14 +134,14 @@ const ComponentShotsContainer = styled.div`
 `
 
 const ComponentLabel = styled.p`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-weight: 900;
   font-size: 30px;
 `
 
 const MobileDesktopLabel = styled.p`
-font-family: 'Montserrat Alternates';
-font-weight: bold;
+  font-family: "Montserrat Alternates";
+  font-weight: bold;
   font-size: 20px;
 `
 
@@ -159,27 +159,27 @@ const PageLabelContainer = styled.div`
 `
 
 const MobilePageLabel = styled.div`
-display: inline-block;
-font-family: 'Montserrat Alternates';
-padding: 5px;
-width: 50%;
-font-weight: 900;
-font-size: 30px;
-@media (min-width: 600px) {   
-  display: none;
-}
-`
-
-const PageLabel = styled.div`
-display: none;
-@media (min-width: 600px) {   
   display: inline-block;
-  font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   padding: 5px;
   width: 50%;
   font-weight: 900;
   font-size: 30px;
-}
+  @media (min-width: 600px) {
+    display: none;
+  }
+`
+
+const PageLabel = styled.div`
+  display: none;
+  @media (min-width: 600px) {
+    display: inline-block;
+    font-family: "Montserrat Alternates";
+    padding: 5px;
+    width: 50%;
+    font-weight: 900;
+    font-size: 30px;
+  }
 `
 
 const PageImageContainer = styled.div`
@@ -210,20 +210,25 @@ const ModernTrousseau = () => (
       </ProjectLinkContainer>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
-        Modern Trousseau is a client project that I worked on with a team of
-        fifteen using Storybook for branch management. I was assigned to the
-        front end team where we started the first sprint by building components
-        to Figma specifications while the back end team worked on setting up a
-        database with Contentful and GraphQL. Once all components were complete
-        the front end team moved forward with using the compnentes to build out
-        full pages for our second sprint. The final stages of the project
-        involve connecting the pages to each other and populating the site with
-        data from the database deployed by the backend team.
+        Modern Trousseau is a client project that I am working on with a
+        development team of using Storybook for branch management. I was
+        assigned to the front end team where we started the first sprint by
+        building components to Figma specifications while the back end team
+        worked on setting up a database with Contentful and GraphQL. Once all
+        components were complete the front end team moved forward with using the
+        compnents to build out full pages for our second sprint. The final
+        stages of the project involve connecting the pages to each other,
+        populating the site with data from the database deployed by the backend
+        team, remaining functionality and testing before deployment.
       </ProjectDescription>
       <SprintTitle>Sprint One</SprintTitle>
       <SprintOneImages>
         <ComponentShotsContainer>
-          <ComponentLabel>Component<br />One</ComponentLabel>
+          <ComponentLabel>
+            Component
+            <br />
+            One
+          </ComponentLabel>
           <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage
@@ -235,14 +240,22 @@ const ModernTrousseau = () => (
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </ComponentShotsContainer>
         <ComponentShotsContainer>
-          <ComponentLabel>Component<br />Two</ComponentLabel>
+          <ComponentLabel>
+            Component
+            <br />
+            Two
+          </ComponentLabel>
           <ComponentImage src="https://i.imgur.com/74ZTUoz.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage src="https://i.imgur.com/H42DEcf.png"></ComponentImage>
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
         </ComponentShotsContainer>
         <ComponentShotsContainer>
-          <ComponentLabel>Component<br />Three</ComponentLabel>
+          <ComponentLabel>
+            Component
+            <br />
+            Three
+          </ComponentLabel>
           <ComponentImage src="https://i.imgur.com/Z7FeBDk.png"></ComponentImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
           <ComponentImage src="https://i.imgur.com/otTr8Uh.png"></ComponentImage>
@@ -269,18 +282,12 @@ const ModernTrousseau = () => (
       </ProjectDescription>
       <SprintTitle>Sprint Two</SprintTitle>
       <PageLabelContainer>
-        <PageLabel>
-          Gowns Page
-        </PageLabel>
-        <PageLabel>
-          Gown Page
-        </PageLabel>
+        <PageLabel>Gowns Page</PageLabel>
+        <PageLabel>Gown Page</PageLabel>
       </PageLabelContainer>
       <SprintTwoImages>
         <SprintTwoExample>
-      <MobilePageLabel>
-          Gowns Page
-        </MobilePageLabel>
+          <MobilePageLabel>Gowns Page</MobilePageLabel>
           <PageImage
             src="https://i.imgur.com/D0quP8r.png"
             style={{
@@ -304,21 +311,17 @@ const ModernTrousseau = () => (
               style={{
                 width: "90%",
               }}
-              ></PageImage>
+            ></PageImage>
             <MobileDesktopLabel>Desktop</MobileDesktopLabel>
           </PageImageContainer>
         </SprintTwoExample>
         <SprintTwoExample>
-              <MobilePageLabel>
-              Gown Page
-            </MobilePageLabel>
+          <MobilePageLabel>Gown Page</MobilePageLabel>
           <PageImage
             src="https://i.imgur.com/wwf5Asx.png"
-            style={
-              {
-                width: "66.2%",
-              }
-            }
+            style={{
+              width: "66.2%",
+            }}
           ></PageImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
         </SprintTwoExample>
@@ -339,19 +342,22 @@ const ModernTrousseau = () => (
         to build this app. Storybook, Contentful, Gatsby and GraphQL were at the
         time all new to the team and there was a learning curve as far as
         figuring out how to develop this project smoothly with so many moving
-        parts. Branch merge conflicts, fine tuning already built components to
-        meet specifications and getting a good cadence as far as pull requests
-        and edits with team leaders were all issues that the team acclimated to
-        on the fly. Early on it was clear that communication was paramount to
-        success as well as using other team members as resources to toubleshoot
-        any blockers that arose as we moved through our assignments.
+        parts. Branch merge conflicts, editing existing code to meet
+        specifications and maintaining good communication with team leaders were
+        all issues that the team worked to dtay on top of while finding ways to
+        meet production deadlines. Early on it was clear that communication was
+        paramount to success as well as using other team members as resources to
+        toubleshoot any blockers that arose as we moved through our assignments.
       </ProjectDescription>
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
-        I am currently in the process of refactoring some of what I have built
-        to resolve issues that became evident after the team was well into the
-        project. One of these issues was the usability of the site when viewing
-        it on mobile devices.
+        I am currently in the process of refactoring a page I have built to
+        resolve issues that became evident as some preemptive testing was done
+        on work to ensure the team was on track. One of these issues was the
+        usability of the site when viewing it on mobile devices. The mockup
+        provided by the design team had not anticipated some issues that would
+        arrise involving sizing and functionality and a rework of some
+        conponents is required to remedy the issue.
       </ProjectDescription>
       <div
         style={{
