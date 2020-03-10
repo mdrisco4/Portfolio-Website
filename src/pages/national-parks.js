@@ -109,13 +109,13 @@ const TriviaGame = () => (
       <Title>National Parks</Title>
       <ProjectLinkContainer>
         <DeployedLink
-          href="https://mdrisco4.github.io/Unit-Project-1/"
+          href="https://us-national-parks.netlify.com/"
           target="_blank"
         >
           NATIONAL PARKS
         </DeployedLink>
         <GitHubLink
-          href="https://github.com/mdrisco4/Unit-Project-1"
+          href="https://github.com/mdrisco4/National-Parks"
           target="_blank"
         >
           GITHUB REPO
