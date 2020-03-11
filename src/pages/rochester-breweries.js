@@ -12,13 +12,13 @@ const Container = styled.div`
 `
 
 const ProjectLinkContainer = styled.div`
-width: 50%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin: 20px;
-margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   @media (min-width: 850px) {
     width: 40%;
     justify-content: space-around;
@@ -29,7 +29,7 @@ margin-left: auto;
 `
 
 const DeployedLink = styled.a`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -41,9 +41,9 @@ font-family: "Montserrat Alternates";
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 850px) {
-  width: 42%;
-}
+  @media (min-width: 850px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -52,7 +52,7 @@ font-family: "Montserrat Alternates";
 `
 
 const GitHubLink = styled.a`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -64,9 +64,9 @@ font-family: "Montserrat Alternates";
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 850px) {
-  width: 42%;
-}
+  @media (min-width: 850px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -75,19 +75,19 @@ font-family: "Montserrat Alternates";
 `
 
 const Title = styled.h1`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
 
 const SectionTitle = styled.div`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   font-size: 36px;
 `
 
 const ProjectDescription = styled.p`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -143,7 +143,11 @@ const RocBreweries = () => (
         the content.
       </ProjectDescription>
       <SectionTitle>Solutions</SectionTitle>
-      <ProjectDescription></ProjectDescription>
+      <ProjectDescription>
+        This project is deployed with AWS and I am currently doing research to
+        provide optimazation. I also am redesigning the look of the site and
+        developing an authorization process.
+      </ProjectDescription>
     </Container>
   </Layout>
 )
