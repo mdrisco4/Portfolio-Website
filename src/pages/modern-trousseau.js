@@ -29,28 +29,6 @@ const ProjectLinkContainer = styled.div`
   }
 `
 
-// const DeployedLink = styled.a`
-//   width: 50%;
-//   margin-left: auto;
-//   margin-right: auto;
-//   font-size: 20px;
-//   background-color: rgb(99, 95, 85);
-//   border: 4px solid darkblue;
-//   height: auto;
-//   padding: 4px 0;
-//   color: white;
-//   text-decoration: none;
-//   margin-bottom: 24px;
-//   @media (min-width: 1000px) {
-//     width: 42%;
-//   }
-//   &:hover {
-//     color: rgb(110, 176, 249);
-//     background-color: darkblue;
-//     border: 4px solid black;
-//   }
-// `
-
 const GitHubLink = styled.a`
   font-family: "Montserrat Alternates";
   width: 80%;
@@ -145,6 +123,12 @@ const MobileDesktopLabel = styled.p`
   font-size: 20px;
 `
 
+const AltComponentImage = styled.img`
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 const ComponentImage = styled.img`
   width: 70%;
   margin-left: auto;
@@ -194,7 +178,6 @@ const PageImage = styled.img`
 
 const ModernTrousseau = () => (
   <Layout>
-    {/* <AccompanyingImage src="https://i.imgur.com/OvOfWYM.png"></AccompanyingImage> */}
     <Container>
       <Title>Modern Trousseau</Title>
       <ProjectLinkContainer>
@@ -229,8 +212,31 @@ const ModernTrousseau = () => (
             <br />
             One
           </ComponentLabel>
-          <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
-          <MobileDesktopLabel>Mobile</MobileDesktopLabel>
+          <div
+            style={{
+              display: "flex",
+            }}
+          >
+            <AltComponentImage src="https://i.imgur.com/OvOfWYM.png"></AltComponentImage>
+            <ComponentImage src="https://i.imgur.com/mjPtfKk.png"></ComponentImage>
+          </div>
+          <MobileDesktopLabel
+            style={{
+              margin: "0",
+            }}
+          >
+            Mobile
+          </MobileDesktopLabel>
+          <ProjectDescription
+            style={{
+              margin: "0",
+              fontSize: "14px",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            This component employs two breakpoints
+          </ProjectDescription>
           <ComponentImage
             src="https://i.imgur.com/MO8RrlX.png"
             style={{
@@ -263,7 +269,6 @@ const ModernTrousseau = () => (
         </ComponentShotsContainer>
       </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
-      {/* <AccompanyingImage src="https://i.imgur.com/6xGZpEr.png"></AccompanyingImage> */}
       <ProjectDescription>
         Modern Trousseau is a client project in which our team built employing
         Storybook to track branches and parsed out GutHub issues for components
@@ -351,13 +356,15 @@ const ModernTrousseau = () => (
       </ProjectDescription>
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
-        I am currently in the process of refactoring a page I have built to
-        resolve issues that became evident as some preemptive testing was done
-        on work to ensure the team was on track. One of these issues was the
-        usability of the site when viewing it on mobile devices. The mockup
-        provided by the design team had not anticipated some issues that would
-        arrise involving sizing and functionality and a rework of some
-        conponents is required to remedy the issue.
+        I refactored components on a page I am building to resolve issues that
+        became evident as some preemptive testing was done on work to ensure the
+        team was on track. One of these issues was the usability of the site
+        when viewing it on mobile devices. The mockup provided by the design
+        team had not anticipated some issues that would arrise involving sizing
+        and functionality and a rework of some conponents is required to remedy
+        the issue. Currently I am doing research to better understand GraphQL
+        before finishing the pages I have built as our team completes our second
+        sprint.
       </ProjectDescription>
       <div
         style={{
@@ -367,6 +374,11 @@ const ModernTrousseau = () => (
         }}
       >
         <ComponentLabel>Refactored Slider Component</ComponentLabel>
+        <ProjectDescription>
+          This partially reworked component exhibits some image warping here
+          that is resolved when images are fetched with GatsbyQL from the
+          project's contentful database.
+        </ProjectDescription>
         <CollectionList></CollectionList>
       </div>
     </Container>

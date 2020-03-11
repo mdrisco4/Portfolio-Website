@@ -1,17 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import '../styles/fonts.css'
-
-
-
-// import { library } from "@fortawesome/fontawesome-svg-core"
-// import { fas } from "@fortawesome/free-solid-svg-icons"
-// import { far } from "@fortawesome/free-regular-svg-icons"
-// import { fab } from "@fortawesome/free-brands-svg-icons"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "../styles/fonts.css"
 
 const IntroContainer = styled.div`
   margin-top: 40px;
@@ -20,7 +11,6 @@ const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: 1px solid yellow; */
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
@@ -36,7 +26,6 @@ const PersonalPhoto = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
-  /* border: 1px solid red; */
   @media (min-width: 900px) {
     margin-left: 10%;
     margin-right: 2.5%;
@@ -52,19 +41,17 @@ const PersonalInfoContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  /* border: 1px solid green; */
   @media (min-width: 900px) {
     text-align: left;
     height: 100%;
     width: 40%;
     margin: auto;
     margin-right: 5%;
-    /* padding: 1%; */
   }
 `
 
 const Name = styled.h1`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
@@ -84,7 +71,7 @@ font-family: 'Montserrat Alternates';
 // `
 
 const BrandStatement = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 16px;
   text-align: center;
   @media (min-width: 900px) {
@@ -93,7 +80,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const AboutLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 25px;
   color: white;
   display: flex;
@@ -115,29 +102,27 @@ font-family: 'Montserrat Alternates';
 `
 
 const ProjectSectionTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   text-align: center;
   font-size: 54px;
   font-weight: 700;
   margin: 20px 0 36px 0;
-  /* border: 1px solid purple; */
 `
 
-const DesktopDescriptionPrompt = styled.div`
-font-family: 'Montserrat Alternates';
-  display: none;
-  @media (min-width: 750px) {
-    /* border: 1px solid brown; */
-    display: flex;
-    width: 60%;
-    font-size: 25px;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
-  }
-`
+// const DesktopDescriptionPrompt = styled.div`
+//   font-family: "Montserrat Alternates";
+//   display: none;
+//   @media (min-width: 750px) {
+//     display: flex;
+//     width: 60%;
+//     font-size: 25px;
+//     text-align: center;
+//     justify-content: center;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-bottom: 24px;
+//   }
+// `
 
 const ImageWrapper = styled.div`
   position: relative;
@@ -160,12 +145,12 @@ const ProjectStill = styled.img`
 `
 
 const ProjectDescription = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: none;
   @media (min-width: 750px) {
     display: block;
     text-align: center;
-    font-size: 24px;
+    font-size: 21px;
     position: absolute;
     bottom: 2px;
     right: 0;
@@ -174,8 +159,6 @@ font-family: 'Montserrat Alternates';
     opacity: 0;
     width: 100%;
     height: 100%;
-    /* margin: auto; */
-    /* z-index: 1; */
     -webkit-transition: visibility 0s, opacity 0.5s linear;
     transition: visibility 0s, opacity 0.5s linear;
     &:hover {
@@ -187,7 +170,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const MobileProjectDescription = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: flex;
   width: 75%;
   font-size: 20px;
@@ -195,7 +178,6 @@ font-family: 'Montserrat Alternates';
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  /* border: 1px solid red; */
   justify-content: center;
   @media (min-width: 750px) {
     display: none;
@@ -203,7 +185,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const ProjectTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   padding-left: 7.5%;
   padding-right: 7.5%;
   text-align: center;
@@ -213,7 +195,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const ProjectLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -238,7 +220,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const ContactPrompt = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   width: 55%;
   font-size: 18px;
   font-weight: 800;
@@ -249,7 +231,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const GetInTouch = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 40px;
   color: white;
   background-color: rgb(99, 95, 85);
@@ -269,7 +251,7 @@ font-family: 'Montserrat Alternates';
     background-color: darkblue;
     border: 4px solid black;
   }
-  `
+`
 
 const IndexPage = () => (
   <Layout>
@@ -292,9 +274,6 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-    <DesktopDescriptionPrompt>
-      Project descriptions on click or cursor hover
-    </DesktopDescriptionPrompt>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -315,14 +294,14 @@ const IndexPage = () => (
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive site that I built with API fetches that provides
-        users links to pages with detailed descriptions of dozens of National
-        Parks around the country
+        users links to pages with detailed descriptions of National Parks around
+        the country
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       This is an interactive site that I built with API fetches that provides
       users links to pages with detailed descriptions of dozens of National
-      Parks around the country
+      Parks around the country.
     </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
@@ -332,10 +311,11 @@ const IndexPage = () => (
         A full stack site built with Django that provides menus, draft lists and
         brewery information for users. This site also allows for brewery owners
         and managers to access full CRUD capabilties to make alterations to
-        their menus and brewery information in real time.
+        their menus and brewery information in real time. This project is
+        currently in development.
       </ProjectDescription>
     </ImageWrapper>
-    <ProjectLink href="/mern-full-stack">Learn More</ProjectLink>
+    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
     <MobileProjectDescription>
       A full stack site built with Django that provides menus, draft lists and
       brewery information for users. This site also allows for brewery owners
@@ -349,14 +329,15 @@ const IndexPage = () => (
         One of my first projects: a fun trivia game with 3 selectable categories
         related to media. Written with HTML, CSS and Vanilla Javascript.
         Somewhat limited by the fact that I wrote the questions myself instead
-        of fetching from an API, but pretty fun. Give it a try!  Link on project page.
+        of fetching from an API, but pretty fun. Give it a try! Link on project
+        page.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       One of my first projects: a fun trivia game with 3 selectable categories
       related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
       limited by the fact that I wrote the questions myself instead of fetching
-      from an API, but pretty fun. Give it a try!  Link on project page.
+      from an API, but pretty fun. Give it a try! Link on project page.
     </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <hr
@@ -369,8 +350,7 @@ const IndexPage = () => (
       other projects I am working on please feel free to contact me via email or
       LinkedIn
     </ContactPrompt>
-    <GetInTouch
-    href='/contact'>Contact Me</GetInTouch>
+    <GetInTouch href="/contact">Contact Me</GetInTouch>
   </Layout>
 )
 

@@ -95,10 +95,6 @@ const MobileCard = styled.div`
   }
 `;
 
-// const SliderAPlacer = styled.div`
-//   padding-left: 3.5%;
-// `;
-
 const Slide = styled.div`
     width: 100%;
     display: none;
@@ -359,12 +355,12 @@ class CollectionList extends React.Component {
         </DesktopCard>
         <MobileCard>
           <MobileImageContainer>
-            <MobileImage src={this.state.properties[0].image}></MobileImage>
-            <MobileText>{this.state.properties[0].desktopLabel}</MobileText>
+            <MobileImage src={this.state.properties[2].image}></MobileImage>
+            <MobileText>{this.state.properties[2].desktopLabel}</MobileText>
           </MobileImageContainer>
           <MobileImageContainer>
-            <MobileImage src={this.state.properties[1].image}></MobileImage>
-            <MobileText>{this.state.properties[1].desktopLabel}</MobileText>
+            <MobileImage src={this.state.properties[3].image}></MobileImage>
+            <MobileText>{this.state.properties[3].desktopLabel}</MobileText>
           </MobileImageContainer>
         </MobileCard>
       </div>

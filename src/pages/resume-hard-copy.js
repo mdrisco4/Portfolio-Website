@@ -14,6 +14,8 @@ const Container = styled.div`
 `
 
 const ContactLinks = styled.div`
+display: flex;
+flex-direction: column;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +24,6 @@ const ContactLinks = styled.div`
     height: 100%;
     width: 70%;
     margin: auto;
-    flex-direction: row;
   }
 `
 
@@ -33,6 +34,7 @@ const EmailLink = styled.a`
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
@@ -50,6 +52,7 @@ const LinkedInLink = styled.a`
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 30px;
@@ -66,7 +69,7 @@ const Contact = () => (
     <ContactLinks>
     <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
       michaelndriscoll81@gmail.com
-    </EmailLink><br />
+    </EmailLink>
     <LinkedInLink
       href="https://www.linkedin.com/in/michael-n-driscoll/"
       target="_blank"

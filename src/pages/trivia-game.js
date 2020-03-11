@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
@@ -14,7 +13,6 @@ const Container = styled.div`
 
 const ProjectLinkContainer = styled.div`
 width: 50%;
-/* border: 1px solid yellow; */
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -31,6 +29,7 @@ margin-left: auto;
 `
 
 const DeployedLink = styled.a`
+font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -53,6 +52,7 @@ const DeployedLink = styled.a`
 `
 
 const GitHubLink = styled.a`
+font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -75,28 +75,27 @@ const GitHubLink = styled.a`
 `
 
 const Title = styled.h1`
-  /* border: 2px solid red; */
+font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
 
 const SectionTitle = styled.div`
+font-family: "Montserrat Alternates";
   font-size: 36px;
 `
 
 const ProjectDescription = styled.p`
-  /* text-align: center; */
+font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid black; */
   font-size: 20px;
 `
 
 const AccompanyingImage = styled.img`
   width: 55%;
-  /* border: 3px solid darkblue; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
