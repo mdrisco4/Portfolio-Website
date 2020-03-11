@@ -77,7 +77,7 @@ const Contact = () => (
       linkedin.com/in/michael-n-driscoll/
     </LinkedInLink>
       </ContactLinks>
-    <img src="https://i.imgur.com/LFa5i1U.png"
+    <img src="https://i.imgur.com/m6r2sE4.png"
     alt="resume"
     style={{
       width: '90%',
