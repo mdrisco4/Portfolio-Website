@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const ProjectLinkContainer = styled.div`
 width: 50%;
-/* border: 1px solid yellow; */
+border: 1px solid yellow;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -31,7 +31,7 @@ margin-left: auto;
 `
 
 const DeployedLink = styled.a`
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -53,7 +53,7 @@ const DeployedLink = styled.a`
 `
 
 const GitHubLink = styled.a`
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;

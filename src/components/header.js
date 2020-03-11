@@ -1,8 +1,4 @@
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
 import React from "react"
-// import FontAwesomeIcon from "@fortawesome/react-fontawesome"
-// import * as Icons from "@fortawesome/fontawesome-free-solid"
 import styled from "styled-components"
 import "../styles/fonts.css"
 
@@ -43,7 +39,7 @@ const IconLink = styled.a`
   }
   &:hover {
     color: rgb(110, 176, 249);
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
@@ -68,23 +64,9 @@ const HeaderLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      {/* <FontAwesomeIcon
-          icon={["fas", "home"]}
-          size="2x"
-          color="red"
-        /> */}
-
-      {/* <FontAwesomeIcon
-          icon={["fab", "centos"]}
-          size="2x"
-          color="red"
-        /> */}
-
       <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
       </IconLink>
-
-      {/* <HeaderLink href="/">Home</HeaderLink> */}
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink>

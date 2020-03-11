@@ -53,7 +53,7 @@ const ProjectLinkContainer = styled.div`
 
 const GitHubLink = styled.a`
   font-family: "Montserrat Alternates";
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
