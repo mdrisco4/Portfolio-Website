@@ -21,7 +21,7 @@ justify-content: space-around;
 margin: 20px;
 margin-left: auto;
     margin-right: auto;
-  @media (min-width: 1000px) {
+  @media (min-width: 850px) {
     width: 40%;
     justify-content: space-around;
     margin-left: auto;
@@ -42,7 +42,7 @@ const DeployedLink = styled.a`
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 1000px) {
+@media (min-width: 850px) {
   width: 42%;
 }
   &:hover {
@@ -64,7 +64,7 @@ const GitHubLink = styled.a`
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 1000px) {
+@media (min-width: 850px) {
   width: 42%;
 }
   &:hover {
