@@ -1,17 +1,3 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import styled from "styled-components";
-// import Logo from "../components/FullLogo/Logo";
-// import NavMenuDesktop from "../components/NavMenu/NavMenuDesktop";
-// import Footer from "../components/Footer/Footer";
-// import NavBar from "../components/NavBar/NavBar";
-// import GownHeader from "../components/GownHeader/GownHeader";
-// import CollectionList from "../components/CollectionList/CollectionList";
-// import Layout from "../global/Layout";
-// import { Link } from "gatsby";
-// import { useStaticQuery, graphql } from "gatsby";
-
-
 import React from "react";
 import styled from "styled-components";
 

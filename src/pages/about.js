@@ -3,14 +3,12 @@ import '../styles/fonts.css'
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-// import Resume from "../images/images/Resume.pdf";
 
 const Container = styled.div`
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
   width: 100%;
-  /* border: 2px solid yellow; */
   padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
@@ -39,7 +37,6 @@ const PersonalInfo = styled.div`
   @media (min-width: 800px) {
     height: 100%;
     width: 40%;
-    /* border: 1px solid blue; */
     margin: auto;
     flex-direction: row;
   }
@@ -85,7 +82,6 @@ const About = () => (
     <Container>
       <PersonalInfo>
         <Title>My Background</Title>
-        {/* <ContactDetails>Logan Circle</ContactDetails> */}
         <AboutDetails>
           I have always been interested in all things science and technology and
           I am excited to begin a rewarding career in software development. I am

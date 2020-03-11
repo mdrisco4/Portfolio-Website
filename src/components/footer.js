@@ -1,12 +1,10 @@
-import { Link } from "gatsby"
-// import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { fas } from "@fortawesome/free-solid-svg-icons"
-import { far } from "@fortawesome/free-regular-svg-icons"
-import { fab } from "@fortawesome/free-brands-svg-icons"
+// import { library } from "@fortawesome/fontawesome-svg-core"
+// import { fas } from "@fortawesome/free-solid-svg-icons"
+// import { far } from "@fortawesome/free-regular-svg-icons"
+// import { fab } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 library.add(fab, fas, far)

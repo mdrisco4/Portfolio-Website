@@ -11,8 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 library.add(fab, fas, far)
 
-// import fonts from "../styles.fonts"
-
 const ContactInfo = styled.div`
   font-family: "Montserrat Alternates";
   text-align: center;

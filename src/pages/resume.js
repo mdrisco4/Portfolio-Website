@@ -413,9 +413,9 @@ const Resume = () => (
           <SubSectionTitle>∙ SQL</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer
-        // style={{
-        //   width: '39%',
-        // }}
+        style={{
+          width: '45%',
+        }}
         >
           <SubSectionTitle>∙ Adobe XD</SubSectionTitle>
           <SubSectionTitle>∙ Python/Django</SubSectionTitle>
