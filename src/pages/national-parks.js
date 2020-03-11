@@ -13,14 +13,14 @@ const Container = styled.div`
 `
 
 const ProjectLinkContainer = styled.div`
-width: 50%;
-/* border: 1px solid yellow; */
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin: 20px;
-margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   @media (min-width: 1000px) {
     width: 40%;
     justify-content: space-around;
@@ -42,9 +42,9 @@ const DeployedLink = styled.a`
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 1000px) {
-  width: 42%;
-}
+  @media (min-width: 1000px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -64,9 +64,9 @@ const GitHubLink = styled.a`
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 1000px) {
-  width: 42%;
-}
+  @media (min-width: 1000px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -123,22 +123,33 @@ const TriviaGame = () => (
       </ProjectLinkContainer>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
-        stuff
+        The purpose of this project was to create a site that could be used to
+        access many different national parks with easy links to see details with
+        links to the indiviual park websites. It is populated with the National
+        Park Service API and employs React Router for site navigation. By
+        employing these tools only a handful of pages need to be built to create
+        a sizeable resource with a large amount of data.
       </ProjectDescription>
       {/* <AccompanyingImage src="https://i.imgur.com/6DMtsb0.png" /> */}
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
-        stuff
+        The first step in approaching this undertaking was to use a JSON file
+        with a portion of the API data to build out the home page, basic park
+        page layout and test functionality. Once this was successfully completed
+        an API fetch was set up to pull larger amounts of data. With the fetch
+        used on the home page linking the images to the separate park pages a
+        single fetch can be written to populate the park page with the
+        appropriate data using the "park code" provided in the API.
       </ProjectDescription>
       {/* <AccompanyingImage src="https://i.imgur.com/xguDr3e.png" /> */}
       <SectionTitle>Problems</SectionTitle>
-      <ProjectDescription>
-        stuff
-      </ProjectDescription>
+      <ProjectDescription>stuff</ProjectDescription>
       {/* <AccompanyingImage src="https://i.imgur.com/QYGeEWL.png" /> */}
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
-        stuff
+        In order to provide additional data that the API fetch and data
+        population does not provide a link was added to direct users to the site
+        for a given park using the URL provided in the API.
       </ProjectDescription>
     </Container>
   </Layout>
