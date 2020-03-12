@@ -4,6 +4,76 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import "../styles/fonts.css"
 
+const ProjectLinkContainer = styled.div`
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 20px;
+margin-left: auto;
+    margin-right: auto;
+  @media (min-width: 850px) {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+`
+
+const DeployedLink = styled.a`
+font-family: "Montserrat Alternates";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
+  height: auto;
+  padding: 4px 0;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 24px;
+  text-align: center;
+@media (min-width: 850px) {
+  width: 42%;
+}
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    border: 4px solid black;
+  }
+`
+
+const GitHubLink = styled.a`
+font-family: "Montserrat Alternates";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
+  height: auto;
+  padding: 4px 0;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 24px;
+  text-align: center;
+@media (min-width: 850px) {
+  width: 42%;
+}
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    border: 4px solid black;
+  }
+`
+
+
+
+
+
+
 const IntroContainer = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
@@ -294,14 +364,28 @@ const IndexPage = () => (
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive site that I built with API fetches that provides
-        the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
         users links to pages with detailed descriptions of National Parks around
+        the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
       </ProjectDescription>
     </ImageWrapper>
-    <MobileProjectDescription>
+    {/* <ProjectLinkContainer>
+        <DeployedLink
+          href="https://us-national-parks.netlify.com/"
+          target="_blank"
+        >
+          NATIONAL PARKS
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/National-Parks"
+          target="_blank"
+        >
+          GITHUB REPO
+        </GitHubLink>
+      </ProjectLinkContainer> */}
+    {/* <MobileProjectDescription>
       This is an interactive site that I built with API fetches that provides
-      Parks around the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
       users links to pages with detailed descriptions of dozens of National
+      Parks around the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
     </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
@@ -321,7 +405,7 @@ const IndexPage = () => (
       brewery information for users. This site also allows for brewery owners
       and managers to access full CRUD capabilties to make alterations to their
       menus and brewery information in real time.
-    </MobileProjectDescription>
+    </MobileProjectDescription> */}
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
@@ -333,6 +417,20 @@ const IndexPage = () => (
         page.
       </ProjectDescription>
     </ImageWrapper>
+    {/* <ProjectLinkContainer>
+        <DeployedLink
+          href="https://mdrisco4.github.io/Unit-Project-1/"
+          target="_blank"
+        >
+          TRIVIA APP
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/Unit-Project-1"
+          target="_blank"
+        >
+          GITHUB REPO
+        </GitHubLink>
+      </ProjectLinkContainer> */}
     <MobileProjectDescription>
       One of my first projects: a fun trivia game with 3 selectable categories
       related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
