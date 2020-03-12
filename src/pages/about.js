@@ -91,7 +91,7 @@ const About = () => (
         <Title>Interests and Hobbies</Title>
         <AboutDetails>
           Besides always making an effort to learn about new technologies I am a
-          huge movie buff and enjoy sports and poker.
+          huge movie buff and enjoy sports, poker and enjoying nature whenever I can.
         </AboutDetails>
       </PersonalInfo>
       <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
