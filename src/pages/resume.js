@@ -428,7 +428,9 @@ const Resume = () => (
       </SubSectionTitle>
       <City>Washington, D.C.</City>
       <Dates>11/2019-2/2020</Dates>
-      <Details>
+      <Details style={{
+        fontWeight: 'bold',
+      }}>
         Completed a 500 hour full stack immersive program and designed projects
         including:
       </Details>
