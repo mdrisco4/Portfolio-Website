@@ -10,7 +10,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   padding: 20px 0;
-  @media (min-width: 800px) {
+  @media (min-width: 850px) {
     height: auto;
     flex-direction: row;
   }
@@ -22,7 +22,7 @@ const Headshot = styled.img`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  @media (min-width: 800px) {
+  @media (min-width: 850px) {
     height: auto;
     width: 40%;
     flex-direction: row;
@@ -34,7 +34,7 @@ const PersonalInfo = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  @media (min-width: 800px) {
+  @media (min-width: 850px) {
     height: 100%;
     width: 40%;
     margin: auto;
