@@ -294,14 +294,14 @@ const IndexPage = () => (
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive site that I built with API fetches that provides
-        users links to pages with detailed descriptions of National Parks around
         the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
+        users links to pages with detailed descriptions of National Parks around
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       This is an interactive site that I built with API fetches that provides
-      users links to pages with detailed descriptions of dozens of National
       Parks around the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
+      users links to pages with detailed descriptions of dozens of National
     </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
