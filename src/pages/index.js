@@ -382,7 +382,7 @@ const IndexPage = () => (
           GITHUB REPO
         </GitHubLink>
       </ProjectLinkContainer> */}
-    {/* <MobileProjectDescription>
+    <MobileProjectDescription>
       This is an interactive site that I built with API fetches that provides
       users links to pages with detailed descriptions of dozens of National
       Parks around the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
@@ -405,7 +405,7 @@ const IndexPage = () => (
       brewery information for users. This site also allows for brewery owners
       and managers to access full CRUD capabilties to make alterations to their
       menus and brewery information in real time.
-    </MobileProjectDescription> */}
+    </MobileProjectDescription>
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
