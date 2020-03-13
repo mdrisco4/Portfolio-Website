@@ -94,9 +94,26 @@ const ProjectDescription = styled.p`
   font-size: 20px;
 `
 
+const AccompanyingImage = styled.img`
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+`
+
+const ImageContainer = styled.div`
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid red; */
+`
+
 const RocBreweries = () => (
   <Layout>
     <Container>
+      <AccompanyingImage src='https://i.imgur.com/JWBhdLK.png'></AccompanyingImage>
       <Title>Rochester Craft Beer Community</Title>
       <ProjectLinkContainer>
         <DeployedLink
@@ -122,6 +139,10 @@ const RocBreweries = () => (
         have restricted access to admin permissions to delete or force any
         changes needed. This was developed with Python and Django.
       </ProjectDescription>
+      <ImageContainer>
+      <AccompanyingImage src='https://i.imgur.com/4HiPRqd.png'></AccompanyingImage>
+      <AccompanyingImage src='https://i.imgur.com/1stnHXN.png'></AccompanyingImage>
+       </ImageContainer>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
         I developed this project using Python with a Django backend and Django
@@ -134,6 +155,10 @@ const RocBreweries = () => (
         stack capabilities. The use of Django templates would make building the
         front end a fairly quick and straightforward process.
       </ProjectDescription>
+      <ImageContainer>
+      <AccompanyingImage src='https://i.imgur.com/JWBhdLK.png'></AccompanyingImage>
+      <AccompanyingImage src='https://i.imgur.com/IJlwy0r.png'></AccompanyingImage>
+      </ImageContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
         The most difficult and involved part of building this app was setting up
