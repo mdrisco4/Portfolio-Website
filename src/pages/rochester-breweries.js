@@ -102,7 +102,6 @@ const AccompanyingImage = styled.img`
   margin-bottom: 20px;
   @media (min-width: 850px) {
     width: 40%;
-
   }
 `
 
@@ -136,7 +135,7 @@ const RocBreweries = () => (
           GITHUB REPO
         </GitHubLink>
       </ProjectLinkContainer>
-      <AccompanyingImage src='https://i.imgur.com/hg62Tm5.png'></AccompanyingImage>
+      <AccompanyingImage src="https://i.imgur.com/hg62Tm5.png"></AccompanyingImage>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
         The idea behind this project was to develop a full stack application
@@ -148,9 +147,9 @@ const RocBreweries = () => (
         changes needed. This was developed with Python and Django.
       </ProjectDescription>
       <ImageContainer>
-      <AccompanyingImage src='https://i.imgur.com/4HiPRqd.png'></AccompanyingImage>
-      <AccompanyingImage src='https://i.imgur.com/1stnHXN.png'></AccompanyingImage>
-       </ImageContainer>
+        <AccompanyingImage src="https://i.imgur.com/4HiPRqd.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/1stnHXN.png"></AccompanyingImage>
+      </ImageContainer>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
         I developed this project using Python with a Django backend and Django
@@ -164,8 +163,8 @@ const RocBreweries = () => (
         front end a fairly quick and straightforward process.
       </ProjectDescription>
       <ImageContainer>
-      <AccompanyingImage src='https://i.imgur.com/JWBhdLK.png'></AccompanyingImage>
-      <AccompanyingImage src='https://i.imgur.com/IJlwy0r.png'></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/JWBhdLK.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/IJlwy0r.png"></AccompanyingImage>
       </ImageContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
@@ -177,9 +176,10 @@ const RocBreweries = () => (
       </ProjectDescription>
       <SectionTitle>Solutions</SectionTitle>
       <ProjectDescription>
-        This project is deployed with AWS and I am currently doing research to
-        provide optimazation. I also am redesigning the look of the site and
-        developing an authorization process.
+        Besides continuing to adjust the styling and responsivesness of the site
+        I am working on setting up authorization for the site so credentialed
+        users can create a user name an password to change draft list, menu and
+        brewery information settings.
       </ProjectDescription>
     </Container>
   </Layout>
