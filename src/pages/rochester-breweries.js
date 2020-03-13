@@ -113,7 +113,6 @@ const ImageContainer = styled.div`
 const RocBreweries = () => (
   <Layout>
     <Container>
-      <AccompanyingImage src='https://i.imgur.com/JWBhdLK.png'></AccompanyingImage>
       <Title>Rochester Craft Beer Community</Title>
       <ProjectLinkContainer>
         <DeployedLink
