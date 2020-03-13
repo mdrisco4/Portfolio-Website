@@ -95,18 +95,26 @@ const ProjectDescription = styled.p`
 `
 
 const AccompanyingImage = styled.img`
-  width: 40%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 20px;
+  @media (min-width: 850px) {
+    width: 40%;
+
+  }
 `
 
 const ImageContainer = styled.div`
   display: flex;
+  flex-direction: column;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  @media (min-width: 850px) {
+    flex-direction: row;
+  }
   /* border: 1px solid red; */
 `
 
