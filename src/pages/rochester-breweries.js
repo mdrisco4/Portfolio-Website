@@ -128,6 +128,7 @@ const RocBreweries = () => (
           GITHUB REPO
         </GitHubLink>
       </ProjectLinkContainer>
+      <AccompanyingImage src='https://i.imgur.com/hg62Tm5.png'></AccompanyingImage>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
         The idea behind this project was to develop a full stack application
