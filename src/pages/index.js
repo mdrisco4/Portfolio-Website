@@ -344,21 +344,24 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-    <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
-        A client project currently still in development. Built using React,
-        Contentful and GraphQL. I am assigned to the front end on a 15 person
-        team employing Storybook for branch management.
+        One of my first projects: a fun trivia game with 3 selectable categories
+        related to media. Written with HTML, CSS and Vanilla Javascript.
+        Somewhat limited by the fact that I wrote the questions myself instead
+        of fetching from an API, but pretty fun. Give it a try! Link on project
+        page.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      A client project currently still in development. Built using React,
-      Contentful and GraphQL. I am assigned to the front end on a 15 person team
-      utilizing Storybook for branch management.
+      One of my first projects: a fun trivia game with 3 selectable categories
+      related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
+      limited by the fact that I wrote the questions myself instead of fetching
+      from an API, but pretty fun. Give it a try! Link on project page.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
+    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
@@ -368,20 +371,6 @@ const IndexPage = () => (
         the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
       </ProjectDescription>
     </ImageWrapper>
-    {/* <ProjectLinkContainer>
-        <DeployedLink
-          href="https://us-national-parks.netlify.com/"
-          target="_blank"
-        >
-          NATIONAL PARKS
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/National-Parks"
-          target="_blank"
-        >
-          GITHUB REPO
-        </GitHubLink>
-      </ProjectLinkContainer> */}
     <MobileProjectDescription>
       This is an interactive site that I built with API fetches that provides
       users links to pages with detailed descriptions of dozens of National
@@ -390,7 +379,7 @@ const IndexPage = () => (
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/nKATmCL.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/TUQVQEX.png"></ProjectStill>
       <ProjectDescription>
         A full stack site built with Django that provides menus, draft lists and
         brewery information for users. This site also allows for brewery owners
@@ -406,38 +395,21 @@ const IndexPage = () => (
       and managers to access full CRUD capabilties to make alterations to their
       menus and brewery information in real time.
     </MobileProjectDescription>
-    <ProjectTitle>Trivia Game</ProjectTitle>
+    <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        One of my first projects: a fun trivia game with 3 selectable categories
-        related to media. Written with HTML, CSS and Vanilla Javascript.
-        Somewhat limited by the fact that I wrote the questions myself instead
-        of fetching from an API, but pretty fun. Give it a try! Link on project
-        page.
+        A client project currently still in development. Built using React,
+        Contentful and GraphQL. I am assigned to the front end on a 15 person
+        team employing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
-    {/* <ProjectLinkContainer>
-        <DeployedLink
-          href="https://mdrisco4.github.io/Unit-Project-1/"
-          target="_blank"
-        >
-          TRIVIA APP
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/Unit-Project-1"
-          target="_blank"
-        >
-          GITHUB REPO
-        </GitHubLink>
-      </ProjectLinkContainer> */}
     <MobileProjectDescription>
-      One of my first projects: a fun trivia game with 3 selectable categories
-      related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
-      limited by the fact that I wrote the questions myself instead of fetching
-      from an API, but pretty fun. Give it a try! Link on project page.
+      A client project currently still in development. Built using React,
+      Contentful and GraphQL. I am assigned to the front end on a 15 person team
+      utilizing Storybook for branch management.
     </MobileProjectDescription>
-    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <hr
       style={{
         border: "1px solid black",
