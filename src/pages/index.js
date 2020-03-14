@@ -4,76 +4,6 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import "../styles/fonts.css"
 
-const ProjectLinkContainer = styled.div`
-width: 50%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin: 20px;
-margin-left: auto;
-    margin-right: auto;
-  @media (min-width: 850px) {
-    width: 40%;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
-  }
-`
-
-const DeployedLink = styled.a`
-font-family: "Montserrat Alternates";
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
-  height: auto;
-  padding: 4px 0;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 24px;
-  text-align: center;
-@media (min-width: 850px) {
-  width: 42%;
-}
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
-  }
-`
-
-const GitHubLink = styled.a`
-font-family: "Montserrat Alternates";
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
-  height: auto;
-  padding: 4px 0;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 24px;
-  text-align: center;
-@media (min-width: 850px) {
-  width: 42%;
-}
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
-  }
-`
-
-
-
-
-
-
 const IntroContainer = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
@@ -131,15 +61,6 @@ const Name = styled.h1`
   }
 `
 
-// const MissionStatement = styled.div`
-//   font-size: 20px;
-//   text-align: center;
-//   margin-bottom: 8px;
-//   @media (min-width: 900px) {
-//     font-size: 24px;
-//   }
-// `
-
 const BrandStatement = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 16px;
@@ -178,21 +99,6 @@ const ProjectSectionTitle = styled.div`
   font-weight: 700;
   margin: 20px 0 36px 0;
 `
-
-// const DesktopDescriptionPrompt = styled.div`
-//   font-family: "Montserrat Alternates";
-//   display: none;
-//   @media (min-width: 750px) {
-//     display: flex;
-//     width: 60%;
-//     font-size: 25px;
-//     text-align: center;
-//     justify-content: center;
-//     margin-left: auto;
-//     margin-right: auto;
-//     margin-bottom: 24px;
-//   }
-// `
 
 const ImageWrapper = styled.div`
   position: relative;
