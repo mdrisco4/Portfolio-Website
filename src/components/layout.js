@@ -26,11 +26,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      {/* <body
+      <body
         style={{
           margin: "0",
         }}
-      > */}
+      >
         <div
           style={{
             margin: `0`,
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         >
           <main>{children}</main>
         </div>
-      {/* </body> */}
+      </body>
     </>
   )
 }
