@@ -338,7 +338,7 @@ const IndexPage = () => (
           a skillset crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
-          technology.
+          technology. See some of my projects below.
         </BrandStatement>
         <AboutLink href="/about">More About Me</AboutLink>
       </PersonalInfoContainer>

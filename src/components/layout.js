@@ -25,36 +25,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <ThemeProvider theme={variables}>
-        <>
-          <Helmet> */}
-
-
-            <Header />
-            <body
-              style={{
-                margin: "0",
-              }}
-            >
-              <div
-                style={{
-                  margin: `0`,
-                  backgroundColor: "rgb(90, 176, 255)",
-                  border: "5px solid rgb(90, 176, 255)",
-                  minHeight: "1200px",
-                }}
-              >
-                <main>{children}</main>
-                {/* <Footer /> */}
-              </div>
-            </body>
-
-
-          {/* </Helmet>
-          <GlobalStyle />
-          <>{children}</>
-        </>
-      </ThemeProvider> */}
+      <Header />
+      <body
+        style={{
+          margin: "0",
+        }}
+      >
+        <div
+          style={{
+            margin: `0`,
+            backgroundColor: "rgb(90, 176, 255)",
+            border: "5px solid rgb(90, 176, 255)",
+            minHeight: "1200px",
+          }}
+        >
+          <main>{children}</main>
+        </div>
+      </body>
     </>
   )
 }
