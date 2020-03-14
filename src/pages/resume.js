@@ -205,10 +205,10 @@ font-family: 'Montserrat Alternates';
   text-decoration: none;
   background-color: rgb(99, 95, 85);
   border: 2px solid darkblue;
-  @media (min-width: 800px) {
+  @media (min-width: 900px) {
     margin-top: 24px;
     font-size: 32px;
-    width: 200px;
+    width: 260px;
     height: auto;
     margin-top: 40px;
     padding: 10px;
@@ -398,7 +398,7 @@ const Resume = () => (
         </GitHubLink>
         </ContactInfo>
         <ButtonContainer>
-          <PDFLink href={MichaelDriscollResume} download>PDF Version</PDFLink>
+          <PDFLink href={MichaelDriscollResume} download>PDF Download</PDFLink>
         </ButtonContainer>
       </AboutContactContainer>
       <SectionTitle>Skills</SectionTitle>

@@ -85,7 +85,7 @@ const IntroContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     height: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 `
 
@@ -99,7 +99,7 @@ const PersonalPhoto = styled.img`
   @media (min-width: 900px) {
     margin-left: 10%;
     margin-right: 2.5%;
-    margin-top: 5%;
+    margin-top: 2%;
     width: auto;
     height: 85%;
   }
@@ -125,7 +125,7 @@ const Name = styled.h1`
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
-  @media (min-width: 900px) {
+  @media (min-width: 1050px) {
     font-size: 42px;
     margin-bottom: 8px;
   }
@@ -144,7 +144,7 @@ const BrandStatement = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 16px;
   text-align: center;
-  @media (min-width: 1000px) {
+  @media (min-width: 1050px) {
     font-size: 20px;
   }
 `
