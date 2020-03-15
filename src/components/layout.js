@@ -1,16 +1,7 @@
 import React from "react"
-// import PropTypes from "prop-types"
-// import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-// import { ThemeProvider } from "styled-components"
 
 import Header from "./header"
-// import Footer from "./footer"
-// import "../styles/normalize.css"
-
-// import GlobalStyle from "./GlobalStyle"
-// import variables from "../styles/styled-components"
-// import "../styles/fonts.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
