@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <body {data}
+      <body
         style={{
           margin: "0",
         }}
