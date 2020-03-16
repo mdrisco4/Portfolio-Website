@@ -255,32 +255,31 @@ const IndexPage = () => (
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
         One of my first projects: a fun trivia game with 3 selectable categories
-        related to media. Written with HTML, CSS and Vanilla Javascript.
-        Somewhat limited by the fact that I wrote the questions myself instead
-        of fetching from an API, but pretty fun. Give it a try! Link on project
-        page.
+        related to media. Written with HTML, CSS and Vanilla Javascript. Give it
+        a try! Link on project page.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       One of my first projects: a fun trivia game with 3 selectable categories
-      related to media. Written with HTML, CSS and Vanilla Javascript. Somewhat
-      limited by the fact that I wrote the questions myself instead of fetching
-      from an API, but pretty fun. Give it a try! Link on project page.
+      related to media. Written with HTML, CSS and Vanilla Javascript. Give it a
+      try! Link on project page.
     </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
-        This is an interactive site that I built with API fetches that provides
-        users links to pages with detailed descriptions of National Parks around
-        the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
+        This is an interactive site that I built fetching data from the National
+        PArk Sevice ASI that provides users links to pages with details for
+        National Parks around the country. Built using React to specifications
+        provided in an AdobeXD mockup.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      This is an interactive site that I built with API fetches that provides
-      users links to pages with detailed descriptions of dozens of National
-      Parks around the country. Built using React with an API fetch from the National Park Service and an AdobeXD mockup.
+      This is an interactive site that I built fetching data from the National
+      PArk Sevice ASI that provides users links to pages with details for
+      National Parks around the country. Built using React to specifications
+      provided in an AdobeXD mockup.
     </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
@@ -289,17 +288,18 @@ const IndexPage = () => (
       <ProjectDescription>
         A full stack site built with Django that provides menus, draft lists and
         brewery information for users. This site also allows for brewery owners
-        and managers to access full CRUD capabilties to make alterations to
-        their menus and brewery information in real time. This project is
-        currently in development.
+        and managers to access full CRUD capabilties to make changes to their
+        menus and brewery information in real time. This project is currently in
+        development.
       </ProjectDescription>
     </ImageWrapper>
     <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
     <MobileProjectDescription>
       A full stack site built with Django that provides menus, draft lists and
       brewery information for users. This site also allows for brewery owners
-      and managers to access full CRUD capabilties to make alterations to their
-      menus and brewery information in real time.
+      and managers to access full CRUD capabilties to make changes to their
+      menus and brewery information in real time. This project is currently in
+      development.
     </MobileProjectDescription>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
