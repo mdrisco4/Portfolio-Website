@@ -270,15 +270,15 @@ const IndexPage = () => (
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
         This is an interactive site that I built fetching data from the National
-        PArk Sevice ASI that provides users links to pages with details for
-        National Parks around the country. Built using React to specifications
+        Park Sevice API that provides users links to pages with details for
+        national parks around the country. Built using React to specifications
         provided in an AdobeXD mockup.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       This is an interactive site that I built fetching data from the National
-      PArk Sevice ASI that provides users links to pages with details for
-      National Parks around the country. Built using React to specifications
+      Park Sevice API that provides users links to pages with details for
+      national parks around the country. Built using React to specifications
       provided in an AdobeXD mockup.
     </MobileProjectDescription>
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
