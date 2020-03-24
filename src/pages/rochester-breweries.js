@@ -111,7 +111,7 @@ const ImageContainer = styled.div`
   width: 84%;
   margin-left: auto;
   margin-right: auto;
-  @media (min-width: 850px) {
+  @media (min-width: 700px) {
     flex-direction: row;
   }
   /* border: 1px solid red; */
@@ -123,7 +123,7 @@ const FlexImage = styled.img`
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 20px;
-  @media (min-width: 850px) {
+  @media (min-width: 700px) {
     width: 45%;
   }
 `
