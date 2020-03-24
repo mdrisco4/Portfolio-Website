@@ -335,16 +335,12 @@ const ModernTrousseau = () => (
           ></PageImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
         </SprintTwoExample>
-        <SprintTwoExample
-        style={{
-          // border: "1px solid red",
-          width: "30%"
-        }}>
+        <SprintTwoExample>
           <PageImage
             src="https://i.imgur.com/f1JBD1U.png"
             style={{
-              width: "96%",
-              marginTop: "30%",
+              width: "110%",
+              marginTop: "39%",
               // border: "1px solid red"
             }}
           ></PageImage>
