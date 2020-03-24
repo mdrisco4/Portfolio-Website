@@ -13,6 +13,9 @@ const Container = styled.div`
   @media (min-width: 850px) {
     height: auto;
     flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+  margin-right: auto;
   }
 `
 

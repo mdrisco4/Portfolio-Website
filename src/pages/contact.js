@@ -30,6 +30,7 @@ const Questions = styled.div`
   font-size: 24px;
   @media (min-width: 600px) {
     font-size: 28px;
+    max-width: 800px;
   }
 `
 
