@@ -294,9 +294,9 @@ const ModernTrousseau = () => (
         <SprintTwoExample>
           <MobilePageLabel>Gowns Page</MobilePageLabel>
           <PageImage
-            src="https://i.imgur.com/D0quP8r.png"
+            src="https://i.imgur.com/eVtMFuz.png"
             style={{
-              width: "93%",
+              width: "82%",
             }}
           ></PageImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
@@ -304,37 +304,48 @@ const ModernTrousseau = () => (
         <SprintTwoExample>
           <PageImageContainer>
             <PageImage
-              src="https://i.imgur.com/tesizFY.png"
+              src="https://i.imgur.com/9dU73Zy.png"
               style={{
-                width: "91%",
+                width: "95%",
               }}
             ></PageImage>
           </PageImageContainer>
           <PageImageContainer>
             <PageImage
-              src="https://i.imgur.com/d2TI62G.png"
+              src="https://i.imgur.com/ifrIznt.png"
               style={{
-                width: "90%",
+                width: "95%",
               }}
             ></PageImage>
             <MobileDesktopLabel>Desktop</MobileDesktopLabel>
           </PageImageContainer>
         </SprintTwoExample>
-        <SprintTwoExample>
+        <SprintTwoExample
+        style={{
+          // border: "1px solid red"
+        }}>
           <MobilePageLabel>Gown Page</MobilePageLabel>
           <PageImage
             src="https://i.imgur.com/wwf5Asx.png"
             style={{
-              width: "66.2%",
+              width: "96%",
+              marginTop: "32%",
+              // border: "1px solid red"
             }}
           ></PageImage>
           <MobileDesktopLabel>Mobile</MobileDesktopLabel>
         </SprintTwoExample>
-        <SprintTwoExample>
+        <SprintTwoExample
+        style={{
+          // border: "1px solid red",
+          width: "30%"
+        }}>
           <PageImage
             src="https://i.imgur.com/f1JBD1U.png"
             style={{
-              width: "83.1%",
+              width: "96%",
+              marginTop: "30%",
+              // border: "1px solid red"
             }}
           ></PageImage>
           <MobileDesktopLabel>Desktop</MobileDesktopLabel>
@@ -366,7 +377,7 @@ const ModernTrousseau = () => (
         before finishing the pages I have built as our team completes our second
         sprint.
       </ProjectDescription>
-      <div
+      {/* <div
         style={{
           width: "80%",
           marginLeft: "auto",
@@ -380,7 +391,7 @@ const ModernTrousseau = () => (
           project's contentful database.
         </ProjectDescription>
         <CollectionList></CollectionList>
-      </div>
+      </div> */}
       {/* <div
       style={{
         display: 'flex',
