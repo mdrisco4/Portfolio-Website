@@ -16,6 +16,9 @@ const IntroContainer = styled.div`
     justify-content: center;
     height: 400px;
     margin-bottom: 0;
+    max-width: 1520px;
+    margin-left: auto;
+  margin-right: auto;
   }
 `
 
