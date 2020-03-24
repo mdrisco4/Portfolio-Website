@@ -135,7 +135,7 @@ const RocBreweries = () => (
           GITHUB REPO
         </GitHubLink>
       </ProjectLinkContainer>
-      <AccompanyingImage src="https://i.imgur.com/hg62Tm5.png"></AccompanyingImage>
+      <AccompanyingImage src="https://i.imgur.com/z1uKiFZ.png"></AccompanyingImage>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
         The idea behind this project was to develop a full stack application
@@ -147,8 +147,8 @@ const RocBreweries = () => (
         changes needed. This was developed with Python and Django.
       </ProjectDescription>
       <ImageContainer>
-        <AccompanyingImage src="https://i.imgur.com/4HiPRqd.png"></AccompanyingImage>
-        <AccompanyingImage src="https://i.imgur.com/1stnHXN.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/KrKGN8A.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/4RkKHmm.png"></AccompanyingImage>
       </ImageContainer>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
@@ -163,8 +163,8 @@ const RocBreweries = () => (
         front end a fairly quick and straightforward process.
       </ProjectDescription>
       <ImageContainer>
-        <AccompanyingImage src="https://i.imgur.com/JWBhdLK.png"></AccompanyingImage>
-        <AccompanyingImage src="https://i.imgur.com/IJlwy0r.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/IsQPqRk.png"></AccompanyingImage>
+        <AccompanyingImage src="https://i.imgur.com/oL6TUkW.png"></AccompanyingImage>
       </ImageContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>

@@ -284,7 +284,7 @@ const IndexPage = () => (
     <ProjectLink href="/national-parks">Learn More</ProjectLink>
     <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/PpcIkEw.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
       <ProjectDescription>
         A full stack site built with Django that provides menus, draft lists and
         brewery information for users. This site also allows for brewery owners
