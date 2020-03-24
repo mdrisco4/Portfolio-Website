@@ -328,7 +328,7 @@ const ModernTrousseau = () => (
           <PageImage
             src="https://i.imgur.com/wwf5Asx.png"
             style={{
-              width: "96%",
+              width: "87%",
               marginTop: "32%",
               // border: "1px solid red"
             }}
@@ -339,7 +339,7 @@ const ModernTrousseau = () => (
           <PageImage
             src="https://i.imgur.com/f1JBD1U.png"
             style={{
-              width: "110%",
+              width: "100%",
               marginTop: "39%",
               // border: "1px solid red"
             }}
