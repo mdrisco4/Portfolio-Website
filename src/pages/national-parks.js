@@ -9,6 +9,9 @@ const Container = styled.div`
   justify-content: space-between;
   width: 100%;
   text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+    margin-right: auto;
 `
 
 const ProjectLinkContainer = styled.div`
