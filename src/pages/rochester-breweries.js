@@ -108,13 +108,24 @@ const AccompanyingImage = styled.img`
 const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 84%;
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 850px) {
     flex-direction: row;
   }
   /* border: 1px solid red; */
+`
+
+const FlexImage = styled.img`
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  @media (min-width: 850px) {
+    width: 45%;
+  }
 `
 
 const RocBreweries = () => (
@@ -147,8 +158,8 @@ const RocBreweries = () => (
         changes needed. This was developed with Python and Django.
       </ProjectDescription>
       <ImageContainer>
-        <AccompanyingImage src="https://i.imgur.com/KrKGN8A.png"></AccompanyingImage>
-        <AccompanyingImage src="https://i.imgur.com/4RkKHmm.png"></AccompanyingImage>
+        <FlexImage src="https://i.imgur.com/KrKGN8A.png"></FlexImage>
+        <FlexImage src="https://i.imgur.com/4RkKHmm.png"></FlexImage>
       </ImageContainer>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
@@ -163,8 +174,8 @@ const RocBreweries = () => (
         front end a fairly quick and straightforward process.
       </ProjectDescription>
       <ImageContainer>
-        <AccompanyingImage src="https://i.imgur.com/IsQPqRk.png"></AccompanyingImage>
-        <AccompanyingImage src="https://i.imgur.com/oL6TUkW.png"></AccompanyingImage>
+        <FlexImage src="https://i.imgur.com/IsQPqRk.png"></FlexImage>
+        <FlexImage src="https://i.imgur.com/oL6TUkW.png"></FlexImage>
       </ImageContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
