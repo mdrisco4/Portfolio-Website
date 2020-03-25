@@ -1,9 +1,9 @@
 import React from "react"
-import '../styles/fonts.css'
+import "../styles/fonts.css"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import MichaelDriscollResume from '../images/MichaelDriscollResume.pdf'
+import MichaelDriscollResume from "../images/MichaelDriscollResume.pdf"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
@@ -58,7 +58,7 @@ const ContactInfo = styled.div`
 // `
 
 const MobileName = styled.h1`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: flex;
   margin: 0 0 2px 0;
   font-size: 36px;
@@ -68,7 +68,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const Name = styled.h1`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -79,7 +79,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const SoftwareDevloperLine = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 24px;
   font-weight: bold;
   margin-top: 12px;
@@ -91,7 +91,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const SectionTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 24px;
   font-weight: bold;
   @media (min-width: 600px) {
@@ -117,7 +117,7 @@ const SkillsRowContainer = styled.div`
 `
 
 const SubSectionTitle = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 20px;
   font-weight: bold;
   @media (min-width: 800px) {
@@ -127,17 +127,17 @@ font-family: 'Montserrat Alternates';
 `
 
 const Schooling = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 22px;
   font-weight: bold;
   @media (min-width: 800px) {
     font-size: 28px;
     font-weight: bold;
-}
+  }
 `
 
 const City = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
@@ -146,7 +146,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const Dates = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 18px;
   @media (min-width: 600px) {
     font-size: 20px;
@@ -155,7 +155,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const Details = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 18px;
   @media (min-width: 800px) {
     font-size: 20px;
@@ -175,7 +175,7 @@ const BulletPointWrap = styled.div`
 // `
 
 const BulletPoints = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 18px;
   @media (min-width: 800px) {
     font-size: 20px;
@@ -193,7 +193,7 @@ const ButtonContainer = styled.div`
 `
 
 const PDFLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 20px;
   color: white;
   display: flex;
@@ -222,7 +222,7 @@ font-family: 'Montserrat Alternates';
 `
 
 const Phone = styled.div`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 24px;
   @media (min-width: 800px) {
     font-size: 28px;
@@ -234,7 +234,7 @@ const MobileLinkPlacer = styled.div`
 `
 
 const MobileEmailLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -246,12 +246,12 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const MobileLinkedInLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -264,12 +264,12 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const MobileGitHubLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   color: black;
   text-shadow: 1px 1px 3px white;
   text-decoration: none;
@@ -282,12 +282,12 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const EmailLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -301,12 +301,12 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const LinkedInLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -320,12 +320,12 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const GitHubLink = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   display: none;
   @media (min-width: 600px) {
     display: flex;
@@ -340,10 +340,9 @@ font-family: 'Montserrat Alternates';
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
-
 
 const Resume = () => (
   <Layout>
@@ -372,22 +371,22 @@ const Resume = () => (
             >
               <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
             </MobileEmailLink>
-          <MobileLinkedInLink
-            href="https://www.linkedin.com/in/michael-n-driscoll/"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
-          </MobileLinkedInLink>
-          <MobileGitHubLink href="https://github.com/mdrisco4" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
-        </MobileGitHubLink>
-          </MobileLinkPlacer>
-            <EmailLink
-              href="mailto:michaelndriscoll81@gmail.com"
+            <MobileLinkedInLink
+              href="https://www.linkedin.com/in/michael-n-driscoll/"
               target="_blank"
             >
-              <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
-            </EmailLink>
+              <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
+            </MobileLinkedInLink>
+            <MobileGitHubLink
+              href="https://github.com/mdrisco4"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+            </MobileGitHubLink>
+          </MobileLinkPlacer>
+          <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
+            <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
+          </EmailLink>
           <LinkedInLink
             href="https://www.linkedin.com/in/michael-n-driscoll/"
             target="_blank"
@@ -395,11 +394,13 @@ const Resume = () => (
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
           </LinkedInLink>
           <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
-        </GitHubLink>
+            <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+          </GitHubLink>
         </ContactInfo>
         <ButtonContainer>
-          <PDFLink href={MichaelDriscollResume} download>PDF Download</PDFLink>
+          <PDFLink href={MichaelDriscollResume} download>
+            PDF Download
+          </PDFLink>
         </ButtonContainer>
       </AboutContactContainer>
       <SectionTitle>Skills</SectionTitle>
@@ -415,9 +416,9 @@ const Resume = () => (
           <SubSectionTitle>∙ SQL</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer
-        style={{
-          width: '45%',
-        }}
+          style={{
+            width: "45%",
+          }}
         >
           <SubSectionTitle>∙ Adobe XD</SubSectionTitle>
           <SubSectionTitle>∙ Python/Django</SubSectionTitle>
@@ -430,12 +431,28 @@ const Resume = () => (
       </SubSectionTitle>
       <City>Washington, D.C.</City>
       <Dates>11/2019-2/2020</Dates>
-      <Details style={{
-        fontWeight: 'bold',
-      }}>
-        Completed a 500 hour full stack immersive program and designed projects
-        including:
-      </Details>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Developed fundamentals learning coding basics and developing projects
+          using HTML, CSS and Javascript
+        </BulletPoints>
+      </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Learned how to develop full stack interactive applications with React
+          front ends and employing a variety of tools to build and deploy
+          databases including MongoDB, Express, Django and SQL
+        </BulletPoints>
+      </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Gained real work experience working on a client project for production
+          that is currently in development
+        </BulletPoints>
+      </BulletPointWrap>
       <SubSectionTitle>
         Front End Team Member, WhichCraft Brewing
       </SubSectionTitle>
