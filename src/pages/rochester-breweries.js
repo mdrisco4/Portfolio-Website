@@ -178,7 +178,7 @@ const RocBreweries = () => (
       </ProjectDescription>
       <ImageContainer>
         <FlexImage src="https://i.imgur.com/IsQPqRk.png"></FlexImage>
-        <FlexImage src="https://i.imgur.com/oL6TUkW.png"></FlexImage>
+        <FlexImage src="https://i.imgur.com/l1UeFdu.png"></FlexImage>
       </ImageContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
