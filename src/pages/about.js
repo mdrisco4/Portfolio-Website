@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/fonts.css'
+import "../styles/fonts.css"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
@@ -10,12 +10,12 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   padding: 20px 0;
-  @media (min-width: 850px) {
+  @media (min-width: 1100px) {
     height: auto;
     flex-direction: row;
     max-width: 1200px;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   }
 `
 
@@ -46,19 +46,19 @@ const PersonalInfo = styled.div`
 `
 
 const Title = styled.h1`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   margin: 0 0 8px 0;
   font-size: 40px;
 `
 
 const AboutDetails = styled.h3`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   margin: 4px 0;
   font-size: 20px;
 `
 
 const GetInTouch = styled.a`
-font-family: 'Montserrat Alternates';
+  font-family: "Montserrat Alternates";
   font-size: 40px;
   color: white;
   background-color: rgb(99, 95, 85);
@@ -78,7 +78,7 @@ font-family: 'Montserrat Alternates';
     background-color: darkblue;
     border: 4px solid black;
   }
-  `
+`
 
 const About = () => (
   <Layout>
@@ -86,21 +86,24 @@ const About = () => (
       <PersonalInfo>
         <Title>My Background</Title>
         <AboutDetails>
-          I have always been interested in all things science and technology and
-          I am excited to begin a rewarding career in software development. I am
-          always striving to find innovative solutions to complex problems and development is the
+          I graduated from the University of Rochester with a physics degree in
+          2013 and have always been interested in all things science and
+          technology. After spending several years immeersed in the craft beer
+          industry I am excited to begin a challenging, engaging and rewarding
+          career in software development. I am always striving to find
+          innovative solutions to complex problems and development is the
           perfect outlet for that energy.
         </AboutDetails>
         <Title>Interests and Hobbies</Title>
         <AboutDetails>
           Besides always making an effort to learn about new technologies I am a
-          huge movie buff and enjoy sports, poker and enjoying nature whenever I can.
+          huge movie buff and craft beer enthusiast and enjoy sports, poker and enjoying nature whenever I
+          can.
         </AboutDetails>
       </PersonalInfo>
       <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
     </Container>
-    <GetInTouch
-    href='/contact'>Contact Me</GetInTouch>
+    <GetInTouch href="/contact">Contact Me</GetInTouch>
   </Layout>
 )
 
