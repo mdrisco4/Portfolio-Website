@@ -12,7 +12,7 @@ const Container = styled.div`
   text-align: center;
   max-width: 1200px;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 `
 
 const ProjectLinkContainer = styled.div`
@@ -197,15 +197,16 @@ const ModernTrousseau = () => (
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
         Modern Trousseau is a client project that I am working on with a
-        development team of using Storybook for branch management. I was
+        versatile development team using Storybook for branch management. I was
         assigned to the front end team where we started the first sprint by
         building components to Figma specifications while the back end team
         worked on setting up a database with Contentful and GraphQL. Once all
         components were complete the front end team moved forward with using the
-        compnents to build out full pages for our second sprint. The final
-        stages of the project involve connecting the pages to each other,
-        populating the site with data from the database deployed by the backend
-        team, remaining functionality and testing before deployment.
+        compnents to build out full pages for our second sprint and accessing
+        backend data for dynamic rendering. The final stages of the project
+        involve connecting the pages to each other, populating the site with
+        data from the database deployed by the backend team, remaining
+        functionality and testing before deployment.
       </ProjectDescription>
       <SprintTitle>Sprint One</SprintTitle>
       <SprintOneImages>
@@ -273,20 +274,17 @@ const ModernTrousseau = () => (
       </SprintOneImages>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
-        Modern Trousseau is a client project in which our team built employing
-        Storybook to track branches and parsed out GutHub issues for components
-        as small as icons and forms all the way up to functional sliders,
-        database populated sets of images and text and links to connect the page
-        together. I was assigned to the front end and was able to build out (x,
-        y, and z components) and eventually put together pages of the site per
-        Figma design specifications put together by a UX design team that was
-        previously constructed. The project was broken down into a series of
-        'sprints' that had production goals in mind. the first sprint consisted
-        of building all of the individual components that would be needed to
-        construct the pages of the app, the second was page building and adding
-        some functionality as far as links and responsiveness. The third, which
-        is currently underway is to connect to the database deployed by the back
-        end team and populate the page with data by way of GraphQL queries.
+        I was assigned to the front end and was able to use components to build
+        pages matching Figma specs provided by our design team. The project was
+        broken down into a series of 'sprints' that had production goals in
+        mind. the first sprint consisted of building all of the individual
+        components that would be needed to construct the pages of the app, the
+        second was page building and adding some functionality as far as links
+        and responsiveness. The third involved connecting to the database
+        deployed by the back end team to dynamically render the pages using
+        GraphQL queries. As we work to try and bring this project to a close we
+        are working on adding features, routing our links correctly and testing
+        before deployment.
       </ProjectDescription>
       <SprintTitle>Sprint Two</SprintTitle>
       <PageLabelContainer>
@@ -324,9 +322,12 @@ const ModernTrousseau = () => (
           </PageImageContainer>
         </SprintTwoExample>
         <SprintTwoExample
-        style={{
-          // border: "1px solid red"
-        }}>
+          style={
+            {
+              // border: "1px solid red"
+            }
+          }
+        >
           <MobilePageLabel>Gown Page</MobilePageLabel>
           <PageImage
             src="https://i.imgur.com/wwf5Asx.png"
@@ -359,7 +360,7 @@ const ModernTrousseau = () => (
         figuring out how to develop this project smoothly with so many moving
         parts. Branch merge conflicts, editing existing code to meet
         specifications and maintaining good communication with team leaders were
-        all issues that the team worked to dtay on top of while finding ways to
+        all issues that the team worked to stay on top of while finding ways to
         meet production deadlines. Early on it was clear that communication was
         paramount to success as well as using other team members as resources to
         toubleshoot any blockers that arose as we moved through our assignments.
@@ -371,10 +372,9 @@ const ModernTrousseau = () => (
         team was on track. One of these issues was the usability of the site
         when viewing it on mobile devices. The mockup provided by the design
         team had not anticipated some issues that would arrise involving sizing
-        and functionality and a rework of some conponents is required to remedy
-        the issue. Currently I am doing research to better understand GraphQL
-        before finishing the pages I have built as our team completes our second
-        sprint.
+        and functionality and a reworking of some components was required to
+        remedy the issue. After researching GraphQL and Contentful I am working
+        through dynamic rendering of the pages I built out.
       </ProjectDescription>
       {/* <div
         style={{

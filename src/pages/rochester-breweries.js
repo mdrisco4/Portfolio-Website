@@ -169,12 +169,12 @@ const RocBreweries = () => (
         I developed this project using Python with a Django backend and Django
         templates to build out my front end. This was a project in which I
         wanted to employ a new technology that I had not used before.
-        Additionally the scale of the project did not require a complex stack
+        Additionally the scale of the project did not require a complex
         build, so using templates made sense, both for simplicity and to learn
-        how to write a Django app more thoroughly. The bulk of the work required
+        how to write a full stack Django app more thoroughly. The bulk of the work required
         was in constructing my data models and creating a backend with full
-        stack capabilities. The use of Django templates would make building the
-        front end a fairly quick and straightforward process.
+        CRUD capabilities. The use of Django templates made building the
+        front end a more efficient process.
       </ProjectDescription>
       <ImageContainer>
         <FlexImage src="https://i.imgur.com/IsQPqRk.png"></FlexImage>

@@ -11,7 +11,7 @@ const Container = styled.div`
   text-align: center;
   max-width: 1200px;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 `
 
 const ProjectLinkContainer = styled.div`
@@ -183,12 +183,12 @@ const TriviaGame = () => (
       <AccompanyingImage src="https://i.imgur.com/1RE5dQo.png" />
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
-        The first step in approaching this undertaking was to use a JSON file
-        with a portion of the API data to build out the home page, basic park
-        page layout and test functionality. Once this was successfully completed
-        an API fetch was set up to pull larger amounts of data. With the fetch
-        used on the home page linking the images to the separate park pages a
-        single fetch can be written to populate the park page with the
+        The first step in approaching this undertaking was to use a local JSON
+        file with a portion of the API data to build out the home page, basic
+        park page layout and test functionality. Once this was successfully
+        completed an API fetch was set up to pull larger amounts of data. With
+        the fetch used on the home page linking the images to the separate park
+        pages a single fetch can be written to populate the park page with the
         appropriate data using the "park code" provided in the API.
       </ProjectDescription>
       <ImageTitle>Pages</ImageTitle>
@@ -201,7 +201,7 @@ const TriviaGame = () => (
           <HomePageImage src="https://i.imgur.com/BHEpJ6a.png" />
           <HomePageImage src="https://i.imgur.com/LG3oNDN.png" />
         </HomePageContainer>
-      <ParkPageImage src="https://i.imgur.com/W0BfGCv.png" />
+        <ParkPageImage src="https://i.imgur.com/W0BfGCv.png" />
       </PagesContainer>
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
@@ -219,10 +219,10 @@ const TriviaGame = () => (
         home pages that can be scrolled through with a fixed number of parks on
         each page. While this has helped loading time there is still work to be
         done there. I am also working on ways to resolve the issues with sets of
-        images provided for each park and how best to fetch and render them.In
-        order to provide additional data that the API fetch and data population
-        does not provide a link was added to direct users to the site for a
-        given park using the URL provided in the API.
+        images provided for each park and how best to fetch and render them. In
+        order to provide additional data that the API fetch and render does not
+        I will be working on providing a link to the official park pages with
+        the URL provided in the API.
       </ProjectDescription>
     </Container>
   </Layout>

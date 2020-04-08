@@ -11,17 +11,17 @@ const Container = styled.div`
   text-align: center;
   max-width: 1200px;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 `
 
 const ProjectLinkContainer = styled.div`
-width: 50%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin: 20px;
-margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   @media (min-width: 850px) {
     width: 40%;
     justify-content: space-around;
@@ -32,7 +32,7 @@ margin-left: auto;
 `
 
 const DeployedLink = styled.a`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -44,9 +44,9 @@ font-family: "Montserrat Alternates";
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 850px) {
-  width: 42%;
-}
+  @media (min-width: 850px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -55,7 +55,7 @@ font-family: "Montserrat Alternates";
 `
 
 const GitHubLink = styled.a`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -67,9 +67,9 @@ font-family: "Montserrat Alternates";
   color: white;
   text-decoration: none;
   margin-bottom: 24px;
-@media (min-width: 850px) {
-  width: 42%;
-}
+  @media (min-width: 850px) {
+    width: 42%;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
@@ -78,19 +78,19 @@ font-family: "Montserrat Alternates";
 `
 
 const Title = styled.h1`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
 
 const SectionTitle = styled.div`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   font-size: 36px;
 `
 
 const ProjectDescription = styled.p`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -128,16 +128,17 @@ const TriviaGame = () => (
         I wrote this game using HTML, CSS and Vanilla JS. Rather than being
         populated with data fetched from a trivia API I opted to write the
         questions myself with the idea being that I could write sets of trivia
-        questions across different categories to be seeded into a database for
-        users to choose.
+        questions across different categories of my choosing for users to
+        choose.
       </ProjectDescription>
       <AccompanyingImage src="https://i.imgur.com/6DMtsb0.png" />
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
         The first thing I needed to figure when beginning this project was what
-        kind of layout I wanted to have and how I would write the JS to be
-        interactive. I opted to write a few short sets of questions for each one
-        of three separate topics that the user could choose from.
+        kind of layout I wanted to have and how I would write the logic for DOM
+        manipulation and functionality to be interactive. I opted to write a few
+        short sets of questions for each one of three separate topics from which
+        the user could choose.
       </ProjectDescription>
       <AccompanyingImage src="https://i.imgur.com/xguDr3e.png" />
       <SectionTitle>Problems</SectionTitle>
@@ -154,7 +155,9 @@ const TriviaGame = () => (
       <ProjectDescription>
         I was ultimately able to find some creative solutions to solve the
         scoring problem in the short term, but ultimately a more viable solution
-        was needed if I wanted to expand the scope of the game.
+        was needed if I wanted to expand the scope of the game. I also may
+        return to this project with my experience in backend development that I
+        did not have at the time to seed a database with my own custom quizzes.
       </ProjectDescription>
     </Container>
   </Layout>
