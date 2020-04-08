@@ -138,6 +138,7 @@ const ProjectDescription = styled.div`
     opacity: 0;
     width: 100%;
     height: 100%;
+    
     -webkit-transition: visibility 0s, opacity 0.5s linear;
     transition: visibility 0s, opacity 0.5s linear;
     &:hover {
@@ -238,9 +239,6 @@ const IndexPage = () => (
       <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
-        {/* <MissionStatement>
-          Engineering innovative solutions in a fast paced industry
-        </MissionStatement> */}
         <BrandStatement>
           As a growing software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
