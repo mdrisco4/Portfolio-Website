@@ -18,7 +18,7 @@ const IntroContainer = styled.div`
     margin-bottom: 0;
     max-width: 1520px;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   }
 `
 
@@ -138,7 +138,7 @@ const ProjectDescription = styled.div`
     opacity: 0;
     width: 100%;
     height: 100%;
-    
+
     -webkit-transition: visibility 0s, opacity 0.5s linear;
     transition: visibility 0s, opacity 0.5s linear;
     &:hover {
@@ -290,8 +290,7 @@ const IndexPage = () => (
         A full stack site built with Django that provides menus, draft lists and
         brewery information for users. This site also allows for brewery owners
         and managers to access full CRUD capabilties to make changes to their
-        menus and brewery information in real time. This project is currently in
-        development.
+        menus and brewery information in real time.
       </ProjectDescription>
     </ImageWrapper>
     <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
@@ -299,22 +298,21 @@ const IndexPage = () => (
       A full stack site built with Django that provides menus, draft lists and
       brewery information for users. This site also allows for brewery owners
       and managers to access full CRUD capabilties to make changes to their
-      menus and brewery information in real time. This project is currently in
-      development.
+      menus and brewery information in real time.
     </MobileProjectDescription>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        A client project currently still in development. Built using React,
-        Contentful and GraphQL. I am assigned to the front end on a 15 person
-        team employing Storybook for branch management.
+      A client project currently still in development. Built with React and
+      Contentful and using GraphQL queries. I was initially assigned to the
+      front end in a team utilizing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      A client project currently still in development. Built using React,
-      Contentful and GraphQL. I am assigned to the front end on a 15 person team
-      utilizing Storybook for branch management.
+      A client project currently still in development. Built with React and
+      Contentful and using GraphQL queries. I was initially assigned to the
+      front end in a team utilizing Storybook for branch management.
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <hr
