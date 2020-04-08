@@ -88,7 +88,7 @@ const About = () => (
         <AboutDetails>
           I graduated from the University of Rochester with a physics degree in
           2013 and have always been interested in all things science and
-          technology. After spending several years immeersed in the craft beer
+          technology. After spending several years immersed in the craft beer
           industry I am excited to begin a challenging, engaging and rewarding
           career in software development. I am always striving to find
           innovative solutions to complex problems and development is the
