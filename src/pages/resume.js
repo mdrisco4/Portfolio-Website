@@ -463,7 +463,7 @@ const Resume = () => (
         <BulletPoints>
           Provided experienced feedback and recommendations for weekly
           introductions of new and unique products manufactured at our on site
-          production brewery helping to boost sales for inhouse products, got
+          production brewery helping to boost sales for in-house products, got
           positive feedback and provided an all around enjoyable experience
         </BulletPoints>
       </BulletPointWrap>
