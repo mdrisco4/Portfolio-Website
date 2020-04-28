@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <body
+      title={"Michael Driscoll"}
         style={{
           margin: "0",
         }}
