@@ -240,7 +240,7 @@ const IndexPage = () => (
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
-          As a growing software engineer with client experience and proficiency
+          As a software engineer with client experience and proficiency
           in web design, coding and full stack development, I bring to the table
           a skillset crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
