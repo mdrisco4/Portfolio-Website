@@ -240,10 +240,10 @@ const IndexPage = () => (
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
-          As a software engineer with client experience and proficiency
-          in web design, coding and full stack development, I bring to the table
-          a skillset crucial for finding success in the workplace. I am excited
-          to grow in the tech industry using my talents in software engineering
+          As a software engineer with client experience and proficiency in web
+          design, coding and full stack development, I bring to the table a
+          skillset crucial for finding success in the workplace. I am excited to
+          grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
           technology. See some of my projects below.
         </BrandStatement>
@@ -300,13 +300,36 @@ const IndexPage = () => (
       and managers to access full CRUD capabilties to make changes to their
       menus and brewery information in real time.
     </MobileProjectDescription>
+
+    <ProjectTitle>Photography Site</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/s2xoqpd.png"></ProjectStill>
+      <ProjectDescription>
+        A freelance project I made for an aspiring professional photographer. I
+        built this project with a Gatsby frontend and employed the Contentful
+        content management system. With Contentful I authorized the client to
+        add, delete or make changes to photos displyed in their portfolio. With
+        a dynamic data fetch this allows the client to continue to update
+        without needing me for frequent maintenence.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      A freelance project I made for an aspiring professional photographer. I
+      built this project with a Gatsby frontend and employed the Contentful
+      content management system. With Contentful I authorized the client to add,
+      delete or make changes to photos displyed in their portfolio. With a
+      dynamic data fetch this allows the client to continue to update without
+      needing me for frequent maintenence.
+    </MobileProjectDescription>
+    <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
+
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-      A client project currently still in development. Built with React and
-      Contentful and using GraphQL queries. I was initially assigned to the
-      front end in a team utilizing Storybook for branch management.
+        A client project currently still in development. Built with React and
+        Contentful and using GraphQL queries. I was initially assigned to the
+        front end in a team utilizing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
