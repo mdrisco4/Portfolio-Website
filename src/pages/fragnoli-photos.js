@@ -184,7 +184,7 @@ const FragnoliPhotos = () => (
       }}/>
       </div>
       <SectionTitle>Solutions</SectionTitle>
-      <ProjectDescription>the the</ProjectDescription>
+      <ProjectDescription>Once the client was onboarded and the dynamic fetch was worked out it was more or less just a matter of writing the code.  I referred to other photography sites for color scheming and parsed through fonts until I found what I thought fit.  I also built the menu with some functionality I have not worked with much before, but with some research and a few tutorials everything came together nicely.</ProjectDescription>
     </Container>
   </Layout>
 )
