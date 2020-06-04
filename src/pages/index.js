@@ -308,7 +308,7 @@ const IndexPage = () => (
         A freelance project I made for an aspiring professional photographer. I
         built this project with a Gatsby frontend and employed the Contentful
         content management system. With Contentful I authorized the client to
-        add, delete or make changes to photos displyed in their portfolio. With
+        add, delete or make changes to photos displayed in their portfolio. With
         a dynamic data fetch this allows the client to continue to update
         without needing me for frequent maintenence.
       </ProjectDescription>
@@ -317,7 +317,7 @@ const IndexPage = () => (
       A freelance project I made for an aspiring professional photographer. I
       built this project with a Gatsby frontend and employed the Contentful
       content management system. With Contentful I authorized the client to add,
-      delete or make changes to photos displyed in their portfolio. With a
+      delete or make changes to photos displayed in their portfolio. With a
       dynamic data fetch this allows the client to continue to update without
       needing me for frequent maintenence.
     </MobileProjectDescription>
