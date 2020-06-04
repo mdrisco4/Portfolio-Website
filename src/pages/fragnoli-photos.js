@@ -128,7 +128,7 @@ const FragnoliPhotos = () => (
         This is a freelance project I undertook that helped me develop skills in
         discerning with what the client is looking for and setting up a user
         friendly backend so after completing the site the client can continually
-        update their site without having to write any code.  While I have worked
+        update their site without having to write any code. While I have worked
         with content management systems before it has always been as part of a
         team, so learning how to set it up myself and authorize the client was
         invaluable experience.
@@ -155,7 +155,7 @@ const FragnoliPhotos = () => (
       <ProjectDescription>
         While I like to seek out new technologies to build with, this was my
         first freelance project so working with some familiar technologies
-        seemed advantageous.  Setting the project up itself still proved
+        seemed advantageous. Setting the project up itself still proved
         challenging as I have never tackled that part of the process myself and
         usually have been brought on after the genesis of a project to tackle
         and close issues.
