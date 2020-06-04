@@ -105,6 +105,18 @@ const AccompanyingImage = styled.img`
   margin-bottom: 20px;
 `
 
+const PageLabel = styled.p`
+  font-family: "Montserrat Alternates";
+  font-weight: 900;
+  font-size: 20px;
+  @media (min-width: 600px) {
+    font-size: 27px;
+  }
+  @media (min-width: 930px) {
+    font-size: 32px;
+  }
+`
+
 const FragnoliPhotos = () => (
   <Layout>
     <Container>
@@ -133,6 +145,7 @@ const FragnoliPhotos = () => (
         team, so learning how to set it up myself and authorize the client was
         invaluable experience.
       </ProjectDescription>
+      <PageLabel>Still shots of the popout menu on smaller screens</PageLabel>
       <div
         style={{
           display: "flex",
@@ -169,6 +182,7 @@ const FragnoliPhotos = () => (
         setting them up with admin permissions in the CMS was a process but was
         an excellent learning experience.
       </ProjectDescription>
+      <PageLabel>Still shots of the photo layout with 1, 2 or 3 columns depending on screen size</PageLabel>
       <div
         style={{
           display: "flex",
