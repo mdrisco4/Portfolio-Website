@@ -125,25 +125,66 @@ const FragnoliPhotos = () => (
       </ProjectLinkContainer>
       <SectionTitle>Description</SectionTitle>
       <ProjectDescription>
-        stuff and things
+        This is a freelance project I undertook that helped me develop skills in
+        dealing with what the client is looking for and setting up a user
+        friendly backend so that after completed the client can continually
+        update their site without having to write any code. While I have worked
+        with content management systems before it has always been as part of a
+        team, so learning how to set it up myself and authorize the client was
+        invaluable experience.
       </ProjectDescription>
-      <AccompanyingImage src="https://i.imgur.com/Deq0uiQ.png" />
+      <div style={{
+        display: "flex",
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/Deq0uiQ.png" style={{
+        width: "38%",
+      }}/>
+      <AccompanyingImage src="https://i.imgur.com/jcYAasi.png" style={{
+        width: "38%",
+      }}/>
+      </div>
       <SectionTitle>Approach</SectionTitle>
       <ProjectDescription>
-        1234567
+        While I like to seek out new technologies to build with, this was my
+        first freelance project so working with some familiar technologies
+        seemed advantageous. Setting the project up itself still proved
+        challenging as I have never tackled that part of the process myself and
+        usually have been brought on after the genesis of a project to tackle
+        and close issues.
       </ProjectDescription>
-      <AccompanyingImage src="https://i.imgur.com/jcYAasi.png" />
       <SectionTitle>Problems</SectionTitle>
       <ProjectDescription>
-       the the
+        As mentioned before, setting up everything needed for this project
+        proved challenging. Primarily adding the needed code in the config file
+        and structuring and querying the data as efficiently as possible.
+        Additionally bringing on a client who is unfamiliar with coding and
+        setting them up with admin permissions in the CMS was a process but very
+        rewarding once successful.
       </ProjectDescription>
-      <AccompanyingImage src="https://i.imgur.com/KuiI02n.png" />
+      <div style={{
+        display: "flex",
+      }}>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "38%",
+        marginLeft: "8%",
+      }}>
+      <AccompanyingImage src="https://i.imgur.com/KuiI02n.png" style={{
+        width: "100%",
+      }}/>
+      <AccompanyingImage src="https://i.imgur.com/C2K9MLS.png" style={{
+        width: "100%",
+      }}/>
+      </div>
+      <AccompanyingImage src="https://i.imgur.com/Fla7Vxy.png" style={{
+        width: "38%",
+        height: "80%",
+        marginTop: "10%",
+      }}/>
+      </div>
       <SectionTitle>Solutions</SectionTitle>
-      <ProjectDescription>
-        the the
-      </ProjectDescription>
-      <AccompanyingImage src="https://i.imgur.com/C2K9MLS.png" />
-      <AccompanyingImage src="https://i.imgur.com/Fla7Vxy.png" />
+      <ProjectDescription>the the</ProjectDescription>
     </Container>
   </Layout>
 )
