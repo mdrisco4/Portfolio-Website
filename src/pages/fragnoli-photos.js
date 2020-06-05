@@ -120,7 +120,7 @@ const PageLabel = styled.p`
 const FragnoliPhotos = () => (
   <Layout>
     <Container>
-      <Title>Fragnoli Photos - UNDER CONSTRUCTION</Title>
+      <Title>Fragnoli Photos</Title>
       <ProjectLinkContainer>
         <DeployedLink
           href="https://www.fragnoli-photography.com/"
