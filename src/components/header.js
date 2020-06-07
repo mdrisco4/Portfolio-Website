@@ -55,6 +55,14 @@ const HeaderLink = styled.a`
   @media (min-width: 700px) {
     margin: none;
   }
+  @media (min-width: 840px) {
+    margin: none;
+    font-size: 24px;
+  }
+  @media (min-width: 1000px) {
+    margin: none;
+    font-size: 28px;
+  }
   &:hover {
     color: rgb(110, 176, 249);
     text-shadow: 1px 1px white;
@@ -76,6 +84,7 @@ const Header = () => (
       >
         LinkedIn
       </HeaderLink>
+      <HeaderLink href="/freelance/">Freelance</HeaderLink>
       <HeaderLink href="/resume/">Resume</HeaderLink>
       <HeaderLink href="/contact/">Contact</HeaderLink>
       <HeaderLink href="/about/">About</HeaderLink>
