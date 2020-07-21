@@ -327,17 +327,15 @@ const IndexPage = () => (
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        An open source client project still in development. Built
-        with React and Contentful and using GraphQL queries on an Agile team. I
-        provided code for the front end working on a team utilizing Storybook
-        for branch management.
+        An open source client project built with React, Contentful and GraphQL
+        on an Agile team. I provided code for the front end working on a team
+        utilizing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      An open source client project still in development. Built
-      with React and Contentful and using GraphQL queries on an Agile team. I
-      provided code for the front end working on a team utilizing Storybook for
-      branch management.
+      An open source client project built with React, Contentful and GraphQL on
+      an Agile team. I provided code for the front end working on a team
+      utilizing Storybook for branch management.
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <hr

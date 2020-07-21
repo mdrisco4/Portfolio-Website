@@ -352,16 +352,14 @@ const Resume = () => (
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
           <Details>
-            As a software engineer with proficiency in full stack development I
-            have gained experience working on a team operating in an Agile
-            environment and on solo projects for clients. As a professional in
-            the craft beer industry I was adaptable, good under pressure and
-            invaluable as a team member providing valuable feedback in planning
-            events and creating new, innovative products to create with local
-            companies. I am excited to grow in the tech industry using my
-            talents in software engineering and customer correspondence while
-            continually seeking to keep up with the latest in cutting edge
-            technology.
+            Full stack software engineer experienced working on an Agile team
+            and freelance projects for clients. As a craft beer professional I
+            was able to take client feedback and translate that into usable
+            concepts for beer recipes to make in collaboration with local
+            breweries, as well as coordinating events to showcase them.
+            Combining my experience in client facing roles and software
+            engineering I am seeking the opportunity to contribute to a company
+            exceeding client expectations by utilizing cutting edge technology.
           </Details>
         </AboutMe>
         <ContactInfo>
