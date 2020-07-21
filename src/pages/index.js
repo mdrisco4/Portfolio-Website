@@ -327,14 +327,14 @@ const IndexPage = () => (
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        A interactive, open source, client project still in development. Built
+        An open source client project still in development. Built
         with React and Contentful and using GraphQL queries on an Agile team. I
         provided code for the front end working on a team utilizing Storybook
         for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      A interactive, open source, client project still in development. Built
+      An open source client project still in development. Built
       with React and Contentful and using GraphQL queries on an Agile team. I
       provided code for the front end working on a team utilizing Storybook for
       branch management.
