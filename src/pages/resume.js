@@ -3,7 +3,7 @@ import "../styles/fonts.css"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import MNDriscollResume from "../images/MichaelDriscollResume.pdf"
+import MNDriscollResume from "../images/MNDriscollResume.pdf"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
