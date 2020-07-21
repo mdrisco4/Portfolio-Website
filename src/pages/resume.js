@@ -352,12 +352,16 @@ const Resume = () => (
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
           <Details>
-            As a growing software engineer with client experience and
-            proficiency in web design, coding and full stack development, I
-            bring to the table a variety of skills paramount to success in the
-            workplace. I am excited to grow in the tech industry using my
-            talents in software engineering while continually seeking to keep up
-            with the latest in cutting edge technology.
+            As a software engineer with proficiency in full stack development I
+            have gained experience working on a team operating in an Agile
+            environment and on solo projects for clients. As a professional in
+            the craft beer industry I was adaptable, good under pressure and
+            invaluable as a team member providing valuable feedback in planning
+            events and creating new, innovative products to create with local
+            companies. I am excited to grow in the tech industry using my
+            talents in software engineering and customer correspondence while
+            continually seeking to keep up with the latest in cutting edge
+            technology.
           </Details>
         </AboutMe>
         <ContactInfo>
@@ -435,36 +439,26 @@ const Resume = () => (
         <Details>∙</Details>
         <BulletPoints>
           Developed fundamentals learning coding basics and developing projects
-          using HTML, CSS and Javascript
+          using HTML, CSS and Javascript and developing full stack interactive
+          applications with frameworks including React and Django, employing a
+          variety of tools to build and deploy databases including MongoDB,
+          Express and SQL
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Learned how to develop full stack interactive applications with React
-          front ends and employing a variety of tools to build and deploy
-          databases including MongoDB, Express, Django and SQL
+          Gained real work experience working on a collaborative, open, source
+          client project, providing frontend code to complete assignments on a
+          team working in an Agile environment
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Gained real work experience working on a client project for production
-          that is currently in development
-        </BulletPoints>
-      </BulletPointWrap>
-      <SubSectionTitle>
-        Front End Team Member, WhichCraft Brewing
-      </SubSectionTitle>
-      <City>Rochester, NY</City>
-      <Dates>3/2019-11/2019</Dates>
-      <BulletPointWrap>
-        <Details>∙</Details>
-        <BulletPoints>
-          Provided experienced feedback and recommendations for weekly
-          introductions of new and unique products manufactured at our on site
-          production brewery helping to boost sales for in-house products, got
-          positive feedback and provided an all around enjoyable experience
+          Sought out and completed projects as a freelance developer working
+          with clients to create fullstack applications that fit specifications
+          provided
         </BulletPoints>
       </BulletPointWrap>
       <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
@@ -484,15 +478,6 @@ const Resume = () => (
       </SubSectionTitle>
       <City>Rochester, NY</City>
       <Dates>6/2013-8/2013</Dates>
-      <BulletPointWrap>
-        <Details>∙</Details>
-        <BulletPoints>
-          Executed objectives for three contract assignments to build software
-          with Mathematica and Matlab that 1) modeled optical systems and 2)
-          updated GPS technology with adjustments for perpetual, small changes
-          of the Earth’s axial tilt
-        </BulletPoints>
-      </BulletPointWrap>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
