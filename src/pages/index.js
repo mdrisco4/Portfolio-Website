@@ -323,21 +323,23 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
 
-    {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        A client project currently still in development. Built with React and
-        Contentful and using GraphQL queries. I was initially assigned to the
-        front end in a team utilizing Storybook for branch management.
+        A interactive, open source, client project still in development. Built
+        with React and Contentful and using GraphQL queries on an Agile team. I
+        provided code for the front end working on a team utilizing Storybook
+        for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      A client project currently still in development. Built with React and
-      Contentful and using GraphQL queries. I was initially assigned to the
-      front end in a team utilizing Storybook for branch management.
+      A interactive, open source, client project still in development. Built
+      with React and Contentful and using GraphQL queries on an Agile team. I
+      provided code for the front end working on a team utilizing Storybook for
+      branch management.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
     <hr
       style={{
         border: "1px solid black",
