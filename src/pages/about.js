@@ -88,17 +88,16 @@ const About = () => (
         <AboutDetails>
           I graduated from the University of Rochester with a physics degree in
           2013 and have always been interested in all things science and
-          technology. After spending several years immersed in the craft beer
-          industry I am excited to begin a challenging, engaging and rewarding
-          career in software development. I am always striving to find
-          innovative solutions to complex problems and development is the
-          perfect outlet for that energy.
+          technology. I am always seeking to challenge myself and tackle new
+          challenges and software development is the perfect outlet for that
+          drive. Currently with the skills to meet a junior level role I would
+          love to manage my own team a few years down the road.
         </AboutDetails>
         <Title>Interests and Hobbies</Title>
         <AboutDetails>
           Besides always making an effort to learn about new technologies I am a
-          huge movie buff and craft beer enthusiast and enjoy sports, poker and enjoying nature whenever I
-          can.
+          huge movie buff and craft beer enthusiast and enjoy sports, poker and
+          enjoying nature whenever I can.
         </AboutDetails>
       </PersonalInfo>
       <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
