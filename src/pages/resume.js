@@ -516,8 +516,8 @@ const Resume = () => (
         <BulletPoints>
           Developed relationships in the industry with brewery owners and
           distribution representatives to promote 300+ products and host more
-          than 100+ industry events with attendance ranging from dozens to
-          hundreds of customers and craft beer professionals
+          than 100+ industry events with attendance ranging from 50 to
+          200+ customers and craft beer professionals
         </BulletPoints>
       </BulletPointWrap>
       <SubSectionTitle>
