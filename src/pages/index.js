@@ -258,13 +258,15 @@ const IndexPage = () => (
       <ProjectDescription>
         An open source client project built with React, Contentful and GraphQL
         on an Agile team. I provided code for the front end working on a team
-        utilizing Storybook for branch management.
+        utilizing Storybook for component tracking and git branch management
+        during development.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       An open source client project built with React, Contentful and GraphQL on
       an Agile team. I provided code for the front end working on a team
-      utilizing Storybook for branch management.
+      utilizing Storybook for component tracking and git branch management
+      during development.
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
 
@@ -276,8 +278,8 @@ const IndexPage = () => (
         built this project with a Gatsby frontend and employed the Contentful
         content management system. With Contentful I authorized the client to
         add, delete or make changes to photos displayed in their portfolio. With
-        a dynamic data fetch this allows the client to continue to update
-        without needing me for frequent maintenence.
+        a dynamic data fetch this allows the client to continue to update with a
+        user friendly drag and drop interface
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
@@ -285,8 +287,8 @@ const IndexPage = () => (
       built this project with a Gatsby frontend and employed the Contentful
       content management system. With Contentful I authorized the client to add,
       delete or make changes to photos displayed in their portfolio. With a
-      dynamic data fetch this allows the client to continue to update without
-      needing me for frequent maintenence.
+      dynamic data fetch this allows the client to continue to update with a
+      user friendly drag and drop interface
     </MobileProjectDescription>
     <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
 
@@ -307,7 +309,7 @@ const IndexPage = () => (
       menus and brewery information in real time.
     </MobileProjectDescription>
     <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
-    
+
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
@@ -341,7 +343,7 @@ const IndexPage = () => (
       try! Link on project page.
     </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
-    
+
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
