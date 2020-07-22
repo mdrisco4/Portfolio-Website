@@ -327,6 +327,7 @@ const EmailLink = styled.a`
     font-weight: bold;
     font-size: 30px;
     padding-left: 5%;
+    margin-right: 55%;
   }
   &:hover {
     color: darkblue;
@@ -346,6 +347,7 @@ const LinkedInLink = styled.a`
     font-weight: bold;
     font-size: 30px;
     padding-left: 7%;
+    margin-right: 65%;
   }
   &:hover {
     color: darkblue;
@@ -366,6 +368,7 @@ const GitHubLink = styled.a`
     font-size: 30px;
     padding-left: 5%;
     margin-top: 6px;
+    margin-right: 55%;
   }
   &:hover {
     color: darkblue;
