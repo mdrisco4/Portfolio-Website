@@ -134,40 +134,7 @@ const GitHubLink = styled.a`
 const Freelance = () => (
   <Layout>
 <ContactInfo>UNDER CONSTRUCTION - PLEASE CHECK BACK SOON</ContactInfo>
-    {/* <ContactInfo>Contact Info</ContactInfo>
-    <Questions>
-      If you have any questions about my projects or want to know more please
-      reach out by email or LinkedIn!
-    </Questions>
-    <hr
-      style={{
-        border: "1px solid black",
-      }}
-    ></hr>
-    <Container>
-      <MyInfo>
-        <Name>Michael Driscoll</Name>
-        <ContactDetails>585-719-7720</ContactDetails>
-        <ContactDetails>Washington, DC 20005</ContactDetails>
-        <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
-        <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
-        </EmailLink>
-        <LinkedInLink
-          href="https://www.linkedin.com/in/michael-n-driscoll/"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
-        </LinkedInLink>
-        <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
-        </GitHubLink>
-      </MyInfo>
-    </Container>
-    <hr
-      style={{
-        border: "1px solid black",
-      }}
-    ></hr> */}
+    
   </Layout>
 )
 

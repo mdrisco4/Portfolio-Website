@@ -84,7 +84,7 @@ const Header = () => (
       >
         LinkedIn
       </HeaderLink>
-      {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
+      <HeaderLink href="/freelance/">Freelance</HeaderLink>
       <HeaderLink href="/resume/">Resume</HeaderLink>
       <HeaderLink href="/contact/">Contact</HeaderLink>
       <HeaderLink href="/about/">About</HeaderLink>
