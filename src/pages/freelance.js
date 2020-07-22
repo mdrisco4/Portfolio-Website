@@ -21,6 +21,8 @@ const SectionTitle = styled.div`
 
 const PointWrapper = styled.div`
   display: flex;
+  padding-left: 10%;
+  width: 82%;
 `
 
 const BulletPoints = styled.div`
@@ -28,7 +30,6 @@ const BulletPoints = styled.div`
   text-align: left;
   font-size: 30px;
   font-weight: bold;
-  padding-left: 10%;
 `
 
 const ServicesInfo = styled.div`
@@ -36,7 +37,18 @@ const ServicesInfo = styled.div`
   text-align: left;
   font-size: 30px;
   font-weight: bold;
-  width: 80%;
+`
+
+const TechStackGrid = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+`
+
+const TechStackItem = styled.div`
+
 `
 
 const ImageWrapper = styled.div`
@@ -140,7 +152,6 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  padding: 20px 0;
   @media (min-width: 800px) {
     height: auto;
     flex-direction: row;
@@ -251,36 +262,62 @@ const Freelance = () => (
     <PointWrapper>
       <BulletPoints>∙</BulletPoints>
       <ServicesInfo>
-        Expand existing software to meet the changing needs of our key
-        demographics
+        Expand existing software to meet the changing needs of clients
       </ServicesInfo>
     </PointWrapper>
     <PointWrapper>
       <BulletPoints>∙</BulletPoints>
       <ServicesInfo>
-        Write and test code to ensure compatibility and stability: refine and
-        rewrite as necessary
+        Write and test code to ensure compatibility and stability; refine
+        as necessary
       </ServicesInfo>
     </PointWrapper>
     <PointWrapper>
       <BulletPoints>∙</BulletPoints>
       <ServicesInfo>
-        Create innovative, scalable, fault-tolerant software solutions for our
-        clients and customer base
+        Create innovative, scalable, fault-tolerant software solutions for
+        clients
       </ServicesInfo>
     </PointWrapper>
-    {/* <PointWrapper>
+    <SectionTitle>Tech Stacks Used</SectionTitle>
+    <TechStackGrid>
+      <TechStackItem><PointWrapper>
       <BulletPoints>∙</BulletPoints>
-      <ServicesInfo></ServicesInfo>
-    </PointWrapper>
-    <PointWrapper>
+      <ServicesInfo>HTML</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
       <BulletPoints>∙</BulletPoints>
-      <ServicesInfo></ServicesInfo>
-    </PointWrapper>
-    <PointWrapper>
+      <ServicesInfo>CSS</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
       <BulletPoints>∙</BulletPoints>
-      <ServicesInfo></ServicesInfo>
-    </PointWrapper> */}
+      <ServicesInfo>JavaScript</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>Node.js</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>React/Gatsby</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>Express.js</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>Python/Django</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>PostgreSQL</ServicesInfo>
+    </PointWrapper></TechStackItem>
+      <TechStackItem><PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>MongoDB</ServicesInfo>
+    </PointWrapper></TechStackItem>
+    </TechStackGrid>
     <SectionTitle>Projects</SectionTitle>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>

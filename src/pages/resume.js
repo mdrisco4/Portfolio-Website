@@ -443,7 +443,7 @@ const Resume = () => (
         <SkillsRowContainer>
           <SubSectionTitle>∙ HTML</SubSectionTitle>
           <SubSectionTitle>∙ CSS</SubSectionTitle>
-          <SubSectionTitle>∙ Javascript</SubSectionTitle>
+          <SubSectionTitle>∙ JavaScript</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer>
           <SubSectionTitle>∙ Node.js</SubSectionTitle>
@@ -489,7 +489,7 @@ const Resume = () => (
         <Details>∙</Details>
         <BulletPoints>
           Developed fundamentals learning coding basics and developing projects
-          using HTML, CSS and Javascript and developing full stack interactive
+          using HTML, CSS and JavaScript and developing full stack interactive
           applications with frameworks including React and Django, employing a
           variety of tools to build and deploy databases including MongoDB,
           Express and SQL
