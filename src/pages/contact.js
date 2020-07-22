@@ -77,6 +77,24 @@ const ContactDetails = styled.h3`
   }
 `
 
+const PhoneLink = styled.a`
+  font-family: "Montserrat Alternates";
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  text-decoration: none;
+  font-weight: 900;
+  margin: 4px 5%;
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 30px;
+  }
+  &:hover {
+    color: darkblue;
+    text-shadow: 4px 4px 5px darkblue;
+    filter:drop-shadow(1px 1px white);
+  }
+`
+
 const EmailLink = styled.a`
   font-family: "Montserrat Alternates";
   color: black;
@@ -146,7 +164,7 @@ const Contact = () => (
     <Container>
       <MyInfo>
         <Name>Michael Driscoll</Name>
-        <ContactDetails>585-719-7720</ContactDetails>
+        <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
         <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
