@@ -19,6 +19,26 @@ const SectionTitle = styled.div`
   margin: 20px 0 36px 0;
 `
 
+const PointWrapper = styled.div`
+  display: flex;
+`
+
+const BulletPoints = styled.div`
+  font-family: "Montserrat Alternates";
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10%;
+`
+
+const ServicesInfo = styled.div`
+  font-family: "Montserrat Alternates";
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  width: 80%;
+`
+
 const ContactInfo = styled.div`
   font-family: "Montserrat Alternates";
   text-align: center;
@@ -99,7 +119,7 @@ const EmailLink = styled.a`
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
@@ -117,7 +137,7 @@ const LinkedInLink = styled.a`
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
@@ -135,16 +155,52 @@ const GitHubLink = styled.a`
   &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
 const Freelance = () => (
   <Layout>
-<SectionTitle>Services Offered</SectionTitle>
-<SectionTitle>Projects</SectionTitle>
-<SectionTitle>Contact info</SectionTitle>
-    
+    <SectionTitle>Services Offered</SectionTitle>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>Create clear technical specifications</ServicesInfo>
+    </PointWrapper>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>
+        Expand existing software to meet the changing needs of our key
+        demographics
+      </ServicesInfo>
+    </PointWrapper>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>
+        Write and test code to ensure compatibility and stability: refine and
+        rewrite as necessary
+      </ServicesInfo>
+    </PointWrapper>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo>
+        Create innovative, scalable, fault-tolerant software solutions for our
+        clients and customer base
+      </ServicesInfo>
+    </PointWrapper>
+    {/* <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo></ServicesInfo>
+    </PointWrapper>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo></ServicesInfo>
+    </PointWrapper>
+    <PointWrapper>
+      <BulletPoints>∙</BulletPoints>
+      <ServicesInfo></ServicesInfo>
+    </PointWrapper> */}
+    <SectionTitle>Projects</SectionTitle>
+    <SectionTitle>Contact info</SectionTitle>
   </Layout>
 )
 
