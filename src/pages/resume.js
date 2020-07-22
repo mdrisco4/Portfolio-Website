@@ -408,26 +408,45 @@ const Resume = () => (
       <SectionTitle>Skills</SectionTitle>
       <SkillsContainer>
         <SkillsRowContainer>
-          <SubSectionTitle>∙ HTML/CSS</SubSectionTitle>
+          <SubSectionTitle>∙ HTML</SubSectionTitle>
+          <SubSectionTitle>∙ CSS</SubSectionTitle>
           <SubSectionTitle>∙ Javascript</SubSectionTitle>
-          <SubSectionTitle>∙ Node.js</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer>
-          <SubSectionTitle>∙ Express</SubSectionTitle>
-          <SubSectionTitle>∙ React</SubSectionTitle>
-          <SubSectionTitle>∙ SQL</SubSectionTitle>
+          <SubSectionTitle>∙ Node.js</SubSectionTitle>
+          <SubSectionTitle>∙ React/Gatsby</SubSectionTitle>
+          <SubSectionTitle>∙ Express.js</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer
           style={{
             width: "45%",
           }}
         >
-          <SubSectionTitle>∙ Adobe XD</SubSectionTitle>
           <SubSectionTitle>∙ Python/Django</SubSectionTitle>
+          <SubSectionTitle>∙ PostgreSQL</SubSectionTitle>
           <SubSectionTitle>∙ MongoDB</SubSectionTitle>
         </SkillsRowContainer>
       </SkillsContainer>
       <SectionTitle>Experience</SectionTitle>
+
+      <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
+      {/* <City>Washington, D.C.</City> */}
+      <Dates>8/2013-Current</Dates>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Design and develop web applications using OOP while employing full
+          stack technologies
+        </BulletPoints>
+      </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Consulted small businesses by maintaining working logs which detail
+          all required system updates and assist in facilitating completion
+        </BulletPoints>
+      </BulletPointWrap>
+
       <SubSectionTitle>
         Software Engineering Immersive, General Assembly
       </SubSectionTitle>

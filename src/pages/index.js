@@ -251,55 +251,22 @@ const IndexPage = () => (
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
-    <ProjectTitle>Trivia Game</ProjectTitle>
+
+    <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
-        One of my first projects: a fun trivia game with 3 selectable categories
-        related to media. Written with HTML, CSS and Vanilla Javascript. Give it
-        a try! Link on project page.
+        An open source client project built with React, Contentful and GraphQL
+        on an Agile team. I provided code for the front end working on a team
+        utilizing Storybook for branch management.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      One of my first projects: a fun trivia game with 3 selectable categories
-      related to media. Written with HTML, CSS and Vanilla Javascript. Give it a
-      try! Link on project page.
+      An open source client project built with React, Contentful and GraphQL on
+      an Agile team. I provided code for the front end working on a team
+      utilizing Storybook for branch management.
     </MobileProjectDescription>
-    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
-    <ProjectTitle>National Parks Website</ProjectTitle>
-    <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
-      <ProjectDescription>
-        This is an interactive site that I built fetching data from the National
-        Park Sevice API that provides users links to pages with details for
-        national parks around the country. Built using React to specifications
-        provided in an AdobeXD mockup.
-      </ProjectDescription>
-    </ImageWrapper>
-    <MobileProjectDescription>
-      This is an interactive site that I built fetching data from the National
-      Park Sevice API that provides users links to pages with details for
-      national parks around the country. Built using React to specifications
-      provided in an AdobeXD mockup.
-    </MobileProjectDescription>
-    <ProjectLink href="/national-parks">Learn More</ProjectLink>
-    <ProjectTitle>Rochester Beer Community</ProjectTitle>
-    <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
-      <ProjectDescription>
-        A full stack site built with Django that provides menus, draft lists and
-        brewery information for users. This site also allows for brewery owners
-        and managers to access full CRUD capabilties to make changes to their
-        menus and brewery information in real time.
-      </ProjectDescription>
-    </ImageWrapper>
-    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
-    <MobileProjectDescription>
-      A full stack site built with Django that provides menus, draft lists and
-      brewery information for users. This site also allows for brewery owners
-      and managers to access full CRUD capabilties to make changes to their
-      menus and brewery information in real time.
-    </MobileProjectDescription>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
 
     <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
@@ -323,7 +290,99 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
 
-    <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <ProjectTitle>Rochester Beer Community</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
+      <ProjectDescription>
+        A full stack site built with Django that provides menus, draft lists and
+        brewery information for users. This site also allows for brewery owners
+        and managers to access full CRUD capabilties to make changes to their
+        menus and brewery information in real time.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      A full stack site built with Django that provides menus, draft lists and
+      brewery information for users. This site also allows for brewery owners
+      and managers to access full CRUD capabilties to make changes to their
+      menus and brewery information in real time.
+    </MobileProjectDescription>
+    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
+    
+    <ProjectTitle>National Parks Website</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
+      <ProjectDescription>
+        This is an interactive site that I built fetching data from the National
+        Park Sevice API that provides users links to pages with details for
+        national parks around the country. Built using React to specifications
+        provided in an AdobeXD mockup.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      This is an interactive site that I built fetching data from the National
+      Park Sevice API that provides users links to pages with details for
+      national parks around the country. Built using React to specifications
+      provided in an AdobeXD mockup.
+    </MobileProjectDescription>
+    <ProjectLink href="/national-parks">Learn More</ProjectLink>
+
+    <ProjectTitle>Trivia Game</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
+      <ProjectDescription>
+        One of my first projects: a fun trivia game with 3 selectable categories
+        related to media. Written with HTML, CSS and Vanilla Javascript. Give it
+        a try! Link on project page.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      One of my first projects: a fun trivia game with 3 selectable categories
+      related to media. Written with HTML, CSS and Vanilla Javascript. Give it a
+      try! Link on project page.
+    </MobileProjectDescription>
+    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
+    
+    {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
+      <ProjectDescription>
+        A full stack site built with Django that provides menus, draft lists and
+        brewery information for users. This site also allows for brewery owners
+        and managers to access full CRUD capabilties to make changes to their
+        menus and brewery information in real time.
+      </ProjectDescription>
+    </ImageWrapper>
+    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
+    <MobileProjectDescription>
+      A full stack site built with Django that provides menus, draft lists and
+      brewery information for users. This site also allows for brewery owners
+      and managers to access full CRUD capabilties to make changes to their
+      menus and brewery information in real time.
+    </MobileProjectDescription> */}
+
+    {/* <ProjectTitle>Photography Site</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/s2xoqpd.png"></ProjectStill>
+      <ProjectDescription>
+        A freelance project I made for an aspiring professional photographer. I
+        built this project with a Gatsby frontend and employed the Contentful
+        content management system. With Contentful I authorized the client to
+        add, delete or make changes to photos displayed in their portfolio. With
+        a dynamic data fetch this allows the client to continue to update
+        without needing me for frequent maintenence.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      A freelance project I made for an aspiring professional photographer. I
+      built this project with a Gatsby frontend and employed the Contentful
+      content management system. With Contentful I authorized the client to add,
+      delete or make changes to photos displayed in their portfolio. With a
+      dynamic data fetch this allows the client to continue to update without
+      needing me for frequent maintenence.
+    </MobileProjectDescription>
+    <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink> */}
+
+    {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
@@ -337,7 +396,7 @@ const IndexPage = () => (
       an Agile team. I provided code for the front end working on a team
       utilizing Storybook for branch management.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
     <hr
       style={{
         border: "1px solid black",
