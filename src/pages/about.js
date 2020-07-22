@@ -39,7 +39,6 @@ const PersonalInfo = styled.div`
   text-align: center;
   @media (min-width: 850px) {
     height: 100%;
-    width: 40%;
     margin: auto;
     flex-direction: row;
   }
