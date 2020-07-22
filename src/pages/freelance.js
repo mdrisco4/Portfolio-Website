@@ -11,6 +11,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 library.add(fab, fas, far)
 
+const SectionTitle = styled.div`
+  font-family: "Montserrat Alternates";
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+  margin: 20px 0 36px 0;
+`
+
 const ContactInfo = styled.div`
   font-family: "Montserrat Alternates";
   text-align: center;
@@ -133,7 +141,9 @@ const GitHubLink = styled.a`
 
 const Freelance = () => (
   <Layout>
-<ContactInfo>UNDER CONSTRUCTION - PLEASE CHECK BACK SOON</ContactInfo>
+<SectionTitle>Services Offered</SectionTitle>
+<SectionTitle>Projects</SectionTitle>
+<SectionTitle>Contact info</SectionTitle>
     
   </Layout>
 )

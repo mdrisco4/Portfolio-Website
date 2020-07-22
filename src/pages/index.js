@@ -174,6 +174,31 @@ const ProjectTitle = styled.div`
   margin-bottom: 20px;
 `
 
+const FreelanceLink = styled.a`
+font-family: "Montserrat Alternates";
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 20%;
+  height: auto;
+  padding: 6px;
+  border: 4px solid darkblue;
+  background-color: rgb(99, 95, 85);
+  color: white;
+  cursor: pointer;
+  @media (min-width: 620px) {
+  }
+  &:hover {
+    border: 4px solid black;
+    background-color: darkblue;
+    color: rgb(110, 176, 249);
+  }
+`
+
 const ProjectLink = styled.a`
   font-family: "Montserrat Alternates";
   text-decoration: none;
@@ -253,6 +278,7 @@ const IndexPage = () => (
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
 
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
       <ProjectDescription>
@@ -271,6 +297,7 @@ const IndexPage = () => (
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
 
     <ProjectTitle>Photography Site</ProjectTitle>
+    <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/s2xoqpd.png"></ProjectStill>
       <ProjectDescription>
