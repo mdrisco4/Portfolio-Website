@@ -279,7 +279,7 @@ const Freelance = () => (
         clients
       </ServicesInfo>
     </PointWrapper>
-    <SectionTitle>Tech Stacks Used</SectionTitle>
+    {/* <SectionTitle>Tech Stacks Used</SectionTitle>
     <TechStackGrid>
       <TechStackItem><PointWrapper>
       <BulletPoints>∙</BulletPoints>
@@ -317,7 +317,7 @@ const Freelance = () => (
       <BulletPoints>∙</BulletPoints>
       <ServicesInfo>MongoDB</ServicesInfo>
     </PointWrapper></TechStackItem>
-    </TechStackGrid>
+    </TechStackGrid> */}
     <SectionTitle>Projects</SectionTitle>
     <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <ImageWrapper>
