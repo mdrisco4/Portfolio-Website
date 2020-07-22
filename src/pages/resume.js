@@ -286,6 +286,36 @@ const MobileGitHubLink = styled.a`
   }
 `
 
+const PhoneLink = styled.a`
+  font-family: "Montserrat Alternates";
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  text-decoration: none;
+  font-weight: 900;
+  /* margin: 4px 5%; */
+  font-size: 24px;
+  @media (min-width: 600px) {
+    font-size: 21px;
+  }
+  @media (min-width: 720px) {
+    font-size: 25px;
+  }
+  @media (min-width: 925px) {
+    font-size: 28px;
+  }
+  @media (min-width: 1020px) {
+    font-size: 30px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 35px;
+  }
+  &:hover {
+    color: darkblue;
+    text-shadow: 2px 2px 3px darkblue;
+    filter:drop-shadow(1px 1px white);
+  }
+`
+
 const EmailLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
@@ -365,7 +395,7 @@ const Resume = () => (
         <ContactInfo>
           <MobileName>Michael Driscoll</MobileName>
           <SectionTitle>Contact Info</SectionTitle>
-          <Phone>585-719-7720</Phone>
+          <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
           <MobileLinkPlacer>
             <MobileEmailLink
               href="mailto:michaelndriscoll81@gmail.com"
