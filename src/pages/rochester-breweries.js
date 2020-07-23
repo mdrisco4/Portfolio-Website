@@ -137,7 +137,7 @@ const RocBreweries = () => (
       <Title>Rochester Craft Beer Community</Title>
       <ProjectLinkContainer>
         <DeployedLink
-          href="http://54.161.227.204:8000/breweries/"
+          href="http://34.198.131.14:8000/breweries/"
           target="_blank"
         >
           ROC BREWERIES
