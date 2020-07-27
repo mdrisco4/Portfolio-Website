@@ -498,8 +498,8 @@ const Resume = () => (
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Gained real work experience working on a collaborative, open, source
-          client project, providing frontend code to complete assignments on a
+          Gained real work experience working on a collaborative, open source
+          client project, providing front end code to complete assignments on a
           team working in an Agile environment
         </BulletPoints>
       </BulletPointWrap>
