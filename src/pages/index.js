@@ -175,7 +175,7 @@ const ProjectTitle = styled.div`
 `
 
 const FreelanceLink = styled.a`
-font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates";
   text-decoration: none;
   font-size: 25px;
   display: block;
@@ -183,14 +183,15 @@ font-family: "Montserrat Alternates";
   margin-right: auto;
   text-align: center;
   margin-bottom: 40px;
-  width: 20%;
+  width: 30%;
   height: auto;
   padding: 6px;
   border: 4px solid darkblue;
   background-color: rgb(99, 95, 85);
   color: white;
   cursor: pointer;
-  @media (min-width: 620px) {
+  @media (min-width: 675px) {
+    width: 20%;
   }
   &:hover {
     border: 4px solid black;
@@ -267,8 +268,8 @@ const IndexPage = () => (
         <BrandStatement>
           As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
-          skill set crucial for finding success in the workplace. I am excited to
-          grow in the tech industry using my talents in software engineering
+          skill set crucial for finding success in the workplace. I am excited
+          to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
           technology. See some of my projects below.
         </BrandStatement>
