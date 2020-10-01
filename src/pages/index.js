@@ -320,7 +320,7 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
 
-    <ProjectTitle>Rochester Beer Community</ProjectTitle>
+    {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/HosJpMx.png"></ProjectStill>
       <ProjectDescription>
@@ -336,7 +336,7 @@ const IndexPage = () => (
       and managers to access full CRUD capabilties to make changes to their
       menus and brewery information in real time.
     </MobileProjectDescription>
-    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink>
+    <ProjectLink href="/rochester-breweries">Learn More</ProjectLink> */}
 
     <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
