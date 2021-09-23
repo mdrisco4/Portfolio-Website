@@ -374,7 +374,7 @@ const IndexPage = () => (
 
     <ProjectTitle>Tic Tac Toe</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/akXEiZM.png"></ProjectStill>
       <ProjectDescription>
         TIC TAC TOE
       </ProjectDescription>
