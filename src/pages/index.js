@@ -360,9 +360,9 @@ const IndexPage = () => (
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
-        One of my first projects: a fun trivia game with 3 selectable categories
-        related to media. Written with HTML, CSS and Vanilla Javascript. Give it
-        a try! Link on project page.
+        A fun trivia game with 3 selectable categories related to media. Written
+        with HTML, CSS and Vanilla Javascript. Give it a try! Link on project
+        page.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
@@ -376,12 +376,16 @@ const IndexPage = () => (
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/akXEiZM.png"></ProjectStill>
       <ProjectDescription>
-        TIC TAC TOE
+        One of my first projects! A fun and easy Tic-Tac-Toe game built with
+        simple Javascript functions and a bit of DOM manipulation to alter the
+        CSS as you play.
       </ProjectDescription>
     </ImageWrapper>
-    <MobileProjectDescription>
-      DESCRIPTION
-    </MobileProjectDescription>
+      <MobileProjectDescription>
+        One of my first projects! A fun and easy Tic-Tac-Toe game built with
+        simple Javascript functions and a bit of DOM manipulation to alter the CSS
+        as you play.
+      </MobileProjectDescription>
     <ProjectLink href="/tic-tac-toe">Learn More</ProjectLink>
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
