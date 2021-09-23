@@ -382,7 +382,7 @@ const IndexPage = () => (
     <MobileProjectDescription>
       DESCRIPTION
     </MobileProjectDescription>
-    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
+    <ProjectLink href="/tic-tac-toe">Learn More</ProjectLink>
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
