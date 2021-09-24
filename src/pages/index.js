@@ -298,7 +298,6 @@ const IndexPage = () => (
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
 
     <ProjectTitle>Photography Site</ProjectTitle>
-    <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/s2xoqpd.png"></ProjectStill>
       <ProjectDescription>
