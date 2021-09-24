@@ -114,10 +114,10 @@ const TicTacToeGame = () => (
           href="https://tic-tac-toe-game-six.vercel.app/"
           target="_blank"
         >
-          TRIVIA APP
+          TIC TAC TOE APP
         </DeployedLink>
         <GitHubLink
-          href="https://github.com/mdrisco4/Unit-Project-1"
+          href="https://github.com/mdrisco4/Tic-Tac-Toe-Game"
           target="_blank"
         >
           GITHUB REPO
