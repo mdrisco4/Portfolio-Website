@@ -452,10 +452,12 @@ const Resume = () => (
           <SubSectionTitle>∙ HTML</SubSectionTitle>
           <SubSectionTitle>∙ CSS</SubSectionTitle>
           <SubSectionTitle>∙ JavaScript</SubSectionTitle>
+          <SubSectionTitle>∙ Jira</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer>
-          <SubSectionTitle>∙ Node.js</SubSectionTitle>
           <SubSectionTitle>∙ React/Gatsby</SubSectionTitle>
+          <SubSectionTitle>∙ Vue.js</SubSectionTitle>
+          <SubSectionTitle>∙ Node.js</SubSectionTitle>
           <SubSectionTitle>∙ Express.js</SubSectionTitle>
         </SkillsRowContainer>
         <SkillsRowContainer
@@ -466,6 +468,7 @@ const Resume = () => (
           <SubSectionTitle>∙ Python/Django</SubSectionTitle>
           <SubSectionTitle>∙ PostgreSQL</SubSectionTitle>
           <SubSectionTitle>∙ MongoDB</SubSectionTitle>
+          <SubSectionTitle>∙ Contentful</SubSectionTitle>
         </SkillsRowContainer>
       </SkillsContainer>
       <SectionTitle>Experience</SectionTitle>
@@ -496,19 +499,24 @@ const Resume = () => (
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Developed fundamentals learning coding basics and developing projects
-          using HTML, CSS and JavaScript and developing full stack interactive
-          applications with frameworks including React and Django, employing a
-          variety of tools to build and deploy databases including MongoDB,
-          Express and SQL
+          Worked in an Agile environment to engage with government
+          represetatives in order to review project requirements and create Jira
+          tickets to be completed ech sprint on the basis of priority
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Gained real work experience working on a collaborative, open source
-          client project, providing front end code to complete assignments on a
-          team working in an Agile environment
+          Enigineered JavaScript solutions to bridge viability gaps on a low
+          code platform while working alongside a C#/.NET team to migrate
+          millions of records from a legacy system into SQL database
+        </BulletPoints>
+      </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Participated in successful launch of three year project as a
+          contributing developer for 2+ years
         </BulletPoints>
       </BulletPointWrap>
 
