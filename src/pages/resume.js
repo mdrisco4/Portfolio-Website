@@ -385,6 +385,14 @@ const Resume = () => (
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
           <Details>
+            {/* Full stack software engineer experienced working on an Agile team
+            and freelance projects for clients. As a craft beer professional I
+            was able to take client feedback and translate that into usable
+            concepts for beer recipes to make in collaboration with local
+            breweries, as well as coordinating events to showcase them.
+            Combining my experience in client facing roles and software
+            engineering I am seeking the opportunity to contribute to a company
+            exceeding client expectations by utilizing cutting edge technology. */}
             Full stack software engineer experienced working on an Agile team
             and freelance projects for clients. As a craft beer professional I
             was able to take client feedback and translate that into usable
@@ -462,8 +470,8 @@ const Resume = () => (
       </SkillsContainer>
       <SectionTitle>Experience</SectionTitle>
 
-      <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
-      {/* <City>Washington, D.C.</City> */}
+      {/* <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
+      <City>Washington, D.C.</City>
       <Dates>8/2013-Current</Dates>
       <BulletPointWrap>
         <Details>∙</Details>
@@ -471,14 +479,39 @@ const Resume = () => (
           Design and develop web applications using OOP while employing full
           stack technologies
         </BulletPoints>
-      </BulletPointWrap>
-      <BulletPointWrap>
+      </BulletPointWrap> */}
+      {/* <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Consulted small businesses by maintaining working logs which detail
           all required system updates and assist in facilitating completion
         </BulletPoints>
+      </BulletPointWrap> */}
+
+      <SubSectionTitle>
+        Software Engineer I, Kreative technologies
+      </SubSectionTitle>
+      <City>Fairfax, VA</City>
+      <Dates>09/2020-Present</Dates>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Developed fundamentals learning coding basics and developing projects
+          using HTML, CSS and JavaScript and developing full stack interactive
+          applications with frameworks including React and Django, employing a
+          variety of tools to build and deploy databases including MongoDB,
+          Express and SQL
+        </BulletPoints>
       </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Gained real work experience working on a collaborative, open source
+          client project, providing front end code to complete assignments on a
+          team working in an Agile environment
+        </BulletPoints>
+      </BulletPointWrap>
+
 
       <SubSectionTitle>
         Software Engineering Immersive, General Assembly
@@ -511,7 +544,8 @@ const Resume = () => (
           provided
         </BulletPoints>
       </BulletPointWrap>
-      <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
+
+      {/* <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
       <City>Rochester, NY</City>
       <Dates>4/2015-11/2019</Dates>
       <BulletPointWrap>
@@ -536,7 +570,8 @@ const Resume = () => (
           aerospace and defense contractor, to develop analytical software tools
           for deployment in government programs
         </BulletPoints>
-      </BulletPointWrap>
+      </BulletPointWrap> */}
+
       <SectionTitle>Education</SectionTitle>
       <Schooling>
         Full Stack Web Development Certificate, General Assembly
