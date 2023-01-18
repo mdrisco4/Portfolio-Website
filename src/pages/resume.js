@@ -312,7 +312,7 @@ const PhoneLink = styled.a`
   &:hover {
     color: darkblue;
     text-shadow: 2px 2px 3px darkblue;
-    filter:drop-shadow(1px 1px white);
+    filter: drop-shadow(1px 1px white);
   }
 `
 
@@ -393,14 +393,14 @@ const Resume = () => (
             Combining my experience in client facing roles and software
             engineering I am seeking the opportunity to contribute to a company
             exceeding client expectations by utilizing cutting edge technology. */}
-            Full stack software engineer experienced working on an Agile team
-            and freelance projects for clients. As a craft beer professional I
-            was able to take client feedback and translate that into usable
-            concepts for beer recipes to make in collaboration with local
-            breweries, as well as coordinating events to showcase them.
-            Combining my experience in client facing roles and software
-            engineering I am seeking the opportunity to contribute to a company
-            exceeding client expectations by utilizing cutting edge technology.
+            Full stack software engineer experienced working both on an Agile
+            team and developing freelance projects for clients. As a government
+            contractor I have experience working in a team environment and
+            engaging government representatives to ensure assignments are
+            completed by disignated deadlines. Combining my experience in client
+            facing roles and software engineering I am seeking the opportunity
+            to be a valued and contributing team member and exceed client
+            expectations utilizing cutting edge technology.
           </Details>
         </AboutMe>
         <ContactInfo>
@@ -511,7 +511,6 @@ const Resume = () => (
           team working in an Agile environment
         </BulletPoints>
       </BulletPointWrap>
-
 
       <SubSectionTitle>
         Software Engineering Immersive, General Assembly
