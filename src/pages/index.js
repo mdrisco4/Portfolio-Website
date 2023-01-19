@@ -30,11 +30,11 @@ const PersonalPhoto = styled.img`
   margin-right: auto;
   margin-top: 24px;
   @media (min-width: 900px) {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 2.5%;
     margin-top: 2%;
     width: auto;
-    height: 85%;
+    height: 100%;
   }
 `
 
@@ -47,9 +47,10 @@ const PersonalInfoContainer = styled.div`
   @media (min-width: 900px) {
     text-align: left;
     height: 100%;
-    width: 40%;
+    width: 50%;
     margin: auto;
     margin-right: 5%;
+    margin-top: 2%;
   }
 `
 
@@ -100,7 +101,7 @@ const ProjectSectionTitle = styled.div`
   text-align: center;
   font-size: 54px;
   font-weight: 700;
-  margin: 20px 0 36px 0;
+  margin: 50px 0 36px 0;
 `
 
 const ImageWrapper = styled.div`
@@ -265,6 +266,7 @@ const IndexPage = () => (
     <IntroContainer>
       {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
       <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto>
+      {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
@@ -286,7 +288,7 @@ const IndexPage = () => (
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
 
-    <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -295,6 +297,26 @@ const IndexPage = () => (
         on an Agile team. I provided code for the front end working on a team
         utilizing Storybook for component tracking and git branch management
         during development.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      An open source client project built with React, Contentful and GraphQL on
+      an Agile team. I provided code for the front end working on a team
+      utilizing Storybook for component tracking and git branch management
+      during development.
+    </MobileProjectDescription>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+
+    <ProjectTitle>BrewBuddies</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/ZF2CbNm.jpg"></ProjectStill>
+      <ProjectDescription>
+        A freelance project I developed for the founder of a small beverage
+        distribution business. I built this site using React and built in a few
+        features to help the site look sleek and professional. This is a project
+        I will continue to maintain as the client's business grows and
+        additionally be developing per specifications and requests provided by
+        the client.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
@@ -379,7 +401,7 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/trivia-game">Learn More</ProjectLink>
 
-    <ProjectTitle>Tic Tac Toe</ProjectTitle>
+    {/* <ProjectTitle>Tic Tac Toe</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/akXEiZM.png"></ProjectStill>
       <ProjectDescription>
@@ -393,7 +415,7 @@ const IndexPage = () => (
       simple Javascript functions and a bit of DOM manipulation to alter the CSS
       as you play.
     </MobileProjectDescription>
-    <ProjectLink href="/tic-tac-toe">Learn More</ProjectLink>
+    <ProjectLink href="/tic-tac-toe">Learn More</ProjectLink> */}
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
