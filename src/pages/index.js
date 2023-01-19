@@ -177,7 +177,7 @@ const ProjectTitle = styled.div`
 const FreelanceLink = styled.a`
   font-family: "Montserrat Alternates";
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -191,7 +191,8 @@ const FreelanceLink = styled.a`
   color: white;
   cursor: pointer;
   @media (min-width: 675px) {
-    width: 20%;
+    width: 22.5%;
+    font-size: 28px;
   }
   &:hover {
     border: 4px solid black;
@@ -262,16 +263,23 @@ const GetInTouch = styled.a`
 const IndexPage = () => (
   <Layout>
     <IntroContainer>
-      <PersonalPhoto src="https://i.imgur.com/dOmiyM6.jpg"></PersonalPhoto>
+      {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
+      <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto>
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
-          As a software engineer with client experience and proficiency in web
+          {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
           skill set crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
-          technology. See some of my projects below.
+          technology. See some of my projects below. */}
+          As a software engineer with client experience and proficiency in web
+          design, coding and full stack development, I possess the skills and
+          know how paramount to being a valued member of a devlopment team. I am
+          excited to continue growing in the tech industry using my talents in
+          software engineering while always seeking to expand my knowledge of
+          the latest cutting edge technology. See some of my projects below.
         </BrandStatement>
         <AboutLink href="/about">More About Me</AboutLink>
       </PersonalInfoContainer>
@@ -380,11 +388,11 @@ const IndexPage = () => (
         CSS as you play.
       </ProjectDescription>
     </ImageWrapper>
-      <MobileProjectDescription>
-        One of my first projects! A fun and easy Tic-Tac-Toe game built with
-        simple Javascript functions and a bit of DOM manipulation to alter the CSS
-        as you play.
-      </MobileProjectDescription>
+    <MobileProjectDescription>
+      One of my first projects! A fun and easy Tic-Tac-Toe game built with
+      simple Javascript functions and a bit of DOM manipulation to alter the CSS
+      as you play.
+    </MobileProjectDescription>
     <ProjectLink href="/tic-tac-toe">Learn More</ProjectLink>
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>

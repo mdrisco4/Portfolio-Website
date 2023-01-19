@@ -206,6 +206,7 @@ const PDFLink = styled.a`
   text-decoration: none;
   background-color: rgb(99, 95, 85);
   border: 2px solid darkblue;
+  /* border-radius: 20px; */
   @media (min-width: 900px) {
     margin-top: 24px;
     font-size: 32px;

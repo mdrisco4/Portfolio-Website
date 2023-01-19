@@ -21,7 +21,7 @@ const Container = styled.div`
 
 const Headshot = styled.img`
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 20%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -85,6 +85,12 @@ const About = () => (
       <PersonalInfo>
         <Title>My Background</Title>
         <AboutDetails>
+          {/* I graduated from the University of Rochester with a physics degree in
+          2013 and have always been interested in all things science and
+          technology. I am always seeking to challenge myself and tackle new
+          challenges and software development is the perfect outlet for that
+          drive. Currently with the skills to meet a junior level role I would
+          love to manage my own team a few years down the road. */}
           I graduated from the University of Rochester with a physics degree in
           2013 and have always been interested in all things science and
           technology. I am always seeking to challenge myself and tackle new
@@ -99,7 +105,7 @@ const About = () => (
           enjoying nature whenever I can.
         </AboutDetails>
       </PersonalInfo>
-      <Headshot src="https://i.imgur.com/9pPHICb.jpgalt="></Headshot>
+      <Headshot src="https://i.imgur.com/tpIBaSE.jpg"></Headshot>
     </Container>
     <GetInTouch href="/contact">Contact Me</GetInTouch>
   </Layout>
