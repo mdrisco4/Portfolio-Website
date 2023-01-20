@@ -509,9 +509,9 @@ const Resume = () => (
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Engineered JavaScript solutions to bridge viability gaps on a low
-          code platform while working alongside a C#/.NET team to migrate
-          millions of records from a legacy system into SQL database
+          Engineered JavaScript solutions to bridge viability gaps on a low code
+          platform while working alongside a C#/.NET team to migrate millions of
+          records from a legacy system into SQL database
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
@@ -527,6 +527,13 @@ const Resume = () => (
       </SubSectionTitle>
       <City>Washington, D.C.</City>
       <Dates>11/2019-2/2020</Dates>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Applied web developer skills in MVC framework to group and individual
+          projects during a 500-hour course
+        </BulletPoints>
+      </BulletPointWrap>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
@@ -546,12 +553,12 @@ const Resume = () => (
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>
-        <Details>∙</Details>
+        {/* <Details>∙</Details>
         <BulletPoints>
           Sought out and completed projects as a freelance developer working
           with clients to create fullstack applications that fit specifications
           provided
-        </BulletPoints>
+        </BulletPoints> */}
       </BulletPointWrap>
 
       {/* <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
