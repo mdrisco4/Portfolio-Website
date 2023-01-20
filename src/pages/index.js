@@ -4,6 +4,72 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import "../styles/fonts.css"
 
+
+const ProjectLinkContainer = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 850px) {
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+`
+
+const DeployedLink = styled.a`
+  font-family: "Montserrat Alternates";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
+  height: auto;
+  padding: 4px 0;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 24px;
+  text-align: center;
+  @media (min-width: 850px) {
+    width: 42%;
+  }
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    border: 4px solid black;
+  }
+`
+
+const GitHubLink = styled.a`
+  font-family: "Montserrat Alternates";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  background-color: rgb(99, 95, 85);
+  border: 4px solid darkblue;
+  height: auto;
+  padding: 4px 0;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 24px;
+  text-align: center;
+  @media (min-width: 850px) {
+    width: 42%;
+  }
+  &:hover {
+    color: rgb(110, 176, 249);
+    background-color: darkblue;
+    border: 4px solid black;
+  }
+`
+
 const IntroContainer = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
@@ -320,12 +386,27 @@ const IndexPage = () => (
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      An open source client project built with React, Contentful and GraphQL on
-      an Agile team. I provided code for the front end working on a team
-      utilizing Storybook for component tracking and git branch management
-      during development.
+      A freelance project I developed for the founder of a small beverage
+      distribution business. I built this site using React and built in a few
+      features to help the site look sleek and professional. This is a project I
+      will continue to maintain as the client's business grows and additionally
+      be developing per specifications and requests provided by the client.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
+    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+        <DeployedLink
+          href="https://aesthetic-platypus-80f132.netlify.app/"
+          target="_blank"
+        >
+          BrewBuddies
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/brew-buddies"
+          target="_blank"
+        >
+          Github Repo
+        </GitHubLink>
+      </ProjectLinkContainer>
 
     <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
@@ -347,7 +428,21 @@ const IndexPage = () => (
       dynamic data fetch this allows the client to continue to update with a
       user friendly drag and drop interface
     </MobileProjectDescription>
-    <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink>
+    {/* <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+        <DeployedLink
+          href="https://www.fragnoli-photography.com/"
+          target="_blank"
+        >
+          Photography
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/brain-photo-site-frontend"
+          target="_blank"
+        >
+          Github Repo
+        </GitHubLink>
+      </ProjectLinkContainer>
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
@@ -383,7 +478,21 @@ const IndexPage = () => (
       national parks around the country. Built using React to specifications
       provided in an AdobeXD mockup.
     </MobileProjectDescription>
-    <ProjectLink href="/national-parks">Learn More</ProjectLink>
+    {/* <ProjectLink href="/national-parks">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+        <DeployedLink
+          href="https://us-national-parks.netlify.com/"
+          target="_blank"
+        >
+          National Parks
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/National-Parks"
+          target="_blank"
+        >
+          Github Repo
+        </GitHubLink>
+      </ProjectLinkContainer>
 
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
@@ -399,7 +508,21 @@ const IndexPage = () => (
       related to media. Written with HTML, CSS and Vanilla Javascript. Give it a
       try! Link on project page.
     </MobileProjectDescription>
-    <ProjectLink href="/trivia-game">Learn More</ProjectLink>
+    {/* <ProjectLink href="/trivia-game">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+        <DeployedLink
+          href="https://mdrisco4.github.io/Unit-Project-1/"
+          target="_blank"
+        >
+          Trivia
+        </DeployedLink>
+        <GitHubLink
+          href="https://github.com/mdrisco4/Unit-Project-1"
+          target="_blank"
+        >
+          Github Repo
+        </GitHubLink>
+      </ProjectLinkContainer>
 
     {/* <ProjectTitle>Tic Tac Toe</ProjectTitle>
     <ImageWrapper>

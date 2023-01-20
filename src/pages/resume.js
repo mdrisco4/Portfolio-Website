@@ -3,7 +3,7 @@ import "../styles/fonts.css"
 
 import Layout from "../components/layout"
 import styled from "styled-components"
-import MNDriscollResume from "../images/MNDriscollResume.pdf"
+import MichaelDriscoll2023Resume from "../images/MichaelDriscoll2023Resume.pdf"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
@@ -398,10 +398,10 @@ const Resume = () => (
             team and developing freelance projects for clients. As a government
             contractor I have experience working in a team environment and
             engaging government representatives to ensure assignments are
-            completed by disignated deadlines. Combining my experience in client
-            facing roles and software engineering I am seeking the opportunity
-            to be a valued and contributing team member and exceed client
-            expectations utilizing cutting edge technology.
+            completed by designated deadlines. Combining my experience in client
+            facing roles and the technical side of development I am seeking the
+            opportunity to be a valued and contributing team member and exceed
+            client expectations utilizing cutting edge technology.
           </Details>
         </AboutMe>
         <ContactInfo>
@@ -442,7 +442,7 @@ const Resume = () => (
           </GitHubLink>
         </ContactInfo>
         <ButtonContainer>
-          <PDFLink href={MNDriscollResume} download>
+          <PDFLink href={MichaelDriscoll2023Resume} download>
             PDF Download
           </PDFLink>
         </ButtonContainer>
@@ -501,8 +501,9 @@ const Resume = () => (
         <Details>∙</Details>
         <BulletPoints>
           Worked in an Agile environment to engage with government
-          represetatives in order to review project requirements and create Jira
-          tickets to be completed ech sprint on the basis of priority
+          representatives in order to review project requirements and utilize
+          Jira to ensure project specifications are met each sprint on the basis
+          of priority
         </BulletPoints>
       </BulletPointWrap>
       <BulletPointWrap>

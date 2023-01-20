@@ -27,7 +27,7 @@ const Headshot = styled.img`
   margin-right: auto;
   @media (min-width: 850px) {
     height: auto;
-    width: 40%;
+    width: 33%;
     flex-direction: row;
   }
 `
@@ -96,15 +96,15 @@ const About = () => (
           technology. I am always seeking to push myself and tackle new
           challenges, and aim to find bigger and more difficult problems to
           tackle along the way. I have learned a great deal in my first few
-          years as a softare engineer and am eager to expand my knowledge base
+          years as a software engineer and am eager to expand my knowledge base
           and serve to contribute to exciting new projects along the way.
         </AboutDetails>
         <Title>Interests and Hobbies</Title>
         <AboutDetails>
-          Besides always making an effort to learn about new technologies I am a
-          huge movie buff and craft beer enthusiast and enjoy sports, poker and
-          enjoying nature whenever I can. I am looking to establish myself in
-          Southern California in the near future.
+          Outside of my interests in science and technology I enjoy all things
+          film, from small independent movies to gigantic blockbusters. I also
+          am into craft brewing, sports, camping and am an avid cyclist. A current DC resident, I am
+          looking to establish myself in Southern California in the near future.
         </AboutDetails>
       </PersonalInfo>
       <Headshot src="https://i.imgur.com/tpIBaSE.jpg"></Headshot>
