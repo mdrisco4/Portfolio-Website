@@ -509,7 +509,7 @@ const Resume = () => (
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Enigineered JavaScript solutions to bridge viability gaps on a low
+          Engineered JavaScript solutions to bridge viability gaps on a low
           code platform while working alongside a C#/.NET team to migrate
           millions of records from a legacy system into SQL database
         </BulletPoints>
