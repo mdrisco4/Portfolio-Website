@@ -118,7 +118,7 @@ const SkillsRowContainer = styled.div`
 
 const SubSectionTitle = styled.div`
   font-family: "Montserrat Alternates";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   @media (min-width: 800px) {
     font-size: 24px;
