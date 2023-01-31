@@ -4,7 +4,6 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import "../styles/fonts.css"
 
-
 const ProjectLinkContainer = styled.div`
   width: 50%;
   display: flex;
@@ -373,6 +372,46 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
 
+    <ProjectTitle>Crypto Market</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/oJV0J9I.jpg"></ProjectStill>
+      <ProjectDescription>
+        A side project I developed to learn a new front end library and to work
+        on a site that focuses on a technology that I find interesting. I used
+        Vue.js to develop this project which fetches data from a cryptocurrency
+        API to give the user a dynamic layout of information on top rated
+        digital coins. Additionally there is some information I compiled on the
+        About Page that walks the user through the basics and provides some
+        links to additional sources and exchanges if they want to dive right in
+        to investing in crypto.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      A side project I developed to learn a new front end library and to work on
+      a site that focuses on a technology that I find interesting. I used Vue.js
+      to develop this project which fetches data from a cryptocurrency API to
+      give the user a dynamic layout of information on top rated digital coins.
+      Additionally there is some information I compiled on the About Page that
+      walks the user through the basics and provides some links to additional
+      sources and exchanges if they want to dive right in to investing in
+      crypto.
+    </MobileProjectDescription>
+    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+      <DeployedLink
+        href="https://inquisitive-basbousa-2c8988.netlify.app/"
+        target="_blank"
+      >
+        Crypto Market
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/vue-router-api-project"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
+
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/ZF2CbNm.jpg"></ProjectStill>
@@ -394,19 +433,19 @@ const IndexPage = () => (
     </MobileProjectDescription>
     {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
-        <DeployedLink
-          href="https://aesthetic-platypus-80f132.netlify.app/"
-          target="_blank"
-        >
-          BrewBuddies
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/brew-buddies"
-          target="_blank"
-        >
-          Github Repo
-        </GitHubLink>
-      </ProjectLinkContainer>
+      <DeployedLink
+        href="https://aesthetic-platypus-80f132.netlify.app/"
+        target="_blank"
+      >
+        BrewBuddies
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/brew-buddies"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
 
     <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
@@ -430,19 +469,19 @@ const IndexPage = () => (
     </MobileProjectDescription>
     {/* <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
-        <DeployedLink
-          href="https://www.fragnoli-photography.com/"
-          target="_blank"
-        >
-          Photography
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/brain-photo-site-frontend"
-          target="_blank"
-        >
-          Github Repo
-        </GitHubLink>
-      </ProjectLinkContainer>
+      <DeployedLink
+        href="https://www.fragnoli-photography.com/"
+        target="_blank"
+      >
+        Photography
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/brain-photo-site-frontend"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
@@ -480,19 +519,19 @@ const IndexPage = () => (
     </MobileProjectDescription>
     {/* <ProjectLink href="/national-parks">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
-        <DeployedLink
-          href="https://us-national-parks.netlify.com/"
-          target="_blank"
-        >
-          National Parks
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/National-Parks"
-          target="_blank"
-        >
-          Github Repo
-        </GitHubLink>
-      </ProjectLinkContainer>
+      <DeployedLink
+        href="https://us-national-parks.netlify.com/"
+        target="_blank"
+      >
+        National Parks
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/National-Parks"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
 
     <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
@@ -510,19 +549,19 @@ const IndexPage = () => (
     </MobileProjectDescription>
     {/* <ProjectLink href="/trivia-game">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
-        <DeployedLink
-          href="https://mdrisco4.github.io/Unit-Project-1/"
-          target="_blank"
-        >
-          Trivia
-        </DeployedLink>
-        <GitHubLink
-          href="https://github.com/mdrisco4/Unit-Project-1"
-          target="_blank"
-        >
-          Github Repo
-        </GitHubLink>
-      </ProjectLinkContainer>
+      <DeployedLink
+        href="https://mdrisco4.github.io/Unit-Project-1/"
+        target="_blank"
+      >
+        Trivia
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/Unit-Project-1"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
 
     {/* <ProjectTitle>Tic Tac Toe</ProjectTitle>
     <ImageWrapper>
