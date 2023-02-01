@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
       <body
       title={"Michael Driscoll"}
         style={{
-          margin: "0",
+          margin: "-10px",
         }}
       >
         <div
