@@ -14,7 +14,7 @@ const Nav = styled.div`
   background: black;
   border-top: 24px solid black;
   border-bottom: 24px solid black;
-  margin: -10px;
+  margin: 10px;
 `
 
 const LinkContainer = styled.div`
