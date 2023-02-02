@@ -434,7 +434,7 @@ const IndexPage = () => (
     {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
       <DeployedLink
-        href="https://aesthetic-platypus-80f132.netlify.app/"
+        href="https://brewbuddiesny.com/"
         target="_blank"
       >
         BrewBuddies
