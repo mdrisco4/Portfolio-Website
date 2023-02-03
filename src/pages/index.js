@@ -371,6 +371,41 @@ const IndexPage = () => (
       during development.
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    
+    <ProjectTitle>BrewBuddies</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/ZF2CbNm.jpg"></ProjectStill>
+      <ProjectDescription>
+        A freelance project I developed for the founder of a small beverage
+        distribution business. I built this site using React and built in a few
+        features to help the site look sleek and professional. This is a project
+        I will continue to maintain as the client's business grows and
+        additionally be developing per specifications and requests provided by
+        the client.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      A freelance project I developed for the founder of a small beverage
+      distribution business. I built this site using React and built in a few
+      features to help the site look sleek and professional. This is a project I
+      will continue to maintain as the client's business grows and additionally
+      be developing per specifications and requests provided by the client.
+    </MobileProjectDescription>
+    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    <ProjectLinkContainer>
+      <DeployedLink
+        href="https://brewbuddiesny.com/"
+        target="_blank"
+      >
+        BrewBuddies
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/brew-buddies"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
 
     <ProjectTitle>Crypto Market</ProjectTitle>
     <ImageWrapper>
@@ -412,40 +447,6 @@ const IndexPage = () => (
       </GitHubLink>
     </ProjectLinkContainer>
 
-    <ProjectTitle>BrewBuddies</ProjectTitle>
-    <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/ZF2CbNm.jpg"></ProjectStill>
-      <ProjectDescription>
-        A freelance project I developed for the founder of a small beverage
-        distribution business. I built this site using React and built in a few
-        features to help the site look sleek and professional. This is a project
-        I will continue to maintain as the client's business grows and
-        additionally be developing per specifications and requests provided by
-        the client.
-      </ProjectDescription>
-    </ImageWrapper>
-    <MobileProjectDescription>
-      A freelance project I developed for the founder of a small beverage
-      distribution business. I built this site using React and built in a few
-      features to help the site look sleek and professional. This is a project I
-      will continue to maintain as the client's business grows and additionally
-      be developing per specifications and requests provided by the client.
-    </MobileProjectDescription>
-    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
-    <ProjectLinkContainer>
-      <DeployedLink
-        href="https://brewbuddiesny.com/"
-        target="_blank"
-      >
-        BrewBuddies
-      </DeployedLink>
-      <GitHubLink
-        href="https://github.com/mdrisco4/brew-buddies"
-        target="_blank"
-      >
-        Github Repo
-      </GitHubLink>
-    </ProjectLinkContainer>
 
     <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
