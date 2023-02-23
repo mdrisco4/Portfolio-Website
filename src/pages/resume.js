@@ -394,14 +394,20 @@ const Resume = () => (
             Combining my experience in client facing roles and software
             engineering I am seeking the opportunity to contribute to a company
             exceeding client expectations by utilizing cutting edge technology. */}
-            Full stack software engineer experienced working both on an Agile
+            {/* Full stack software engineer experienced working both on an Agile
             team and developing freelance projects for clients. As a government
             contractor I have experience working in a team environment and
             engaging government representatives to ensure assignments are
             completed by designated deadlines. Combining my experience in client
             facing roles and the technical side of development I am seeking the
             opportunity to be a valued and contributing team member and exceed
-            client expectations utilizing cutting edge technology.
+            client expectations utilizing cutting edge technology. */}
+            Full stack software engineer experienced working both in Agile team
+            environments and developing freelance projects for clients.
+            Extensive experience working between client facing roles and the
+            technical side of development on complex projects. Currently seeking
+            new opportunities to be a valued and contributing team member and
+            exceed client expectations utilizing cutting edge technology.
           </Details>
         </AboutMe>
         <ContactInfo>
@@ -492,15 +498,16 @@ const Resume = () => (
         </BulletPoints>
       </BulletPointWrap> */}
 
-      <SubSectionTitle>
-        Software Engineer I, Kreative technologies
+      <SubSectionTitle style={{ fontWeight: "bold" }}>
+        Kreative technologies
       </SubSectionTitle>
       <City>Fairfax, VA</City>
-      <Dates>09/2020-Present</Dates>
+      <SubSectionTitle>Software Engineer I</SubSectionTitle>
+      <Dates>02/2022-Present</Dates>
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
-          Worked in an Agile environment to engage with government
+          Worked in an Agile environment and engaged with government
           representatives in order to review project requirements and utilize
           Jira to ensure project specifications are met each sprint on the basis
           of priority
@@ -514,11 +521,25 @@ const Resume = () => (
           records from a legacy system into SQL database
         </BulletPoints>
       </BulletPointWrap>
-      <BulletPointWrap>
+      {/* <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Participated in successful launch of three year project as a
           contributing developer for 2+ years
+        </BulletPoints>
+      </BulletPointWrap> */}
+      <SubSectionTitle>Junior Software Developer</SubSectionTitle>
+      <Dates>09/2020-02/2022</Dates>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Facilitated backend development to meet contract requirements on project for the Defense Health Agency
+        </BulletPoints>
+      </BulletPointWrap>
+      <BulletPointWrap>
+        <Details>∙</Details>
+        <BulletPoints>
+          Collaborated with team members to complete assignments for full stack development on project for the Department of Defense
         </BulletPoints>
       </BulletPointWrap>
 
@@ -544,14 +565,14 @@ const Resume = () => (
           Express and SQL
         </BulletPoints>
       </BulletPointWrap>
-      <BulletPointWrap>
+      {/* <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Gained real work experience working on a collaborative, open source
           client project, providing front end code to complete assignments on a
           team working in an Agile environment
         </BulletPoints>
-      </BulletPointWrap>
+      </BulletPointWrap> */}
       <BulletPointWrap>
         {/* <Details>∙</Details>
         <BulletPoints>
