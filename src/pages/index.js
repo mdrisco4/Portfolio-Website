@@ -374,7 +374,7 @@ const IndexPage = () => (
     
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/ZF2CbNm.jpg"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/q25zOZm.jpg"></ProjectStill>
       <ProjectDescription>
         A freelance project I developed for the founder of a small beverage
         distribution business. I built this site using React and built in a few
@@ -409,7 +409,7 @@ const IndexPage = () => (
 
     <ProjectTitle>Crypto Market</ProjectTitle>
     <ImageWrapper>
-      <ProjectStill src="https://i.imgur.com/oJV0J9I.jpg"></ProjectStill>
+      <ProjectStill src="https://i.imgur.com/etbLxdD.jpg"></ProjectStill>
       <ProjectDescription>
         A side project I developed to learn a new front end library and to work
         on a site that focuses on a technology that I find interesting. I used
