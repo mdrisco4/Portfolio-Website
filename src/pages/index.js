@@ -371,32 +371,26 @@ const IndexPage = () => (
       during development.
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
-    
+
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/q25zOZm.jpg"></ProjectStill>
       <ProjectDescription>
         A freelance project I developed for the founder of a small beverage
-        distribution business. I built this site using React and built in a few
-        features to help the site look sleek and professional. This is a project
-        I will continue to maintain as the client's business grows and
-        additionally be developing per specifications and requests provided by
-        the client.
+        distribution company. I built this site using React and built in a few
+        features to help the site look sleek and professional. This project
+        remains ongoing to meet demands for client's growing business.
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
       A freelance project I developed for the founder of a small beverage
-      distribution business. I built this site using React and built in a few
-      features to help the site look sleek and professional. This is a project I
-      will continue to maintain as the client's business grows and additionally
-      be developing per specifications and requests provided by the client.
+      distribution company. I built this site using React and built in a few
+      features to help the site look sleek and professional. This project
+      remains ongoing to meet demands for client's growing business.
     </MobileProjectDescription>
     {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
-      <DeployedLink
-        href="https://brewbuddiesny.com/"
-        target="_blank"
-      >
+      <DeployedLink href="https://brewbuddiesny.com/" target="_blank">
         BrewBuddies
       </DeployedLink>
       <GitHubLink
@@ -446,7 +440,6 @@ const IndexPage = () => (
         Github Repo
       </GitHubLink>
     </ProjectLinkContainer>
-
 
     <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
@@ -544,9 +537,9 @@ const IndexPage = () => (
       </ProjectDescription>
     </ImageWrapper>
     <MobileProjectDescription>
-      One of my first projects: a fun trivia game with 3 selectable categories
-      related to media. Written with HTML, CSS and Vanilla Javascript. Give it a
-      try! Link on project page.
+      A fun trivia game with 3 selectable categories related to media. Written
+      with HTML, CSS and Vanilla Javascript. Give it a try! Link on project
+      page.
     </MobileProjectDescription>
     {/* <ProjectLink href="/trivia-game">Learn More</ProjectLink> */}
     <ProjectLinkContainer>
