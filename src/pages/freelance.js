@@ -361,20 +361,20 @@ const Freelance = () => (
     <SectionTitle>Contact info</SectionTitle>
     <Container>
       <MyInfo>
-        <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
-        <ContactDetails>Washington, DC 20005</ContactDetails>
-        <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
+        {/* <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
+        <ContactDetails>Washington, DC 20005</ContactDetails> */}
+        {/* <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
         <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
-        </EmailLink>
-        <LinkedInLink
+        </EmailLink> */}
+        {/* <LinkedInLink
           href="https://www.linkedin.com/in/michael-n-driscoll/"
           target="_blank"
-        >
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
-        </LinkedInLink>
-        <GitHubLink href="https://github.com/mdrisco4" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
-        </GitHubLink>
+        > */}
+          {/* <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
+        </LinkedInLink> */}
+        {/* <GitHubLink href="https://github.com/mdrisco4" target="_blank"> */}
+        {/* <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+        </GitHubLink> */}
       </MyInfo>
     </Container>
     <hr
