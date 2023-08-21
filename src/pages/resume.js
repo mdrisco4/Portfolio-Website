@@ -382,10 +382,10 @@ const Resume = () => (
   <Layout>
     <Container>
       <Name>Michael Driscoll</Name>
-      <AboutContactContainer>
+      {/* <AboutContactContainer>
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
-          <Details>
+          <Details> */}
             {/* Full stack software engineer experienced working on an Agile team
             and freelance projects for clients. As a craft beer professional I
             was able to take client feedback and translate that into usable
@@ -402,7 +402,9 @@ const Resume = () => (
             facing roles and the technical side of development I am seeking the
             opportunity to be a valued and contributing team member and exceed
             client expectations utilizing cutting edge technology. */}
-            Full stack software engineer experienced working both in Agile team
+
+
+            {/* Full stack software engineer experienced working both in Agile team
             environments and developing freelance projects for clients.
             Extensive experience working between client facing roles and the
             technical side of development on complex projects. Currently seeking
@@ -478,7 +480,7 @@ const Resume = () => (
           <SubSectionTitle>∙ Contentful</SubSectionTitle>
         </SkillsRowContainer>
       </SkillsContainer>
-      <SectionTitle>Experience</SectionTitle>
+      <SectionTitle>Experience</SectionTitle> */}
 
       {/* <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
       <City>Washington, D.C.</City>
@@ -498,7 +500,7 @@ const Resume = () => (
         </BulletPoints>
       </BulletPointWrap> */}
 
-      <SubSectionTitle style={{ fontWeight: "bold" }}>
+      {/* <SubSectionTitle style={{ fontWeight: "bold" }}>
         Kreative technologies
       </SubSectionTitle>
       <City>Fairfax, VA</City>
@@ -520,7 +522,9 @@ const Resume = () => (
           platform while working alongside a C#/.NET team to migrate millions of
           records from a legacy system into SQL database
         </BulletPoints>
-      </BulletPointWrap>
+      </BulletPointWrap> */}
+
+
       {/* <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
@@ -528,7 +532,9 @@ const Resume = () => (
           contributing developer for 2+ years
         </BulletPoints>
       </BulletPointWrap> */}
-      <SubSectionTitle>Junior Software Developer</SubSectionTitle>
+
+
+      {/* <SubSectionTitle>Junior Software Developer</SubSectionTitle>
       <Dates>09/2020-02/2022</Dates>
       <BulletPointWrap>
         <Details>∙</Details>
@@ -541,8 +547,8 @@ const Resume = () => (
         <BulletPoints>
           Collaborated with team members to complete assignments for full stack development on project for the Department of Defense
         </BulletPoints>
-      </BulletPointWrap>
-
+      </BulletPointWrap> */}
+{/* 
       <SubSectionTitle>
         Software Engineering Immersive, General Assembly
       </SubSectionTitle>
@@ -564,7 +570,7 @@ const Resume = () => (
           variety of tools to build and deploy databases including MongoDB,
           Express and SQL
         </BulletPoints>
-      </BulletPointWrap>
+      </BulletPointWrap> */}
       {/* <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
@@ -609,7 +615,7 @@ const Resume = () => (
         </BulletPoints>
       </BulletPointWrap> */}
 
-      <SectionTitle>Education</SectionTitle>
+      {/* <SectionTitle>Education</SectionTitle>
       <Schooling>
         Full Stack Web Development Certificate, General Assembly
       </Schooling>
@@ -619,7 +625,7 @@ const Resume = () => (
         Bachelor of Arts in Physics, University of Rochester
       </Schooling>
       <City>Rochester, NY</City>
-      <Dates>1/2010-5/2013</Dates>
+      <Dates>1/2010-5/2013</Dates> */}
     </Container>
   </Layout>
 )
