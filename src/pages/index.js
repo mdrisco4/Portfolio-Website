@@ -330,7 +330,7 @@ const IndexPage = () => (
   <Layout>
     <IntroContainer>
       {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
-      <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto>
+      {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
@@ -341,14 +341,15 @@ const IndexPage = () => (
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
           technology. See some of my projects below. */}
-          As a software engineer with client experience and proficiency in web
+
+          {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I possess the skills and
           know how paramount to being a valued member of a devlopment team. I am
           excited to continue growing in the tech industry using my talents in
           software engineering while always seeking to expand my knowledge of
-          the latest cutting edge technology. See some of my projects below.
+          the latest cutting edge technology. See some of my projects below. */}
         </BrandStatement>
-        <AboutLink href="/about">More About Me</AboutLink>
+        {/* <AboutLink href="/about">More About Me</AboutLink> */}
       </PersonalInfoContainer>
     </IntroContainer>
     <ProjectSectionTitle>Projects</ProjectSectionTitle>
@@ -372,7 +373,7 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
 
-    <ProjectTitle>BrewBuddies</ProjectTitle>
+    {/* <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/q25zOZm.jpg"></ProjectStill>
       <ProjectDescription>
@@ -388,7 +389,7 @@ const IndexPage = () => (
       features to help the site look sleek and professional. This project
       remains ongoing to meet demands for client's growing business.
     </MobileProjectDescription>
-    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    
     <ProjectLinkContainer>
       <DeployedLink href="https://brewbuddiesny.com/" target="_blank">
         BrewBuddies
@@ -399,9 +400,9 @@ const IndexPage = () => (
       >
         Github Repo
       </GitHubLink>
-    </ProjectLinkContainer>
+    </ProjectLinkContainer> */}
 
-    <ProjectTitle>Crypto Market</ProjectTitle>
+    {/* <ProjectTitle>Crypto Market</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/etbLxdD.jpg"></ProjectStill>
       <ProjectDescription>
@@ -425,7 +426,7 @@ const IndexPage = () => (
       sources and exchanges if they want to dive right in to investing in
       crypto.
     </MobileProjectDescription>
-    {/* <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    
     <ProjectLinkContainer>
       <DeployedLink
         href="https://inquisitive-basbousa-2c8988.netlify.app/"
@@ -439,9 +440,9 @@ const IndexPage = () => (
       >
         Github Repo
       </GitHubLink>
-    </ProjectLinkContainer>
+    </ProjectLinkContainer> */}
 
-    <ProjectTitle>Photography Site</ProjectTitle>
+    {/* <ProjectTitle>Photography Site</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/s2xoqpd.png"></ProjectStill>
       <ProjectDescription>
@@ -461,7 +462,7 @@ const IndexPage = () => (
       dynamic data fetch this allows the client to continue to update with a
       user friendly drag and drop interface
     </MobileProjectDescription>
-    {/* <ProjectLink href="/fragnoli-photos">Learn More</ProjectLink> */}
+   
     <ProjectLinkContainer>
       <DeployedLink
         href="https://www.fragnoli-photography.com/"
@@ -475,7 +476,7 @@ const IndexPage = () => (
       >
         Github Repo
       </GitHubLink>
-    </ProjectLinkContainer>
+    </ProjectLinkContainer> */}
 
     {/* <ProjectTitle>Rochester Beer Community</ProjectTitle>
     <ImageWrapper>
@@ -495,7 +496,7 @@ const IndexPage = () => (
     </MobileProjectDescription>
     <ProjectLink href="/rochester-breweries">Learn More</ProjectLink> */}
 
-    <ProjectTitle>National Parks Website</ProjectTitle>
+    {/* <ProjectTitle>National Parks Website</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
       <ProjectDescription>
@@ -511,7 +512,7 @@ const IndexPage = () => (
       national parks around the country. Built using React to specifications
       provided in an AdobeXD mockup.
     </MobileProjectDescription>
-    {/* <ProjectLink href="/national-parks">Learn More</ProjectLink> */}
+   
     <ProjectLinkContainer>
       <DeployedLink
         href="https://us-national-parks.netlify.com/"
@@ -524,10 +525,10 @@ const IndexPage = () => (
         target="_blank"
       >
         Github Repo
-      </GitHubLink>
-    </ProjectLinkContainer>
+      </GitHubLink> */}
+    {/* </ProjectLinkContainer> */}
 
-    <ProjectTitle>Trivia Game</ProjectTitle>
+    {/* <ProjectTitle>Trivia Game</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/AF5FHEm.png"></ProjectStill>
       <ProjectDescription>
@@ -541,7 +542,7 @@ const IndexPage = () => (
       with HTML, CSS and Vanilla Javascript. Give it a try! Link on project
       page.
     </MobileProjectDescription>
-    {/* <ProjectLink href="/trivia-game">Learn More</ProjectLink> */}
+  
     <ProjectLinkContainer>
       <DeployedLink
         href="https://mdrisco4.github.io/Unit-Project-1/"
@@ -554,8 +555,8 @@ const IndexPage = () => (
         target="_blank"
       >
         Github Repo
-      </GitHubLink>
-    </ProjectLinkContainer>
+      </GitHubLink> */}
+    {/* </ProjectLinkContainer> */}
 
     {/* <ProjectTitle>Tic Tac Toe</ProjectTitle>
     <ImageWrapper>
@@ -633,12 +634,12 @@ const IndexPage = () => (
         border: "1px solid black",
       }}
     ></hr>
-    <ContactPrompt>
+    {/* <ContactPrompt>
       If you would like to work with me or to learn more about these or any
       other projects I am working on please feel free to contact me via email or
       LinkedIn
     </ContactPrompt>
-    <GetInTouch href="/contact">Contact Me</GetInTouch>
+    <GetInTouch href="/contact">Contact Me</GetInTouch> */}
   </Layout>
 )
 
