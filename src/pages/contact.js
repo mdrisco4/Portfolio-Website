@@ -151,7 +151,7 @@ const GitHubLink = styled.a`
 
 const Contact = () => (
   <Layout>
-    <ContactInfo>Contact Info</ContactInfo>
+    <ContactInfo>Under construction</ContactInfo>
     {/* <Questions>
       If you have any questions about my projects or want to know more please
       reach out by email or LinkedIn!

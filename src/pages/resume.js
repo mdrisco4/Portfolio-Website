@@ -381,7 +381,8 @@ const GitHubLink = styled.a`
 const Resume = () => (
   <Layout>
     <Container>
-      <Name>Michael Driscoll</Name>
+      {/* <Name>Michael Driscoll</Name> */}
+      <AboutContactContainer>Under construction</AboutContactContainer>
       {/* <AboutContactContainer>
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
