@@ -333,7 +333,7 @@ const IndexPage = () => (
       {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
-        <Name>Hi, I'm Michael!</Name>
+        {/* <Name>Hi, I'm Michael!</Name> */}
         <BrandStatement>
           {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
@@ -352,7 +352,8 @@ const IndexPage = () => (
         {/* <AboutLink href="/about">More About Me</AboutLink> */}
       </PersonalInfoContainer>
     </IntroContainer>
-    <ProjectSectionTitle>Projects</ProjectSectionTitle>
+    {/* <ProjectSectionTitle>Projects</ProjectSectionTitle> */}
+    <ProjectSectionTitle>Site under renovation.  Please check back soon.</ProjectSectionTitle>
 
     {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <FreelanceLink href="/freelance">Freelance</FreelanceLink>
