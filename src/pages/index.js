@@ -124,6 +124,7 @@ const Name = styled.h1`
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
+  color: rgb(137, 146, 173) ;
   @media (min-width: 1050px) {
     font-size: 42px;
     margin-bottom: 8px;
@@ -167,6 +168,7 @@ const ProjectSectionTitle = styled.div`
   font-size: 54px;
   font-weight: 700;
   margin: 50px 0 36px 0;
+  color: rgb(114, 200, 179);
 `
 
 const ImageWrapper = styled.div`
@@ -330,10 +332,10 @@ const IndexPage = () => (
   <Layout>
     <IntroContainer>
       {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
-      {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
+      <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto>
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
-        {/* <Name>Hi, I'm Michael!</Name> */}
+        <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
           {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
