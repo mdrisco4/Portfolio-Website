@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <body
       title={"Michael Driscoll"}
         style={{
