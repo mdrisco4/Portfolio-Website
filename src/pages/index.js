@@ -124,7 +124,7 @@ const Name = styled.h1`
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
-  color: rgb(137, 146, 173) ;
+  color: rgb(206, 214, 243) ;
   @media (min-width: 1050px) {
     font-size: 42px;
     margin-bottom: 8px;
@@ -135,6 +135,7 @@ const BrandStatement = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 16px;
   text-align: center;
+  color: rgb(137, 146, 173) ;
   @media (min-width: 1050px) {
     font-size: 20px;
   }
@@ -240,6 +241,7 @@ const ProjectTitle = styled.div`
   font-weight: bold;
   font-size: 42px;
   margin-bottom: 20px;
+  color: rgb(77, 84, 107);
 `
 
 const FreelanceLink = styled.a`
@@ -337,12 +339,12 @@ const IndexPage = () => (
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
         <BrandStatement>
-          {/* As a software engineer with client experience and proficiency in web
+          As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
           skill set crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
-          technology. See some of my projects below. */}
+          technology. See some of my projects below.
 
           {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I possess the skills and
@@ -351,13 +353,14 @@ const IndexPage = () => (
           software engineering while always seeking to expand my knowledge of
           the latest cutting edge technology. See some of my projects below. */}
         </BrandStatement>
+        <ProjectTitle>Modern Troussaeu</ProjectTitle>
         {/* <AboutLink href="/about">More About Me</AboutLink> */}
       </PersonalInfoContainer>
     </IntroContainer>
     {/* <ProjectSectionTitle>Projects</ProjectSectionTitle> */}
     <ProjectSectionTitle>Site under renovation.  Please check back soon.</ProjectSectionTitle>
 
-    {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -374,7 +377,7 @@ const IndexPage = () => (
       utilizing Storybook for component tracking and git branch management
       during development.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
 
     {/* <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
