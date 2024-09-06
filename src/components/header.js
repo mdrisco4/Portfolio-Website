@@ -38,7 +38,8 @@ const IconLink = styled.a`
     margin: none;
   }
   &:hover {
-    color: rgb(110, 176, 249);
+    /* color: rgb(110, 176, 249); */
+    color: rgb(114, 200, 179);
     filter: drop-shadow(1px 1px white);
   }
 `
@@ -64,7 +65,7 @@ const HeaderLink = styled.a`
     font-size: 28px;
   }
   &:hover {
-    color: rgb(110, 176, 249);
+    color: rgb(114, 200, 179);
     text-shadow: 1px 1px white;
   }
 `
