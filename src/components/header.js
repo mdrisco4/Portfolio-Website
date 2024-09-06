@@ -67,7 +67,7 @@ const HeaderLink = styled.a`
   }
   &:hover {
     color: rgb(114, 200, 179);
-    text-shadow: 1px 1px white;
+    /* text-shadow: 1px 1px white; */
   }
 `
 
