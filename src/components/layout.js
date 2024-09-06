@@ -28,7 +28,8 @@ const Layout = ({ children }) => {
             margin: `0`,
             // backgroundColor: "rgb(52, 53, 55)",
             backgroundColor: "rgb(12, 24, 45)",
-            border: "5px solid rgb(90, 176, 255)",
+            // border: "5px solid rgb(90, 176, 255)",
+            border: "5px solid rgb(12, 24, 45)",
             minHeight: "1200px",
           }}
         >

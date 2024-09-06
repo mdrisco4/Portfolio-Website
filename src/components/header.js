@@ -11,9 +11,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 library.add(fab, fas, far)
 
 const Nav = styled.div`
-  background: black;
-  border-top: 24px solid black;
-  border-bottom: 24px solid black;
+  background: rgb(12, 24, 45);
+  border-top: 24px rgb(12, 24, 45);
+  border-bottom: 24px rgb(12, 24, 45);
   /* margin: -10px; */
 `
 
