@@ -334,7 +334,7 @@ const IndexPage = () => (
   <Layout>
     <IntroContainer>
       {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
-      <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto>
+      {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
         <Name>Hi, I'm Michael!</Name>
