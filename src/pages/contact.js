@@ -18,6 +18,7 @@ const PageTitle = styled.div`
     color: rgb(206, 214, 243);
     font-size: 55px;
     text-align: center;
+    padding-top: 100px;
 `
 
 const ContactInfo = styled.div`
