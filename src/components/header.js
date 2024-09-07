@@ -54,6 +54,10 @@ const HeaderLink = styled.a`
   margin-right: auto;
   margin-top: 20px;
   text-decoration: none;
+
+  display: inline-block;
+  position: relative;
+  color: rgb(114, 200, 179);
   @media (min-width: 700px) {
     margin: none;
   }
@@ -66,8 +70,24 @@ const HeaderLink = styled.a`
     font-size: 28px;
   }
   &:hover {
-    color: rgb(114, 200, 179);
     /* text-shadow: 1px 1px white; */
+    /* text-decoration: underline; */
+    color: rgb(114, 200, 179);
+    text-shadow: 0 0 5px;
+  }
+  ::after {
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 `
 
@@ -76,9 +96,9 @@ const HeaderLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      <IconLink href="/">
+      {/* <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
-      </IconLink>
+      </IconLink> */}
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink>
