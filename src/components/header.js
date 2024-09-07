@@ -56,11 +56,11 @@ const HeaderLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  text-decoration: none;
-
-  display: inline-block;
-  position: relative;
   color: rgb(114, 200, 179);
+  
+  /* display: inline-block; */
+  position: relative;
+  text-decoration: none;
   @media (min-width: 700px) {
     margin: none;
   }
@@ -72,25 +72,31 @@ const HeaderLink = styled.a`
     margin: none;
     font-size: 28px;
   }
-  &:hover {
-    /* text-shadow: 1px 1px white; */
-    /* text-decoration: underline; */
-    color: rgb(114, 200, 179);
-    text-shadow: 0 0 5px;
-  }
   ::after {
+    content: '';
     position: absolute;
     width: 100%;
-    transform: scaleX(0);
     height: 2px;
     bottom: 0;
     left: 0;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    /* transform: scaleX(0); */
+  }
+  /* &:hover */
+  ::after {
+    transform: scaleX(0);
+    /* transform-origin: bottom left; */
   }
   &:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+  &:hover {
+    /* text-shadow: 1px 1px white; */
+    /* text-decoration: underline; */
+    /* color: rgb(114, 200, 179); */
+    text-shadow: 0 0 5px;
   }
 `
 
@@ -102,16 +108,18 @@ const Header = () => (
       <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
       </IconLink>
-      <HeaderLink href="https://github.com/mdrisco4" target="_blank">
+      {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
-      </HeaderLink>
-      <HeaderLink
+      </HeaderLink> */}
+      {/* <HeaderLink
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
       >
         LinkedIn
-      </HeaderLink>
+      </HeaderLink> */}
       {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/projects/">Projects</HeaderLink>
       <HeaderLink href="/resume/">Resume</HeaderLink>
       <HeaderLink href="/contact/">Contact</HeaderLink>
       <HeaderLink href="/about/">About</HeaderLink>

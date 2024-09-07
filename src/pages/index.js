@@ -124,7 +124,7 @@ const Name = styled.h1`
   font-size: 28px;
   margin-bottom: 24px;
   text-align: center;
-  color: rgb(206, 214, 243) ;
+  color: rgb(206, 214, 243);
   @media (min-width: 1050px) {
     font-size: 42px;
     margin-bottom: 8px;
