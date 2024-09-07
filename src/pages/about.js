@@ -19,15 +19,19 @@ const Container = styled.div`
   }
 `
 
-const Headshot = styled.img`
+const PhotoBlurbContainer = styled.div`
+  display: flex;
+`
+
+const AboutPhoto = styled.img`
   border: 1px solid black;
-  border-radius: 20%;
-  width: 80%;
+  /* border-radius: 20%; */
+  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
   @media (min-width: 850px) {
     height: auto;
-    width: 33%;
+    width: 20%;
     flex-direction: row;
   }
 `
@@ -86,6 +90,7 @@ const About = () => (
     <Container>
       <PersonalInfo>
         <Title>My Background</Title>
+        <PhotoBlurbContainer>
         <AboutDetails>
           {/* I graduated from the University of Rochester with a physics degree in
           2013 and have always been interested in all things science and
@@ -112,7 +117,11 @@ const About = () => (
           bring my expertise and passion for coding to a new role that offers
           growth and new opportunities.
         </AboutDetails>
+          <AboutPhoto src="https://i.imgur.com/ErbODus.jpeg"></AboutPhoto>
+        </PhotoBlurbContainer>
         <Title>Interests and Hobbies</Title>
+        <PhotoBlurbContainer>
+          <AboutPhoto src="https://i.imgur.com/YDwdtd7.jpeg"></AboutPhoto>
         <AboutDetails>
           {/* Outside of my interests in science and technology I enjoy all things
           film, from small independent movies to gigantic blockbusters. I also
@@ -133,10 +142,11 @@ const About = () => (
           adaptability and enthusiasm, making me a well-rounded candidate ready
           to bring a unique perspective to any team.
         </AboutDetails>
+        </PhotoBlurbContainer>
       </PersonalInfo>
-      {/* <Headshot src="https://i.imgur.com/tpIBaSE.jpg"></Headshot> */}
     </Container>
     <GetInTouch href="/contact">Contact Me</GetInTouch>
+      <AboutPhoto src="https://i.imgur.com/tpIBaSE.jpg"></AboutPhoto>
   </Layout>
 )
 

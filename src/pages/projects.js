@@ -160,7 +160,7 @@ const ProjectTitle = styled.div`
 
 const Projects = () => (
     <Layout>
-    <DefaultTitle>Hello New Page</DefaultTitle>
+    <DefaultTitle>PROJECTS</DefaultTitle>
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/q25zOZm.jpg"></ProjectStill>

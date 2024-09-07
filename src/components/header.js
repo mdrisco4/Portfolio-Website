@@ -20,10 +20,11 @@ const Nav = styled.div`
 const LinkContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 15%;
+  padding-left: 0;
   @media (min-width: 840px) {
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 35%;
   }
 `
 
@@ -105,9 +106,9 @@ const HeaderLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      <IconLink href="/">
+      {/* <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
-      </IconLink>
+      </IconLink> */}
       {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink> */}

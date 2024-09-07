@@ -180,7 +180,7 @@ const Contact = () => (
       <MyInfo>
         <Name>Michael Driscoll</Name>
         <PhoneLink href="tel:1-585-719-7720">1-234-567-8901</PhoneLink>
-        <ContactDetails>Washington, DC 20005</ContactDetails>
+        <ContactDetails>Los Angeles, CA 90028</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
         <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
         </EmailLink>
