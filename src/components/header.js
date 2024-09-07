@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { useState } from "react"
 import "../styles/fonts.css"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -42,6 +43,32 @@ const MenuLinks = styled.nav`
   text-align: center;
   height: 100vh;
   width: 100%;
+  background: #d7d7d7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  transition: transform 300ms;
+  transform: ${({ nav }) => (nav ? "translateX(0)": "translateX(100%)")};
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-top: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.5rem;
+    transition: color 300ms;
+
+    :hover {
+      color: #6ab4ff;
+    }
+  }
 `
 
 // const Wrapper = styled.div`
@@ -122,6 +149,7 @@ const HeaderLink = styled.a`
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     /* transform: scaleX(0); */
+    /* transition: text-decoration 500ms; */
   }
   /* &:hover */
   ::after {
@@ -140,16 +168,21 @@ const HeaderLink = styled.a`
   }
 `
 
-const Header = () => (
+const Header = () => {
+
+const [nav, showNav] = useState(false)
+
+
+return (
   <Nav>
     {/* <Wrapper> */}
-    <MenuIcon>
+    <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
       <div />
       <div />
       <div />
     </MenuIcon>
     {/* </Wrapper> */}
-    <MenuLinks>
+    <MenuLinks nav={nav}>
       <ul>
         <li>
           <a href="/">Home</a>
@@ -191,5 +224,6 @@ const Header = () => (
     </LinkContainer>
   </Nav>
 )
+}
 
 export default Header
