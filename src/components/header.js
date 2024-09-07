@@ -20,6 +20,7 @@ const Nav = styled.div`
 const LinkContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding-left: 15%;
   @media (min-width: 840px) {
     flex-direction: row;
     justify-content: space-around;
@@ -34,13 +35,15 @@ const IconLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
+  color: rgb(114, 200, 179);
   @media (min-width: 700px) {
     margin: none;
   }
   &:hover {
     /* color: rgb(110, 176, 249); */
     color: rgb(114, 200, 179);
-    filter: drop-shadow(1px 1px white);
+    /* filter: drop-shadow(1px 1px white); */
+    filter: drop-shadow(0 0 5px);
   }
 `
 
@@ -96,9 +99,9 @@ const HeaderLink = styled.a`
 const Header = () => (
   <Nav>
     <LinkContainer>
-      {/* <IconLink href="/">
+      <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
-      </IconLink> */}
+      </IconLink>
       <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink>

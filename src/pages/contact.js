@@ -16,6 +16,7 @@ const ContactInfo = styled.div`
   text-align: center;
   font-size: 35px;
   font-weight: bold;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 50px;
   }
@@ -28,6 +29,7 @@ const Questions = styled.div`
   margin: auto;
   margin-bottom: 30px;
   font-size: 24px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 28px;
     max-width: 800px;
@@ -63,6 +65,7 @@ const Name = styled.h3`
   font-family: "Montserrat Alternates";
   margin: 0 0 8px 0;
   font-size: 35px;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 50px;
   }
@@ -72,6 +75,7 @@ const ContactDetails = styled.h3`
   font-family: "Montserrat Alternates";
   margin: 4px 0;
   font-size: 24px;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 30px;
   }
@@ -80,18 +84,20 @@ const ContactDetails = styled.h3`
 const PhoneLink = styled.a`
   font-family: "Montserrat Alternates";
   color: black;
-  text-shadow: 1px 1px 1px white;
+  /* text-shadow: 1px 1px 1px white; */
   text-decoration: none;
   font-weight: 900;
   margin: 4px 5%;
   font-size: 24px;
+  color: rgb(114, 200, 179);
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: darkblue;
-    text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    /* color: darkblue; */
+    /* text-shadow: 4px 4px 5px darkblue; */
+    text-shadow: 0 0 5px;
+    /* filter:drop-shadow(1px 1px white); */
   }
 `
 
@@ -103,13 +109,16 @@ const EmailLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
+  /* color: rgb(137, 146, 173); */
+  color: rgb(114, 200, 179);
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: darkblue;
-    text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    /* color: darkblue; */
+    /* text-shadow: 4px 4px 5px darkblue; */
+    text-shadow: 0 0 5px;
+    /* filter:drop-shadow(1px 1px white); */
   }
 `
 
@@ -121,13 +130,16 @@ const LinkedInLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
+  /* color: rgb(137, 146, 173); */
+  color: rgb(114, 200, 179);
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: darkblue;
-    text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    /* color: darkblue; */
+    /* text-shadow: 4px 4px 5px darkblue; */
+    text-shadow: 0 0 5px;
+    /* filter:drop-shadow(1px 1px white); */
   }
 `
 
@@ -139,32 +151,35 @@ const GitHubLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
+  /* color: rgb(137, 146, 173); */
+  color: rgb(114, 200, 179);
   @media (min-width: 600px) {
     font-size: 30px;
   }
   &:hover {
-    color: darkblue;
-    text-shadow: 4px 4px 5px darkblue;
-    filter:drop-shadow(1px 1px white);
+    /* color: darkblue; */
+    /* text-shadow: 4px 4px 5px darkblue; */
+    text-shadow: 0 0 5px;
+    /* filter:drop-shadow(1px 1px white); */
   }
 `
 
 const Contact = () => (
   <Layout>
     <ContactInfo>Under construction</ContactInfo>
-    {/* <Questions>
+    <Questions>
       If you have any questions about my projects or want to know more please
       reach out by email or LinkedIn!
-    </Questions> */}
+    </Questions>
     <hr
       style={{
         border: "1px solid black",
       }}
     ></hr>
-    {/* <Container>
+    <Container>
       <MyInfo>
         <Name>Michael Driscoll</Name>
-        <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
+        <PhoneLink href="tel:1-585-719-7720">1-234-567-8901</PhoneLink>
         <ContactDetails>Washington, DC 20005</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
         <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
@@ -179,7 +194,7 @@ const Contact = () => (
         <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
         </GitHubLink>
       </MyInfo>
-    </Container> */}
+    </Container>
     <hr
       style={{
         border: "1px solid black",
