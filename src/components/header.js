@@ -24,7 +24,7 @@ const LinkContainer = styled.div`
   @media (min-width: 840px) {
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 35%;
+    padding-left: 45%;
   }
 `
 

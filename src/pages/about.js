@@ -4,6 +4,16 @@ import "../styles/fonts.css"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
+const PageTitle = styled.div`
+    /* color: white; */
+    font-family: "Montserrat Alternates";
+    /* color: rgb(137, 146, 173); */
+    color: rgb(206, 214, 243);
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+`
+
 const Container = styled.div`
   display: flex;
   flex-direction: column-reverse;
@@ -89,6 +99,7 @@ const GetInTouch = styled.a`
 
 const About = () => (
   <Layout>
+    <PageTitle>ABOUT ME</PageTitle>
     <Container>
       <PersonalInfo>
             <Title>My Background</Title>

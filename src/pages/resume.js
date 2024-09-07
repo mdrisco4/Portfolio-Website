@@ -38,6 +38,7 @@ const AboutMe = styled.div`
 `
 
 const ContactInfo = styled.div`
+color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     width: 30%;
     padding-left: 10px;
@@ -62,6 +63,7 @@ const MobileName = styled.h1`
   display: flex;
   margin: 0 0 2px 0;
   font-size: 36px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: none;
   }
@@ -70,6 +72,7 @@ const MobileName = styled.h1`
 const Name = styled.h1`
   font-family: "Montserrat Alternates";
   display: none;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: flex;
     margin: 0 0 8px 0;
@@ -83,6 +86,7 @@ const SoftwareDevloperLine = styled.div`
   font-size: 24px;
   font-weight: bold;
   margin-top: 12px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     margin-top: 0;
     font-size: 36px;
@@ -94,6 +98,7 @@ const SectionTitle = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 24px;
   font-weight: bold;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 36px;
     font-weight: bold;
@@ -120,6 +125,7 @@ const SubSectionTitle = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
   font-weight: bold;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 24px;
     font-weight: bold;
@@ -130,6 +136,7 @@ const Schooling = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 22px;
   font-weight: bold;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 28px;
     font-weight: bold;
@@ -139,6 +146,7 @@ const Schooling = styled.div`
 const City = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -148,6 +156,7 @@ const City = styled.div`
 const Dates = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -157,6 +166,7 @@ const Dates = styled.div`
 const Details = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 20px;
   }
@@ -177,6 +187,7 @@ const BulletPointWrap = styled.div`
 const BulletPoints = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
+  color: rgb(137, 146, 173);
   @media (min-width: 800px) {
     font-size: 20px;
     margin-left: 12px;
@@ -205,6 +216,7 @@ const PDFLink = styled.a`
   margin-right: auto;
   text-decoration: none;
   background-color: rgb(99, 95, 85);
+  color: rgb(137, 146, 173);
   border: 2px solid darkblue;
   /* border-radius: 20px; */
   @media (min-width: 900px) {
@@ -241,6 +253,7 @@ const MobileEmailLink = styled.a`
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: none;
   }
@@ -259,6 +272,7 @@ const MobileLinkedInLink = styled.a`
   font-weight: bold;
   font-size: 25px;
   margin-left: 10%;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: none;
   }
@@ -277,6 +291,7 @@ const MobileGitHubLink = styled.a`
   font-weight: bold;
   font-size: 25px;
   margin-left: 10%;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: none;
   }
@@ -295,6 +310,7 @@ const PhoneLink = styled.a`
   font-weight: 900;
   /* margin: 4px 5%; */
   font-size: 24px;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     font-size: 21px;
   }
@@ -320,6 +336,7 @@ const PhoneLink = styled.a`
 const EmailLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -329,9 +346,10 @@ const EmailLink = styled.a`
     font-size: 30px;
     padding-left: 5%;
     margin-right: 55%;
+    color: rgb(137, 146, 173);
   }
   &:hover {
-    color: darkblue;
+    color: rgb(137, 146, 173);
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
   }
@@ -340,6 +358,7 @@ const EmailLink = styled.a`
 const LinkedInLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -349,9 +368,10 @@ const LinkedInLink = styled.a`
     font-size: 30px;
     padding-left: 7%;
     margin-right: 65%;
+    color: rgb(137, 146, 173);
   }
   &:hover {
-    color: darkblue;
+    color: rgb(137, 146, 173);
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
   }
@@ -360,6 +380,7 @@ const LinkedInLink = styled.a`
 const GitHubLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
+  color: rgb(137, 146, 173);
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -370,9 +391,10 @@ const GitHubLink = styled.a`
     padding-left: 5%;
     margin-top: 6px;
     margin-right: 55%;
+    color: rgb(137, 146, 173);
   }
   &:hover {
-    color: darkblue;
+    color: rgb(137, 146, 173);
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
   }
@@ -381,12 +403,12 @@ const GitHubLink = styled.a`
 const Resume = () => (
   <Layout>
     <Container>
-      {/* <Name>Michael Driscoll</Name> */}
+      <Name>Michael Driscoll</Name>
       <AboutContactContainer>Under construction</AboutContactContainer>
-      {/* <AboutContactContainer>
+      <AboutContactContainer>
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
-          <Details> */}
+          <Details>
             {/* Full stack software engineer experienced working on an Agile team
             and freelance projects for clients. As a craft beer professional I
             was able to take client feedback and translate that into usable
@@ -395,17 +417,17 @@ const Resume = () => (
             Combining my experience in client facing roles and software
             engineering I am seeking the opportunity to contribute to a company
             exceeding client expectations by utilizing cutting edge technology. */}
-            {/* Full stack software engineer experienced working both on an Agile
+            Full stack software engineer experienced working both on an Agile
             team and developing freelance projects for clients. As a government
             contractor I have experience working in a team environment and
             engaging government representatives to ensure assignments are
             completed by designated deadlines. Combining my experience in client
             facing roles and the technical side of development I am seeking the
             opportunity to be a valued and contributing team member and exceed
-            client expectations utilizing cutting edge technology. */}
+            client expectations utilizing cutting edge technology.
 
 
-            {/* Full stack software engineer experienced working both in Agile team
+            Full stack software engineer experienced working both in Agile team
             environments and developing freelance projects for clients.
             Extensive experience working between client facing roles and the
             technical side of development on complex projects. Currently seeking
@@ -416,7 +438,7 @@ const Resume = () => (
         <ContactInfo>
           <MobileName>Michael Driscoll</MobileName>
           <SectionTitle>Contact Info</SectionTitle>
-          <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink>
+          {/* <PhoneLink href="tel:1-585-719-7720">1-585-719-7720</PhoneLink> */}
           <MobileLinkPlacer>
             <MobileEmailLink
               href="mailto:michaelndriscoll81@gmail.com"
@@ -481,9 +503,9 @@ const Resume = () => (
           <SubSectionTitle>∙ Contentful</SubSectionTitle>
         </SkillsRowContainer>
       </SkillsContainer>
-      <SectionTitle>Experience</SectionTitle> */}
+      <SectionTitle>Experience</SectionTitle>
 
-      {/* <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
+      <SubSectionTitle>Freelance, IT Consultant</SubSectionTitle>
       <City>Washington, D.C.</City>
       <Dates>8/2013-Current</Dates>
       <BulletPointWrap>
@@ -492,16 +514,16 @@ const Resume = () => (
           Design and develop web applications using OOP while employing full
           stack technologies
         </BulletPoints>
-      </BulletPointWrap> */}
-      {/* <BulletPointWrap>
+      </BulletPointWrap>
+      <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Consulted small businesses by maintaining working logs which detail
           all required system updates and assist in facilitating completion
         </BulletPoints>
-      </BulletPointWrap> */}
+      </BulletPointWrap>
 
-      {/* <SubSectionTitle style={{ fontWeight: "bold" }}>
+      <SubSectionTitle style={{ fontWeight: "bold" }}>
         Kreative technologies
       </SubSectionTitle>
       <City>Fairfax, VA</City>
@@ -523,19 +545,19 @@ const Resume = () => (
           platform while working alongside a C#/.NET team to migrate millions of
           records from a legacy system into SQL database
         </BulletPoints>
-      </BulletPointWrap> */}
+      </BulletPointWrap>
 
 
-      {/* <BulletPointWrap>
+      <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Participated in successful launch of three year project as a
           contributing developer for 2+ years
         </BulletPoints>
-      </BulletPointWrap> */}
+      </BulletPointWrap>
 
 
-      {/* <SubSectionTitle>Junior Software Developer</SubSectionTitle>
+      <SubSectionTitle>Junior Software Developer</SubSectionTitle>
       <Dates>09/2020-02/2022</Dates>
       <BulletPointWrap>
         <Details>∙</Details>
@@ -548,8 +570,8 @@ const Resume = () => (
         <BulletPoints>
           Collaborated with team members to complete assignments for full stack development on project for the Department of Defense
         </BulletPoints>
-      </BulletPointWrap> */}
-{/* 
+      </BulletPointWrap>
+
       <SubSectionTitle>
         Software Engineering Immersive, General Assembly
       </SubSectionTitle>
@@ -571,25 +593,25 @@ const Resume = () => (
           variety of tools to build and deploy databases including MongoDB,
           Express and SQL
         </BulletPoints>
-      </BulletPointWrap> */}
-      {/* <BulletPointWrap>
+      </BulletPointWrap>
+      <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
           Gained real work experience working on a collaborative, open source
           client project, providing front end code to complete assignments on a
           team working in an Agile environment
         </BulletPoints>
-      </BulletPointWrap> */}
+      </BulletPointWrap>
       <BulletPointWrap>
-        {/* <Details>∙</Details>
+        <Details>∙</Details>
         <BulletPoints>
           Sought out and completed projects as a freelance developer working
           with clients to create fullstack applications that fit specifications
           provided
-        </BulletPoints> */}
+        </BulletPoints>
       </BulletPointWrap>
 
-      {/* <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
+      <SubSectionTitle>Front End Team Member, The Beer Market</SubSectionTitle>
       <City>Rochester, NY</City>
       <Dates>4/2015-11/2019</Dates>
       <BulletPointWrap>
@@ -614,9 +636,9 @@ const Resume = () => (
           aerospace and defense contractor, to develop analytical software tools
           for deployment in government programs
         </BulletPoints>
-      </BulletPointWrap> */}
+      </BulletPointWrap>
 
-      {/* <SectionTitle>Education</SectionTitle>
+      <SectionTitle>Education</SectionTitle>
       <Schooling>
         Full Stack Web Development Certificate, General Assembly
       </Schooling>
@@ -626,7 +648,7 @@ const Resume = () => (
         Bachelor of Arts in Physics, University of Rochester
       </Schooling>
       <City>Rochester, NY</City>
-      <Dates>1/2010-5/2013</Dates> */}
+      <Dates>1/2010-5/2013</Dates>
     </Container>
   </Layout>
 )

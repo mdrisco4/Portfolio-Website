@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 
-const DefaultTitle = styled.div`
+const PageTitle = styled.div`
     /* color: white; */
     font-family: "Montserrat Alternates";
     color: rgb(137, 146, 173);
@@ -160,7 +160,7 @@ const ProjectTitle = styled.div`
 
 const Projects = () => (
     <Layout>
-    <DefaultTitle>PROJECTS</DefaultTitle>
+    <PageTitle>PROJECTS</PageTitle>
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/q25zOZm.jpg"></ProjectStill>
@@ -190,7 +190,7 @@ const Projects = () => (
       </GitHubLink>
     </ProjectLinkContainer>
 
-    <DefaultTitle>New Text Here</DefaultTitle>
+    <PageTitle>New Text Here</PageTitle>
       {/* <Link to="/">Go back to the homepage  KEEP OR DROP??</Link> */}
       </Layout>
 )

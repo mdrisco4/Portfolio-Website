@@ -11,6 +11,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 library.add(fab, fas, far)
 
+const PageTitle = styled.div`
+    /* color: white; */
+    font-family: "Montserrat Alternates";
+    /* color: rgb(137, 146, 173); */
+    color: rgb(206, 214, 243);
+    font-size: 55px;
+    text-align: center;
+`
+
 const ContactInfo = styled.div`
   font-family: "Montserrat Alternates";
   text-align: center;
@@ -166,7 +175,8 @@ const GitHubLink = styled.a`
 
 const Contact = () => (
   <Layout>
-    <ContactInfo>Under construction</ContactInfo>
+    <PageTitle>CONTACT INFO</PageTitle>
+    {/* <ContactInfo>Under construction</ContactInfo> */}
     <Questions>
       If you have any questions about my projects or want to know more please
       reach out by email or LinkedIn!
