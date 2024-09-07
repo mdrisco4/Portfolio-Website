@@ -18,8 +18,8 @@ const MenuIcon = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -32,6 +32,19 @@ const MenuIcon = styled.button`
     border-radius: 5px;
     transform-origin: 1px;
     position: relative;
+    transition: all 0.3s linear;
+
+    :first-child {
+      transform: ${({nav}) => nav ? 'rotate(45deg)' : 'rotate(0)'}
+    }
+
+    :nth-child(2) {
+      opacity: ${({nav}) => nav ? '0' : '1'}
+    }
+
+    :nth-child(3) {
+      transform: ${({nav}) => nav ? 'rotate(-45deg)' : 'rotate(0)'}
+    }
   }
 `
 
@@ -41,13 +54,12 @@ const MenuLinks = styled.nav`
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
-  width: 100%;
-  background: #d7d7d7;
+  height: 50vh;
+  width: 40%;
+  background: rgb(77, 84, 107);
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
   transition: transform 300ms;
   transform: ${({ nav }) => (nav ? "translateX(0)": "translateX(100%)")};
 
@@ -60,13 +72,15 @@ const MenuLinks = styled.nav`
   }
 
   a {
+    font-family: "Fira Code";
     text-decoration: none;
-    color: red;
+    color: rgb(114, 200, 179);
     font-size: 1.5rem;
     transition: color 300ms;
 
     :hover {
       color: #6ab4ff;
+      text-shadow: 0 0 5px;
     }
   }
 `
@@ -108,9 +122,10 @@ const IconLink = styled.a`
   }
   &:hover {
     /* color: rgb(110, 176, 249); */
-    color: rgb(114, 200, 179);
+    /* color: rgb(114, 200, 179); */
     /* filter: drop-shadow(1px 1px white); */
     filter: drop-shadow(0 0 5px);
+    color: #6ab4ff;
   }
 `
 
@@ -165,6 +180,7 @@ const HeaderLink = styled.a`
     /* text-decoration: underline; */
     /* color: rgb(114, 200, 179); */
     text-shadow: 0 0 5px;
+    color: #6ab4ff;
   }
 `
 
