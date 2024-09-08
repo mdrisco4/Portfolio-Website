@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import MichaelDriscoll2023Resume from "../images/MichaelDriscoll2023Resume.pdf"
 
 import Layout from "../components/layout"
 import "../styles/fonts.css"
@@ -79,7 +80,7 @@ const IntroContainer = styled.div`
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     margin-bottom: 0;
     max-width: 1520px;
     margin-left: auto;
@@ -104,7 +105,7 @@ const PersonalPhoto = styled.img`
 `
 
 const PersonalInfoContainer = styled.div`
-  width: 70%;
+  width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -112,7 +113,7 @@ const PersonalInfoContainer = styled.div`
   @media (min-width: 900px) {
     text-align: left;
     height: 100%;
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     margin-right: 5%;
     margin-top: 2%;
@@ -125,6 +126,9 @@ const Name = styled.h1`
   margin-bottom: 24px;
   text-align: center;
   color: rgb(206, 214, 243);
+  @media (min-width: 840px) {
+    text-align: left;
+  }
   @media (min-width: 1050px) {
     font-size: 42px;
     margin-bottom: 8px;
@@ -133,11 +137,50 @@ const Name = styled.h1`
 
 const BrandStatement = styled.div`
   font-family: "Montserrat Alternates";
-  font-size: 16px;
+  font-size: 27px;
   text-align: center;
-  color: rgb(137, 146, 173) ;
+  color: rgb(137, 146, 173);
+  @media (min-width: 840px) {
+    text-align: left;
+  }
   @media (min-width: 1050px) {
     font-size: 20px;
+  }
+`
+
+const PersonalBrandStatement = styled.div`
+  font-family: "Montserrat Alternates";
+  /* padding-left: 7.5%;
+  padding-right: 7.5%; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgb(77, 84, 107);
+  @media (min-width: 840px) {
+    text-align: left;
+  }
+`
+
+const ResumeDownloadLink = styled.a`
+  font-family: "Fira Code";
+  font-size: 20px;
+  width: 90px;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  color: white;
+  height: 36px;
+  padding: 10px 3px 3px 3px;
+  text-decoration: none;
+  color: rgb(114, 200, 179);
+  border: 2px solid rgb(114, 200, 179);
+  @media (min-width: 900px) {
+  }
+  &:hover {
+    text-shadow: 0 0 5px;
+    color: #6ab4ff;
+    border: 2px solid #6ab4ff;
   }
 `
 
@@ -338,15 +381,15 @@ const IndexPage = () => (
       {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
-        <Name>Hi, I'm Michael!</Name>
+        <Name>My name is Michael Driscoll</Name>
         <BrandStatement>
-          As a software engineer with client experience and proficiency in web
+          I write code for a living
+          {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
           skill set crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
-          technology. See some of my projects below.
-
+          technology. See some of my projects below. */}
           {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I possess the skills and
           know how paramount to being a valued member of a devlopment team. I am
@@ -354,14 +397,33 @@ const IndexPage = () => (
           software engineering while always seeking to expand my knowledge of
           the latest cutting edge technology. See some of my projects below. */}
         </BrandStatement>
-        <ProjectTitle>Modern Troussaeu</ProjectTitle>
+        <PersonalBrandStatement>
+          As a passionate software developer based in Los Angeles, I specialize
+          in crafting innovative, high-performance solutions that drive digital
+          transformation. With a keen eye for design and a commitment to
+          excellence, I blend cutting-edge technology with user-centric design
+          to build intuitive, impactful software. My portfolio showcases a
+          diverse range of projects that reflect my dedication to clean code,
+          creative problem-solving, and delivering exceptional user experiences.
+          Whether it's developing dynamic web applications or streamlining
+          backend processes, I bring a unique blend of technical skill and
+          creativity to every project, aiming to make a meaningful impact in the
+          ever-evolving tech landscape of LA and beyond.
+        </PersonalBrandStatement>
+        {/* <ProjectTitle>Modern Troussaeu</ProjectTitle> */}
         {/* <AboutLink href="/about">More About Me</AboutLink> */}
       </PersonalInfoContainer>
     </IntroContainer>
-    {/* <ProjectSectionTitle>Projects</ProjectSectionTitle> */}
-    <ProjectSectionTitle>Site under renovation.  Please check back soon.</ProjectSectionTitle>
 
-    <ProjectTitle>Modern Troussaeu</ProjectTitle>
+    <ResumeDownloadLink href={MichaelDriscoll2023Resume} download>
+      Resume
+    </ResumeDownloadLink>
+    {/* <ProjectSectionTitle>Projects</ProjectSectionTitle> */}
+    <ProjectSectionTitle>
+      Site under renovation. Please check back soon.
+    </ProjectSectionTitle>
+
+    {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <FreelanceLink href="/freelance">Freelance</FreelanceLink>
     <ImageWrapper>
       <ProjectStill src="https://i.imgur.com/DOJXKHR.png"></ProjectStill>
@@ -378,7 +440,7 @@ const IndexPage = () => (
       utilizing Storybook for component tracking and git branch management
       during development.
     </MobileProjectDescription>
-    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink>
+    <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
 
     {/* <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
