@@ -101,28 +101,26 @@ const Nav = styled.div`
   /* margin: -10px; */
 `
 
-const LinkContainer = styled.div`
+const HeaderContainer = styled.div`
   display: flex;
-  /* flex-direction: column; */
-  padding-left: 0;
-  @media (min-width: 840px) {
-    /* flex-direction: row; */
-    justify-content: space-around;
-    padding-left: 45%;
-  }
+  flex-direction: row;
 `
 
 const IconLink = styled.a`
   font-family: "Monoton";
   color: white;
   font-weight: 500;
-  font-size: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 16px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   text-decoration: none;
   color: rgb(114, 200, 179);
-  @media (min-width: 700px) {
-    margin: none;
+  display: none;
+  /* width: 5%; */
+  @media (min-width: 840px) {
+    display: block;
+    padding-left: 15px;
+    padding-top: 5px;
   }
   &:hover {
     /* color: rgb(110, 176, 249); */
@@ -131,34 +129,45 @@ const IconLink = styled.a`
     filter: drop-shadow(0 0 5px);
     color: #6ab4ff;
   }
-`
+  `
+
+  const LinkContainer = styled.div`
+    display: flex;
+    /* flex-direction: column; */
+    /* padding-left: 0; */
+    /* width: 95%; */
+    @media (min-width: 840px) {
+      /* flex-direction: row; */
+      justify-content: space-around;
+      margin-left: auto;
+      /* padding-left: 45%; */
+    }
+  `
 
 const HeaderLink = styled.a`
-  /* font-family: "Monoton"; */
   font-family: "Fira Code";
   color: white;
-  font-weight: 500;
-  font-size: 28px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   color: rgb(114, 200, 179);
+  margin-bottom: 30px;
 
   display: none;
-  position: relative;
   text-decoration: none;
-  @media (min-width: 700px) {
-    margin: none;
-  }
+ 
   @media (min-width: 840px) {
-    margin: none;
-    font-size: 24px;
+    font-size: 20px;
     display: block;
+    padding-left: 30px;
+    padding-right: 10px;
   }
   @media (min-width: 1000px) {
-    margin: none;
+    font-size: 24px;
+  }
+
+  @media (min-width: 1200px) {
     font-size: 28px;
   }
+
   ::after {
     content: "";
     position: absolute;
@@ -221,26 +230,29 @@ const Header = () => {
         </ul>
       </MenuLinks>
 
-      <LinkContainer>
-        {/* <IconLink href="/">
+      {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
+      GitHub
+    </HeaderLink> */}
+      {/* <HeaderLink
+      href="https://www.linkedin.com/in/michael-n-driscoll/"
+      target="_blank"
+    >
+      LinkedIn
+    </HeaderLink> */}
+      {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
+
+      <HeaderContainer>
+      <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
-      </IconLink> */}
-        {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
-        GitHub
-      </HeaderLink> */}
-        {/* <HeaderLink
-        href="https://www.linkedin.com/in/michael-n-driscoll/"
-        target="_blank"
-      >
-        LinkedIn
-      </HeaderLink> */}
-        {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
+      </IconLink>
+      <LinkContainer>
         <HeaderLink href="/">Home</HeaderLink>
         <HeaderLink href="/projects/">Projects</HeaderLink>
         <HeaderLink href="/resume/">Resume</HeaderLink>
         <HeaderLink href="/contact/">Contact</HeaderLink>
         <HeaderLink href="/about/">About</HeaderLink>
       </LinkContainer>
+      </HeaderContainer>
     </Nav>
   )
 }
