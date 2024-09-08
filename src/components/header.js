@@ -67,6 +67,7 @@ const MenuLinks = styled.nav`
   transition: transform 300ms;
   transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
   padding-right: 20px;
+  z-index: 1;
 
   @media (min-width: 480px) {
     padding-right: 25px;
@@ -88,7 +89,7 @@ const MenuLinks = styled.nav`
     padding-right: 48px;
     height: 54vh;
   }
-  
+
   ul {
     list-style-type: none;
   }
@@ -105,20 +106,19 @@ const MenuLinks = styled.nav`
     transition: color 300ms;
 
     @media (min-width: 480px) {
-    font-size: 24px;
-  }
-  @media (min-width: 550px) {
-    font-size: 27px;
-  }
-  @media (min-width: 630px) {
-    font-size: 30px;
-  }
-  @media (min-width: 700px) {
-    font-size: 32px;
-  }
-  @media (min-width: 750px) {
-    
-  }
+      font-size: 24px;
+    }
+    @media (min-width: 550px) {
+      font-size: 27px;
+    }
+    @media (min-width: 630px) {
+      font-size: 30px;
+    }
+    @media (min-width: 700px) {
+      font-size: 32px;
+    }
+    @media (min-width: 750px) {
+    }
 
     :hover {
       color: #6ab4ff;
@@ -162,20 +162,20 @@ const IconLink = styled.a`
     filter: drop-shadow(0 0 5px);
     color: #6ab4ff;
   }
-  `
+`
 
-  const LinkContainer = styled.div`
-    display: flex;
-    /* flex-direction: column; */
-    /* padding-left: 0; */
-    /* width: 95%; */
-    @media (min-width: 840px) {
-      /* flex-direction: row; */
-      justify-content: space-around;
-      margin-left: auto;
-      /* padding-left: 45%; */
-    }
-  `
+const LinkContainer = styled.div`
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-left: 0; */
+  /* width: 95%; */
+  @media (min-width: 840px) {
+    /* flex-direction: row; */
+    justify-content: space-around;
+    margin-left: auto;
+    /* padding-left: 45%; */
+  }
+`
 
 const HeaderLink = styled.a`
   /* position: fixed; */
@@ -187,7 +187,7 @@ const HeaderLink = styled.a`
   margin-bottom: 30px;
   display: none;
   text-decoration: none;
- 
+
   @media (min-width: 840px) {
     font-size: 20px;
     display: block;
@@ -276,16 +276,16 @@ const Header = () => {
       {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
 
       <HeaderContainer>
-      <IconLink href="/">
-        <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
-      </IconLink>
-      <LinkContainer>
-        <HeaderLink href="/">Home</HeaderLink>
-        <HeaderLink href="/projects/">Projects</HeaderLink>
-        <HeaderLink href="/resume/">Resume</HeaderLink>
-        <HeaderLink href="/contact/">Contact</HeaderLink>
-        <HeaderLink href="/about/">About</HeaderLink>
-      </LinkContainer>
+        <IconLink href="/">
+          <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
+        </IconLink>
+        <LinkContainer>
+          <HeaderLink href="/">Home</HeaderLink>
+          <HeaderLink href="/projects/">Projects</HeaderLink>
+          <HeaderLink href="/resume/">Resume</HeaderLink>
+          <HeaderLink href="/contact/">Contact</HeaderLink>
+          <HeaderLink href="/about/">About</HeaderLink>
+        </LinkContainer>
       </HeaderContainer>
     </Nav>
   )

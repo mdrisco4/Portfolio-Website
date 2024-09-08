@@ -111,6 +111,7 @@ const PersonalPhoto = styled.img`
 `
 
 const PersonalInfoContainer = styled.div`
+  margin-top: 140px;
   width: 80%;
   height: auto;
   margin-left: auto;
@@ -408,14 +409,15 @@ const GetInTouch = styled.a`
 
 const IndexPage = () => (
   <Layout>
-    <IntroContainer>
+    {/* <IntroContainer> */}
       {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
       {/* <PersonalPhoto></PersonalPhoto> */}
       <PersonalInfoContainer>
         <Name>My name is Michael Driscoll</Name>
         <BrandStatement>
-          I write code for a living
+          I am a software developer
+          {/* I write code for a living */}
           {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
           skill set crucial for finding success in the workplace. I am excited
@@ -445,15 +447,15 @@ const IndexPage = () => (
         {/* <ProjectTitle>Modern Troussaeu</ProjectTitle> */}
         {/* <AboutLink href="/about">More About Me</AboutLink> */}
       </PersonalInfoContainer>
-    </IntroContainer>
+    {/* </IntroContainer> */}
 
     <ResumeDownloadLink href={MichaelDriscoll2023Resume} download>
       Resume
     </ResumeDownloadLink>
     {/* <ProjectSectionTitle>Projects</ProjectSectionTitle> */}
-    <ProjectSectionTitle>
+    {/* <ProjectSectionTitle>
       Site under renovation. Please check back soon.
-    </ProjectSectionTitle>
+    </ProjectSectionTitle> */}
 
     {/* <ProjectTitle>Modern Troussaeu</ProjectTitle>
     <FreelanceLink href="/freelance">Freelance</FreelanceLink>
@@ -732,7 +734,8 @@ const IndexPage = () => (
     <ProjectLink href="/modern-trousseau">Learn More</ProjectLink> */}
     <hr
       style={{
-        border: "1px solid black",
+        border: "1px solid rgb(114, 200, 179)",
+        marginTop: "140px",
       }}
     ></hr>
     {/* <ContactPrompt>
