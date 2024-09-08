@@ -173,19 +173,41 @@ const PersonalBrandStatement = styled.div`
 const ResumeDownloadLink = styled.a`
   font-family: "Fira Code";
   font-size: 20px;
-  width: 90px;
-  /* justify-content: center; */
+  width: 22%;
+  margin-left: 39%;
+  justify-content: center;
   text-align: center;
   display: block;
-  color: white;
   height: 36px;
   padding: 10px 3px 3px 3px;
   text-decoration: none;
   color: rgb(114, 200, 179);
   border: 2px solid rgb(114, 200, 179);
+  @media (min-width: 550px) {
+    width: 20%;
+  margin-left: 40%;
+  }
+  @media (min-width: 650px) {
+    width: 18%;
+  margin-left: 41%;
+  }
+  @media (min-width: 840px) {
+    width: 14%;
+  margin-left: 43%;
+  }
   @media (min-width: 900px) {
+    width: 12%;
+  margin-left: 44%;
     text-align: center;
     display: block;
+  }
+  @media (min-width: 1050px) {
+    width: 10%;
+  margin-left: 45%;
+  }
+  @media (min-width: 1200px) {
+    width: 8%;
+  margin-left: 46%;
   }
   &:hover {
     text-shadow: 0 0 5px;
