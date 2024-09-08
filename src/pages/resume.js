@@ -349,9 +349,9 @@ const EmailLink = styled.a`
     color: rgb(137, 146, 173);
   }
   &:hover {
-    color: rgb(137, 146, 173);
+    color: rgb(114, 200, 179);
     text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(1px 1px white);
+    filter: drop-shadow(2px 2px #6ab4ff);
   }
 `
 
@@ -371,9 +371,9 @@ const LinkedInLink = styled.a`
     color: rgb(137, 146, 173);
   }
   &:hover {
-    color: rgb(137, 146, 173);
+    color: rgb(114, 200, 179);
     text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(1px 1px white);
+    filter: drop-shadow(2px 2px #6ab4ff);
   }
 `
 
@@ -394,9 +394,9 @@ const GitHubLink = styled.a`
     color: rgb(137, 146, 173);
   }
   &:hover {
-    color: rgb(137, 146, 173);
+    color: rgb(114, 200, 179);
     text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(1px 1px white);
+    filter: drop-shadow(2px 2px #6ab4ff);
   }
 `
 
