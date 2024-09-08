@@ -72,22 +72,30 @@ const MenuLinks = styled.nav`
   @media (min-width: 480px) {
     padding-right: 25px;
     height: 42vh;
+    width: 50%;
   }
   @media (min-width: 550px) {
     padding-right: 30px;
     height: 45vh;
+    width: 40%;
   }
   @media (min-width: 630px) {
     padding-right: 36px;
     height: 48vh;
+    width: 35%;
   }
   @media (min-width: 700px) {
     padding-right: 45px;
     height: 51vh;
+    width: 32%;
   }
   @media (min-width: 750px) {
     padding-right: 48px;
     height: 54vh;
+    width: 30%;
+  }
+  @media (min-width: 840px) {
+    display: none;
   }
 
   ul {
