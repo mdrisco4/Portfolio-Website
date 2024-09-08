@@ -58,15 +58,37 @@ const MenuLinks = styled.nav`
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 50vh;
-  width: 40%;
+  height: 40vh;
+  width: 50%;
   background: rgb(77, 84, 107);
   position: fixed;
   top: 0;
   right: 0;
   transition: transform 300ms;
   transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
+  padding-right: 20px;
 
+  @media (min-width: 480px) {
+    padding-right: 25px;
+    height: 42vh;
+  }
+  @media (min-width: 550px) {
+    padding-right: 30px;
+    height: 45vh;
+  }
+  @media (min-width: 630px) {
+    padding-right: 36px;
+    height: 48vh;
+  }
+  @media (min-width: 700px) {
+    padding-right: 45px;
+    height: 51vh;
+  }
+  @media (min-width: 750px) {
+    padding-right: 48px;
+    height: 54vh;
+  }
+  
   ul {
     list-style-type: none;
   }
@@ -79,8 +101,24 @@ const MenuLinks = styled.nav`
     font-family: "Fira Code";
     text-decoration: none;
     color: rgb(114, 200, 179);
-    font-size: 1.5rem;
+    font-size: 20px;
     transition: color 300ms;
+
+    @media (min-width: 480px) {
+    font-size: 24px;
+  }
+  @media (min-width: 550px) {
+    font-size: 27px;
+  }
+  @media (min-width: 630px) {
+    font-size: 30px;
+  }
+  @media (min-width: 700px) {
+    font-size: 32px;
+  }
+  @media (min-width: 750px) {
+    
+  }
 
     :hover {
       color: #6ab4ff;
@@ -88,11 +126,6 @@ const MenuLinks = styled.nav`
     }
   }
 `
-
-// const Wrapper = styled.div`
-//   background: red;
-//   height: 200vh;
-// `
 
 const Nav = styled.div`
   background: rgb(12, 24, 45);
@@ -145,12 +178,13 @@ const IconLink = styled.a`
   `
 
 const HeaderLink = styled.a`
+  /* position: fixed; */
+
   font-family: "Fira Code";
   color: white;
   margin-top: 20px;
   color: rgb(114, 200, 179);
   margin-bottom: 30px;
-
   display: none;
   text-decoration: none;
  
