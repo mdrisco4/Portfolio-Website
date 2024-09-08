@@ -52,6 +52,7 @@ const AboutPhoto = styled.img`
   /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
   @media (min-width: 400px) {
     height: auto;
     width: 60%;
