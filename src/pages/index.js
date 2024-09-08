@@ -190,6 +190,7 @@ const ProjectStill = styled.img`
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  /* z-index: 0; */
 `
 
 const ProjectDescription = styled.div`

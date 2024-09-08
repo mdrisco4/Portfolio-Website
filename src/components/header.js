@@ -25,8 +25,12 @@ const MenuIcon = styled.button`
   cursor: pointer;
   z-index: 5;
 
+  @media (min-width: 840px) {
+    display: none;
+  }
+
   div {
-    width: 2rem;
+    width: 1.9rem;
     height: 0.25rem;
     background: rgb(114, 200, 179);
     border-radius: 5px;
@@ -35,15 +39,15 @@ const MenuIcon = styled.button`
     transition: all 0.3s linear;
 
     :first-child {
-      transform: ${({nav}) => nav ? 'rotate(45deg)' : 'rotate(0)'}
+      transform: ${({ nav }) => (nav ? "rotate(45deg)" : "rotate(0)")};
     }
 
     :nth-child(2) {
-      opacity: ${({nav}) => nav ? '0' : '1'}
+      opacity: ${({ nav }) => (nav ? "0" : "1")};
     }
 
     :nth-child(3) {
-      transform: ${({nav}) => nav ? 'rotate(-45deg)' : 'rotate(0)'}
+      transform: ${({ nav }) => (nav ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
 `
@@ -57,11 +61,11 @@ const MenuLinks = styled.nav`
   height: 50vh;
   width: 40%;
   background: rgb(77, 84, 107);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transition: transform 300ms;
-  transform: ${({ nav }) => (nav ? "translateX(0)": "translateX(100%)")};
+  transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
 
   ul {
     list-style-type: none;
@@ -104,7 +108,7 @@ const LinkContainer = styled.div`
   @media (min-width: 840px) {
     /* flex-direction: row; */
     justify-content: space-around;
-    padding-right: 45%;
+    padding-left: 45%;
   }
 `
 
@@ -140,7 +144,7 @@ const HeaderLink = styled.a`
   margin-top: 20px;
   color: rgb(114, 200, 179);
 
-  /* display: inline-block; */
+  display: none;
   position: relative;
   text-decoration: none;
   @media (min-width: 700px) {
@@ -149,6 +153,7 @@ const HeaderLink = styled.a`
   @media (min-width: 840px) {
     margin: none;
     font-size: 24px;
+    display: block;
   }
   @media (min-width: 1000px) {
     margin: none;
@@ -185,61 +190,59 @@ const HeaderLink = styled.a`
 `
 
 const Header = () => {
+  const [nav, showNav] = useState(false)
 
-const [nav, showNav] = useState(false)
+  return (
+    <Nav>
+      {/* <Wrapper> */}
+      <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
+        <div />
+        <div />
+        <div />
+      </MenuIcon>
+      {/* </Wrapper> */}
+      <MenuLinks nav={nav}>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/projects/">Projects</a>
+          </li>
+          <li>
+            <a href="/resume/">Resume</a>
+          </li>
+          <li>
+            <a href="/contact/">Contact</a>
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </MenuLinks>
 
-
-return (
-  <Nav>
-    {/* <Wrapper> */}
-    <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
-      <div />
-      <div />
-      <div />
-    </MenuIcon>
-    {/* </Wrapper> */}
-    <MenuLinks nav={nav}>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/projects/">Projects</a>
-        </li>
-        <li>
-          <a href="/resume/">Resume</a>
-        </li>
-        <li>
-          <a href="/contact/">Contact</a>
-        </li>
-        <li>
-          <a href="/about/">About</a>
-        </li>
-      </ul>
-    </MenuLinks>
-
-    <LinkContainer>
-      {/* <IconLink href="/">
+      <LinkContainer>
+        {/* <IconLink href="/">
         <FontAwesomeIcon icon={["fas", "atom"]} size="3x" />
       </IconLink> */}
-      {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
+        {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
         GitHub
       </HeaderLink> */}
-      {/* <HeaderLink
+        {/* <HeaderLink
         href="https://www.linkedin.com/in/michael-n-driscoll/"
         target="_blank"
       >
         LinkedIn
       </HeaderLink> */}
-      {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
-      <HeaderLink href="/">Home</HeaderLink>
-      <HeaderLink href="/projects/">Projects</HeaderLink>
-      <HeaderLink href="/resume/">Resume</HeaderLink>
-      <HeaderLink href="/contact/">Contact</HeaderLink>
-      <HeaderLink href="/about/">About</HeaderLink>
-    </LinkContainer>
-  </Nav>
-)
+        {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
+        <HeaderLink href="/">Home</HeaderLink>
+        <HeaderLink href="/projects/">Projects</HeaderLink>
+        <HeaderLink href="/resume/">Resume</HeaderLink>
+        <HeaderLink href="/contact/">Contact</HeaderLink>
+        <HeaderLink href="/about/">About</HeaderLink>
+      </LinkContainer>
+    </Nav>
+  )
 }
 
 export default Header
