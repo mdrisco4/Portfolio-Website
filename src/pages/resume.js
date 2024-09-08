@@ -215,9 +215,9 @@ const PDFLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  background-color: rgb(99, 95, 85);
-  color: rgb(137, 146, 173);
-  border: 2px solid darkblue;
+  /* background-color: white; */
+  color: rgb(114, 200, 179);
+  border: 2px solid rgb(114, 200, 179);
   /* border-radius: 20px; */
   @media (min-width: 900px) {
     margin-top: 24px;
@@ -228,9 +228,11 @@ const PDFLink = styled.a`
     padding: 10px;
   }
   &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 2px solid black;
+    color: #6ab4ff;
+    border: 2px solid #6ab4ff;
+    text-shadow: 0 0 5px;
+    /* background-color: darkblue;
+    border: 2px solid black; */
   }
 `
 
@@ -404,7 +406,7 @@ const Resume = () => (
   <Layout>
     <Container>
       <Name>Michael Driscoll</Name>
-      <AboutContactContainer>Under construction</AboutContactContainer>
+      {/* <AboutContactContainer>Under construction</AboutContactContainer> */}
       <AboutContactContainer>
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
