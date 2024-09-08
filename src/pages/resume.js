@@ -1,6 +1,5 @@
 import React from "react"
 import "../styles/fonts.css"
-
 import Layout from "../components/layout"
 import styled from "styled-components"
 import MichaelDriscoll2023Resume from "../images/MichaelDriscoll2023Resume.pdf"
@@ -22,6 +21,7 @@ const Container = styled.div`
     max-width: 1200px;
   }
 `
+
 const AboutContactContainer = styled.div`
   display: flex;
   flex-direction: column-reverse;
@@ -45,25 +45,13 @@ color: rgb(137, 146, 173);
   }
 `
 
-// const MyInfo = styled.div`
-//   width: 80%;
-//   margin-left: auto;
-//   margin-right: auto;
-//   text-align: center;
-//   @media (min-width: 800px) {
-//     height: 100%;
-//     width: 70%;
-//     margin: auto;
-//     flex-direction: row;
-//   }
-// `
-
 const MobileName = styled.h1`
   font-family: "Montserrat Alternates";
   display: flex;
   margin: 0 0 2px 0;
   font-size: 36px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     display: none;
   }
@@ -73,6 +61,7 @@ const Name = styled.h1`
   font-family: "Montserrat Alternates";
   display: none;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     display: flex;
     margin: 0 0 8px 0;
@@ -87,6 +76,7 @@ const SoftwareDevloperLine = styled.div`
   font-weight: bold;
   margin-top: 12px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     margin-top: 0;
     font-size: 36px;
@@ -99,6 +89,7 @@ const SectionTitle = styled.div`
   font-size: 24px;
   font-weight: bold;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 36px;
     font-weight: bold;
@@ -108,6 +99,7 @@ const SectionTitle = styled.div`
 const SkillsContainer = styled.div`
   display: flex;
   flex-direction: column;
+
   @media (min-width: 520px) {
     flex-direction: row;
     width: 105%;
@@ -116,6 +108,7 @@ const SkillsContainer = styled.div`
 
 const SkillsRowContainer = styled.div`
   width: 100%;
+
   @media (min-width: 520px) {
     width: 42%;
   }
@@ -126,6 +119,7 @@ const SubSectionTitle = styled.div`
   font-size: 18px;
   font-weight: bold;
   color: rgb(137, 146, 173);
+
   @media (min-width: 800px) {
     font-size: 24px;
     font-weight: bold;
@@ -137,6 +131,7 @@ const Schooling = styled.div`
   font-size: 22px;
   font-weight: bold;
   color: rgb(137, 146, 173);
+
   @media (min-width: 800px) {
     font-size: 28px;
     font-weight: bold;
@@ -147,6 +142,7 @@ const City = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -157,6 +153,7 @@ const Dates = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 20px;
     font-weight: bold;
@@ -167,6 +164,7 @@ const Details = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 800px) {
     font-size: 20px;
   }
@@ -176,18 +174,11 @@ const BulletPointWrap = styled.div`
   display: flex;
 `
 
-// const ContactDetails = styled.h3`
-//   margin: 4px 0;
-//   font-size: 24px;
-//   @media (min-width: 800px) {
-//     font-size: 30px;
-//   }
-// `
-
 const BulletPoints = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 18px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 800px) {
     font-size: 20px;
     margin-left: 12px;
@@ -198,6 +189,7 @@ const ButtonContainer = styled.div`
   width: 180px;
   margin-left: auto;
   margin-right: auto;
+
   @media (min-width: 800px) {
     width: 30%;
   }
@@ -215,10 +207,9 @@ const PDFLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  /* background-color: white; */
   color: rgb(114, 200, 179);
   border: 2px solid rgb(114, 200, 179);
-  /* border-radius: 20px; */
+
   @media (min-width: 900px) {
     margin-top: 24px;
     font-size: 32px;
@@ -227,18 +218,18 @@ const PDFLink = styled.a`
     margin-top: 40px;
     padding: 10px;
   }
+
   &:hover {
     color: #6ab4ff;
     border: 2px solid #6ab4ff;
     text-shadow: 0 0 5px;
-    /* background-color: darkblue;
-    border: 2px solid black; */
   }
 `
 
 const Phone = styled.div`
   font-family: "Montserrat Alternates";
   font-size: 24px;
+
   @media (min-width: 800px) {
     font-size: 28px;
   }
@@ -255,15 +246,17 @@ const MobileEmailLink = styled.a`
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
-  color: rgb(137, 146, 173);
+  color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     display: none;
   }
-  &:hover {
+
+  /* &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
-  }
+  } */
 `
 
 const MobileLinkedInLink = styled.a`
@@ -274,15 +267,17 @@ const MobileLinkedInLink = styled.a`
   font-weight: bold;
   font-size: 25px;
   margin-left: 10%;
-  color: rgb(137, 146, 173);
+  color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     display: none;
   }
-  &:hover {
+
+  /* &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
-  }
+  } */
 `
 
 const MobileGitHubLink = styled.a`
@@ -293,15 +288,17 @@ const MobileGitHubLink = styled.a`
   font-weight: bold;
   font-size: 25px;
   margin-left: 10%;
-  color: rgb(137, 146, 173);
+  color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     display: none;
   }
-  &:hover {
+
+  /* &:hover {
     color: darkblue;
     text-shadow: 4px 4px 5px darkblue;
     filter: drop-shadow(1px 1px white);
-  }
+  } */
 `
 
 const PhoneLink = styled.a`
@@ -310,9 +307,9 @@ const PhoneLink = styled.a`
   text-shadow: 1px 1px 1px white;
   text-decoration: none;
   font-weight: 900;
-  /* margin: 4px 5%; */
   font-size: 24px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 21px;
   }
@@ -328,6 +325,7 @@ const PhoneLink = styled.a`
   @media (min-width: 1200px) {
     font-size: 35px;
   }
+
   &:hover {
     color: darkblue;
     text-shadow: 2px 2px 3px darkblue;
@@ -339,6 +337,7 @@ const EmailLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -348,12 +347,12 @@ const EmailLink = styled.a`
     font-size: 30px;
     padding-left: 5%;
     margin-right: 55%;
-    color: rgb(137, 146, 173);
-  }
-  &:hover {
     color: rgb(114, 200, 179);
-    text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(2px 2px #6ab4ff);
+  }
+
+  &:hover {
+    color: #6ab4ff;
+    filter: drop-shadow(2px 2px rgb(114, 200, 179));
   }
 `
 
@@ -361,6 +360,7 @@ const LinkedInLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -370,12 +370,12 @@ const LinkedInLink = styled.a`
     font-size: 30px;
     padding-left: 7%;
     margin-right: 65%;
-    color: rgb(137, 146, 173);
-  }
-  &:hover {
     color: rgb(114, 200, 179);
-    text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(2px 2px #6ab4ff);
+  }
+
+  &:hover {
+    color: #6ab4ff;
+    filter: drop-shadow(2px 2px rgb(114, 200, 179));
   }
 `
 
@@ -383,6 +383,7 @@ const GitHubLink = styled.a`
   font-family: "Montserrat Alternates";
   display: none;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     display: flex;
     color: black;
@@ -393,12 +394,12 @@ const GitHubLink = styled.a`
     padding-left: 5%;
     margin-top: 6px;
     margin-right: 55%;
-    color: rgb(137, 146, 173);
-  }
-  &:hover {
     color: rgb(114, 200, 179);
-    text-shadow: 4px 4px 5px darkblue;
-    filter: drop-shadow(2px 2px #6ab4ff);
+  }
+
+  &:hover {
+    color: #6ab4ff;
+    filter: drop-shadow(2px 2px rgb(114, 200, 179));
   }
 `
 
@@ -406,7 +407,6 @@ const Resume = () => (
   <Layout>
     <Container>
       <Name>Michael Driscoll</Name>
-      {/* <AboutContactContainer>Under construction</AboutContactContainer> */}
       <AboutContactContainer>
         <AboutMe>
           <SoftwareDevloperLine>Software Developer</SoftwareDevloperLine>
@@ -419,14 +419,14 @@ const Resume = () => (
             Combining my experience in client facing roles and software
             engineering I am seeking the opportunity to contribute to a company
             exceeding client expectations by utilizing cutting edge technology. */}
-            Full stack software engineer experienced working both on an Agile
+            {/* Full stack software engineer experienced working both on an Agile
             team and developing freelance projects for clients. As a government
             contractor I have experience working in a team environment and
             engaging government representatives to ensure assignments are
             completed by designated deadlines. Combining my experience in client
             facing roles and the technical side of development I am seeking the
             opportunity to be a valued and contributing team member and exceed
-            client expectations utilizing cutting edge technology.
+            client expectations utilizing cutting edge technology. */}
 
 
             Full stack software engineer experienced working both in Agile team
@@ -548,8 +548,6 @@ const Resume = () => (
           records from a legacy system into SQL database
         </BulletPoints>
       </BulletPointWrap>
-
-
       <BulletPointWrap>
         <Details>∙</Details>
         <BulletPoints>
@@ -557,7 +555,6 @@ const Resume = () => (
           contributing developer for 2+ years
         </BulletPoints>
       </BulletPointWrap>
-
 
       <SubSectionTitle>Junior Software Developer</SubSectionTitle>
       <Dates>09/2020-02/2022</Dates>

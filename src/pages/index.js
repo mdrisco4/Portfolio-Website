@@ -22,54 +22,6 @@ const ProjectLinkContainer = styled.div`
   }
 `
 
-const DeployedLink = styled.a`
-  font-family: "Montserrat Alternates";
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
-  height: auto;
-  padding: 4px 0;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 24px;
-  text-align: center;
-  @media (min-width: 850px) {
-    width: 42%;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
-  }
-`
-
-const GitHubLink = styled.a`
-  font-family: "Montserrat Alternates";
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
-  height: auto;
-  padding: 4px 0;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 24px;
-  text-align: center;
-  @media (min-width: 850px) {
-    width: 42%;
-  }
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
-  }
-`
-
 const IntroContainer = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
@@ -77,6 +29,7 @@ const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
@@ -94,22 +47,6 @@ const IntroContainer = styled.div`
   }
 `
 
-const PersonalPhoto = styled.img`
-  width: 70%;
-  height: auto;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
-  @media (min-width: 900px) {
-    margin-left: 15%;
-    margin-right: 2.5%;
-    margin-top: 2%;
-    width: auto;
-    height: 100%;
-  }
-`
-
 const PersonalInfoContainer = styled.div`
   margin-top: 140px;
   width: 80%;
@@ -117,10 +54,10 @@ const PersonalInfoContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
   @media (min-width: 900px) {
     text-align: left;
     height: 100%;
-    /* width: 50%; */
     margin: auto;
     margin-right: 5%;
     margin-top: 2%;
@@ -133,6 +70,7 @@ const Name = styled.h1`
   margin-bottom: 24px;
   text-align: center;
   color: rgb(206, 214, 243);
+
   @media (min-width: 840px) {
     text-align: left;
   }
@@ -147,6 +85,7 @@ const BrandStatement = styled.div`
   font-size: 27px;
   text-align: center;
   color: rgb(137, 146, 173);
+
   @media (min-width: 840px) {
     text-align: left;
   }
@@ -157,13 +96,12 @@ const BrandStatement = styled.div`
 
 const PersonalBrandStatement = styled.div`
   font-family: "Montserrat Alternates";
-  /* padding-left: 7.5%;
-  padding-right: 7.5%; */
   text-align: center;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 20px;
   color: rgb(77, 84, 107);
+
   @media (min-width: 840px) {
     font-size: 28;
     text-align: left;
@@ -184,32 +122,34 @@ const ResumeDownloadLink = styled.a`
   text-decoration: none;
   color: rgb(114, 200, 179);
   border: 2px solid rgb(114, 200, 179);
+
   @media (min-width: 550px) {
     width: 20%;
-  margin-left: 40%;
+    margin-left: 40%;
   }
   @media (min-width: 650px) {
     width: 18%;
-  margin-left: 41%;
+    margin-left: 41%;
   }
   @media (min-width: 840px) {
     width: 14%;
-  margin-left: 43%;
+    margin-left: 43%;
   }
   @media (min-width: 900px) {
     width: 12%;
-  margin-left: 44%;
+    margin-left: 44%;
     text-align: center;
     display: block;
   }
   @media (min-width: 1050px) {
     width: 10%;
-  margin-left: 45%;
+    margin-left: 45%;
   }
   @media (min-width: 1200px) {
     width: 8%;
-  margin-left: 46%;
+    margin-left: 46%;
   }
+
   &:hover {
     text-shadow: 0 0 5px;
     color: #6ab4ff;
@@ -232,93 +172,12 @@ const AboutLink = styled.a`
   text-decoration: none;
   background-color: rgb(99, 95, 85);
   border: 2px solid darkblue;
+
   &:hover {
     color: rgb(110, 176, 249);
     background-color: darkblue;
     border: 2px solid black;
   }
-`
-
-const ProjectSectionTitle = styled.div`
-  font-family: "Montserrat Alternates";
-  text-align: center;
-  font-size: 54px;
-  font-weight: 700;
-  margin: 50px 0 36px 0;
-  color: rgb(114, 200, 179);
-`
-
-const ImageWrapper = styled.div`
-  position: relative;
-  width: 55%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  &:hover {
-    cursor: pointer;
-  }
-`
-
-const ProjectStill = styled.img`
-  width: 100%;
-  height: auto;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  /* z-index: 0; */
-`
-
-const ProjectDescription = styled.div`
-  font-family: "Montserrat Alternates";
-  display: none;
-  @media (min-width: 750px) {
-    display: block;
-    text-align: center;
-    font-size: 21px;
-    position: absolute;
-    bottom: 2px;
-    right: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
-    &:hover {
-      width: 100%;
-      visibility: visible;
-      opacity: 0.7;
-    }
-  }
-`
-
-const MobileProjectDescription = styled.div`
-  font-family: "Montserrat Alternates";
-  display: flex;
-  width: 75%;
-  font-size: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  justify-content: center;
-  @media (min-width: 750px) {
-    display: none;
-  }
-`
-
-const ProjectTitle = styled.div`
-  font-family: "Montserrat Alternates";
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  text-align: center;
-  font-weight: bold;
-  font-size: 42px;
-  margin-bottom: 20px;
-  color: rgb(77, 84, 107);
 `
 
 const FreelanceLink = styled.a`
@@ -337,10 +196,12 @@ const FreelanceLink = styled.a`
   background-color: rgb(99, 95, 85);
   color: white;
   cursor: pointer;
+
   @media (min-width: 675px) {
     width: 22.5%;
     font-size: 28px;
   }
+
   &:hover {
     border: 4px solid black;
     background-color: darkblue;
@@ -364,90 +225,53 @@ const ProjectLink = styled.a`
   background-color: rgb(99, 95, 85);
   color: white;
   cursor: pointer;
+
   @media (min-width: 620px) {
   }
+
   &:hover {
     border: 4px solid black;
     background-color: darkblue;
     color: rgb(110, 176, 249);
-  }
-`
-
-const ContactPrompt = styled.div`
-  font-family: "Montserrat Alternates";
-  width: 55%;
-  font-size: 18px;
-  font-weight: 800;
-  text-align: center;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-`
-
-const GetInTouch = styled.a`
-  font-family: "Montserrat Alternates";
-  font-size: 40px;
-  color: white;
-  background-color: rgb(99, 95, 85);
-  display: flex;
-  width: 320px;
-  height: auto;
-  padding: 3px;
-  margin-top: 20px;
-  justify-content: center;
-  border: 4px solid darkblue;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  text-decoration: none;
-  &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
   }
 `
 
 const IndexPage = () => (
   <Layout>
-    {/* <IntroContainer> */}
-      {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
-      {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
-      {/* <PersonalPhoto></PersonalPhoto> */}
-      <PersonalInfoContainer>
-        <Name>My name is Michael Driscoll</Name>
-        <BrandStatement>
-          I am a software developer
-          {/* I write code for a living */}
-          {/* As a software engineer with client experience and proficiency in web
+    {/* <PersonalPhoto src="https://i.imgur.com/tpIBaSE.jpg"></PersonalPhoto> */}
+    {/* <PersonalPhoto src="https://i.imgur.com/zG8yxep.jpg"></PersonalPhoto> */}
+    <PersonalInfoContainer>
+      <Name>My name is Michael Driscoll</Name>
+      <BrandStatement>
+        I am a software developer
+        {/* I write code for a living */}
+        {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I bring to the table a
           skill set crucial for finding success in the workplace. I am excited
           to grow in the tech industry using my talents in software engineering
           while continually seeking to keep up with the latest in cutting edge
           technology. See some of my projects below. */}
-          {/* As a software engineer with client experience and proficiency in web
+        {/* As a software engineer with client experience and proficiency in web
           design, coding and full stack development, I possess the skills and
           know how paramount to being a valued member of a devlopment team. I am
           excited to continue growing in the tech industry using my talents in
           software engineering while always seeking to expand my knowledge of
           the latest cutting edge technology. See some of my projects below. */}
-        </BrandStatement>
-        <PersonalBrandStatement>
-          As a passionate software developer based in Los Angeles, I specialize
-          in crafting innovative, high-performance solutions that drive digital
-          transformation. With a keen eye for design and a commitment to
-          excellence, I blend cutting-edge technology with user-centric design
-          to build intuitive, impactful software. My portfolio showcases a
-          diverse range of projects that reflect my dedication to clean code,
-          creative problem-solving, and delivering exceptional user experiences.
-          Whether it's developing dynamic web applications or streamlining
-          backend processes, I bring a unique blend of technical skill and
-          creativity to every project, aiming to make a meaningful impact in the
-          ever-evolving tech landscape of LA and beyond.
-        </PersonalBrandStatement>
-        {/* <ProjectTitle>Modern Troussaeu</ProjectTitle> */}
-        {/* <AboutLink href="/about">More About Me</AboutLink> */}
-      </PersonalInfoContainer>
-    {/* </IntroContainer> */}
+      </BrandStatement>
+      <PersonalBrandStatement>
+        As a passionate software developer based in Los Angeles, I specialize in
+        crafting innovative, high-performance solutions that drive digital
+        transformation. With a keen eye for design and a commitment to
+        excellence, I blend cutting-edge technology with user-centric design to
+        build intuitive, impactful software. My portfolio showcases a diverse
+        range of projects that reflect my dedication to clean code, creative
+        problem-solving, and delivering exceptional user experiences. Whether
+        it's developing dynamic web applications or streamlining backend
+        processes, I bring a unique blend of technical skill and creativity to
+        every project, aiming to make a meaningful impact in the ever-evolving
+        tech landscape of LA and beyond.
+      </PersonalBrandStatement>
+    </PersonalInfoContainer>
 
     <ResumeDownloadLink href={MichaelDriscoll2023Resume} download>
       Resume
@@ -738,12 +562,6 @@ const IndexPage = () => (
         marginTop: "140px",
       }}
     ></hr>
-    {/* <ContactPrompt>
-      If you would like to work with me or to learn more about these or any
-      other projects I am working on please feel free to contact me via email or
-      LinkedIn
-    </ContactPrompt>
-    <GetInTouch href="/contact">Contact Me</GetInTouch> */}
   </Layout>
 )
 

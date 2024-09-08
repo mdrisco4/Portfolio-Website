@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <body
-      title={"Michael Driscoll"}
+        title={"Michael Driscoll"}
         style={{
           margin: "0",
         }}
@@ -26,9 +26,7 @@ const Layout = ({ children }) => {
         <div
           style={{
             margin: `0`,
-            // backgroundColor: "rgb(52, 53, 55)",
             backgroundColor: "rgb(12, 24, 45)",
-            // border: "5px solid rgb(90, 176, 255)",
             border: "5px solid rgb(12, 24, 45)",
             minHeight: "750px",
           }}
@@ -39,9 +37,5 @@ const Layout = ({ children }) => {
     </>
   )
 }
-
-// Layout.propTypes = {
-//   children: PropTypes.node.isRequired,
-// }
 
 export default Layout

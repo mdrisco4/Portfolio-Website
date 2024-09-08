@@ -5,9 +5,7 @@ import Layout from "../components/layout"
 import styled from "styled-components"
 
 const PageTitle = styled.div`
-  /* color: white; */
   font-family: "Montserrat Alternates";
-  /* color: rgb(137, 146, 173); */
   color: rgb(206, 214, 243);
   font-size: 55px;
   text-align: center;
@@ -20,6 +18,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   padding: 20px 0;
+  
   @media (min-width: 1100px) {
     height: auto;
     flex-direction: row;
@@ -32,27 +31,20 @@ const Container = styled.div`
 const PhotoBlurbContainer = styled.div`
   display: flex;
   flex-direction: column;
+
   @media (min-width: 650px) {
-    /* height: auto;
-    width: 20%; */
-    /* flex-direction: row; */
   }
   @media (min-width: 1000px) {
-    /* height: auto;
-    width: 20%; */
     flex-direction: row;
   }
 `
 
-const TitleBlurbContainer = styled.div``
-
 const AboutPhoto = styled.img`
   border: 1px solid black;
-  /* border-radius: 20%; */
-  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
   @media (min-width: 400px) {
     height: auto;
     width: 60%;
@@ -111,45 +103,38 @@ const AboutDetails = styled.h3`
   font-size: 20px;
   color: rgb(137, 146, 173);
   @media (min-width: 400px) {
-    
   }
   @media (min-width: 550px) {
-    
   }
   @media (min-width: 650px) {
-    
   }
   @media (min-width: 850px) {
-    
   }
   @media (min-width: 1000px) {
-    
   }
   @media (min-width: 1200px) {
-    
   }
 `
 
 const GetInTouch = styled.a`
   font-family: "Montserrat Alternates";
   font-size: 40px;
-  color: white;
-  background-color: rgb(99, 95, 85);
+  color: rgb(114, 200, 179);
   display: flex;
   width: 320px;
   height: auto;
   padding: 3px;
   margin-top: 20px;
   justify-content: center;
-  border: 4px solid darkblue;
+  border: 4px solid rgb(114, 200, 179);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   text-decoration: none;
   &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
+    color: #6ab4ff;
+    text-shadow: 0 0 5px;
+    border: 4px solid #6ab4ff;
   }
 `
 
@@ -160,7 +145,6 @@ const About = () => (
       <PersonalInfo>
         <Title>My Background</Title>
         <PhotoBlurbContainer>
-          {/* <TitleBlurbContainer> */}
           <AboutDetails>
             {/* I graduated from the University of Rochester with a physics degree in
           2013 and have always been interested in all things science and
@@ -187,13 +171,11 @@ const About = () => (
             career, I am eager to bring my expertise and passion for coding to a
             new role that offers growth and new opportunities.
           </AboutDetails>
-          {/* </TitleBlurbContainer> */}
           <AboutPhoto src="https://i.imgur.com/ErbODus.jpeg"></AboutPhoto>
         </PhotoBlurbContainer>
         <Title>Interests and Hobbies</Title>
         <PhotoBlurbContainer>
           <AboutPhoto src="https://i.imgur.com/YDwdtd7.jpeg"></AboutPhoto>
-          {/* <TitleBlurbContainer> */}
           <AboutDetails>
             {/* Outside of my interests in science and technology I enjoy all things
           film, from small independent movies to gigantic blockbusters. I also
@@ -214,7 +196,6 @@ const About = () => (
             to my adaptability and enthusiasm, making me a well-rounded
             candidate ready to bring a unique perspective to any team.
           </AboutDetails>
-          {/* </TitleBlurbContainer> */}
         </PhotoBlurbContainer>
       </PersonalInfo>
     </Container>

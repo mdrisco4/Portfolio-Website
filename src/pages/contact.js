@@ -12,9 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 library.add(fab, fas, far)
 
 const PageTitle = styled.div`
-  /* color: white; */
   font-family: "Montserrat Alternates";
-  /* color: rgb(137, 146, 173); */
   color: rgb(206, 214, 243);
   font-size: 55px;
   text-align: center;
@@ -27,6 +25,7 @@ const ContactInfo = styled.div`
   font-size: 35px;
   font-weight: bold;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 50px;
   }
@@ -40,6 +39,7 @@ const Questions = styled.div`
   margin-bottom: 30px;
   font-size: 24px;
   color: rgb(137, 146, 173);
+
   @media (min-width: 600px) {
     font-size: 28px;
     max-width: 800px;
@@ -52,6 +52,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   padding: 20px 0;
+
   @media (min-width: 800px) {
     height: auto;
     flex-direction: row;
@@ -63,6 +64,7 @@ const MyInfo = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
   @media (min-width: 800px) {
     height: 100%;
     width: 70%;
@@ -76,6 +78,7 @@ const Name = styled.h3`
   margin: 0 0 8px 0;
   font-size: 35px;
   color: rgb(77, 84, 107);
+
   @media (min-width: 800px) {
     font-size: 50px;
   }
@@ -87,6 +90,7 @@ const ContactDetails = styled.h3`
   font-size: 24px;
   color: rgb(77, 84, 107);
   padding-bottom: 30px;
+
   @media (min-width: 800px) {
     font-size: 30px;
   }
@@ -95,21 +99,19 @@ const ContactDetails = styled.h3`
 const PhoneLink = styled.a`
   font-family: "Montserrat Alternates";
   color: black;
-  /* text-shadow: 1px 1px 1px white; */
   text-decoration: none;
   font-weight: 900;
   margin: 4px 5%;
   font-size: 24px;
   color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     font-size: 30px;
   }
+
   &:hover {
-    /* color: darkblue; */
-    /* text-shadow: 4px 4px 5px darkblue; */
     color: #6ab4ff;
     text-shadow: 0 0 5px;
-    /* filter:drop-shadow(1px 1px white); */
   }
 `
 
@@ -121,14 +123,13 @@ const EmailLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
-  /* color: rgb(137, 146, 173); */
   color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     font-size: 30px;
   }
+
   &:hover {
-    /* color: darkblue; */
-    /* text-shadow: 4px 4px 5px darkblue; */
     text-shadow: 0 0 5px;
     color: #6ab4ff;
     filter: drop-shadow(2px 2px rgb(114, 200, 179));
@@ -143,14 +144,13 @@ const LinkedInLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
-  /* color: rgb(137, 146, 173); */
   color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     font-size: 30px;
   }
+
   &:hover {
-    /* color: darkblue; */
-    /* text-shadow: 4px 4px 5px darkblue; */
     text-shadow: 0 0 5px;
     color: #6ab4ff;
     filter: drop-shadow(2px 2px rgb(114, 200, 179));
@@ -165,14 +165,13 @@ const GitHubLink = styled.a`
   font-weight: bold;
   margin: 4px 5%;
   font-size: 24px;
-  /* color: rgb(137, 146, 173); */
   color: rgb(114, 200, 179);
+
   @media (min-width: 600px) {
     font-size: 30px;
   }
+
   &:hover {
-    /* color: darkblue; */
-    /* text-shadow: 4px 4px 5px darkblue; */
     text-shadow: 0 0 5px;
     color: #6ab4ff;
     filter: drop-shadow(2px 2px rgb(114, 200, 179));
@@ -182,7 +181,6 @@ const GitHubLink = styled.a`
 const Contact = () => (
   <Layout>
     <PageTitle>CONTACT INFO</PageTitle>
-    {/* <ContactInfo>Under construction</ContactInfo> */}
     <Questions>
       {/* I’d love to hear from you! Whether you have a project idea, a question
       about my work, or just want to connect, feel free to reach out. Drop me a
@@ -202,7 +200,7 @@ const Contact = () => (
     <Container>
       <MyInfo>
         <Name>Michael Driscoll</Name>
-        {/* <PhoneLink href="tel:1-585-719-7720">1-234-567-8901</PhoneLink> */}
+        {/* <PhoneLink href="tel:1-234-567-8901">1-234-567-8901</PhoneLink> */}
         <ContactDetails>Los Angeles, CA 90028</ContactDetails>
         <EmailLink href="mailto:michaelndriscoll81@gmail.com" target="_blank">
           <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
@@ -221,7 +219,6 @@ const Contact = () => (
     <hr
       style={{
         border: "1px solid rgb(114, 200, 179)",
-        // marginTop: "50px",
       }}
     ></hr>
   </Layout>

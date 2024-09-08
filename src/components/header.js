@@ -139,7 +139,6 @@ const Nav = styled.div`
   background: rgb(12, 24, 45);
   border-top: 24px rgb(12, 24, 45);
   border-bottom: 24px rgb(12, 24, 45);
-  /* margin: -10px; */
 `
 
 const HeaderContainer = styled.div`
@@ -152,21 +151,17 @@ const IconLink = styled.a`
   color: white;
   font-weight: 500;
   font-size: 16px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   text-decoration: none;
   color: rgb(114, 200, 179);
   display: none;
-  /* width: 5%; */
+
   @media (min-width: 840px) {
     display: block;
     padding-left: 15px;
     padding-top: 5px;
   }
+
   &:hover {
-    /* color: rgb(110, 176, 249); */
-    /* color: rgb(114, 200, 179); */
-    /* filter: drop-shadow(1px 1px white); */
     filter: drop-shadow(0 0 5px);
     color: #6ab4ff;
   }
@@ -174,20 +169,14 @@ const IconLink = styled.a`
 
 const LinkContainer = styled.div`
   display: flex;
-  /* flex-direction: column; */
-  /* padding-left: 0; */
-  /* width: 95%; */
+
   @media (min-width: 840px) {
-    /* flex-direction: row; */
     justify-content: space-around;
     margin-left: auto;
-    /* padding-left: 45%; */
   }
 `
 
 const HeaderLink = styled.a`
-  /* position: fixed; */
-
   font-family: "Fira Code";
   color: white;
   margin-top: 20px;
@@ -219,22 +208,15 @@ const HeaderLink = styled.a`
     left: 0;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-    /* transform: scaleX(0); */
-    /* transition: text-decoration 500ms; */
   }
-  /* &:hover */
   ::after {
     transform: scaleX(0);
-    /* transform-origin: bottom left; */
   }
   &:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
   &:hover {
-    /* text-shadow: 1px 1px white; */
-    /* text-decoration: underline; */
-    /* color: rgb(114, 200, 179); */
     text-shadow: 0 0 5px;
     color: #6ab4ff;
   }
@@ -245,13 +227,11 @@ const Header = () => {
 
   return (
     <Nav>
-      {/* <Wrapper> */}
       <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
         <div />
         <div />
         <div />
       </MenuIcon>
-      {/* </Wrapper> */}
       <MenuLinks nav={nav}>
         <ul>
           <li>
@@ -271,17 +251,6 @@ const Header = () => {
           </li>
         </ul>
       </MenuLinks>
-
-      {/* <HeaderLink href="https://github.com/mdrisco4" target="_blank">
-      GitHub
-    </HeaderLink> */}
-      {/* <HeaderLink
-      href="https://www.linkedin.com/in/michael-n-driscoll/"
-      target="_blank"
-    >
-      LinkedIn
-    </HeaderLink> */}
-      {/* <HeaderLink href="/freelance/">Freelance</HeaderLink> */}
 
       <HeaderContainer>
         <IconLink href="/">

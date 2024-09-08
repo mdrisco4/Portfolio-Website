@@ -1,16 +1,14 @@
 import React from "react"
 import "../styles/fonts.css"
-// import Layout from "../components/layout"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
 
 const PageTitle = styled.div`
-    /* color: white; */
-    font-family: "Montserrat Alternates";
-    color: rgb(137, 146, 173);
-    font-size: 55px;
-    text-align: center;
+  font-family: "Montserrat Alternates";
+  color: rgb(137, 146, 173);
+  font-size: 55px;
+  text-align: center;
 `
 const ProjectLinkContainer = styled.div`
   width: 50%;
@@ -20,6 +18,7 @@ const ProjectLinkContainer = styled.div`
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
+
   @media (min-width: 850px) {
     width: 40%;
     justify-content: space-around;
@@ -35,21 +34,22 @@ const DeployedLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
+  border: 4px solid rgb(114, 200, 179);
   height: auto;
   padding: 4px 0;
-  color: white;
+  color: rgb(114, 200, 179);
   text-decoration: none;
   margin-bottom: 24px;
   text-align: center;
+
   @media (min-width: 850px) {
     width: 42%;
   }
+
   &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
+    color: #6ab4ff;
+    text-shadow: 0 0 5px;
+    border: 4px solid #6ab4ff;
   }
 `
 
@@ -59,21 +59,22 @@ const GitHubLink = styled.a`
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  background-color: rgb(99, 95, 85);
-  border: 4px solid darkblue;
+  border: 4px solid rgb(114, 200, 179);
   height: auto;
   padding: 4px 0;
-  color: white;
+  color: rgb(114, 200, 179);
   text-decoration: none;
   margin-bottom: 24px;
   text-align: center;
+
   @media (min-width: 850px) {
     width: 42%;
   }
+
   &:hover {
-    color: rgb(110, 176, 249);
-    background-color: darkblue;
-    border: 4px solid black;
+    color: #6ab4ff;
+    text-shadow: 0 0 5px;
+    border: 4px solid #6ab4ff;
   }
 `
 
@@ -93,6 +94,7 @@ const ImageWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+
   &:hover {
     cursor: pointer;
   }
@@ -109,6 +111,7 @@ const ProjectStill = styled.img`
 const ProjectDescription = styled.div`
   font-family: "Montserrat Alternates";
   display: none;
+
   @media (min-width: 750px) {
     display: block;
     text-align: center;
@@ -121,9 +124,9 @@ const ProjectDescription = styled.div`
     opacity: 0;
     width: 100%;
     height: 100%;
-
     -webkit-transition: visibility 0s, opacity 0.5s linear;
     transition: visibility 0s, opacity 0.5s linear;
+
     &:hover {
       width: 100%;
       visibility: visible;
@@ -142,6 +145,8 @@ const MobileProjectDescription = styled.div`
   margin-right: auto;
   margin-bottom: 30px;
   justify-content: center;
+  color: rgb(137, 146, 173);
+
   @media (min-width: 750px) {
     display: none;
   }
@@ -159,7 +164,7 @@ const ProjectTitle = styled.div`
 `
 
 const Projects = () => (
-    <Layout>
+  <Layout>
     <PageTitle>PROJECTS</PageTitle>
     <ProjectTitle>BrewBuddies</ProjectTitle>
     <ImageWrapper>
@@ -177,7 +182,7 @@ const Projects = () => (
       features to help the site look sleek and professional. This project
       remains ongoing to meet demands for client's growing business.
     </MobileProjectDescription>
-    
+
     <ProjectLinkContainer>
       <DeployedLink href="https://brewbuddiesny.com/" target="_blank">
         BrewBuddies
@@ -189,10 +194,7 @@ const Projects = () => (
         Github Repo
       </GitHubLink>
     </ProjectLinkContainer>
-
-    <PageTitle>New Text Here</PageTitle>
-      {/* <Link to="/">Go back to the homepage  KEEP OR DROP??</Link> */}
-      </Layout>
+  </Layout>
 )
 
 export default Projects
