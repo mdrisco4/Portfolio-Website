@@ -80,11 +80,17 @@ const IntroContainer = styled.div`
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     margin-bottom: 0;
     max-width: 1520px;
     margin-left: auto;
     margin-right: auto;
+  }
+  @media (min-width: 900px) {
+    height: 420px;
+  }
+  @media (min-width: 1200px) {
+    height: 400px;
   }
 `
 
@@ -130,7 +136,7 @@ const Name = styled.h1`
     text-align: left;
   }
   @media (min-width: 1050px) {
-    font-size: 42px;
+    font-size: 54px;
     margin-bottom: 8px;
   }
 `
@@ -144,7 +150,7 @@ const BrandStatement = styled.div`
     text-align: left;
   }
   @media (min-width: 1050px) {
-    font-size: 20px;
+    font-size: 36px;
   }
 `
 
@@ -158,7 +164,9 @@ const PersonalBrandStatement = styled.div`
   margin-bottom: 20px;
   color: rgb(77, 84, 107);
   @media (min-width: 840px) {
+    font-size: 28;
     text-align: left;
+    margin-right: 30%;
   }
 `
 
@@ -166,7 +174,7 @@ const ResumeDownloadLink = styled.a`
   font-family: "Fira Code";
   font-size: 20px;
   width: 90px;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   display: block;
   color: white;
@@ -176,6 +184,8 @@ const ResumeDownloadLink = styled.a`
   color: rgb(114, 200, 179);
   border: 2px solid rgb(114, 200, 179);
   @media (min-width: 900px) {
+    text-align: center;
+    display: block;
   }
   &:hover {
     text-shadow: 0 0 5px;
