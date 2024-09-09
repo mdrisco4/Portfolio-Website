@@ -117,7 +117,7 @@ const AboutDetails = styled.h3`
 `
 
 const GetInTouch = styled.a`
-  font-family: "Montserrat Alternates";
+  font-family: "Fira Code";
   font-size: 40px;
   color: rgb(114, 200, 179);
   display: flex;

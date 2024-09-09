@@ -29,7 +29,7 @@ const ProjectLinkContainer = styled.div`
 `
 
 const DeployedLink = styled.a`
-  font-family: "Montserrat Alternates";
+  font-family: "Fira Code";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -54,7 +54,7 @@ const DeployedLink = styled.a`
 `
 
 const GitHubLink = styled.a`
-  font-family: "Montserrat Alternates";
+  font-family: "Fira Code";
   width: 80%;
   margin-left: auto;
   margin-right: auto;
