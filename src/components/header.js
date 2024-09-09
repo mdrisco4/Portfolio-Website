@@ -94,6 +94,10 @@ const MenuLinks = styled.nav`
     height: 54vh;
     width: 30%;
   }
+  @media (min-width: 800px) {
+    margin-top: 28px;
+    height: 54vh;
+  }
   @media (min-width: 840px) {
     display: none;
   }
