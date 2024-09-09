@@ -70,29 +70,29 @@ const MenuLinks = styled.nav`
   z-index: 1;
   
   @media (min-width: 480px) {
-    padding-top: 4%;
+    padding-top: 3%;
     padding-right: 25px;
-    height: 60vh;
+    height: 270px;
     width: 50%;
   }
   @media (min-width: 550px) {
     padding-right: 30px;
-    height: 64vh;
+    height: 280px;
     width: 40%;
   }
   @media (min-width: 630px) {
     padding-right: 36px;
-    height: 68vh;
+    height: 288px;
     width: 35%;
   }
   @media (min-width: 700px) {
     padding-right: 45px;
-    height: 72vh;
+    height: 300px;
     width: 32%;
   }
   @media (min-width: 750px) {
     padding-right: 48px;
-    height: 75vh;
+    height: 312px;
     width: 30%;
   }
   @media (min-width: 840px) {
