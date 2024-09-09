@@ -18,7 +18,7 @@ const Container = styled.div`
   justify-content: space-around;
   width: 100%;
   padding: 20px 0;
-  
+
   @media (min-width: 1100px) {
     height: auto;
     flex-direction: row;
@@ -159,7 +159,7 @@ const About = () => (
           tackle along the way. I have learned a great deal in my first few
           years as a software engineer and am eager to expand my knowledge base
           and serve to contribute to exciting new projects along the way. */}
-            Graduating with a degree in Physics from the University of Rochester
+            {/* Graduating with a degree in Physics from the University of Rochester
             in 2013, I embarked on a career in software development, leveraging
             my strong analytical background to excel in this field. Over the
             past four years, I’ve been a software developer for the federal
@@ -169,7 +169,16 @@ const About = () => (
             understanding of complex systems, making me adept at problem-solving
             and adapting to new challenges. As I look to the next phase of my
             career, I am eager to bring my expertise and passion for coding to a
-            new role that offers growth and new opportunities.
+            new role that offers growth and new opportunities.  */}
+            With a degree in Physics from the University of Rochester and four
+            years of experience as a software developer and government
+            contractor, I bring a strong analytical background and a passion for
+            STEM to my work. My academic training has honed my problem-solving
+            skills and deepened my understanding of complex systems, which I’ve
+            leveraged to deliver innovative software solutions in a high-stakes
+            environment. Now, I’m seeking new opportunities where I can apply my
+            technical expertise and enthusiasm for technology to tackle exciting
+            challenges and contribute to cutting-edge projects.
           </AboutDetails>
           <AboutPhoto src="https://i.imgur.com/ErbODus.jpeg"></AboutPhoto>
         </PhotoBlurbContainer>
@@ -188,13 +197,14 @@ const About = () => (
             and attention to detail, qualities that translate seamlessly into my
             tech work. I enjoy camping, which not only provides a refreshing
             break from the screen but also enhances my problem-solving skills in
-            real-world scenarios. Craft beer tasting is a hobby that sharpens my
+            real-world scenarios. While my love of cycling keeps me energized and
+            disciplined, reinforcing my commitment to both personal and
+            professional goals. These varied interests contribute to my
+            adaptability and enthusiasm, making me a well-rounded candidate
+            ready to bring a unique perspective to any team.
+            {/* JUST BEFORE CYCLING: Craft beer tasting is a hobby that sharpens my
             appreciation for quality and innovation, while poker sharpens my
-            strategic thinking and decision-making abilities. Cycling keeps me
-            energized and disciplined, reinforcing my commitment to both
-            personal and professional goals. These varied interests contribute
-            to my adaptability and enthusiasm, making me a well-rounded
-            candidate ready to bring a unique perspective to any team.
+            strategic thinking and decision-making abilities.  */}
           </AboutDetails>
         </PhotoBlurbContainer>
       </PersonalInfo>
