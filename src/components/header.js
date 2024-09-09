@@ -68,6 +68,7 @@ const MenuLinks = styled.nav`
   transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
   padding-right: 20px;
   z-index: 1;
+  padding-top: 5%;
   
   @media (min-width: 480px) {
     padding-top: 3%;
