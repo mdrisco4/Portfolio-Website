@@ -67,36 +67,33 @@ const MenuLinks = styled.nav`
   transition: transform 300ms;
   transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
   padding-right: 20px;
+  padding-top: 4%;
   z-index: 1;
 
   @media (min-width: 480px) {
     padding-right: 25px;
-    height: 42vh;
+    height: 57vh;
     width: 50%;
   }
   @media (min-width: 550px) {
     padding-right: 30px;
-    height: 45vh;
+    height: 60vh;
     width: 40%;
   }
   @media (min-width: 630px) {
     padding-right: 36px;
-    height: 48vh;
+    height: 64vh;
     width: 35%;
   }
   @media (min-width: 700px) {
     padding-right: 45px;
-    height: 51vh;
+    height: 70vh;
     width: 32%;
   }
   @media (min-width: 750px) {
     padding-right: 48px;
-    height: 54vh;
+    height: 72vh;
     width: 30%;
-  }
-  @media (min-width: 800px) {
-    margin-top: 28px;
-    height: 54vh;
   }
   @media (min-width: 840px) {
     display: none;
