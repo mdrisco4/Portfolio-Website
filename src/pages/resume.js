@@ -196,7 +196,7 @@ const ButtonContainer = styled.div`
 `
 
 const PDFLink = styled.a`
-  font-family: "Montserrat Alternates";
+  font-family: "Fira Code";
   font-size: 20px;
   color: white;
   display: flex;
