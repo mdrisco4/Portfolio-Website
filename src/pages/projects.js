@@ -194,6 +194,38 @@ const Projects = () => (
         Github Repo
       </GitHubLink>
     </ProjectLinkContainer>
+
+    <ProjectTitle>National Parks Website</ProjectTitle>
+    <ImageWrapper>
+      <ProjectStill src="https://i.imgur.com/NjtX1by.png"></ProjectStill>
+      <ProjectDescription>
+        This is an interactive site that I built fetching data from the National
+        Park Sevice API that provides users links to pages with details for
+        national parks around the country. Built using React to specifications
+        provided in an AdobeXD mockup.
+      </ProjectDescription>
+    </ImageWrapper>
+    <MobileProjectDescription>
+      This is an interactive site that I built fetching data from the National
+      Park Sevice API that provides users links to pages with details for
+      national parks around the country. Built using React to specifications
+      provided in an AdobeXD mockup.
+    </MobileProjectDescription>
+
+    <ProjectLinkContainer>
+      <DeployedLink
+        href="https://us-national-parks.netlify.com/"
+        target="_blank"
+      >
+        National Parks
+      </DeployedLink>
+      <GitHubLink
+        href="https://github.com/mdrisco4/National-Parks"
+        target="_blank"
+      >
+        Github Repo
+      </GitHubLink>
+    </ProjectLinkContainer>
   </Layout>
 )
 
